@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+
+<Story_Mode_Plots>
+	<Lua_Script>Story_Sandbox_Core_Assault_Empire</Lua_Script>
+	<Active_Plot>Story_Sandbox_Core_Assault_Empire.XML</Active_Plot>
+
+	<Lua_Script>Story_Republic_Core_Assault_Final_Attack</Lua_Script>
+	<Suspended_Plot>Story_Republic_Core_Assault_Final_Attack.xml</Suspended_Plot>
+	
+	<Lua_Script>Story_Sandbox_UpgradePhase1ToPhase2</Lua_Script>
+	<Active_Plot>Story_Sandbox_UpgradePhase1ToPhase2.xml</Active_Plot>
+		
+</Story_Mode_Plots>

@@ -1,0 +1,276 @@
+<?xml version="1.0"?>
+<Octuptarraa_Data> 
+
+	<GroundVehicle Name="Octuptarra_Walker">
+		<LOD_Bias>0.5</LOD_Bias>
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>75.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Text_ID>TEXT_UNIT_OCTUPTARRA</Text_ID>
+		<Encyclopedia_Good_Against> Saber_Tank AT_AP AT_RT_Walker </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> AT-TE_Walker AV_7_Antivehicle_Cannon LAAT </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Text>TEXT_TOOLTIP_OCTUPTARRA</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_WALKER</Encyclopedia_Unit_Class>
+
+		<Land_Model_Name>CIS_Octuptarra_TriDroid.ALO</Land_Model_Name>
+		<Mass>1.0</Mass>
+		<Scale_Factor>2.2</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Type>Walk</Type>
+		<Deploys>No</Deploys>
+		<Affiliation>Rebel</Affiliation>
+		<Political_Control>0</Political_Control>
+
+		<Locomotor_Has_Animation_Priority>yes</Locomotor_Has_Animation_Priority>
+		<Movement_Animation_Speed> 0.75 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 0.50 </Rotation_Animation_Speed>
+		<Max_Speed>0.85</Max_Speed> <!-- From 0.80 -->
+		<Max_Rate_Of_Turn>2.5</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn> 1 </Stopped_Rate_Of_Turn>
+		<Walk_Transition>Yes</Walk_Transition>
+		<Has_Pre_Turn_Anim> yes </Has_Pre_Turn_Anim>
+		<Min_Speed_Fraction_For_Turn> .1 </Min_Speed_Fraction_For_Turn>
+		<Ranking_In_Category>5</Ranking_In_Category>
+		<Property_Flags>GoodInfantryCrusher</Property_Flags>
+
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Giant Vehicle </UnitCollisionClass>
+		<OverrideAcceleration> .05 </OverrideAcceleration>
+		<OverrideDeceleration> .05 </OverrideDeceleration>
+		<FormationSpacing> 2.2 </FormationSpacing>
+		<MinimumPushReturnDistance> 100 </MinimumPushReturnDistance>
+		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>		
+		<MovementBoxExpansionFactor> 8.0 </MovementBoxExpansionFactor>
+		<MaxJiggleDistance> 5 </MaxJiggleDistance>
+		<Custom_Hard_XExtent> 14.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 16.0 </Custom_Hard_YExtent>	
+
+		<Armor_Type> Armor_ATAT </Armor_Type>
+		<Size_Value>25</Size_Value>
+		<Damage>125</Damage> <!-- From 120 -->
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>1400</Tactical_Health> <!-- From 1100 -->
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>1000</Energy_Capacity>
+		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+
+		<Behavior> SELECTABLE</Behavior>
+		<LandBehavior>ABILITY_COUNTDOWN, WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON,TURRET,POWERED,REVEAL,HIDE_WHEN_FOGGED,UNIT_AI,STUNNABLE,DAMAGE_TRACKING,SQUASH,AFFECTED_BY_SHIELD</LandBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
+
+
+		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+		<Turret_Bone_Name>B_Turret</Turret_Bone_Name>
+		<Barrel_Bone_Name>B_Barrel</Barrel_Bone_Name>
+		<Turret_Rotate_Speed>10.0</Turret_Rotate_Speed>
+		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
+		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
+		<Turret_Targets_Ground_Vehicles> 1 </Turret_Targets_Ground_Vehicles>
+		<Turret_Targets_Ground_Infantry> 2 </Turret_Targets_Ground_Infantry>
+		<Turret_Targets_Air_Vehicles> 9999 </Turret_Targets_Air_Vehicles>
+		<Turret_Targets_Anything_Else> 3 </Turret_Targets_Anything_Else>
+		<Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
+        <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
+		
+		<Targeting_Priority_Set>AntiInfantryTurret</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>30.0</Targeting_Stickiness_Time_Threshold>
+		<Projectile_Types>Proj_Ground_Laser_Cannon_Red_ATAT</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count> <!-- From 1 -->
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+
+
+		<Land_FOW_Reveal_Range>250.0</Land_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>20.0</Targeting_Min_Attack_Distance>
+		<Targeting_Fire_Inaccuracy> Infantry, 30.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 3.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 1.0 </Targeting_Fire_Inaccuracy>
+		<Ranged_Target_Z_Adjust>50.0</Ranged_Target_Z_Adjust>
+
+		<HardPoints>
+			HP_TRI_00, HP_TRI_01
+		</HardPoints>
+
+
+		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
+
+		<Death_SFXEvent_Start_Die>Unit_AT_AT_Death_SFX</Death_SFXEvent_Start_Die>
+
+
+		<SFXEvent_Select>Unit_Select_Snailtank</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Snailtank</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Snailtank</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Snailtank</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Move_Snailtank</SFXEvent_Guard>
+		<SFXEvent_Fire>Unit_Turbo_Tower_Fire</SFXEvent_Fire>
+
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Battle_Droid </SFXEvent_Assist_Move>		
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Battle_Droid</SFXEvent_Assist_Attack>
+
+		<SFXEvent_Unit_Lost> UHD_Unit_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Tactical_Build_Started> UHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
+		<SFXEvent_Tactical_Build_Complete> UHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
+		<SFXEvent_Tactical_Build_Cancelled> UHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<CategoryMask> Vehicle | AntiInfantry | AntiVehicle | AntiStructure </CategoryMask>
+		<MovementClass>Walker</MovementClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Ground_Vehicle_Turret_Target> Yes </Ground_Vehicle_Turret_Target>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Overall_Length>60.0</Overall_Length> <!-- Hand tweaked for vehicle pitching up and down on terrain -->
+		<Overall_Width>0.0</Overall_Width> <!-- 0.0 means don't roll left and right on terrain -->
+		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+
+		<AI_Combat_Power>500</AI_Combat_Power>
+
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>AntiVehicleStructure</Targeting_Priority_Set>
+		<Autonomous_Move_Extension_Vs_Attacker>100.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Death_Clone>Damage_Normal, Octuptarra_Walker_Death_Clone_00</Death_Clone>
+
+		<Select_Box_Scale>75</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+        <GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>
+
+		<Weather_Category>Walker</Weather_Category>
+		<Icon_Name>I_BUTTON_OCTUPTARRA.tga</Icon_Name>
+
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Lua_Script>ObjectScript_Gargantuan</Lua_Script>
+		<Tactical_Bribe_Cost />
+
+
+
+		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
+		<Score_Cost_Credits>600</Score_Cost_Credits>
+
+		
+		<Abilities SubObjectList="Yes">
+		<Absorb_Blaster_Ability Name="Octuptarra_Absorb_Blaster">
+				<Activation_Style>Take_Damage</Activation_Style>
+				<Absorb_Chance>0.3</Absorb_Chance>
+				<!-- Absorb Percentage and Amount work together in the following way: -->
+				<!-- Actual Amount healed = (Projectile Damage * Absorb Percentage) + Absorb Amount -->
+				<!-- Either value can be zero, but at least one should be non-zero. -->
+				<Damage_Absorb_Percentage>0.2</Damage_Absorb_Percentage>
+				<Damage_Absorb_Amount>1</Damage_Absorb_Amount>
+				<!-- We can absorb shots from the following units types (but no missiles or grenades): -->
+				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<SFXEvent_Activate>Unit_Force_Absorb</SFXEvent_Activate>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>2.0, 0.4, 0.4</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.5</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count />
+			</Absorb_Blaster_Ability>
+			
+			</Abilities>
+        <Converted_To_Enemy_Die_Time_Seconds>60</Converted_To_Enemy_Die_Time_Seconds>
+        
+        <!-- Need this to prevent the AT-AT turn from looking awful -->
+		<Close_Enough_Angle_For_Move_Start> 30 </Close_Enough_Angle_For_Move_Start>       
+		
+		
+	</GroundVehicle>
+
+
+	<GroundVehicle Name="Octuptarra_Walker_Death_Clone_00">
+		<Variant_Of_Existing_Type>Octuptarra_Walker</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type />
+		<Specific_Death_Anim_Index> 0 </Specific_Death_Anim_Index>
+		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
+		<LandBehavior>HIDE_WHEN_FOGGED,LAND_OBSTACLE</LandBehavior>
+		
+		<Custom_Hard_XExtent_Offset> 15.0 </Custom_Hard_XExtent_Offset>
+		<Custom_Hard_XExtent> 47.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 10.0 </Custom_Hard_YExtent>
+		
+		<Death_Explosions>Medium_Explosion_Land</Death_Explosions>
+		<Death_Persistence_Duration> 25 </Death_Persistence_Duration>
+		<Death_Explosions_End>Huge_Explosion_Land</Death_Explosions_End>
+		<Death_SFXEvent_End_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_End_Die>
+		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
+ 		<Presence_Range>200.0</Presence_Range>
+		
+		
+	</GroundVehicle>
+
+
+	<GroundCompany Name="CIS_Octuptarra_Company">
+		<Text_ID>TEXT_UNIT_OCTUPTARRA</Text_ID>
+		<Encyclopedia_Good_Against> Saber_Tank AT_AP AT_RT_Walker </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> AT-TE_Walker AV_7_Antivehicle_Cannon LAAT </Encyclopedia_Vulnerable_To>
+		
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>60</Damage>
+		<Autoresolve_Health>600</Autoresolve_Health>
+		
+		<Affiliation>Rebel</Affiliation>
+		<Build_Cost_Credits>850</Build_Cost_Credits>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Build_Time_Seconds>23</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Tech_Level>3</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures>R_Ground_Heavy_Vehicle_Factory</Required_Special_Structures>
+		<Required_Planets/>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>3</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>walker</Ship_Class>
+		<Company_Transport_Unit>Cis_Hardcell_Transport</Company_Transport_Unit>
+		<Company_Units>Octuptarra_Walker</Company_Units>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Icon_Name>I_BUTTON_OCTUPTARRA.tga</Icon_Name>
+		<!-- !!! --> <SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
+		<!-- !!! --> <SFXEvent_Build_Cancelled>UHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<!-- !!! --> <SFXEvent_Build_Complete>Unit_Complete_Snailtank</SFXEvent_Build_Complete>
+		<!-- !!! --> <SFXEvent_Fleet_Move>Unit_Fleet_Move_Snailtank</SFXEvent_Fleet_Move>
+		<Score_Cost_Credits>600</Score_Cost_Credits>
+
+
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>1200</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>RC_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>--> 
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<Encyclopedia_Text>TEXT_TOOLTIP_OCTUPTARRA</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_WALKER</Encyclopedia_Unit_Class>
+		<Maintenance_Cost>0.05</Maintenance_Cost>
+		<Population_Value>2</Population_Value>
+
+
+	</GroundCompany>
+
+
+</Octuptarraa_Data>

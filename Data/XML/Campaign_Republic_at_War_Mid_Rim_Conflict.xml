@@ -1,0 +1,662 @@
+<?xml version="1.0"?>
+<Campaigns>
+
+	<!-- ******************************************************************** -->
+	<!-- ****************** SANDBOX CAMPAIGN "Mid Rim Conflic" ************** -->
+	<!-- ******************************************************************** -->
+
+	<Campaign Name="Sandbox_Mid_Rim_Conflict_Rebel">
+
+		<Campaign_Set> Sandbox_Mid_Rim_Conflict </Campaign_Set>
+		<Sort_Order>20</Sort_Order>
+
+		<Text_ID> TEXT_CAMPAIGN_SINGLE_MID_RIM_CONFLICT </Text_ID>
+		<Description_Text>TEXT_CAMPAIGN_SINGLE_DESCRIPTION_MID_RIM_CONFLICT</Description_Text>
+
+		<Camera_Shift_X> 40.0 </Camera_Shift_X>
+		<Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+		<Camera_Distance> 1200.0 </Camera_Distance>
+
+		<Locations> 
+			Galaxy_Core_Art_Model, 
+			Antar, 
+			Atzerri, 
+			Bothawui,
+			Boz_Pity, 
+			Eriadu, 
+			Jabiim,
+			Kashyyyk, 
+			Malastare,
+			Naboo, 
+			NalHutta, 
+			RocheAsteroids, 
+			Rodia,
+			Saleucami,
+			Sullust,
+			The_Maw, 
+			The_Wheel,
+			Tibrin,
+			Trandosha
+		</Locations> 
+		<Trade_Routes> 
+			Sullust_Eriadu,
+			Roche_The_Wheel,
+			Atzerri_Malastare,
+			Malastare_Eriadu,
+			Eriadu_Mustafar,
+			Antar_Bothawui,
+			Kashyyyk_Roche,
+			Antar_Kashyyyk,
+			Rodia_Bothawui,		
+			Bothawui_NalHutta,
+			Naboo_Rodia			
+		</Trade_Routes>
+
+
+		<Home_Location> Empire, Naboo </Home_Location>
+		<Home_Location> Rebel, Jabiim </Home_Location>
+
+		<Starting_Active_Player> Rebel </Starting_Active_Player>
+
+		<Rebel_Story_Name>Story_Plots_Sandbox_Mid_Rim_Conflict_Rebel.xml</Rebel_Story_Name>
+		<Empire_Story_Name>Story_Plots_Empire_AI_Heroes_EXP.xml</Empire_Story_Name>
+
+
+		<AI_Player_Control> Empire, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Pirates, None </AI_Player_Control>
+
+		<Markup_Filename>Empire, LinesAreDrawnHints </Markup_Filename>
+		<Markup_Filename>Pirates, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel, LinesAreDrawnHints</Markup_Filename>
+
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+			Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+			Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+
+		<!-- Rebel Starting Forces -->
+		<Starting_Credits> Rebel,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 2 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
+
+		<!-- Atzerri Space Forces -->
+		<Starting_Forces> Rebel, Atzerri, Rebel_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Rebel, Atzerri, Wavecrest_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Atzerri, Wavecrest_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Atzerri, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Atzerri, Cis_Patrol_Frigate </Starting_Forces>
+		<!-- Atzerri Land Forces -->
+		<Starting_Forces> Rebel, Atzerri, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Atzerri, R_Ground_Light_Vehicle_Factory </Starting_Forces>
+		<Starting_Forces> Rebel, Atzerri, Cis_Super_BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Atzerri, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Atzerri, BattleDroid_Squad </Starting_Forces>
+		
+		<!-- Bothawui Space Forces -->
+		<Starting_Forces> Rebel, Bothawui, Rebel_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, Providence_Class_Carrier </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, Technounion_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, Technounion_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, Cis_Patrol_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, Cis_Patrol_Frigate </Starting_Forces>
+		<!-- Bothawui Land Forces -->
+		<Starting_Forces> Rebel, Bothawui, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, R_Ground_Light_Vehicle_Factory </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, R_Ground_Research_Facility </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, AAT_Tank_Company </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, Bx_Commando_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, Destroyer_Droid_Company </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, Cis_Super_BattleDroid_Squad </Starting_Forces>
+		
+		<!-- Boz_Pity Space Forces -->
+		<Starting_Forces> Rebel, Boz_Pity, Rebel_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Rebel, Boz_Pity, Wavecrest_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Boz_Pity, Cis_Patrol_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Boz_Pity, Cis_Patrol_Frigate </Starting_Forces>
+		<!-- Boz_Pity Land Forces -->
+		<Starting_Forces> Rebel, Boz_Pity, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Boz_Pity, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Boz_Pity, BattleDroid_Squad </Starting_Forces>
+
+
+		<!-- Jabiim Space Forces -->
+		<Starting_Forces> Rebel, Jabiim, Rebel_Star_Base_4 </Starting_Forces>
+		<Starting_Forces> Rebel, Jabiim, Rebel_Orbital_Long_Range_Scanner </Starting_Forces>
+		<Starting_Forces> Rebel, Jabiim, Providence_Class_Carrier </Starting_Forces>
+		<Starting_Forces> Rebel, Jabiim, Technounion_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Jabiim, Technounion_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Jabiim, Cis_Patrol_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Jabiim, Cis_Patrol_Frigate </Starting_Forces>
+		<!-- Jabiim Land Forces -->
+		<Starting_Forces> Rebel, Jabiim, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Jabiim, R_Ground_Light_Vehicle_Factory </Starting_Forces>
+		<Starting_Forces> Rebel, Jabiim, AAT_Tank_Company </Starting_Forces>
+		<Starting_Forces> Rebel, Jabiim, Crab_Droid_Company </Starting_Forces>
+		<Starting_Forces> Rebel, Jabiim, Cis_Super_BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Jabiim, Cis_Super_BattleDroid_Squad </Starting_Forces>
+		
+		<!-- NalHutta Space Forces -->
+		<Starting_Forces> Rebel, NalHutta, Rebel_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Rebel, NalHutta, Technounion_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, NalHutta, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, NalHutta, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, NalHutta, Cis_Patrol_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, NalHutta, Cis_Patrol_Frigate </Starting_Forces>
+		<!-- NalHutta Land Forces -->
+		<Starting_Forces> Rebel, NalHutta, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, NalHutta, R_Ground_Light_Vehicle_Factory </Starting_Forces>
+		<Starting_Forces> Rebel, NalHutta, AAT_Tank_Company </Starting_Forces>
+		<Starting_Forces> Rebel, NalHutta, AAT_Tank_Company </Starting_Forces>
+		<Starting_Forces> Rebel, NalHutta, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, NalHutta, BattleDroid_Squad </Starting_Forces>
+		
+		<!-- Sullust Space Forces -->
+		<Starting_Forces> Rebel, Sullust, Rebel_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, Cis_Patrol_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, Cis_Patrol_Frigate </Starting_Forces>
+		<!-- Sullust Land Forces -->
+		<Starting_Forces> Rebel, Sullust, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, R_Ground_Light_Vehicle_Factory </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, AAT_Tank_Company </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, AAT_Tank_Company </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, BattleDroid_Squad </Starting_Forces>
+		
+		<!-- The_Maw Space Forces -->
+		<Starting_Forces> Rebel, The_Maw, Rebel_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Rebel, The_Maw, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, The_Maw, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, The_Maw, Cis_Patrol_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, The_Maw, Cis_Patrol_Frigate </Starting_Forces>
+		
+		<!-- Tibrin Space Forces -->
+		<Starting_Forces> Rebel, Tibrin, Rebel_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Rebel, Tibrin, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Tibrin, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Tibrin, Cis_Patrol_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Tibrin, Cis_Patrol_Frigate </Starting_Forces>
+		<!-- Tibrin Land Forces -->
+		<Starting_Forces> Rebel, Tibrin, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Tibrin, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Tibrin, BattleDroid_Squad </Starting_Forces>
+		
+		<!-- Trandosha Space Forces -->
+		<Starting_Forces> Rebel, Trandosha, Rebel_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Rebel, Trandosha, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Trandosha, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Trandosha, Cis_Patrol_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Trandosha, Cis_Patrol_Frigate </Starting_Forces>
+		<!-- Trandosha Land Forces -->
+		<Starting_Forces> Rebel, Trandosha, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Trandosha, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Trandosha, BattleDroid_Squad </Starting_Forces>
+
+
+		<!-- Empire Starting Forces -->
+		<Starting_Credits> Empire,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 3 </Starting_Tech_Level>
+		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
+
+		<!-- Antar Space Forces -->
+		<Starting_Forces> Empire, Antar, Empire_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Empire, Antar, Venator </Starting_Forces>
+		<Starting_Forces> Empire, Antar, Venator </Starting_Forces>
+		<Starting_Forces> Empire, Antar, Dreadnaught_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Antar, Dreadnaught_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Antar, Pelta_Frigate </Starting_Forces>
+		<Starting_Forces> Empire, Antar, Pelta_Frigate </Starting_Forces>
+		<Starting_Forces> Empire, Antar, Republic_light_assault_cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Antar, Republic_light_assault_cruiser </Starting_Forces>
+		
+		<!-- Eriadu Space Forces -->
+		<Starting_Forces> Empire, Eriadu, Empire_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Empire, Eriadu, Venator </Starting_Forces>
+		<Starting_Forces> Empire, Eriadu, Republic_Victory_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Eriadu, Dreadnaught_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Eriadu, Dreadnaught_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Eriadu, Rep_Centax_Heavy_Frigate </Starting_Forces>
+		<Starting_Forces> Empire, Eriadu, Rep_Centax_Heavy_Frigate </Starting_Forces>
+		<Starting_Forces> Empire, Eriadu, Republic_light_frigate </Starting_Forces>
+		<!-- Eriadu Land Forces -->
+		<Starting_Forces> Empire, Eriadu, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Eriadu, E_Ground_Light_Vehicle_Factory </Starting_Forces>
+		<Starting_Forces> Empire, Eriadu, Republic_Light_Recon_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Eriadu, Republic_Light_Recon_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Eriadu, Republic_P1_ARC_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Eriadu, Republic_Clonetrooper_P1_Platoon_CW </Starting_Forces>
+	
+		<!-- Kashyyyk Space Forces -->
+		<Starting_Forces> Empire, Kashyyyk, Empire_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Empire, Kashyyyk, Rep_Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Kashyyyk, Rep_Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Kashyyyk, Republic_light_assault_cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Kashyyyk, Republic_light_assault_cruiser </Starting_Forces>
+		<!-- Kashyyyk Land Forces -->
+		<Starting_Forces> Empire, Kashyyyk, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Kashyyyk, Republic_Light_Recon_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Kashyyyk, Republic_Light_Recon_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Kashyyyk, Wookiee_Warrior_Company </Starting_Forces>
+		<Starting_Forces> Empire, Kashyyyk, Wookiee_Warrior_Company </Starting_Forces>
+		<Starting_Forces> Empire, Kashyyyk, Republic_Clonetrooper_P1_Platoon_CW </Starting_Forces>
+		
+		<!-- Malastare Space Forces -->
+		<Starting_Forces> Empire, Malastare, Empire_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Empire, Malastare, Republic_Victory_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Malastare, Republic_Victory_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Malastare, Pelta_Frigate </Starting_Forces>
+		<Starting_Forces> Empire, Malastare, Pelta_Frigate </Starting_Forces>
+		<Starting_Forces> Empire, Malastare, Republic_light_assault_cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Malastare, Republic_light_assault_cruiser </Starting_Forces>
+		<!-- Malastare Land Forces -->
+		<Starting_Forces> Empire, Malastare, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Malastare, Sabertank_Company </Starting_Forces>
+		<Starting_Forces> Empire, Malastare, Sabertank_Company </Starting_Forces>
+		<Starting_Forces> Empire, Malastare, Sabertank_Company </Starting_Forces>
+		<Starting_Forces> Empire, Malastare, Republic_Clonetrooper_P1_Platoon_CW </Starting_Forces>
+
+		<!-- Naboo Space Forces -->
+		<Starting_Forces> Empire, Naboo, Empire_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Empire_Orbital_Long_Range_Scanner </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Venator </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Venator </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Dreadnaught_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Dreadnaught_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Pelta_Frigate </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Republic_light_assault_cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Rep_Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Naboo_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Naboo_Fighter_Squadron </Starting_Forces>
+		<!-- Naboo Land Forces -->
+		<Starting_Forces> Empire, Naboo, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, E_Ground_Light_Vehicle_Factory </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, E_Ground_Research_Facility </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, AT_AP_Company </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Republic_Light_Recon_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Republic_Clonetrooper_P1_Platoon_CW </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Republic_Clonetrooper_P1_Platoon_CW </Starting_Forces>
+		
+		<!-- RocheAsteroids Space Forces -->
+		<Starting_Forces> Empire, RocheAsteroids, Empire_Star_Base_4 </Starting_Forces>
+		<Starting_Forces> Empire, RocheAsteroids, Venator </Starting_Forces>
+		<Starting_Forces> Empire, RocheAsteroids, Venator </Starting_Forces>
+		<Starting_Forces> Empire, RocheAsteroids, Rep_Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, RocheAsteroids, Rep_Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, RocheAsteroids, Republic_light_assault_cruiser </Starting_Forces>
+		<Starting_Forces> Empire, RocheAsteroids, Republic_light_assault_cruiser </Starting_Forces>
+		
+		<!-- Rodia Space Forces -->
+		<Starting_Forces> Empire, Rodia, Empire_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Empire, Rodia, Pelta_Frigate </Starting_Forces>
+		<Starting_Forces> Empire, Rodia, Pelta_Frigate </Starting_Forces>
+		<Starting_Forces> Empire, Rodia, Republic_light_assault_cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Rodia, Republic_light_assault_cruiser </Starting_Forces>
+		<!-- Rodia Land Forces -->
+		<Starting_Forces> Empire, Rodia, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Rodia, Republic_Light_Recon_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Rodia, Republic_Light_Recon_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Rodia, Republic_Clonetrooper_P1_Platoon_CW </Starting_Forces>
+		
+		<!-- Saleucami Space Forces -->
+		<Starting_Forces> Empire, Saleucami, Empire_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Empire, Saleucami, Rep_Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Saleucami, Rep_Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Saleucami, Republic_light_assault_cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Saleucami, Republic_light_assault_cruiser </Starting_Forces>
+		<!-- Saleucami Land Forces -->
+		<Starting_Forces> Empire, Saleucami, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Saleucami, Republic_Light_Recon_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Saleucami, Republic_Light_Recon_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Saleucami, Republic_Clonetrooper_P1_Platoon_CW </Starting_Forces>
+		
+		<!-- The_Wheel Space Forces -->
+		<Starting_Forces> Empire, The_Wheel, Empire_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Empire, The_Wheel, Dreadnaught_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, The_Wheel, Dreadnaught_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, The_Wheel, Pelta_Frigate </Starting_Forces>
+		<Starting_Forces> Empire, The_Wheel, Republic_light_assault_cruiser </Starting_Forces>
+		<Starting_Forces> Empire, The_Wheel, Republic_light_assault_cruiser </Starting_Forces>
+	</Campaign>
+
+
+	<Campaign Name="Sandbox_Mid_Rim_Conflict_Empire">
+
+		<Campaign_Set> Sandbox_Mid_Rim_Conflict </Campaign_Set>
+		<Sort_Order>20</Sort_Order>
+
+		<Text_ID> TEXT_CAMPAIGN_SINGLE_MID_RIM_CONFLICT </Text_ID>
+		<Description_Text>TEXT_CAMPAIGN_SINGLE_DESCRIPTION_MID_RIM_CONFLICT</Description_Text>
+
+		<Camera_Shift_X> 40.0 </Camera_Shift_X>
+		<Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+		<Camera_Distance> 1200.0 </Camera_Distance>
+
+		<Locations> 
+			Galaxy_Core_Art_Model, 
+			Antar, 
+			Atzerri, 
+			Bothawui,
+			Boz_Pity, 
+			Eriadu, 
+			Jabiim,
+			Kashyyyk, 
+			Malastare,
+			Naboo, 
+			NalHutta, 
+			RocheAsteroids, 
+			Rodia,
+			Saleucami,
+			Sullust,
+			The_Maw, 
+			The_Wheel,
+			Tibrin,
+			Trandosha
+		</Locations> 
+		<Trade_Routes> 
+			Sullust_Eriadu,
+			Roche_The_Wheel,
+			Atzerri_Malastare,
+			Malastare_Eriadu,
+			Eriadu_Mustafar,
+			Antar_Bothawui,
+			Kashyyyk_Roche,
+			Antar_Kashyyyk,
+			Rodia_Bothawui,		
+			Bothawui_NalHutta,
+			Naboo_Rodia
+		</Trade_Routes>
+
+
+		<Home_Location> Empire, Naboo </Home_Location>
+		<Home_Location> Rebel, Jabiim </Home_Location>
+
+		<Starting_Active_Player> Empire </Starting_Active_Player>
+
+		<Rebel_Story_Name>Story_Plots_Rebel_AI_Heroes_EXP.xml</Rebel_Story_Name>
+		<Empire_Story_Name>Story_Plots_Sandbox_Mid_Rim_Conflict_Empire.xml</Empire_Story_Name>
+
+
+		<AI_Player_Control> Rebel, BasicRebel </AI_Player_Control>
+		<AI_Player_Control> Pirates, None </AI_Player_Control>
+
+		<Markup_Filename>Empire, LinesAreDrawnHints </Markup_Filename>
+		<Markup_Filename>Pirates, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel, LinesAreDrawnHints</Markup_Filename>
+
+
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+			Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+		<AI_Victory_Conditions>
+			Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+
+		<!-- Rebel Starting Forces -->
+		<Starting_Credits> Rebel,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 3 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
+		
+		<!-- Atzerri Space Forces -->
+		<Starting_Forces> Rebel, Atzerri, Rebel_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Rebel, Atzerri, Providence_Class_Carrier </Starting_Forces>
+		<Starting_Forces> Rebel, Atzerri, Providence_Class_Carrier </Starting_Forces>
+		<Starting_Forces> Rebel, Atzerri, Supply_Ship </Starting_Forces>
+		<Starting_Forces> Rebel, Atzerri, Wavecrest_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Atzerri, Wavecrest_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Atzerri, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Atzerri, Cis_Patrol_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Atzerri, Cis_Patrol_Frigate </Starting_Forces>
+		<!-- Atzerri Land Forces -->
+		<Starting_Forces> Rebel, Atzerri, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Atzerri, R_Ground_Light_Vehicle_Factory </Starting_Forces>
+		<Starting_Forces> Rebel, Atzerri, AAT_Tank_Company </Starting_Forces>
+		<Starting_Forces> Rebel, Atzerri, AAT_Tank_Company </Starting_Forces>
+		<Starting_Forces> Rebel, Atzerri, Cis_Super_BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Atzerri, Cis_Super_BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Atzerri, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Atzerri, BattleDroid_Squad </Starting_Forces>
+		
+		<!-- Bothawui Space Forces -->
+		<Starting_Forces> Rebel, Bothawui, Rebel_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, Providence_Class_Carrier </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, Supply_Ship </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, Wavecrest_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, Wavecrest_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, Cis_Patrol_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, Cis_Patrol_Frigate </Starting_Forces>
+		<!-- Bothawui Land Forces -->
+		<Starting_Forces> Rebel, Bothawui, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, R_Ground_Light_Vehicle_Factory </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, R_Ground_Research_Facility </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, Hailfire_Tank_Company </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, AAT_Tank_Company </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, Bx_Commando_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, Destroyer_Droid_Company </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, Cis_Super_BattleDroid_Squad </Starting_Forces>
+		
+		<!-- Boz_Pity Space Forces -->
+		<Starting_Forces> Rebel, Boz_Pity, Rebel_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Rebel, Boz_Pity, Wavecrest_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Boz_Pity, Wavecrest_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Boz_Pity, Cis_Patrol_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Boz_Pity, Cis_Patrol_Frigate </Starting_Forces>
+		<!-- Boz_Pity Land Forces -->
+		<Starting_Forces> Rebel, Boz_Pity, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Boz_Pity, Dwarf_Spider_Droid_Company </Starting_Forces>
+		<Starting_Forces> Rebel, Boz_Pity, Cis_Super_BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Boz_Pity, Cis_Super_BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Boz_Pity, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Boz_Pity, BattleDroid_Squad </Starting_Forces>
+
+
+		<!-- Jabiim Space Forces -->
+		<Starting_Forces> Rebel, Jabiim, Rebel_Star_Base_4 </Starting_Forces>
+		<Starting_Forces> Rebel, Jabiim, Providence_Class_Carrier </Starting_Forces>
+		<Starting_Forces> Rebel, Jabiim, Technounion_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Jabiim, Technounion_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Jabiim, Cis_Patrol_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Jabiim, Cis_Patrol_Frigate </Starting_Forces>
+		<!-- Jabiim Land Forces -->
+		<Starting_Forces> Rebel, Jabiim, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Jabiim, R_Ground_Light_Vehicle_Factory </Starting_Forces>
+		<Starting_Forces> Rebel, Jabiim, Persuader_Droid_Enforcer_Company </Starting_Forces>
+		<Starting_Forces> Rebel, Jabiim, AAT_Tank_Company </Starting_Forces>
+		<Starting_Forces> Rebel, Jabiim, Crab_Droid_Company </Starting_Forces>
+		<Starting_Forces> Rebel, Jabiim, Cis_Super_BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Jabiim, Cis_Super_BattleDroid_Squad </Starting_Forces>
+		
+		<!-- NalHutta Space Forces -->
+		<Starting_Forces> Rebel, NalHutta, Rebel_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Rebel, NalHutta, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, NalHutta, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, NalHutta, Cis_Patrol_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, NalHutta, Cis_Patrol_Frigate </Starting_Forces>
+		<!-- NalHutta Land Forces -->
+		<Starting_Forces> Rebel, NalHutta, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, NalHutta, R_Ground_Light_Vehicle_Factory </Starting_Forces>
+		<Starting_Forces> Rebel, NalHutta, AAT_Tank_Company </Starting_Forces>
+		<Starting_Forces> Rebel, NalHutta, AAT_Tank_Company </Starting_Forces>
+		<Starting_Forces> Rebel, NalHutta, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, NalHutta, BattleDroid_Squad </Starting_Forces>
+		
+		<!-- Sullust Space Forces -->
+		<Starting_Forces> Rebel, Sullust, Rebel_Star_Base_4 </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, Providence_Class_Carrier </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, Providence_Class_Carrier </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, Technounion_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, Technounion_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, Cis_Patrol_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, Cis_Patrol_Frigate </Starting_Forces>
+		<!-- Sullust Land Forces -->
+		<Starting_Forces> Rebel, Sullust, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, R_Ground_Light_Vehicle_Factory </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, AAT_Tank_Company </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, AAT_Tank_Company </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, BattleDroid_Squad </Starting_Forces>
+		
+		<!-- The_Maw Space Forces -->
+		<Starting_Forces> Rebel, The_Maw, Rebel_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Rebel, The_Maw, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, The_Maw, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, The_Maw, Cis_Patrol_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, The_Maw, Cis_Patrol_Frigate </Starting_Forces>
+		
+		<!-- Tibrin Space Forces -->
+		<Starting_Forces> Rebel, Tibrin, Rebel_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Rebel, Tibrin, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Tibrin, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Tibrin, Cis_Patrol_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Tibrin, Cis_Patrol_Frigate </Starting_Forces>
+		<!-- Tibrin Land Forces -->
+		<Starting_Forces> Rebel, Tibrin, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Tibrin, AAT_Tank_Company </Starting_Forces>
+		<Starting_Forces> Rebel, Tibrin, AAT_Tank_Company </Starting_Forces>
+		<Starting_Forces> Rebel, Tibrin, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Tibrin, BattleDroid_Squad </Starting_Forces>
+		
+		<!-- Trandosha Space Forces -->
+		<Starting_Forces> Rebel, Trandosha, Rebel_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Rebel, Trandosha, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Trandosha, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Trandosha, Cis_Patrol_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Trandosha, Cis_Patrol_Frigate </Starting_Forces>
+		<!-- Trandosha Land Forces -->
+		<Starting_Forces> Rebel, Trandosha, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Trandosha, AAT_Tank_Company </Starting_Forces>
+		<Starting_Forces> Rebel, Trandosha, AAT_Tank_Company </Starting_Forces>
+		<Starting_Forces> Rebel, Trandosha, BattleDroid_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Trandosha, BattleDroid_Squad </Starting_Forces>
+
+
+		<!-- Empire Starting Forces -->
+		<Starting_Credits> Empire,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 3</Starting_Tech_Level>
+		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
+		
+		<!-- Antar Space Forces -->
+		<Starting_Forces> Empire, Antar, Empire_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Empire, Antar, Dreadnaught_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Antar, Dreadnaught_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Antar, Pelta_Frigate </Starting_Forces>
+		<Starting_Forces> Empire, Antar, Pelta_Frigate </Starting_Forces>
+		<Starting_Forces> Empire, Antar, Republic_light_assault_cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Antar, Republic_light_assault_cruiser </Starting_Forces>
+		
+		<!-- Eriadu Space Forces -->
+		<Starting_Forces> Empire, Eriadu, Empire_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Empire, Eriadu, Republic_Victory_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Eriadu, Republic_Victory_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Eriadu, Dreadnaught_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Eriadu, Dreadnaught_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Eriadu, Rep_Centax_Heavy_Frigate </Starting_Forces>
+		<Starting_Forces> Empire, Eriadu, Rep_Centax_Heavy_Frigate </Starting_Forces>
+		<Starting_Forces> Empire, Eriadu, Republic_light_frigate </Starting_Forces>
+		<!-- Eriadu Land Forces -->
+		<Starting_Forces> Empire, Eriadu, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Eriadu, E_Ground_Light_Vehicle_Factory </Starting_Forces>
+		<Starting_Forces> Empire, Eriadu, Republic_Light_Recon_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Eriadu, Republic_Light_Recon_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Eriadu, Republic_P1_ARC_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Eriadu, Republic_Clonetrooper_P1_Platoon_CW </Starting_Forces>
+	
+		<!-- Kashyyyk Space Forces -->
+		<Starting_Forces> Empire, Kashyyyk, Empire_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Empire, Kashyyyk, Pelta_Frigate </Starting_Forces>
+		<Starting_Forces> Empire, Kashyyyk, Pelta_Frigate </Starting_Forces>
+		<Starting_Forces> Empire, Kashyyyk, Republic_light_assault_cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Kashyyyk, Republic_light_assault_cruiser </Starting_Forces>
+		<!-- Kashyyyk Land Forces -->
+		<Starting_Forces> Empire, Kashyyyk, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Kashyyyk, Wookiee_Warrior_Company </Starting_Forces>
+		<Starting_Forces> Empire, Kashyyyk, Wookiee_Warrior_Company </Starting_Forces>
+		<Starting_Forces> Empire, Kashyyyk, Wookiee_Warrior_Company </Starting_Forces>
+		<Starting_Forces> Empire, Kashyyyk, Wookiee_Warrior_Company </Starting_Forces>
+		<Starting_Forces> Empire, Kashyyyk, Republic_Clonetrooper_P1_Platoon_CW </Starting_Forces>
+		
+		<!-- Malastare Space Forces -->
+		<Starting_Forces> Empire, Malastare, Empire_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Empire, Malastare, Pelta_Frigate </Starting_Forces>
+		<Starting_Forces> Empire, Malastare, Pelta_Frigate </Starting_Forces>
+		<Starting_Forces> Empire, Malastare, Republic_light_assault_cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Malastare, Republic_light_assault_cruiser </Starting_Forces>
+		<!-- Malastare Land Forces -->
+		<Starting_Forces> Empire, Malastare, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Malastare, Sabertank_Company </Starting_Forces>
+		<Starting_Forces> Empire, Malastare, Republic_Clonetrooper_P1_Platoon_CW </Starting_Forces>
+
+		<!-- Naboo Space Forces -->
+		<Starting_Forces> Empire, Naboo, Empire_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Empire_Orbital_Long_Range_Scanner </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Venator </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Dreadnaught_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Dreadnaught_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Pelta_Frigate </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Pelta_Frigate </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Republic_light_assault_cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Rep_Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Naboo_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Naboo_Fighter_Squadron </Starting_Forces>
+		<!-- Naboo Land Forces -->
+		<Starting_Forces> Empire, Naboo, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, E_Ground_Light_Vehicle_Factory </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, E_Ground_Research_Facility </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, AT_AP_Company </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Republic_Light_Recon_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Republic_Clonetrooper_P1_Platoon_CW </Starting_Forces>
+		<Starting_Forces> Empire, Naboo, Republic_Clonetrooper_P1_Platoon_CW </Starting_Forces>
+		
+		<!-- RocheAsteroids Space Forces -->
+		<Starting_Forces> Empire, RocheAsteroids, Empire_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Empire, RocheAsteroids, Rep_Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, RocheAsteroids, Rep_Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, RocheAsteroids, Republic_light_assault_cruiser </Starting_Forces>
+		<Starting_Forces> Empire, RocheAsteroids, Republic_light_assault_cruiser </Starting_Forces>
+		
+		<!-- Rodia Space Forces -->
+		<Starting_Forces> Empire, Rodia, Empire_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Empire, Rodia, Pelta_Frigate </Starting_Forces>
+		<Starting_Forces> Empire, Rodia, Pelta_Frigate </Starting_Forces>
+		<Starting_Forces> Empire, Rodia, Republic_light_assault_cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Rodia, Republic_light_assault_cruiser </Starting_Forces>
+		<!-- Rodia Land Forces -->
+		<Starting_Forces> Empire, Rodia, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Rodia, Republic_Clonetrooper_P1_Platoon_CW </Starting_Forces>
+		
+		<!-- Saleucami Space Forces -->
+		<Starting_Forces> Empire, Saleucami, Empire_Star_Base_3 </Starting_Forces>
+		<Starting_Forces> Empire, Saleucami, Rep_Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Saleucami, Rep_Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Saleucami, Republic_light_assault_cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Saleucami, Republic_light_assault_cruiser </Starting_Forces>
+		<!-- Saleucami Land Forces -->
+		<Starting_Forces> Empire, Saleucami, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Saleucami, Republic_Clonetrooper_P1_Platoon_CW </Starting_Forces>
+		
+		<!-- The_Wheel Space Forces -->
+		<Starting_Forces> Empire, The_Wheel, Empire_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Empire, The_Wheel, Rep_Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, The_Wheel, Rep_Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, The_Wheel, Republic_light_assault_cruiser </Starting_Forces>
+		<Starting_Forces> Empire, The_Wheel, Republic_light_assault_cruiser </Starting_Forces>
+			
+	</Campaign>
+
+</Campaigns>

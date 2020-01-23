@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Kota_Militia_Data>
+
+
+	<GroundInfantry Name="Squad_Militia_Soldier">
+		<Text_ID>TEXT_UNIT_MILITIA_SOLDIER</Text_ID>
+		<Encyclopedia_Good_Against> Battledroids Stap  </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Destroyer_Droid Hailfire_Tank AAT_Tank </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Text>TEXT_TOOLTIP_MILITIA_SOLDIER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Land_Model_Name>RI_Militia_Soldier.ALO</Land_Model_Name>
+		<Land_Terrain_Model_Mapping>
+            		Temperate, 			RI_Militia_Soldier.ALO,
+            		Urban, 				RI_Militia_Soldier.ALO,
+					Arctic, 			RI_Militia_Soldier.ALO,
+            		Volcanic, 			RI_Militia_Soldier.ALO,
+            		Desert, 			RI_Militia_Soldier.ALO,
+            		Forest, 			RI_Militia_Soldier.ALO,
+            		Swamp, 				RI_Militia_Soldier.ALO
+		</Land_Terrain_Model_Mapping>
+		<Land_Model_Anim_Override_Name>RI_MHuman_A280C_Urban_alt.ALO</Land_Model_Anim_Override_Name>
+		
+		<Behavior>SELECTABLE</Behavior>
+		<LandBehavior>SURFACE_FX,IDLE,WEAPON,TARGETING,STUNNABLE,REVEAL,HIDE_WHEN_FOGGED,
+		GARRISON_UNIT,LAND_TEAM_INFANTRY_LOCOMOTOR,DAMAGE_TRACKING</LandBehavior>
+
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<CanCellStack>yes</CanCellStack>
+		<Mass>1.0</Mass>
+		<Icon_Name>I_BUTTON_MILITIA_SOLDIER.TGA</Icon_Name>
+		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier, High_Ground</SurfaceFX_Name>
+		
+		<Create_Team>Yes</Create_Team>
+
+		<Movement_Animation_Speed> 0.55 </Movement_Animation_Speed> <!-- 0.65 -->
+		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
+		<Walk_Animation_Speed> .366 </Walk_Animation_Speed>
+		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
+		<Max_Speed>1.2</Max_Speed>
+		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
+		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
+		<Custom_Hard_XExtent> 1.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 1.0 </Custom_Hard_YExtent>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<FormationSpacing> 1.2 </FormationSpacing> <!-- From .4 -->
+		<FormationGrouping> Standard </FormationGrouping>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<FormationRaggedness> 300.0 </FormationRaggedness>
+		<Squadron_Formation_Error_Tolerance>300.0</Squadron_Formation_Error_Tolerance>
+		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+		<OverrideAcceleration> 0.07 </OverrideAcceleration>
+		<OverrideDeceleration> 0.07 </OverrideDeceleration>
+		<FormationOrder> 1 </FormationOrder>
+		<GUI_Bracket_Width>5</GUI_Bracket_Width>
+		<GUI_Bracket_Height>0</GUI_Bracket_Height>
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+				
+		<Scale_Factor>1.6</Scale_Factor> <!-- From 1.0 -->
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Type>Walk</Type>
+		<Deploys>No</Deploys>
+		<Affiliation>Empire</Affiliation>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Political_Control>0</Political_Control>
+		<Size_Value>10</Size_Value>
+		<Damage>30</Damage>
+		<Sensor_Range>20</Sensor_Range>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>40</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>500</Energy_Capacity>
+		<Energy_Refresh_Rate>100</Energy_Refresh_Rate>
+		<Stealth_Capable>No</Stealth_Capable>
+
+		<Armor_Type> Armor_Infantry </Armor_Type>
+		
+
+		<Hardpoints>
+			HP_Rebel_Trooper_A280_Level_3
+		</Hardpoints>
+		
+		
+
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Projectile_Types>Proj_Hand_Blaster_Red</Projectile_Types>
+		<Land_FOW_Reveal_Range>450.0</Land_FOW_Reveal_Range>
+
+		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+
+        <Projectile_Damage>30</Projectile_Damage> <!-- 15 -->
+		<Projectile_Fire_Recharge_Seconds>2.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.3</Projectile_Fire_Pulse_Delay_Seconds>
+
+		<Targeting_Fire_Inaccuracy> Infantry, 10.0 </Targeting_Fire_Inaccuracy> <!-- from 1.0 to make them more innacurate -->
+		<Targeting_Fire_Inaccuracy> Vehicle, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 50.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 10.0 </Targeting_Fire_Inaccuracy>
+
+		<SFXEvent_Select>Unit_Select_Jedi_Knight</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Jedi_Knight</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Jedi_Knight</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Jedi_Knight</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Jedi_Knight</SFXEvent_Guard>
+		<SFXEvent_Fire>A280_Fire</SFXEvent_Fire>
+		<Death_SFXEvent_Start_Die>Unit_Defeat_Jedi_Knight</Death_SFXEvent_Start_Die>
+
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
+		<SFXEvent_Tactical_Build_Complete> Unit_Select_Jedi_Knight </SFXEvent_Tactical_Build_Complete>		
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		
+		<CategoryMask> LandHero </CategoryMask>
+		<MovementClass> Infantry </MovementClass>
+
+		<OccupationStyle>1x1</OccupationStyle>
+		<Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level>
+        <Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+		<Select_Box_Scale>25</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Is_Squashable> Yes </Is_Squashable>
+		<AI_Combat_Power>7</AI_Combat_Power>
+
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
+
+		<Targeting_Max_Attack_Distance>140.0</Targeting_Max_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>350.0</Attack_Move_Response_Range>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+
+		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
+		<Weather_Category>Infantry</Weather_Category>
+
+		
+
+		<Death_Clone>Damage_Force_Whirlwind, Militia_Soldier_Force_Whirlwind_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Force_Lightning, Militia_Soldier_Force_Lightning_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Crush, Militia_Soldier_Crush_Death_Clone</Death_Clone>
+
+		
+		<Death_Fade_Time>0.25</Death_Fade_Time>
+		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+	
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.25f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Rebel_Soldier</SFXEvent_GUI_Unit_Ability_Activated>			
+				</Unit_Ability>
+		</Unit_Abilities_Data>
+		
+
+	</GroundInfantry>
+	
+
+	<GroundInfantry Name="Militia_Soldier_Force_Whirlwind_Death_Clone">
+		<Variant_Of_Existing_Type>Squad_Militia_Soldier</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
+		<Specific_Death_Anim_Index />
+	</GroundInfantry>
+	<GroundInfantry Name="Militia_Soldier_Force_Lightning_Death_Clone">
+		<Variant_Of_Existing_Type>Squad_Militia_Soldier</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
+		<Specific_Death_Anim_Index />
+	</GroundInfantry>
+	<GroundInfantry Name="Militia_Soldier_Crush_Death_Clone">
+		<Variant_Of_Existing_Type>Squad_Militia_Soldier</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
+		<Specific_Death_Anim_Index />
+	</GroundInfantry>
+
+	
+
+	
+
+   <GroundCompany Name="Militia_Platoon">
+		<Text_ID>TEXT_UNIT_MILITIA_PLATOON</Text_ID>
+		<Encyclopedia_Good_Against> Battledroids Stap  </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Destroyer_Droid Hailfire_Tank AAT_Tank </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Text>TEXT_TOOLTIP_MILITIA_SOLDIER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<GUI_Row> 1 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>50</Damage>
+		<Autoresolve_Health>800</Autoresolve_Health> 
+		<Affiliation>Empire</Affiliation>
+		<Build_Cost_Credits>1000</Build_Cost_Credits>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+		<!--<Build_Time_Seconds>15</Build_Time_Seconds>-->
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Tech_Level>4</Tech_Level>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Required_Orbiting_Units>Kota_Venator</Required_Orbiting_Units>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures>E_Ground_Barracks</Required_Special_Structures>
+		<!--<Required_Planets>Carida</Required_Planets>-->
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Transport_Unit>Republic_Nu_Shuttle</Company_Transport_Unit>
+        
+		<Company_Units> 
+		Squad_Militia_Soldier,
+		Squad_Militia_Soldier,
+		Squad_Militia_Soldier,
+		Squad_Militia_Soldier,
+		Squad_Militia_Soldier,
+		Squad_Militia_Soldier,
+		Squad_Militia_Soldier,
+		Squad_Militia_Soldier,
+		Squad_Militia_Soldier,
+		
+		Squad_Militia_Soldier,
+		Squad_Militia_Soldier,
+		Squad_Militia_Soldier,
+		Squad_Militia_Soldier,
+		Squad_Militia_Soldier,
+		Squad_Militia_Soldier,
+		Squad_Militia_Soldier,
+		Squad_Militia_Soldier,
+		Squad_Militia_Soldier
+		</Company_Units>
+		
+		
+		<Max_Squad_Size> 9 </Max_Squad_Size>
+		<Icon_Name>I_BUTTON_MILITIA_SOLDIER_PLATOON.TGA</Icon_Name>
+		<Scale_Factor>5</Scale_Factor>
+		<GUI_Offset>0 0 5</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+		<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Select_Jedi_Knight</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Jedi_Knight</SFXEvent_Fleet_Move>
+		
+		<Create_Team_Type> Militia_Platoon_Team </Create_Team_Type>
+		
+		<Build_Limit_Current_Per_Player>3</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies>99</Build_Limit_Lifetime_For_All_Allies>
+
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>EC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <!-- Primary ability -->
+            <Unit_Ability>
+                <Type>SPREAD_OUT</Type>
+                <Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+                <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+		
+
+		<Maintenance_Cost>0.05</Maintenance_Cost>
+		<Population_Value>1</Population_Value>
+		<Score_Cost_Credits>54</Score_Cost_Credits>
+	</GroundCompany>
+	
+	
+	
+	
+	<Container Name="Militia_Platoon_Team">
+        <Select_Box_Scale>65</Select_Box_Scale>
+		<Text_ID>TEXT_UNIT_MILITIA_SOLDIER</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_MILITIA_SOLDIER</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Good_Against> Battledroids Stap  </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Destroyer_Droid Hailfire_Tank AAT_Tank </Encyclopedia_Vulnerable_To>
+		<Show_Name>No</Show_Name>
+		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+		<Garrison_Category> Infantry </Garrison_Category>
+		<SpaceBehavior>REVEAL</SpaceBehavior>
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+		<MovementClass>Infantry</MovementClass>
+		
+		<Max_Speed> 1.2 </Max_Speed>
+		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<FormationSpacing> 1.5 </FormationSpacing>
+		<FormationOrder> 1 </FormationOrder>
+        <FormationRaggedness>600.0</FormationRaggedness>
+        <WaitsForFormationFormup>false</WaitsForFormationFormup>
+        <Formation_Formup_Wait_Style> WaitNone </Formation_Formup_Wait_Style>
+		<MovementClass> Infantry </MovementClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Is_Squashable> true </Is_Squashable>
+		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>	
+		<ContainerArrangement> Dartboard </ContainerArrangement>
+		<Override_Acceleration> .08 </Override_Acceleration>
+		<Override_Deceleration> .08 </Override_Deceleration>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+        <Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		
+		<Targeting_Max_Attack_Distance>140.0</Targeting_Max_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
+		
+        <!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.25f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		
+				 
+		<CategoryMask> Infantry | AntiInfantry </CategoryMask>
+
+		<Icon_Name>I_BUTTON_MILITIA_SOLDIER_PLATOON.TGA</Icon_Name>
+	</Container>
+	
+	
+	
+</Kota_Militia_Data>

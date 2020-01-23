@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Story>
+    <!-- XML Event that starts the galaxy wide upgrade from Phase 1 to Phase 2 -->
+    <Event Name="Switch_Phase_1_To_Phase_2">
+        <Event_Type>STORY_TECH_LEVEL</Event_Type>
+        <Event_Param1>5</Event_Param1>
+    </Event>
+</Story>

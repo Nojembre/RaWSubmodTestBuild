@@ -1,0 +1,1113 @@
+<?xml version="1.0" ?>
+
+
+
+<!--******************************************************-->
+<!--******	Main Campaign  (Republic)	******-->
+<!--******************************************************-->
+
+
+
+<Story>
+
+	<!--
+	<Event Name="Intro_Fox_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>START_MOVIE</Reward_Type>
+		<Reward_Param1>Intro_Fox</Reward_Param1>
+	</Event>
+	
+			<Event Name="Intro_Fox_End">
+				<Event_Type>STORY_MOVIE_DONE</Event_Type>
+				<Prereq>Intro_Fox_Start</Prereq>
+			</Event>
+	
+	<Event Name="Intro_Text_Start">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>START_MOVIE</Reward_Type>
+		<Reward_Param1>Star_Wars_Intro</Reward_Param1>
+		<Prereq>Intro_Fox_End</Prereq>
+	</Event>
+	
+			<Event Name="Intro_Text_End">
+				<Event_Type>STORY_MOVIE_DONE</Event_Type>
+				<Prereq>Intro_Text_Start</Prereq>
+			</Event>
+		
+	<Event Name="Pause_For_Movie">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>7.6</Event_Param1>
+		<Reward_Type>PAUSE_GALACTIC</Reward_Type>
+	</Event>
+	-->
+							
+ 	<Event Name="Ep1_Text_Crawl_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>START_MOVIE</Reward_Type>
+		<Reward_Param1>Episode1_Campaign_Text</Reward_Param1>
+		<!-- <Prereq>Pause_For_Movie</Prereq> -->
+	</Event>
+		
+			<Event Name="Ep1_Text_Crawl_End">
+				<Event_Type>STORY_MOVIE_DONE</Event_Type>
+				<Prereq>Ep1_Text_Crawl_Start</Prereq>
+			</Event>
+						
+	<!--				
+	<Event Name="UnPause_For_Game">
+		<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>CLICK</Event_Param1>
+		<Reward_Type>UNPAUSE_GALACTIC</Reward_Type>
+		<Prereq>Ep1_Text_Crawl_End</Prereq>
+	</Event>
+	-->
+							
+	<Event Name="Universal_Story_Start">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Story_Dialog>Dialog_Raw_GC_Solo</Story_Dialog>
+		<Story_Chapter>30</Story_Chapter>
+		<Story_Tag>Intro_Tag</Story_Tag>
+		<Prereq>Ep1_Text_Crawl_End</Prereq>
+	</Event>
+	
+	
+
+<!-- Start Events -->
+
+	 <Event Name="Spawn_QuiGon">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Qui_Gon_Story_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	
+	
+<!-- Tech 1 -->
+
+	<Event Name="Empire_Enters_Tech_01">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>1</Event_Param1>
+	</Event>
+	
+	
+
+ <!-- Naboo Mission-->
+
+ 	<Event Name="Start_Naboo_Story">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Type>PAUSE_GALACTIC</Reward_Type>
+		<Prereq>Ep1_Text_Crawl_End</Prereq>
+	</Event>
+ 
+	 <Event Name="Republic_Mission_Naboo_Flag_Set">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_FLAG</Reward_Type>
+		<Reward_Param1>Republic_Naboo</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Prereq>Start_Naboo_Story</Prereq>
+	</Event>
+	
+	<!-- Yoda: Qui-Gon and Obi-Wan, Chancellor Vallorum wants. To Naboo, you must go. 
+	Negotiate with the Trade Federation, you will. -->
+	<Event Name="Naboo_Talk_1">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_CAMPAIGN_NABOO_1</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>Naboo_1</Reward_Param8>
+		<Reward_Param9>Yoda_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Start_Naboo_Story</Prereq>
+	</Event>
+			
+			<Event Name="Naboo_Talk_1_Stop">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>Naboo_1</Event_Param1>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Perpetual>True</Perpetual>
+				<Prereq>Naboo_Talk_1</Prereq>
+			</Event>
+
+			
+	<Event Name="Naboo_Mission">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Prereq>Naboo_Talk_1_Stop</Prereq>
+		<Story_Dialog>Dialog_Republic_Campaign_Missions</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Naboo_Mission_Tag</Story_Tag>
+		<Story_Dialog_Popup>False</Story_Dialog_Popup>
+	</Event>
+	
+	<Event Name="Reveal_Naboo">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Naboo</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Naboo_Mission</Prereq>
+	</Event>
+
+	<Event Name="Flash_Naboo">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>FLASH_PLANET_GUI</Reward_Type>
+		<Reward_Param1>Naboo</Reward_Param1>
+		<Reward_Param2>FLASH_PLANET</Reward_Param2>
+		<Reward_Param4>Naboo_GUI_Flash</Reward_Param4>
+		<Reward_Param5>True</Reward_Param5>
+		<Prereq>Reveal_Naboo</Prereq>
+	</Event>
+	
+    <Event Name="Jump_Camera_Naboo">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>POSITION_CAMERA</Reward_Type>
+        <Reward_Param1>Naboo</Reward_Param1>
+        <Reward_Param2>0,0,0</Reward_Param2>
+        <Prereq>Flash_Naboo</Prereq>
+    </Event>
+	
+	<Event Name="Naboo_QuiGon_Deploy">
+		<Event_Type>STORY_DEPLOY</Event_Type>
+		<Event_Param1>Qui-Gon_Story</Event_Param1>
+		<Event_Param2>Naboo</Event_Param2>
+		<Prereq>Flash_Naboo</Prereq>
+	</Event>
+
+	<!-- Mission ends successfully -->
+	<Event Name="Naboo_Mission_Success">
+		<Event_Type>STORY_FLAG</Event_Type>
+		<Event_Param1>Republic_Naboo</Event_Param1>
+		<Event_Param2>1</Event_Param2>
+		<Event_Param3>GREATER_THAN_EQUAL_TO</Event_Param3>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Naboo_Mission_Tag</Reward_Param1>
+	</Event>
+	
+	<Event Name="Naboo_Mission_Success_RemoveFlash">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
+		<Reward_Param1>Naboo_GUI_Flash</Reward_Param1>
+		<Prereq>Naboo_Mission_Success</Prereq>
+	</Event>
+
+	<Event Name="Naboo_Mission_Unlock">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+		<Reward_Param1>Naboo</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Prereq>Naboo_Mission_Success</Prereq>
+	</Event>
+	
+	<Event Name="Remove_QuiGon_From_Game">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Qui-Gon_Story_Team</Reward_Param1>
+		<Prereq>Naboo_Mission_Success</Prereq>
+	</Event>
+		
+	<Event Name="After_Naboo_Pause">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Type>PAUSE_GALACTIC</Reward_Type>
+		<Prereq>Naboo_Mission_Success</Prereq>
+	</Event>
+
+	
+	
+<!-- Winning Movie Event -->
+
+	<Event Name="Winning_Movie_Rep">
+		<!-- Can only be used if Winning in GC is disabled -->
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>Win_Event_Start_Rep</Event_Param2>
+		<Reward_Type>PAUSE_GALACTIC</Reward_Type>
+	</Event>
+
+
+	<Event Name="Winning_Movie_Start_Rep">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>START_MOVIE</Reward_Type>
+		<Reward_Param1>Clone_Wars_End_Win</Reward_Param1>
+		<Prereq>Winning_Movie_Rep</Prereq>
+	</Event>
+
+	<Event Name="Winning_Movie_Done_Rep">
+		<Event_Type>STORY_MOVIE_DONE</Event_Type>
+		<Reward_Type>UNPAUSE_GALACTIC</Reward_Type>
+		<Prereq>Winning_Movie_Start_Rep</Prereq>
+	</Event>
+	
+	
+	
+
+	<Event Name="Winning_Movie_Emp">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>Win_Event_Start_Emp</Event_Param2>
+		<Reward_Type>PAUSE_GALACTIC</Reward_Type>
+	</Event>
+
+	<Event Name="Winning_Movie_Start_Emp">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>START_MOVIE</Reward_Type>
+		<Reward_Param1> Empire_End_Win </Reward_Param1> 
+		<Prereq>Winning_Movie_Emp</Prereq>
+	</Event>
+
+	<Event Name="Winning_Movie_Done_Emp">
+		<Event_Type>STORY_MOVIE_DONE</Event_Type>
+		<Reward_Type>UNPAUSE_GALACTIC</Reward_Type>
+		<Prereq>Winning_Movie_Start_Emp</Prereq>
+	</Event>
+	
+	
+	<Event Name="Reenable_Victory_Win"> <!-- Reenables that the player can win in GC and the player will win at once, because he already reached the win-condition -->
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ENABLE_VICTORY</Reward_Type>
+		<Reward_Param1>1</Reward_Param1>
+		<Prereq>Winning_Movie_Done_Rep</Prereq>
+		<Prereq>Winning_Movie_Done_Emp</Prereq>
+	</Event>
+	
+<!-- Winning Movie Event  END -->
+
+<!-- Losing Movie Event -->
+
+	<Event Name="Losing_Movie_Rep">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>Lose_Rep_GC</Event_Param2>
+		<Reward_Type>PAUSE_GALACTIC</Reward_Type>
+	</Event>
+	
+	<Event Name="Losing_Movie_Start_Rep">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>START_MOVIE</Reward_Type>
+		<Reward_Param1>Clone_Wars_End_Lose</Reward_Param1>
+		<Prereq>Losing_Movie_Rep</Prereq>
+	</Event>
+
+	<Event Name="Losing_Movie_Done_Rep">
+		<Event_Type>STORY_MOVIE_DONE</Event_Type>
+		<Reward_Type>UNPAUSE_GALACTIC</Reward_Type>
+		<Prereq>Losing_Movie_Start_Rep</Prereq>
+	</Event>
+	
+	
+	
+	
+	<Event Name="Losing_Movie_Emp">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>Lose_Emp_GC</Event_Param2>
+		<Reward_Type>PAUSE_GALACTIC</Reward_Type>
+	</Event>
+	
+	<Event Name="Losing_Movie_Start_Emp">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>START_MOVIE</Reward_Type>
+		<Reward_Param1>Empire_End_Lose</Reward_Param1>
+		<Prereq>Losing_Movie_Emp</Prereq>
+	</Event>
+
+	<Event Name="Losing_Movie_Done_Emp">
+		<Event_Type>STORY_MOVIE_DONE</Event_Type>
+		<Reward_Type>UNPAUSE_GALACTIC</Reward_Type>
+		<Prereq>Losing_Movie_Start_Emp</Prereq>
+	</Event>
+	
+	<Event Name="Reenable_Victory_Lose"> <!-- Reenables that the player can win in GC and the player will win at once, because he already reached the win-condition -->
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ENABLE_VICTORY</Reward_Type>
+		<Reward_Param1>1</Reward_Param1>
+		<Prereq>Losing_Movie_Done_Rep</Prereq>
+		<Prereq>Losing_Movie_Done_Emp</Prereq>
+	</Event>
+	
+<!-- Losing Movie Event END  -->
+
+
+ <!-- UtapauMission-->
+ 
+ 
+	<Event Name="Start_Order_66_Story">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>60</Event_Param1>
+		<Reward_Type>PAUSE_GALACTIC</Reward_Type>
+		<Prereq>Empire_Enters_Tech_05</Prereq> <!-- was Empire_Enters_Tech_05-->
+	</Event>
+ 
+	 <Event Name="Republic_Mission_Utapau_Flag_Set">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_FLAG</Reward_Type>
+		<Reward_Param1>Republic_66Ut01_Win</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<!-- Obi-Wan: Still here Anakin ? When was the last time you slept ? -->
+	<Event Name="Order66_Utapau_Talk_Obiwan_1">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_ORDER66_UTAPAU_OBIWAN_1</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>ORDER66_UTAPAU_OBIWAN_1</Reward_Param8>
+		<Reward_Param9>Obiwan_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Start_Order_66_Story</Prereq>
+	</Event>
+	
+			<Event Name="Order66_Utapau_Talk_Obiwan_1_Stop">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>ORDER66_UTAPAU_OBIWAN_1</Event_Param1>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Perpetual>True</Perpetual>
+				<Prereq>Order66_Utapau_Talk_Obiwan_1</Prereq>
+			</Event>
+	
+	<!-- Anakin: Ill sleep after we find General Grievous. Clones spotted him in the "Bormordor"-System but that was weeks ago. When we destroy Grievous we can bring the war a quicker end -->
+	<Event Name="Order66_Utapau_Talk_Anakin_1">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_ORDER66_UTAPAU_ANAKIN_1</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>ORDER66_UTAPAU_ANAKIN_1</Reward_Param8>
+		<Reward_Param9>Anakin_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Order66_Utapau_Talk_Obiwan_1_Stop</Prereq>
+	</Event>
+	
+			<Event Name="Order66_Utapau_Talk_Anakin_1_Stop">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>ORDER66_UTAPAU_ANAKIN_1</Event_Param1>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Perpetual>True</Perpetual>
+				<Prereq>Order66_Utapau_Talk_Anakin_1</Prereq>
+			</Event>
+	
+	<!-- Yoda: On that, agreed we are.-->
+	<Event Name="Order66_Utapau_Talk_Yoda_1">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_ORDER66_UTAPAU_YODA_1</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>ORDER66_UTAPAU_YODA_1</Reward_Param8>
+		<Reward_Param9>Yoda_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Order66_Utapau_Talk_Anakin_1_Stop</Prereq>
+	</Event>
+	
+			<Event Name="Order66_Utapau_Talk_Yoda_1_Stop">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>ORDER66_UTAPAU_YODA_1</Event_Param1>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Perpetual>True</Perpetual>
+				<Prereq>Order66_Utapau_Talk_Yoda_1</Prereq>
+			</Event>
+	
+	<!-- Obi-Wan: Ill search for him. Cody, any news about Grievous ?-->
+	<Event Name="Order66_Utapau_Talk_Obiwan_2">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_ORDER66_UTAPAU_OBIWAN_2</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>ORDER66_UTAPAU_OBIWAN_2</Reward_Param8>
+		<Reward_Param9>Obiwan_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Order66_Utapau_Talk_Yoda_1_Stop</Prereq>
+	</Event>
+	
+			<Event Name="Order66_Utapau_Talk_Obiwan_2_Stop">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>ORDER66_UTAPAU_OBIWAN_2</Event_Param1>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Perpetual>True</Perpetual>
+				<Prereq>Order66_Utapau_Talk_Obiwan_2</Prereq>
+			</Event>
+	
+	<!-- Cody: Yes, Sir-->
+	<Event Name="Order66_Utapau_Talk_Cody_1">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_ORDER66_UTAPAU_CODY_1</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>ORDER66_UTAPAU_CODY_1</Reward_Param8>
+		<Reward_Param9>Commander_Cody_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Order66_Utapau_Talk_Obiwan_2_Stop</Prereq>
+	</Event>
+	
+			<Event Name="Order66_Utapau_Talk_Cody_1_Stop">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>ORDER66_UTAPAU_CODY_1</Event_Param1>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Perpetual>True</Perpetual>
+				<Prereq>Order66_Utapau_Talk_Cody_1</Prereq>
+			</Event>
+	
+	<!-- Anakin: Will you be able to do it alone ?-->
+	<Event Name="Order66_Utapau_Talk_Anakin_2">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_ORDER66_UTAPAU_ANAKIN_2</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>ORDER66_UTAPAU_ANAKIN_2</Reward_Param8>
+		<Reward_Param9>Anakin_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Order66_Utapau_Talk_Cody_1_Stop</Prereq>
+	</Event>
+	
+			<Event Name="Order66_Utapau_Talk_Anakin_2_Stop">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>ORDER66_UTAPAU_ANAKIN_2</Event_Param1>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Perpetual>True</Perpetual>
+				<Prereq>Order66_Utapau_Talk_Anakin_2</Prereq>
+			</Event>
+	
+	<!-- Obi.Wan: I think i can do that. Cody, prepare your troops we will move. -->
+	<Event Name="Order66_Utapau_Talk_Obiwan_3">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_ORDER66_UTAPAU_OBIWAN_3</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>ORDER66_UTAPAU_OBIWAN_3</Reward_Param8>
+		<Reward_Param9>Obiwan_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Order66_Utapau_Talk_Anakin_2_Stop</Prereq>
+	</Event>
+	
+			<Event Name="Order66_Utapau_Talk_Obiwan_3_Stop">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>ORDER66_UTAPAU_OBIWAN_3</Event_Param1>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Perpetual>True</Perpetual>
+				<Prereq>Order66_Utapau_Talk_Obiwan_3</Prereq>
+			</Event>
+			
+	<Event Name="Order66_Utapau_Unpause">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>UNPAUSE_GALACTIC</Reward_Type>
+		<Prereq>Order66_Utapau_Talk_Obiwan_3</Prereq>
+	</Event>
+			
+	<Event Name="Order66_Utapau_Mini_Mission">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Prereq>Start_Order_66_Story</Prereq>
+		<Story_Dialog>Dialog_Republic_Order66_Missions</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Order66_Utapau_Mission_Tag</Story_Tag>
+		<Story_Dialog_Popup>False</Story_Dialog_Popup>
+	</Event>
+	
+	<Event Name="Order66_Reveal_Utapau">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Utapau</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Order66_Utapau_Mini_Mission</Prereq>
+	</Event>
+	
+	<Event Name="Order66_Utapau_Unlock">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+		<Reward_Param1>Utapau</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Prereq>Order66_Reveal_Utapau</Prereq>
+	</Event>
+	
+	<Event Name="Order66_Flash_Utapau">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>FLASH_PLANET_GUI</Reward_Type>
+		<Reward_Param1>Utapau</Reward_Param1>
+		<Reward_Param2>FLASH_PLANET</Reward_Param2>
+		<Reward_Param4>Utapau_GUI_Flash</Reward_Param4>
+		<Reward_Param5>True</Reward_Param5>
+		<Prereq>Order66_Utapau_Unlock</Prereq>
+	</Event>
+	
+
+	<Event Name="Order66_Invade_Utapau_No_Obi">
+		<Event_Type>STORY_INVASION_BOUNCED</Event_Type>
+		<Event_Param1>Utapau</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_ORDER66_UTAPAU_OBIWAN_BOUNCED</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param7>Task</Reward_Param7><!-- TASK color coding - Blue -->	
+		<Reward_Param8>ORDER66_UTAPAU_OBIWAN_BOUNCED</Reward_Param8>
+		<Reward_Param9>Obiwan_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Perpetual>True</Perpetual>
+		<Prereq>Order66_Flash_Utapau</Prereq>
+	</Event>
+	
+			<Event Name="Order66_Invade_Utapau_No_Obi_Stop">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>ORDER66_UTAPAU_OBIWAN_BOUNCED</Event_Param1>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Perpetual>True</Perpetual>
+				<Prereq>Order66_Invade_Utapau_No_Obi</Prereq>
+			</Event>
+	
+	<Event Name="Order66_Invade_Utapau">
+		<Event_Type>STORY_DEPLOY</Event_Type>
+		<Event_Param1>Obiwan_Team</Event_Param1><!-- Change for Hero Fighter event></!-->
+		<Event_Param2>Utapau</Event_Param2>
+		<Reward_Type>LINK_TACTICAL</Reward_Type>
+		<Reward_Param1>Utapau</Reward_Param1>
+		<Reward_Param2>GROUND</Reward_Param2>
+		<Reward_Param3>Empire</Reward_Param3>
+		<Reward_Param4>_Order66_Utapau_Mission.TED</Reward_Param4>
+		<Reward_Param5>Rebel</Reward_Param5>
+		<Reward_Param6>Obiwan_Team</Reward_Param6>
+		<Reward_Param7>Story_Plots_Republic_Order66_Utapau.xml</Reward_Param7>
+		<Reward_Param8>1</Reward_Param8>
+		<Reward_Param9>0</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Reward_Param11>0</Reward_Param11>
+		<Reward_Param12>RETREAT_PLAYER</Reward_Param12>
+		<Prereq>Order66_Flash_Utapau</Prereq>
+		<Branch>BRANCH_66Ut01_QUICKSTART</Branch>
+	</Event>
+	
+	<!-- Mission Utapau failed -->
+	<!-- Detect mission utapau being lost.  Display text telling the player to try again -->
+	<Event Name="Order66_Invade_Utapau_Failed">
+		<Event_Type>STORY_MISSION_LOST</Event_Type>
+		<Event_Param1>Story_Plots_Republic_Order66_Utapau.xml</Event_Param1>
+		<Prereq>Order66_Invade_Utapau</Prereq>
+		<Branch>BRANCH_66Ut01</Branch>
+	</Event>
+	
+	<Event Name="Order66_Invade_Utapau_Failed_Respawn">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>FORCE_RESPAWN</Reward_Type>
+		<Reward_Param1>Obiwan_Team</Reward_Param1>
+		<Prereq>Order66_Invade_Utapau_Failed</Prereq>
+		<Branch>BRANCH_66Ut01</Branch>
+	</Event>
+
+<!-- Wait until the battle summary dialog is closed -->
+	<Event Name="Order66_Invade_Utapau_Failed_Start_Dialog">
+		<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>battle_end_closed</Event_Param1>
+		<Prereq>Order66_Invade_Utapau_Failed</Prereq>
+		<Branch>BRANCH_66Ut01</Branch>
+	</Event>
+
+	<Event Name="Order66_Invade_Utapau_Failed_Quickstart">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>RESET_BRANCH</Reward_Type>
+		<Reward_Param1>BRANCH_66Ut01_QUICKSTART</Reward_Param1>
+		<Prereq>Order66_Invade_Utapau_Failed_Start_Dialog</Prereq>
+		<Branch>BRANCH_66Ut01</Branch>
+	</Event>
+	
+	<Event Name="Order66_Invade_Utapau_Failed_Pause">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Type>PAUSE_GALACTIC</Reward_Type>
+		<Prereq>Order66_Invade_Utapau_Failed_Quickstart</Prereq>
+	</Event>
+	
+	<Event Name="Order66_Invade_Utapau_Failed_Talk">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_ORDER66_UTAPAU_FAIL</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>ORDER66_UTAPAU_OBIWAN_FAIL</Reward_Param8>
+		<Reward_Param9>Obiwan_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Order66_Invade_Utapau_Failed_Pause</Prereq>
+	</Event>
+	
+			<Event Name="Order66_Invade_Utapau_Failed_Text_Stop">
+				<!--Stop Text-->
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>ORDER66_UTAPAU_OBIWAN_FAIL</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_ORDER66_UTAPAU_FAIL</Reward_Param1>
+				<Reward_Param4>remove</Reward_Param4>
+				<Prereq>Order66_Invade_Utapau_Failed_Talk</Prereq>
+			</Event>
+	
+			<Event Name="Order66_Invade_Utapau_Failed_Talk_Stop">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Prereq>Order66_Invade_Utapau_Failed_Text_Stop</Prereq>
+			</Event>
+			
+	<Event Name="Order66_Invade_Utapau_Failed_Unpause">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>UNPAUSE_GALACTIC</Reward_Type>
+		<Prereq>Order66_Invade_Utapau_Failed_Talk_Stop</Prereq>
+	</Event>
+
+	<!-- Re-enable mission 2 -->
+	<Event Name="Order66_Invade_Utapau_Failed_04">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>RESET_BRANCH</Reward_Type>
+		<Reward_Param1>BRANCH_66Ut01</Reward_Param1>
+		<Prereq>Order66_Invade_Utapau_Failed_Unpause</Prereq>
+		<Branch>BRANCH_66Ut01</Branch>
+	</Event>
+	
+	<!-- Mission 2 ends successfully -->
+	<Event Name="Order66_Utapau_Mission_Succsess">
+		<Event_Type>STORY_FLAG</Event_Type>
+		<Event_Param1>Republic_66Ut01_Win</Event_Param1>
+		<Event_Param2>1</Event_Param2>
+		<Event_Param3>GREATER_THAN_EQUAL_TO</Event_Param3>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Order66_Utapau_Mission_Tag</Reward_Param1>
+	</Event>
+	
+	<Event Name="Order66_Utapau_Mission_Succsess_RemoveFlash_Utapau">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
+		<Reward_Param1>Utapau_GUI_Flash</Reward_Param1>
+		<Prereq>Order66_Utapau_Mission_Succsess</Prereq>
+	</Event>
+	
+	<Event Name="Order66_Utapau_Give_to_Republic">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>PLANET_FACTION</Reward_Type>
+		<Reward_Param1>Utapau</Reward_Param1>
+		<Reward_Param2>Empire</Reward_Param2>
+		<Prereq>Order66_Utapau_Mission_Succsess</Prereq>
+	</Event>
+
+	<Event Name="Order66_Utapau_Mission_Succsess_Disable_Branch">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BRANCH</Reward_Type>
+		<Reward_Param1>BRANCH_66Ut01</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Order66_Utapau_Mission_Succsess</Prereq>
+	</Event>
+
+	<Event Name="Order66_Utapau_Mission_Succsess_Disable_Branch_Quickstart">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BRANCH</Reward_Type>
+		<Reward_Param1>BRANCH_66Ut01_QUICKSTART</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Order66_Utapau_Mission_Succsess_Disable_Branch</Prereq>
+	</Event>
+
+	<Event Name="Order66_Utapau_Mission_Unlock">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+		<Reward_Param1>Utapau</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Prereq>Order66_Utapau_Mission_Succsess</Prereq>
+	</Event>
+	
+	<Event Name="Order66_Utapau_Mission_Won">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_FLAG</Reward_Type>
+		<Reward_Param1>Republic_66Ut01_Win</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Order66_Utapau_Mission_Unlock</Prereq>
+	</Event>
+	
+	<Event Name="Remove_Grievous_From_Game">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>General_Grievous</Reward_Param1>
+		<Prereq>Order66_Utapau_Mission_Won</Prereq>
+	</Event>
+		
+	<Event Name="Order66_After_Utapau_Pause">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Type>PAUSE_GALACTIC</Reward_Type>
+		<Prereq>Order66_Utapau_Mission_Won</Prereq>
+	</Event>
+		
+	<Event Name="Order66_After_Utapau_Dialog_Mace">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_ORDER66_AFTER_UTAPAU_MACE</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>ORDER66_AFTER_UTAPAU_MACE</Reward_Param8>
+		<Reward_Param9>Mace_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Order66_After_Utapau_Pause</Prereq>
+	</Event>
+	
+			<Event Name="Order66_After_Utapau_Dialog_Mace_Stop">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>ORDER66_AFTER_UTAPAU_MACE</Event_Param1>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Perpetual>True</Perpetual>
+				<Prereq>Order66_After_Utapau_Dialog_Mace</Prereq>
+			</Event>
+			
+	<Event Name="Order66_After_Utapau_Dialog_Anakin">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_ORDER66_AFTER_UTAPAU_ANAKIN</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>ORDER66_AFTER_UTAPAU_ANAKIN</Reward_Param8>
+		<Reward_Param9>Anakin_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Order66_After_Utapau_Dialog_Mace_Stop</Prereq>
+	</Event>
+	
+			<Event Name="Order66_After_Utapau_Dialog_Anakin_Stop">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>ORDER66_AFTER_UTAPAU_ANAKIN</Event_Param1>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Perpetual>True</Perpetual>
+				<Prereq>Order66_After_Utapau_Dialog_Anakin</Prereq>
+			</Event>
+			
+	<Event Name="Order66_After_Utapau_Unpause">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>UNPAUSE_GALACTIC</Reward_Type>
+		<Prereq>Order66_After_Utapau_Dialog_Anakin_Stop</Prereq>
+	</Event>
+	
+	<Event Name="Order66_After_Utapau_Pause_2">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>5</Event_Param1>
+		<Reward_Type>PAUSE_GALACTIC</Reward_Type>
+		<Prereq>Order66_After_Utapau_Unpause</Prereq>
+	</Event>
+			
+	<Event Name="Order66_Before_Order66_Dialog_Mace">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_ORDER66_BEFORE_ORDER66_MACE</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>ORDER66_BEFORE_ORDER66_MACE</Reward_Param8>
+		<Reward_Param9>Mace_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Order66_After_Utapau_Pause_2</Prereq>
+	</Event>
+	
+			<Event Name="Order66_Before_Order66_Dialog_Mace_Stop">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>ORDER66_BEFORE_ORDER66_MACE</Event_Param1>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Perpetual>True</Perpetual>
+				<Prereq>Order66_Before_Order66_Dialog_Mace</Prereq>
+			</Event>
+			
+	<Event Name="Order66_Before_Order66_Dialog_Yoda">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_ORDER66_BEFORE_ORDER66_YODA</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>ORDER66_BEFORE_ORDER66_YODA</Reward_Param8>
+		<Reward_Param9>Yoda_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Order66_Before_Order66_Dialog_Mace_Stop</Prereq>
+	</Event>
+	
+			<Event Name="Order66_Before_Order66_Dialog_Yoda_Stop">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>ORDER66_BEFORE_ORDER66_YODA</Event_Param1>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Perpetual>True</Perpetual>
+				<Prereq>Order66_Before_Order66_Dialog_Yoda</Prereq>
+			</Event>	
+			
+	<Event Name="Order66_Before_Order66_Unpause">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>UNPAUSE_GALACTIC</Reward_Type>
+		<Prereq>Order66_Before_Order66_Dialog_Yoda_Stop</Prereq>
+	</Event>
+	
+	
+	<!-- Coruscant Event-->
+	<Event Name="Order66_Before_Order66_Mission">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Prereq>Order66_Before_Order66_Unpause</Prereq>
+		<Story_Dialog>Dialog_Republic_Order66_Missions</Story_Dialog>
+		<Story_Chapter>1</Story_Chapter>
+		<Story_Tag>Order66_Move_Heroes_To_Coruscant_Tag</Story_Tag>
+		<Story_Dialog_Popup>False</Story_Dialog_Popup>
+	</Event>
+	
+	<Event Name="Order66_Coruscant_Anakin_Deploy">
+		<Event_Type>STORY_DEPLOY</Event_Type>
+		<Event_Param1>Anakin_Skywalker</Event_Param1>
+		<Event_Param2>Coruscant</Event_Param2>
+		<Prereq>Order66_Before_Order66_Unpause</Prereq>
+	</Event>
+	
+	<Event Name="Order66_Coruscant_Palpatine_Deploy">
+		<Event_Type>STORY_DEPLOY</Event_Type>
+		<Event_Param1>Chancellor_Palpatine</Event_Param1>
+		<Event_Param2>Coruscant</Event_Param2>
+		<Prereq>Order66_Before_Order66_Unpause</Prereq>
+	</Event>
+	
+	<Event Name="Order66_Coruscant_Anakin_Remove">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Anakin_Skywalker</Reward_Param1>
+		<Prereq>Order66_Coruscant_Anakin_Deploy</Prereq>
+	</Event>
+	
+	<Event Name="Order66_Coruscant_Palpatine_Remove">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Chancellor_Palpatine</Reward_Param1>
+		<Prereq>Order66_Coruscant_Palpatine_Deploy</Prereq>
+	</Event>
+	
+	<Event Name="Order66_Coruscant_Start">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Order66_Move_Heroes_To_Coruscant_Tag</Reward_Param1>
+		<Prereq>Order66_Coruscant_Anakin_Remove Order66_Coruscant_Palpatine_Remove</Prereq>
+	</Event>
+	
+	<Event Name="Order66_Coruscant_Pause">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Type>PAUSE_GALACTIC</Reward_Type>
+		<Prereq>Order66_Coruscant_Start</Prereq>
+	</Event>
+	
+	<Event Name="Order66_Coruscant_Dialog_Anakin_1">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_ORDER66_CORUSCANT_ANAKIN_1</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>ORDER66_CORUSCANT_ANAKIN_1</Reward_Param8>
+		<Reward_Param9>Anakin_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Order66_Coruscant_Pause</Prereq>
+	</Event>
+	
+			<Event Name="Order66_Coruscant_Dialog_Anakin_1_Stop">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>ORDER66_CORUSCANT_ANAKIN_1</Event_Param1>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Perpetual>True</Perpetual>
+				<Prereq>Order66_Coruscant_Dialog_Anakin_1</Prereq>
+			</Event> 
+			
+	<Event Name="Order66_Coruscant_Dialog_Palpatine_1">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_ORDER66_CORUSCANT_PALPATINE_1</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>ORDER66_CORUSCANT_PALPATINE_1</Reward_Param8>
+		<Reward_Param9>Palpatine_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Order66_Coruscant_Dialog_Anakin_1_Stop</Prereq>
+	</Event>
+	
+			<Event Name="Order66_Coruscant_Dialog_Palpatine_1_Stop">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>ORDER66_CORUSCANT_PALPATINE_1</Event_Param1>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Perpetual>True</Perpetual>
+				<Prereq>Order66_Coruscant_Dialog_Palpatine_1</Prereq>
+			</Event> 
+	
+	<Event Name="Order66_Coruscant_Dialog_Anakin_2">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_ORDER66_CORUSCANT_ANAKIN_2</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>ORDER66_CORUSCANT_ANAKIN_2</Reward_Param8>
+		<Reward_Param9>Anakin_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Order66_Coruscant_Dialog_Palpatine_1_Stop</Prereq>
+	</Event>
+	
+			<Event Name="Order66_Coruscant_Dialog_Anakin_2_Stop">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>ORDER66_CORUSCANT_ANAKIN_2</Event_Param1>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Perpetual>True</Perpetual>
+				<Prereq>Order66_Coruscant_Dialog_Anakin_2</Prereq>
+			</Event> 
+	
+	<Event Name="Order66_Coruscant_Dialog_Palpatine_2">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_ORDER66_CORUSCANT_PALPATINE_2</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>ORDER66_CORUSCANT_PALPATINE_2</Reward_Param8>
+		<Reward_Param9>Palpatine_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Order66_Coruscant_Dialog_Anakin_2_Stop</Prereq>
+	</Event>
+	
+			<Event Name="Order66_Coruscant_Dialog_Palpatine_2_Stop">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>ORDER66_CORUSCANT_PALPATINE_2</Event_Param1>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Perpetual>True</Perpetual>
+				<Prereq>Order66_Coruscant_Dialog_Palpatine_2</Prereq>
+			</Event> 
+			
+	<Event Name="Order66_Coruscant_Dialog_Anakin_3">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_ORDER66_CORUSCANT_ANAKIN_3</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>ORDER66_CORUSCANT_ANAKIN_3</Reward_Param8>
+		<Reward_Param9>Anakin_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Order66_Coruscant_Dialog_Palpatine_2_Stop</Prereq>
+	</Event>
+	
+			<Event Name="Order66_Coruscant_Dialog_Anakin_3_Stop">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>ORDER66_CORUSCANT_ANAKIN_3</Event_Param1>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Perpetual>True</Perpetual>
+				<Prereq>Order66_Coruscant_Dialog_Anakin_3</Prereq>
+			</Event> 
+			
+	<Event Name="Order66_Coruscant_Dialog_Palpatine_3">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_ORDER66_CORUSCANT_PALPATINE_3</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>ORDER66_CORUSCANT_PALPATINE_3</Reward_Param8>
+		<Reward_Param9>Palpatine_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Order66_Coruscant_Dialog_Anakin_3_Stop</Prereq>
+	</Event>
+	
+			<Event Name="Order66_Coruscant_Dialog_Palpatine_3_Stop">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>ORDER66_CORUSCANT_PALPATINE_3</Event_Param1>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Perpetual>True</Perpetual>
+				<Prereq>Order66_Coruscant_Dialog_Palpatine_3</Prereq>
+			</Event> 
+			
+	<Event Name="Order66_Coruscant_Dialog_Anakin_4">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_ORDER66_CORUSCANT_ANAKIN_4</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>ORDER66_CORUSCANT_ANAKIN_4</Reward_Param8>
+		<Reward_Param9>Anakin_Saber_Draw</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Order66_Coruscant_Dialog_Palpatine_3_Stop</Prereq>
+	</Event>
+	
+			<Event Name="Order66_Coruscant_Dialog_Anakin_4_Stop">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>ORDER66_CORUSCANT_ANAKIN_4</Event_Param1>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Perpetual>True</Perpetual>
+				<Prereq>Order66_Coruscant_Dialog_Anakin_4</Prereq>
+			</Event> 
+			
+	<Event Name="Order66_Coruscant_Dialog_Palpatine_4">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_ORDER66_CORUSCANT_PALPATINE_4</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>ORDER66_CORUSCANT_PALPATINE_4</Reward_Param8>
+		<Reward_Param9>Palpatine_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Order66_Coruscant_Dialog_Anakin_4_Stop</Prereq>
+	</Event>
+	
+			<Event Name="Order66_Coruscant_Dialog_Palpatine_4_Stop">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>ORDER66_CORUSCANT_PALPATINE_4</Event_Param1>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Perpetual>True</Perpetual>
+				<Prereq>Order66_Coruscant_Dialog_Palpatine_4</Prereq>
+			</Event> 
+	
+	<Event Name="Order66_Coruscant_Dialog_Anakin_5">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_ORDER66_CORUSCANT_ANAKIN_5</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>ORDER66_CORUSCANT_ANAKIN_5</Reward_Param8>
+		<Reward_Param9>Anakin_Saber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Order66_Coruscant_Dialog_Palpatine_4_Stop</Prereq>
+	</Event>
+	
+			<Event Name="Order66_Coruscant_Dialog_Anakin_5_Stop">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>ORDER66_CORUSCANT_ANAKIN_5</Event_Param1>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Perpetual>True</Perpetual>
+				<Prereq>Order66_Coruscant_Dialog_Anakin_5</Prereq>
+			</Event> 
+			
+	<Event Name="Order66_Coruscant_Dialog_Palpatine_5">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_ORDER66_CORUSCANT_PALPATINE_5</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>ORDER66_CORUSCANT_PALPATINE_5</Reward_Param8>
+		<Reward_Param9>Palpatine_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Order66_Coruscant_Dialog_Anakin_5_Stop</Prereq>
+	</Event>
+	
+			<Event Name="Order66_Coruscant_Dialog_Palpatine_5_Stop">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>ORDER66_CORUSCANT_PALPATINE_5</Event_Param1>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Perpetual>True</Perpetual>
+				<Prereq>Order66_Coruscant_Dialog_Palpatine_5</Prereq>
+			</Event> 
+			
+	<Event Name="Order66_Coruscant_Dialog_Anakin_6">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_ORDER66_CORUSCANT_ANAKIN_6</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>ORDER66_CORUSCANT_ANAKIN_6</Reward_Param8>
+		<Reward_Param9>Anakin_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Order66_Coruscant_Dialog_Palpatine_5_Stop</Prereq>
+	</Event>
+	
+			<Event Name="Order66_Coruscant_Dialog_Anakin_6_Stop">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>ORDER66_CORUSCANT_ANAKIN_6</Event_Param1>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Perpetual>True</Perpetual>
+				<Prereq>Order66_Coruscant_Dialog_Anakin_6</Prereq>
+			</Event> 
+	
+	<Event Name="Order66_Coruscant_Unpause">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>UNPAUSE_GALACTIC</Reward_Type>
+		<Prereq>Order66_Coruscant_Dialog_Anakin_6_Stop</Prereq>
+	</Event>
+	
+	
+
+</Story> 

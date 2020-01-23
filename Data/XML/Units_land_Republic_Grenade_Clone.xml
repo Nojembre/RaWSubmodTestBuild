@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Grenade_Clone_Data>
+
+	
+
+	<HeroUnit Name="Grenade_Clone">
+		
+		<Text_ID>TEXT_UNIT_CLONE_GRENADE</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_CLONE_GRENADE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_GRENADIER</Encyclopedia_Unit_Class>
+		<Land_Model_Name>Rep_I_Phase1_Clone.ALO</Land_Model_Name>
+		<Land_Terrain_Model_Mapping>
+			Temperate, 			Rep_I_Phase1_Clone.ALO,
+			Urban, 				Rep_I_Phase1_Clone.ALO,
+			Arctic, 			Rep_I_Phase1_Clone.ALO,
+			Volcanic, 			Rep_I_Phase1_Clone.ALO,
+			Desert, 			Rep_I_Phase1_Clone.ALO,
+			Forest, 			Rep_I_Phase1_Clone.ALO,
+			Swamp, 				Rep_I_Clone_W_Nightvision.ALO
+		</Land_Terrain_Model_Mapping>
+		<Icon_Name>i_button_clone_p1.tga</Icon_Name>
+        <GUI_Bracket_Size>0</GUI_Bracket_Size>
+
+		<GalacticBehavior>SELECTABLE</GalacticBehavior>
+		<LandBehavior>SELECTABLE, VEHICLE_THIEF, ABILITY_COUNTDOWN, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR, IDLE, TARGETING, WEAPON, REVEAL, HIDE_WHEN_FOGGED,GARRISON_UNIT,DAMAGE_TRACKING, UNIT_AI</LandBehavior>
+		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier, High_Ground</SurfaceFX_Name>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<CanCellStack>yes</CanCellStack>
+		<Mass>1.0</Mass>
+		<Movement_Animation_Speed> 12.0 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 12.0 </Rotation_Animation_Speed>
+		<Walk_Animation_Speed> 12.0</Walk_Animation_Speed>
+		<Crouch_Animation_Speed> 12.0 </Crouch_Animation_Speed>
+		<Max_Speed>1.2</Max_Speed>
+		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
+		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
+		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<FormationSpacing> 0.8 </FormationSpacing> 
+		<MinimumPushReturnDistance> 2 </MinimumPushReturnDistance>
+		<OverrideAcceleration> 0.425 </OverrideAcceleration>
+		<OverrideDeceleration> 0.425 </OverrideDeceleration>
+		<FormationOrder> 2 </FormationOrder>
+		<Scale_Factor>0.09</Scale_Factor>
+		
+		<Create_Team>Yes</Create_Team>
+		
+		
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Affiliation>Empire</Affiliation>
+		<Required_Timeline>2</Required_Timeline>
+		<IsBuildable>No</IsBuildable>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Size_Value>10</Size_Value>
+
+		<Armor_Type> Armor_Hero </Armor_Type>
+		<Damage>25</Damage>
+		<Sensor_Range>20</Sensor_Range>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>55</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Stealth_Capable>No</Stealth_Capable>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<Victory_Relevant>yes</Victory_Relevant>
+
+		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
+		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
+		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+
+		<Projectile_Types>Proj_Hand_Blaster_Blue</Projectile_Types>
+        <Projectile_Fire_Recharge_Seconds>0.5</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>3</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.15</Projectile_Fire_Pulse_Delay_Seconds>
+
+		<Targeting_Fire_Inaccuracy> Infantry, 20.0 </Targeting_Fire_Inaccuracy> <!-- from 1.0 to make them more innacurate -->
+		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 9.5 </Targeting_Fire_Inaccuracy>
+
+		<SFXEvent_Select>Unit_Select_Clone_Trooper</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Clone_Trooper</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Clone_Trooper</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
+		<SFXEvent_Fire>Unit_Clone_Infantry_Fire</SFXEvent_Fire>
+		<Death_SFXEvent_Start_Die>Unit_Stormtrooper_Death</Death_SFXEvent_Start_Die>
+		
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>		
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
+
+		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
+		<SFXEvent_Tactical_Build_Complete> RHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
+		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		
+		<CategoryMask> Infantry </CategoryMask>
+		<Ranking_In_Category> 1 </Ranking_In_Category>
+		<MovementClass>Infantry</MovementClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+		<Is_Squashable> Yes </Is_Squashable>
+		
+		<!--
+		<Select_Box_Scale>200</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+        <Highlight_Blob_Material_Name>Highlight_Republic_Grenadier</Highlight_Blob_Material_Name>
+		-->
+
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		<AI_Combat_Power>250</AI_Combat_Power>
+		<Idle_Chase_Range>100.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
+		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Neutralization_Cost>2000.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+
+		
+		<Presence_Induced_Animations>
+			Attention, 
+				Emperor_Palpatine,
+				Darth_Vader,
+				Commander_Bly,
+				Commander_Bly_PH2,
+				Captain_Rex,
+				Captain_Rex_PH2,
+				Commander_Gree,
+				Commander_Gree_PH2,
+				Commander_Ponds,
+				Commander_Bacara,
+				Commander_Bacara_PH2,
+				Commander_Cody,
+				Commander_Cody_PH2,
+				Commander_Wolffe,
+				Commander_Wolffe_PH2,
+				Generic_Field_Commander_P1_Republic_CW,
+				Generic_Field_Captain_P1_Republic_CW,
+				Generic_Field_Commander_P2_Republic_CW,
+				
+			
+			Celebrate, 
+				Supertank_Death_Clone,
+				Octuptarra_Walker_Death_Clone_00,
+				Cydon_Prax_Death_Clone,
+		</Presence_Induced_Animations>
+		
+		<Score_Cost_Credits> 5000 </Score_Cost_Credits>
+
+		<Death_Fade_Time>0.25</Death_Fade_Time>
+		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+		
+		<Death_Clone>Damage_Force_Whirlwind, Grenade_Clone_Force_Whirlwind_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Crush, Grenade_Clone_Crush_Death_Clone</Death_Clone>
+
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			
+			<Unit_Ability>
+				<Type>STICKY_BOMB</Type>
+				<Recharge_Seconds>23.0f </Recharge_Seconds>
+				<Alternate_Icon_Name>I_SA_SELF_DESTRUCT.TGA</Alternate_Icon_Name>
+                <Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_DETONATOR</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_DETONATOR_DESCRIPTION</Alternate_Description_Text>
+				<GUI_Activated_Ability_Name> CL_Grenade_Attack </GUI_Activated_Ability_Name>
+				<SFXEvent_Target_Ability> Unit_Attack_Clone_Trooper </SFXEvent_Target_Ability>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+			
+			<!-- Secondary ability -->
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Clone_Trooper</SFXEvent_GUI_Unit_Ability_Activated>		  			
+			</Unit_Ability>
+			
+		</Unit_Abilities_Data>
+	
+		<Abilities SubObjectList="Yes">
+
+			<Grenade_Attack_Ability Name="CL_Grenade_Attack">
+				<Activation_Style> User_Input </Activation_Style> <!-- Was Special_Attack -->
+				<!-- We need to be within this distance of the clicked target to consider throwing the grenade -->
+				<Activation_Min_Range>20.0</Activation_Min_Range>
+				<Activation_Max_Range>400.0</Activation_Max_Range>
+				<Requires_Direct_Player_Command> No </Requires_Direct_Player_Command> <!-- Was NO -->
+				
+				<Grenade_Type>Proj_Thermal_Detonator</Grenade_Type>
+				<Grenade_Toss_Anim>BOMBTOSS_00</Grenade_Toss_Anim>
+				<Grenade_Spawn_Frame>12.0</Grenade_Spawn_Frame>
+				<Grenade_Spawn_Bone>MuzzleA_00</Grenade_Spawn_Bone>
+				<Grenade_Explode_Timer_In_Secs>1.0</Grenade_Explode_Timer_In_Secs>
+				<!-- Percentage chance to activate given a certain number of valid targets in range. -->
+				<!-- First number in the pair is the number of valid targets, second is the chance to activate. -->
+				<Activation_Chance>0,0.0, 1,1.0, 5,1.0, 500,1.0</Activation_Chance>
+				<!-- We only consider the following unit types "valid targets": -->
+				<Applicable_Unit_Categories>Infantry, Vehicle, Structure</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<SFXEvent_Activate>Unit_Attack_Clone_Trooper</SFXEvent_Activate>
+			</Grenade_Attack_Ability>
+			
+		</Abilities>
+	
+	</HeroUnit>
+	
+	
+	<GroundInfantry Name="Grenade_Clone_Force_Whirlwind_Death_Clone">
+		<Variant_Of_Existing_Type>Grenade_Clone</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
+		<Specific_Death_Anim_Index />
+	</GroundInfantry>
+	
+	<GroundInfantry Name="Grenade_Clone_Crush_Death_Clone">
+		<Variant_Of_Existing_Type>Grenade_Clone</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
+		<Specific_Death_Anim_Index />
+	</GroundInfantry>
+	
+	
+	
+	<HeroUnit Name="Grenade_Clone_Guard">
+		
+		<Variant_Of_Existing_Type>Grenade_Clone</Variant_Of_Existing_Type>
+		<Land_Terrain_Model_Mapping>
+			Temperate, 			Rep_I_Phase1_Clone.ALO,
+			Urban, 				Rep_I_Phase1_Clone.ALO,
+			Arctic, 			Rep_I_Phase1_Clone.ALO,
+			Volcanic, 			Rep_I_Phase1_Clone.ALO,
+			Desert, 			Rep_I_Phase1_Clone.ALO,
+			Forest, 			Rep_I_Phase1_Clone.ALO,
+			Swamp, 				Rep_I_Clone_W_Nightvision.ALO
+		</Land_Terrain_Model_Mapping>
+		</HeroUnit>
+	
+	
+	<!-- PHASE 2 GRENADE CLONES. -->
+	
+	
+	<GroundInfantry Name="GRENADE_CLONE_P2">
+		<Variant_Of_Existing_Type>Grenade_Clone</Variant_Of_Existing_Type>
+	     <Text_ID>TEXT_UNIT_CLONETROOPER_P2</Text_ID>
+		 <Land_Model_Name>Rep_I_Phase2_Clone.ALO</Land_Model_Name>
+		 <Land_Model_Anim_Override_Name>Rep_I_Phase1_Clone.ALO</Land_Model_Anim_Override_Name>
+		 <Land_Terrain_Model_Mapping>
+			Temperate, 			Rep_I_Phase2_Clone.ALO,
+			Urban, 				Rep_I_Phase2_Clone.ALO,
+			Arctic, 			Rep_I_Phase2_Clone.ALO,
+			Volcanic, 			Rep_I_Phase2_Clone.ALO,
+			Desert, 			Rep_I_Phase2_Clone.ALO,
+			Forest, 			Rep_I_Phase2_Clone.ALO,
+			Swamp, 				Rep_I_Phase2_Clone.ALO
+		 </Land_Terrain_Model_Mapping>
+		 <Tactical_Health>55</Tactical_Health>
+	</GroundInfantry>
+		
+	
+	<!-- PHASE 1 UNIT GRENADE CLONES. -->
+	
+	
+	<GroundInfantry Name="GRENADE_CLONE_P1_212">
+		<Variant_Of_Existing_Type>Grenade_Clone</Variant_Of_Existing_Type>
+	    <Text_ID>TEXT_UNIT_CLONETROOPER_212TH</Text_ID>
+		<Land_Model_Name>Rep_I_Phase1_Clone_212.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>Rep_I_Phase1_Clone.ALO</Land_Model_Anim_Override_Name>
+		<Land_Terrain_Model_Mapping>
+			Temperate, 			Rep_I_Phase1_Clone_212.ALO,
+			Urban, 				Rep_I_Phase1_Clone_212.ALO,
+			Arctic, 			Rep_I_Phase1_Clone_212.ALO,
+			Volcanic, 			Rep_I_Phase1_Clone_212.ALO,
+			Desert, 			Rep_I_Phase1_Clone_212.ALO,
+			Forest, 			Rep_I_Phase1_Clone_212.ALO,
+			Swamp, 				Rep_I_Clone_W_Nightvision.ALO
+		</Land_Terrain_Model_Mapping>
+		
+		<Icon_Name>i_button_clones_212.tga</Icon_Name>
+	</GroundInfantry>
+	
+	<GroundInfantry Name="GRENADE_CLONE_P1_501">
+		<Variant_Of_Existing_Type>Grenade_Clone</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_CLONETROOPER_501ST</Text_ID>
+		<Land_Model_Name>Rep_I_Phase1_Clone_501.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>Rep_I_Phase1_Clone.ALO</Land_Model_Anim_Override_Name>
+		<Land_Terrain_Model_Mapping>
+			Temperate, 			Rep_I_Phase1_Clone_501.ALO,
+			Urban, 				Rep_I_Phase1_Clone_501.ALO,
+			Arctic, 			Rep_I_Phase1_Clone_501.ALO,
+			Volcanic, 			Rep_I_Phase1_Clone_501.ALO,
+			Desert, 			Rep_I_Phase1_Clone_501.ALO,
+			Forest, 			Rep_I_Phase1_Clone_501.ALO,
+			Swamp, 				Rep_I_Clone_W_Nightvision.ALO
+		</Land_Terrain_Model_Mapping>
+		<Icon_Name>i_button_clones_501.tga</Icon_Name>
+	</GroundInfantry>
+	
+	
+	<GroundInfantry Name="GRENADE_CLONE_P1_327">
+		<Variant_Of_Existing_Type>Grenade_Clone</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_CLONETROOPER_327TH</Text_ID>
+		<Land_Model_Name>Rep_I_Phase1_Clone_Commander.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>Rep_I_Phase1_Clone.ALO</Land_Model_Anim_Override_Name>
+		<Land_Terrain_Model_Mapping>
+			Temperate, 			Rep_I_Phase1_Clone_Commander.ALO,
+			Urban, 				Rep_I_Phase1_Clone_Commander.ALO,
+			Arctic, 			Rep_I_Phase1_Clone_Commander.ALO,
+			Volcanic, 			Rep_I_Phase1_Clone_Commander.ALO,
+			Desert, 			Rep_I_Phase1_Clone_Commander.ALO,
+			Forest, 			Rep_I_Phase1_Clone_Commander.ALO,
+			Swamp, 				Rep_I_Phase1_Clone_Commander.ALO
+		</Land_Terrain_Model_Mapping>
+		<Icon_Name>i_button_clones_327.tga</Icon_Name>
+	</GroundInfantry>
+	
+	<GroundInfantry Name="GRENADE_CLONE_P1_104">
+		<Variant_Of_Existing_Type>Grenade_Clone</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_CLONETROOPER_104TH</Text_ID>
+		<Land_Model_Name>Rep_I_Phase1_Wolfpack.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>Rep_I_Phase1_Clone.ALO</Land_Model_Anim_Override_Name>
+		<Land_Terrain_Model_Mapping>
+			Temperate, 			Rep_I_Phase1_Wolfpack.ALO,
+			Urban, 				Rep_I_Phase1_Wolfpack.ALO,
+			Arctic, 			Rep_I_Phase1_Wolfpack.ALO,
+			Volcanic, 			Rep_I_Phase1_Wolfpack.ALO,
+			Desert, 			Rep_I_Phase1_Wolfpack.ALO,
+			Forest, 			Rep_I_Phase1_Wolfpack.ALO,
+			Swamp, 				Rep_I_Phase1_Wolfpack.ALO
+		</Land_Terrain_Model_Mapping>
+		<Icon_Name>i_button_clones_wolf.tga</Icon_Name>
+	</GroundInfantry>
+	
+	
+	<GroundInfantry Name="GRENADE_CLONE_P1_41">
+		<Variant_Of_Existing_Type>Grenade_Clone</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_CLONETROOPER_41ST</Text_ID>
+		<Land_Model_Name>Rep_I_Phase1_Green_Company.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>Rep_I_Phase1_Clone.ALO</Land_Model_Anim_Override_Name>
+		<Land_Terrain_Model_Mapping>
+			Temperate, 			Rep_I_Phase1_Green_Company.ALO,
+			Urban, 				Rep_I_Phase1_Green_Company.ALO,
+			Arctic, 			Rep_I_Phase1_Green_Company.ALO,
+			Volcanic, 			Rep_I_Phase1_Green_Company.ALO,
+			Desert, 			Rep_I_Phase1_Green_Company.ALO,
+			Forest, 			Rep_I_Phase1_Green_Company.ALO,
+			Swamp, 				Rep_I_Phase1_Green_Company.ALO
+		</Land_Terrain_Model_Mapping>
+		<Icon_Name>i_button_clones_P1_41.tga</Icon_Name>
+	</GroundInfantry>
+
+
+
+    <!-- PHASE 2 UNIT GRENADE CLONES. -->
+
+      <GroundInfantry Name="GRENADE_CLONE_P2_212">
+		<Variant_Of_Existing_Type>Grenade_Clone</Variant_Of_Existing_Type>
+	    <Text_ID>TEXT_UNIT_CLONETROOPER_212TH</Text_ID>
+		<Land_Model_Name>Rep_I_Phase2_Clone_212.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>Rep_I_Phase1_Clone.ALO</Land_Model_Anim_Override_Name>
+		<Land_Terrain_Model_Mapping>
+			Temperate, 			Rep_I_Phase2_Clone_212.ALO,
+			Urban, 				Rep_I_Phase2_Clone_212.ALO,
+			Arctic, 			Rep_I_Phase2_Clone_212.ALO,
+			Volcanic, 			Rep_I_Phase2_Clone_212.ALO,
+			Desert, 			Rep_I_Phase2_Clone_212.ALO,
+			Forest, 			Rep_I_Phase2_Clone_212.ALO,
+			Swamp, 				Rep_I_Phase2_Clone_212.ALO
+		</Land_Terrain_Model_Mapping>
+		<Tactical_Health>55</Tactical_Health>
+		<Icon_Name>i_button_clones_212.tga</Icon_Name>
+	</GroundInfantry>
+	
+	<GroundInfantry Name="GRENADE_CLONE_P2_501">
+		<Variant_Of_Existing_Type>Grenade_Clone</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_CLONETROOPER_501ST</Text_ID>
+		<Land_Model_Name>Rep_I_Phase2_Clone_501.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>Rep_I_Phase1_Clone.ALO</Land_Model_Anim_Override_Name>
+		<Land_Terrain_Model_Mapping>
+			Temperate, 			Rep_I_Phase2_Clone_501.ALO,
+			Urban, 				Rep_I_Phase2_Clone_501.ALO,
+			Arctic, 			Rep_I_Phase2_Clone_501.ALO,
+			Volcanic, 			Rep_I_Phase2_Clone_501.ALO,
+			Desert, 			Rep_I_Phase2_Clone_501.ALO,
+			Forest, 			Rep_I_Phase2_Clone_501.ALO,
+			Swamp, 				Rep_I_Phase2_Clone_501.ALO
+		</Land_Terrain_Model_Mapping>
+		<Tactical_Health>55</Tactical_Health>
+		<Icon_Name>i_button_clones_501.tga</Icon_Name>
+	</GroundInfantry>
+	
+	
+	 <GroundInfantry Name="GRENADE_CLONE_P2_327">
+		<Variant_Of_Existing_Type>Grenade_Clone</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_CLONETROOPER_327TH</Text_ID>
+		<Land_Model_Name>REI_327_variant.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>REI_327_variant.ALO</Land_Model_Anim_Override_Name>
+		<Land_Terrain_Model_Mapping>
+			Temperate, 			REI_327_variant.ALO,
+			Urban, 				REI_327_variant.ALO,
+			Arctic, 			REI_327_variant.ALO,
+			Volcanic, 			REI_327_variant.ALO,
+			Desert, 			REI_327_variant.ALO,
+			Forest, 			REI_327_variant.ALO,
+			Swamp, 				REI_327_variant.ALO
+		</Land_Terrain_Model_Mapping>
+		<Icon_Name>i_button_clones_327.tga</Icon_Name>
+		
+		<Movement_Animation_Speed> 2.8</Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
+		<Walk_Animation_Speed> 1.90 </Walk_Animation_Speed>
+		<Crouch_Animation_Speed> .9 </Crouch_Animation_Speed>
+		
+		<Scale_Factor>0.24</Scale_Factor> 
+		
+		<!-- <Select_Box_Scale>90</Select_Box_Scale> -->
+	</GroundInfantry>
+	
+	<GroundInfantry Name="GRENADE_CLONE_P2_104">
+		<Variant_Of_Existing_Type>Grenade_Clone</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_CLONETROOPER_104TH</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_104TH TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Land_Model_Name>Rep_I_Phase2_Wolfpack.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>Rep_I_Special_Phase2_Clone.ALO</Land_Model_Anim_Override_Name>
+		<Land_Terrain_Model_Mapping>
+			Temperate, 			Rep_I_Phase2_Wolfpack.ALO,
+			Urban, 				Rep_I_Phase2_Wolfpack.ALO,
+			Arctic, 			Rep_I_Phase2_Wolfpack.ALO,
+			Volcanic, 			Rep_I_Phase2_Wolfpack.ALO,
+			Desert, 			Rep_I_Phase2_Wolfpack.ALO,
+			Forest, 			Rep_I_Phase2_Wolfpack.ALO,
+			Swamp, 				Rep_I_Phase2_Wolfpack.ALO
+		</Land_Terrain_Model_Mapping>
+		<Projectile_Damage>10.0</Projectile_Damage>
+		<Tactical_Health>55</Tactical_Health>
+		<Icon_Name>i_button_clones_WOLF.tga</Icon_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		<!-- <Select_Box_Scale>10</Select_Box_Scale> -->
+	</GroundInfantry>
+	
+	
+	<GroundInfantry Name="GRENADE_CLONE_P2_41">
+		<Variant_Of_Existing_Type>Grenade_Clone</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_CLONETROOPER_41ST</Text_ID>
+		<Land_Model_Name>Rep_I_Phase2_Clone_41.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>Rep_I_Phase1_Clone.ALO</Land_Model_Anim_Override_Name>
+		<Land_Terrain_Model_Mapping>
+			Temperate, 			Rep_I_Phase2_Clone_41.ALO,
+			Urban, 				Rep_I_Phase2_Clone_41.ALO,
+			Arctic, 			Rep_I_Phase2_Clone_41.ALO,
+			Volcanic, 			Rep_I_Phase2_Clone_41.ALO,
+			Desert, 			Rep_I_Phase2_Clone_41.ALO,
+			Forest, 			Rep_I_Phase2_Clone_41.ALO,
+			Swamp, 				Rep_I_Phase2_Clone_41.ALO
+			
+			<!--
+			Forest, 			Ei_Clone_Swamp.ALO,
+			Swamp, 				Ei_Clone_Swamp.ALO
+			-->
+		</Land_Terrain_Model_Mapping>
+		<Icon_Name>i_button_clones_P1_41.tga</Icon_Name>
+		<Tactical_Health>55</Tactical_Health>
+	</GroundInfantry>
+
+    <GroundInfantry Name="GRENADE_CLONE_P2_187">
+		<Variant_Of_Existing_Type>Grenade_Clone</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_CLONETROOPER_187TH</Text_ID>
+		<Land_Model_Name>Rep_I_Phase2_Clone_187.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>Rep_I_Phase1_Clone.ALO</Land_Model_Anim_Override_Name>
+		<Land_Terrain_Model_Mapping>
+			Temperate, 			Rep_I_Phase2_Clone_187.ALO,
+			Urban, 				Rep_I_Phase2_Clone_187.ALO,
+			Arctic, 			Rep_I_Phase2_Clone_187.ALO,
+			Volcanic, 			Rep_I_Phase2_Clone_187.ALO,
+			Desert, 			Rep_I_Phase2_Clone_187.ALO,
+			Forest, 			Rep_I_Phase2_Clone_187.ALO,
+			Swamp, 				Rep_I_Phase2_Clone_187.ALO
+		</Land_Terrain_Model_Mapping>
+		
+		<Icon_Name>i_button_clone_187.tga</Icon_Name>
+		<Encyclopedia_Text> TEXT_TOOLTIP_187TH TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Tactical_Health>55</Tactical_Health>
+		</GroundInfantry>
+
+	
+</Grenade_Clone_Data>

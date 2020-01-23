@@ -1,0 +1,320 @@
+<?xml version="1.0"?>
+<Umbaran>
+
+
+	<GroundInfantry Name="Umbaran">
+		<LOD_Bias>5</LOD_Bias>
+		<Text_ID>TEXT_UNIT_UMBARAN</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_UMBARAN TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
+		<Encyclopedia_Good_Against> Clone_Trooper_P1 Arc_Trooper </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> AV_7_Antivehicle_Cannon AT_PT LAAT </Encyclopedia_Vulnerable_To>
+		<Icon_Name>I_BUTTON_UMBARAN.tga</Icon_Name>
+
+		<Land_Model_Name>NI_Umbaran.alo</Land_Model_Name>
+		<Scale_Factor>2</Scale_Factor>
+		<GUI_Row> 1 </GUI_Row>
+		<Mass>1.0</Mass>
+		<Size_Value>75</Size_Value>
+
+		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
+		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
+		<Max_Speed>1.5</Max_Speed>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
+		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<FormationSpacing> 0.8 </FormationSpacing>
+		<OverrideAcceleration> .05 </OverrideAcceleration>
+		<OverrideDeceleration> .05 </OverrideDeceleration>
+		<FormationOrder> 2 </FormationOrder>
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Behavior>SELECTABLE</Behavior>
+		<LandBehavior>SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, ABILITY_COUNTDOWN, TARGETING, TELEKINESIS_TARGET</LandBehavior>
+
+		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<CanCellStack>yes</CanCellStack>
+		<Mass>1.0</Mass>
+
+		<Affiliation>Rebel</Affiliation>
+		<Armor_Type> Armor_Infantry </Armor_Type>
+		<Tactical_Health>80</Tactical_Health>
+		<Autoresolve_Health>90</Autoresolve_Health>
+		<Shield_Points>0</Shield_Points>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Damage>6</Damage>
+
+		<Projectile_Types>Proj_Hand_Blaster_Green</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>3</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.15</Projectile_Fire_Pulse_Delay_Seconds>
+		<Land_FOW_Reveal_Range>450.0</Land_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>200.0</Targeting_Max_Attack_Distance> <!-- 350 -->
+		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
+
+		<Targeting_Fire_Inaccuracy> Infantry, 3.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 10.0 </Targeting_Fire_Inaccuracy>
+
+		<SFXEvent_Select>Unit_Select_Civilian</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Civilian</SFXEvent_Move>
+		<SFXEvent_Attack>Unit_Attack_Civilian</SFXEvent_Attack>
+		<SFXEvent_Assist_Move>Unit_Assist_Move_Civilian</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Civilian</SFXEvent_Assist_Attack>
+		<SFXEvent_Guard>Unit_Guard_Civilian</SFXEvent_Guard>
+		<SFXEvent_Fire>Umbaran_Rifle</SFXEvent_Fire>
+		<!-- <Death_SFXEvent_Start_Die>Unit_Underworld_Soldier_Death</Death_SFXEvent_Start_Die> -->
+
+		<CategoryMask> Infantry </CategoryMask>
+		<Ranking_In_Category> 7 </Ranking_In_Category>
+		<MovementClass> Infantry </MovementClass>
+
+		<OccupationStyle>1x1</OccupationStyle>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<No_Reflection_Below_Detail_Level>2</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>2</No_Refraction_Below_Detail_Level>
+		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+		<Is_Squashable> Yes </Is_Squashable>
+
+		<Select_Box_Scale>15</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+
+		<AI_Combat_Power>25</AI_Combat_Power>
+
+		<Create_Team>Yes</Create_Team>
+		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>550.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
+
+		<Death_Clone>Damage_Force_Whirlwind, Umbaran_Force_Whirlwind_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Crush, Umbaran_Crush_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Force_Lightning, Umbaran_Force_Lightning_Death_Clone</Death_Clone>
+
+		<Death_Fade_Time>0.25</Death_Fade_Time>
+		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Guard_Civilian</SFXEvent_GUI_Unit_Ability_Activated>		  			
+			</Unit_Ability>
+			
+			<Unit_Ability>
+				<Type>STIM_PACK</Type>
+				<Expiration_Seconds> 10.0 </Expiration_Seconds>
+				<Recharge_Seconds> 45.0 </Recharge_Seconds>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 2.0f</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.5f</Mod_Multiplier>
+				<Damage_Percent_When_Activated>.35</Damage_Percent_When_Activated>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>
+		
+		
+		
+	</GroundInfantry>
+	
+
+
+	<GroundCompany Name="Umbaran_Squad">
+		<Text_ID>TEXT_UNIT_UMBARAN</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_UMBARAN TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
+		<Encyclopedia_Good_Against> Clone_Trooper_P1 Arc_Trooper </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> AV_7_Antivehicle_Cannon AT_PT LAAT </Encyclopedia_Vulnerable_To>
+		<Icon_Name>I_BUTTON_UMBARAN.tga</Icon_Name>
+
+		<GUI_Row>1</GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+
+		<Affiliation>Rebel</Affiliation>
+		<Build_Cost_Credits>400</Build_Cost_Credits>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Combat_Power_Value>5</Combat_Power_Value>
+		<Tech_Level>3</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures>R_ground_barracks</Required_Special_Structures>
+		<Required_Planets>Umbara</Required_Planets>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type> Umbaran_Team </Create_Team_Type>
+		<Company_Transport_Unit>Merc_Infantry_Droid_Shuttle</Company_Transport_Unit>
+		<Company_Units> 
+		Umbaran,
+		Umbaran,
+		Umbaran,
+		Umbaran,
+		Umbaran,
+		Umbaran,
+		Umbaran,
+		Umbaran,
+		Umbaran,
+		Umbaran,
+		Umbaran,
+		Umbaran,
+		Umbaran,
+		Umbaran,
+		Umbaran,
+		Umbaran,
+		Umbaran,
+		Umbaran,
+		Umbaran,
+		Umbaran
+		</Company_Units>
+		<Max_Squad_Size> 4 </Max_Squad_Size>
+		
+		<SFXEvent_Build_Complete>UHD_Recruitment_Canceled</SFXEvent_Build_Complete>
+		<SFXEvent_Build_Started>UHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+
+		<Population_Value>1</Population_Value>
+		<CategoryMask>Infantry</CategoryMask>
+		<Score_Cost_Credits> 500 </Score_Cost_Credits>
+
+		<Cheap_Bribe_Cost>25</Cheap_Bribe_Cost>
+		<Expensive_Bribe_Cost>100</Expensive_Bribe_Cost>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
+		<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Clone_Trooper</SFXEvent_GUI_Unit_Ability_Activated>		  			
+			</Unit_Ability>
+			
+			<Unit_Ability>
+				<Type>STIM_PACK</Type>
+				<Expiration_Seconds> 10.0 </Expiration_Seconds>
+				<Recharge_Seconds> 45.0 </Recharge_Seconds>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 2.0f</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.5f</Mod_Multiplier>
+				<Damage_Percent_When_Activated>.35</Damage_Percent_When_Activated>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>
+
+		
+	</GroundCompany>
+
+
+
+    <Container Name="Umbaran_Team">
+		<Text_ID>TEXT_UNIT_UMBARAN</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_UMBARAN TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_UMBARAN.tga</Icon_Name>
+		<GUI_Row> 1 </GUI_Row>
+		<Show_Name>No</Show_Name>
+		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+		<Land_FOW_Reveal_Range>450.0</Land_FOW_Reveal_Range>
+		<MovementClass>Infantry</MovementClass>
+		<Select_Box_Scale>50</Select_Box_Scale>
+		<Max_Speed> 1 </Max_Speed>
+		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<FormationSpacing> .5 </FormationSpacing> 
+		<MovementClass> Infantry </MovementClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Is_Squashable> true </Is_Squashable>
+		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>	
+		<ContainerArrangement> Dartboard </ContainerArrangement>
+		<Override_Acceleration> .1 </Override_Acceleration>
+		<Override_Deceleration> .1 </Override_Deceleration>
+	
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
+
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>550.0</Attack_Move_Response_Range>
+		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
+		<Autonomous_Move_Extension_Vs_Attacker>250.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Garrison_Category> Infantry </Garrison_Category>
+		<CategoryMask>Infantry</CategoryMask>
+		<Tactical_Bribe_Cost>9999</Tactical_Bribe_Cost>	
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Guard_Civilian</SFXEvent_GUI_Unit_Ability_Activated>		  			
+			</Unit_Ability>
+			
+			<Unit_Ability>
+				<Type>STIM_PACK</Type>
+				<Expiration_Seconds> 10.0 </Expiration_Seconds>
+				<Recharge_Seconds> 45.0 </Recharge_Seconds>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 2.0f</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.5f</Mod_Multiplier>
+				<Damage_Percent_When_Activated>.35</Damage_Percent_When_Activated>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>
+		
+		
+		
+	</Container>
+
+
+	<GroundInfantry Name="Umbaran_Force_Whirlwind_Death_Clone">
+		<Variant_Of_Existing_Type>Umbaran</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
+		<Specific_Death_Anim_Index>0</Specific_Death_Anim_Index>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Umbaran_Force_Lightning_Death_Clone">
+		<Variant_Of_Existing_Type>Umbaran</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
+		<Specific_Death_Anim_Index>0</Specific_Death_Anim_Index>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Umbaran_Crush_Death_Clone">
+		<Variant_Of_Existing_Type>Umbaran</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
+		<Specific_Death_Anim_Index>0</Specific_Death_Anim_Index>
+	</GroundInfantry>
+
+
+
+</Umbaran>

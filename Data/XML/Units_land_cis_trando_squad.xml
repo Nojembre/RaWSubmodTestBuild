@@ -1,0 +1,351 @@
+<?xml version="1.0"?>
+<Trando_Squad_Data>
+
+
+
+	<GroundInfantry Name="Trando1">
+		<Text_ID>TEXT_UNIT_TRANDO</Text_ID>
+		<Encyclopedia_Good_Against> Clone_Trooper_P1 Arc_Trooper </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> AV_7_Antivehicle_Cannon AT_PT LAAT </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Text>TEXT_TOOLTIP_TRANDO TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_PIRATE_MERCENARY</Encyclopedia_Unit_Class>
+
+		<Stealth_Capable>Yes</Stealth_Capable>
+		<Land_Model_Name>Ui_Trando1.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>Ui_bossk.alo</Land_Model_Anim_Override_Name>
+		<Behavior>SELECTABLE</Behavior>
+
+		<LandBehavior>ABILITY_COUNTDOWN, SURFACE_FX,WALK_LOCOMOTOR,TARGETING,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, IDLE, GARRISON_UNIT</LandBehavior>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<CanCellStack>yes</CanCellStack>
+		<Mass>1.0</Mass>
+		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
+		<Garrison_Category> Infantry </Garrison_Category>
+        <Movement_Animation_Speed>0.8</Movement_Animation_Speed>
+        <Rotation_Animation_Speed>20.0</Rotation_Animation_Speed>
+		<Max_Speed>1.0</Max_Speed>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+		<Custom_Soft_Footprint_Radius> 6.5 </Custom_Soft_Footprint_Radius>
+		<Custom_Hard_XExtent> 5.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 5.0 </Custom_Hard_YExtent>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<FormationSpacing> .5 </FormationSpacing>
+		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+		<OverrideAcceleration> .1 </OverrideAcceleration>
+		<OverrideDeceleration> .1 </OverrideDeceleration>
+		<FormationOrder> 3 </FormationOrder>
+
+		<Armor_Type> Armor_Infantry </Armor_Type>
+
+		<Scale_Factor>1.75</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Type>Walk</Type>
+		<Deploys>No</Deploys>
+		<Affiliation>Rebel</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Size_Value>10</Size_Value>
+		<Damage>8</Damage>
+		<Sensor_Range>20</Sensor_Range>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>95</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
+		<Land_FOW_Reveal_Range>250.0</Land_FOW_Reveal_Range>
+		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+
+		<Projectile_Types> Proj_Infiltrator_Blaster </Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>1.1</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.5</Projectile_Fire_Pulse_Delay_Seconds>
+
+		<Targeting_Fire_Inaccuracy> Infantry, 1.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 7.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 7.0 </Targeting_Fire_Inaccuracy>
+
+		<CategoryMask> LandHero | AntiVehicle | Infantry</CategoryMask>
+		<MovementClass> Infantry </MovementClass>
+		<Property_Flags>Fodder</Property_Flags>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+
+		<SFXEvent_Select>Unit_Select_Bossk</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Bossk</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Bossk</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Bossk</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Bossk</SFXEvent_Guard>
+		<SFXEvent_Fire>Unit_Turret_Fire</SFXEvent_Fire>
+		<SFXEvent_Group_Move>Unit_Move_Bossk</SFXEvent_Group_Move>
+		<SFXEvent_Group_Attack>Unit_Attack_Bossk</SFXEvent_Group_Attack>
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Bossk </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Bossk </SFXEvent_Health_Critical_Warning>
+		<Death_SFXEvent_Start_Die> Unit_Defeat_Bossk </Death_SFXEvent_Start_Die>
+
+		<SFXEvent_Tactical_Build_Started> UHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
+		<SFXEvent_Tactical_Build_Complete> UHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
+		<SFXEvent_Tactical_Build_Cancelled> UHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		
+
+		<Is_Squashable> Yes </Is_Squashable>
+		<Create_Team>No</Create_Team>
+		<AI_Combat_Power>60</AI_Combat_Power>
+
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
+
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
+
+		<Death_Clone>Damage_Disruptor_Hand, Infantry_Disruptor_Death_Clone_00</Death_Clone>
+		<Death_Clone>Damage_Disruptor_Hand, Infantry_Disruptor_Death_Clone_01</Death_Clone>
+		<Death_Clone>Damage_Infection, Infantry_Melt_Death_Clone_00</Death_Clone>
+
+		<Select_Box_Scale>27</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+
+		<Weather_Category>Infantry</Weather_Category>
+		<Icon_Name>I_BUTTON_TRANDOSHAN_NOJ.tga</Icon_Name>
+
+		<Surface_Type_Cover_Damage_Shield>.25</Surface_Type_Cover_Damage_Shield>
+
+
+		<Abilities SubObjectList="Yes">
+
+			<Galactic_Stealth_Ability Name="Bossk_Galactic_Stealth">
+				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
+			</Galactic_Stealth_Ability>
+
+			<System_Spy_Ability Name="Bossk_Limited_Spy">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Galactic_Automatic</Activation_Style>
+				<Causes_Despawn>No</Causes_Despawn>
+				<Duration_In_Secs>-1.0</Duration_In_Secs>
+				<See_Num_Fleets>Yes</See_Num_Fleets>
+				<See_Minor_Stealth_Heroes>Yes</See_Minor_Stealth_Heroes>
+				<See_Major_Stealth_Heroes>Yes</See_Major_Stealth_Heroes>
+			</System_Spy_Ability>
+
+			
+		</Abilities>
+
+		<Death_Fade_Time>0.25</Death_Fade_Time>
+		<Death_Persistence_Duration>1.0</Death_Persistence_Duration>
+
+		<!-- When this unit is converted by the "convert to enemy" special ability (Force Corruption), this is what his type pointer changes to -->
+		<Conversion_Ability_Changes_To_Enemy /> 
+
+	</GroundInfantry>
+	
+
+	<GroundInfantry Name="Trando2">
+		<Variant_Of_Existing_Type>Trando1</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_TRANDO</Text_ID>
+		<Land_Model_Name>Ui_Trando2.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>Ui_bossk.alo</Land_Model_Anim_Override_Name>
+		<Icon_Name>I_BUTTON_TRANDOSHAN_NOJ.tga</Icon_Name>
+		<LandBehavior>ABILITY_COUNTDOWN, SURFACE_FX,WALK_LOCOMOTOR,TARGETING,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, IDLE, GARRISON_UNIT</LandBehavior>
+		<Tactical_Health>95</Tactical_Health>
+		<Damage>8</Damage>
+		<Is_Squashable> Yes </Is_Squashable>
+		<Space_Layer> None </Space_Layer>
+		
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
+		<Max_Speed> 1 </Max_Speed>
+		<Alternate_Max_Speed> 2.5 </Alternate_Max_Speed>
+		<Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
+		<Alternate_Max_Rate_Of_Turn> 6.0 </Alternate_Max_Rate_Of_Turn>
+		<Custom_Soft_Footprint_Radius> 6.5 </Custom_Soft_Footprint_Radius>
+		<Custom_Hard_XExtent> 5.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 5.0 </Custom_Hard_YExtent>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<FormationSpacing> .5 </FormationSpacing>
+		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+		<Min_Speed> .1 </Min_Speed>
+		<OverrideAcceleration> .1 </OverrideAcceleration>
+		<OverrideDeceleration> .1 </OverrideDeceleration>
+		<Max_Lift> .6 </Max_Lift>
+		
+		<Scale_Factor>1.7</Scale_Factor>
+		
+		<Projectile_Types>Proj_Destroyer_Droid_Blaster_Cannon</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>2</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>12</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.05</Projectile_Fire_Pulse_Delay_Seconds>
+		
+	</GroundInfantry>
+	
+
+	<GroundInfantry Name="Trando3">
+		<Variant_Of_Existing_Type>Trando1</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_TRANDO</Text_ID>
+		<Land_Model_Name>Ui_Trando3.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>Ui_bossk.alo</Land_Model_Anim_Override_Name>
+		<Icon_Name>I_BUTTON_TRANDOSHAN_NOJ.tga</Icon_Name>
+		<LandBehavior>ABILITY_COUNTDOWN, SURFACE_FX,WALK_LOCOMOTOR,TARGETING,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, IDLE, GARRISON_UNIT</LandBehavior>
+		<Tactical_Health>95</Tactical_Health>
+		<Damage>9</Damage>
+		<Is_Squashable> Yes </Is_Squashable>
+		<Space_Layer> None </Space_Layer>
+		
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
+		<Max_Speed> 1 </Max_Speed>
+		<Alternate_Max_Speed> 2.5 </Alternate_Max_Speed>
+		<Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
+		<Alternate_Max_Rate_Of_Turn> 6.0 </Alternate_Max_Rate_Of_Turn>
+		<Custom_Soft_Footprint_Radius> 6.5 </Custom_Soft_Footprint_Radius>
+		<Custom_Hard_XExtent> 5.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 5.0 </Custom_Hard_YExtent>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<FormationSpacing> .5 </FormationSpacing>
+		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+		<Min_Speed> .1 </Min_Speed>
+		<OverrideAcceleration> .1 </OverrideAcceleration>
+		<OverrideDeceleration> .1 </OverrideDeceleration>
+		<Max_Lift> .6 </Max_Lift>
+		
+		<Scale_Factor>1.7</Scale_Factor>
+		
+		<Projectile_Types>Proj_Tyber_Zann_Blaster_Shotgun</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>3.0</Projectile_Fire_Recharge_Seconds>
+		
+	</GroundInfantry>
+	
+	
+	<GroundInfantry Name="Trando4">
+		<Variant_Of_Existing_Type>Trando4</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_TRANDO</Text_ID>
+		<Land_Model_Name>Ui_Trando4.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>Ui_bossk.alo</Land_Model_Anim_Override_Name>
+		<Icon_Name>I_BUTTON_TRANDOSHAN_NOJ.tga</Icon_Name>
+		<LandBehavior>ABILITY_COUNTDOWN, SURFACE_FX,WALK_LOCOMOTOR,TARGETING,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, IDLE, GARRISON_UNIT</LandBehavior>
+		<Tactical_Health>95</Tactical_Health>
+		<Damage>9</Damage>
+		<Is_Squashable> Yes </Is_Squashable>
+		<Space_Layer> None </Space_Layer>
+		
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
+		<Max_Speed> 1 </Max_Speed>
+		<Alternate_Max_Speed> 2.5 </Alternate_Max_Speed>
+		<Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
+		<Alternate_Max_Rate_Of_Turn> 6.0 </Alternate_Max_Rate_Of_Turn>
+		<Custom_Soft_Footprint_Radius> 6.5 </Custom_Soft_Footprint_Radius>
+		<Custom_Hard_XExtent> 5.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 5.0 </Custom_Hard_YExtent>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<FormationSpacing> .5 </FormationSpacing>
+		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+		<Min_Speed> .1 </Min_Speed>
+		<OverrideAcceleration> .1 </OverrideAcceleration>
+		<OverrideDeceleration> .1 </OverrideDeceleration>
+		<Max_Lift> .6 </Max_Lift>
+		
+		<Scale_Factor>1.7</Scale_Factor>
+		
+		<Projectile_Types>Proj_Hand_Blaster_Red</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>0.5</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>12</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
+		
+	</GroundInfantry>
+	
+
+	<GroundCompany Name="Trando_Squad">
+		<Text_ID>TEXT_UNIT_TRANDO_SQUAD</Text_ID>
+		<Encyclopedia_Good_Against> Clone_Trooper_P1 Arc_Trooper </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> AV_7_Antivehicle_Cannon AT_PT LAAT </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Text>TEXT_TOOLTIP_TRANDO TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_PIRATE_MERCENARY</Encyclopedia_Unit_Class>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>8</Damage>
+		<Autoresolve_Health>150</Autoresolve_Health> 
+		<Affiliation>Rebel</Affiliation>
+		<Build_Cost_Credits>450</Build_Cost_Credits>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Tech_Level>2</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures>R_Ground_Barracks</Required_Special_Structures>
+		<Required_Planets>Trandosha</Required_Planets>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Transport_Unit>Trandoshan_Landing_Craft</Company_Transport_Unit>
+		<!-- <Company_Transport_Unit>Cis_Hardcell_Transport</Company_Transport_Unit> -->
+		<Create_Team_Type> Trando_Team </Create_Team_Type>
+
+		<!--
+		 <Company_Units>Trando1, Trando4, Trando2 </Company_Units>
+		 <Company_Units>Trando3, Trando4, Trando4</Company_Units>
+		 <Company_Units>Trando1, Trando2, Trando2 </Company_Units>
+		-->
+		 
+		 <Company_Units>Trando1, Trando3, Trando2 </Company_Units>
+		 <Company_Units>Trando3, Trando2, Trando1</Company_Units>
+		 <Company_Units>Trando1, Trando2, Trando3 </Company_Units>
+
+		 
+		<Max_Squad_Size> 3 </Max_Squad_Size> 
+		<Icon_Name>I_BUTTON_TRANDOSHAN_NOJ.tga</Icon_Name>
+		<GUI_Model_Name>I_BUTTON_TRANDOSHAN_NOJ.ALO</GUI_Model_Name>
+		<!-- <Land_Model_Name>Ui_Trando1.ALO</Land_Model_Name> -->
+		
+		<Scale_Factor>5</Scale_Factor>
+		<GUI_Offset>0 0 5</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+		
+		<SFXEvent_Build_Started>UHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Select_Bossk</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Bossk</SFXEvent_Fleet_Move>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>450</Tactical_Build_Cost_Multiplayer> <!-- From 650 -->
+		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>5</Build_Limit_Current_Per_Player>
+		<!-- <Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>  -->
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+
+
+
+		<Maintenance_Cost>0.05</Maintenance_Cost>
+		<Population_Value>1</Population_Value>
+		<Score_Cost_Credits>650</Score_Cost_Credits>
+		
+		
+	</GroundCompany>
+
+
+
+</Trando_Squad_Data>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Story>
+    <!-- XML Event that starts the galaxy wide upgrade from red ships to grey ships -->
+    <Event Name="Switch_Red_Ships_To_Grey">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Prereq>Execute_Order66_Unpause</Prereq>
+    </Event>
+	
+</Story>

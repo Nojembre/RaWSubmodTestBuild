@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<Clone_Trooper_Medic_Data>
+
+	
+	
+	
+	<GroundInfantry Name="Clone_Medic_P1">
+		<Variant_Of_Existing_Type>Clonetrooper_P1_CW</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_CLONETROOPER_MEDIC_P1</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_MEDIC TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		
+		<Land_Model_Name>Rep_I_Clone_Medic_Ph1.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>Rep_I_Phase1_Clone.ALO</Land_Model_Anim_Override_Name>
+		<Land_Terrain_Model_Mapping>
+			Temperate, 			Rep_I_Clone_Medic_Ph1.ALO,
+			Urban, 				Rep_I_Clone_Medic_Ph1.ALO,
+			Arctic, 			Rep_I_Clone_Medic_Ph1.ALO,
+			Volcanic, 			Rep_I_Clone_Medic_Ph1.ALO,
+			Desert, 			Rep_I_Clone_Medic_Ph1.ALO,
+			Forest, 			Rep_I_Clone_Medic_Ph1.ALO,
+			Swamp, 				Rep_I_Clone_Medic_Ph1.ALO
+		</Land_Terrain_Model_Mapping>
+		
+		<LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,ABILITY_COUNTDOWN, SPAWN_SQUADRON,GARRISON_UNIT, TELEKINESIS_TARGET</LandBehavior>
+		<Is_Squashable> Yes </Is_Squashable>
+		<Max_Speed> 1 </Max_Speed>
+		<Space_Layer> None </Space_Layer>
+		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
+		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
+		<FormationRaggedness> .2 </FormationRaggedness>
+		<MaxJiggleDistance> 2 </MaxJiggleDistance>
+		<Icon_Name>I_BUTTON_CLONES_MEDIC.TGA</Icon_Name>
+		
+		<Select_Box_Scale>300</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+        <Highlight_Blob_Material_Name>Highlight_Republic_Medic</Highlight_Blob_Material_Name>
+		
+		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
+		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
+		
+	
+		
+		<Tactical_Health>70</Tactical_Health>
+		
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Clone_Trooper</SFXEvent_GUI_Unit_Ability_Activated>		  			
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>
+		
+		<Abilities SubObjectList="Yes">
+		     <Force_Healing_Ability Name="Medic_Heal">
+			
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Heal_Range>50.0</Heal_Range>
+				<Heal_Amount> 0.0 </Heal_Amount>
+				<Heal_Percent> 0.25 </Heal_Percent>
+				<Heal_Interval_In_Secs>2.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
+
+				<Applicable_Unit_Categories> Infantry, LandHero </Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types />
+				
+				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+				<Target_Particle_Bone_Name>B_HEAD</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 2.0, 1.2</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2 />
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 2.0, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+		</Abilities>
+		
+	</GroundInfantry>
+	
+	<GroundInfantry Name="Clone_Medic_P2">
+		<Variant_Of_Existing_Type>Clone_Medic_P1</Variant_Of_Existing_Type>
+		<Land_Model_Name>Rep_I_Clone_Medic_Ph2.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>Rep_I_Phase1_Clone.ALO</Land_Model_Anim_Override_Name>
+		<Land_Terrain_Model_Mapping>
+			Temperate, 			Rep_I_Clone_Medic_Ph2.ALO,
+			Urban, 				Rep_I_Clone_Medic_Ph2.ALO,
+			Arctic, 			Rep_I_Clone_Medic_Ph2.ALO,
+			Volcanic, 			Rep_I_Clone_Medic_Ph2.ALO,
+			Desert, 			Rep_I_Clone_Medic_Ph2.ALO,
+			Forest, 			Rep_I_Clone_Medic_Ph2.ALO,
+			Swamp, 				Rep_I_Clone_Medic_Ph2.ALO
+		</Land_Terrain_Model_Mapping>
+		
+		<Icon_Name>I_BUTTON_MEDIC_PH2.TGA</Icon_Name>
+	</GroundInfantry>
+	
+	
+	
+	
+	<GroundCompany Name="Clone_Medic_Team_P1">
+		<Text_ID>TEXT_UNIT_CLONETROOPER_MEDIC_P1</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_MEDIC TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>9</Damage>
+		<GUI_Row> 0 </GUI_Row>
+		<Autoresolve_Health>40</Autoresolve_Health>
+		<Affiliation>Empire</Affiliation>
+		<Build_Cost_Credits>500</Build_Cost_Credits>
+		<Build_Time_Seconds>15</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Required_Timeline>0</Required_Timeline>
+		<Tech_Level>1</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures>E_Ground_Barracks</Required_Special_Structures>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>no</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Units>Clone_Medic_P1</Company_Units>
+		<Icon_Name>I_BUTTON_CLONES_MEDIC.TGA</Icon_Name>
+		<Score_Cost_Credits>54</Score_Cost_Credits>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		
+		<Company_Transport_Unit>Nu_Landing_Craft_Clones</Company_Transport_Unit>
+		
+		<GUI_Model_Name>Rep_I_Clone_Medic_Ph1.ALO</GUI_Model_Name>
+		<Land_Model_Name>Rep_I_Clone_Medic_Ph1.ALO</Land_Model_Name>
+		
+		<Scale_Factor>5</Scale_Factor>
+		<GUI_Offset>0 0 5</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+		<SFXEvent_Build_Started>RHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Training_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Select_Clone_Trooper</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
+		
+			<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
+		<Tactical_Build_Cost_Multiplayer>600</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>EC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</GroundCompany>
+	
+	<GroundCompany Name="Clone_Medic_Team_P2">
+		<Text_ID>TEXT_UNIT_CLONETROOPER_MEDIC_P1</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_MEDIC TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>9</Damage>
+		<GUI_Row> 0 </GUI_Row>
+		<Autoresolve_Health>40</Autoresolve_Health>
+		<Affiliation>Empire</Affiliation>
+		<Build_Cost_Credits>500</Build_Cost_Credits><!--500-->
+		<Build_Time_Seconds>15</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Required_Timeline>0</Required_Timeline>
+		<Tech_Level>5</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures>E_Ground_Barracks</Required_Special_Structures>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>no</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Units>Clone_Medic_P2</Company_Units>
+		<Icon_Name>I_BUTTON_MEDIC_PH2.TGA</Icon_Name>
+		<Score_Cost_Credits>54</Score_Cost_Credits>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Company_Transport_Unit>Nu_Landing_Craft_Clones</Company_Transport_Unit>
+		
+		<GUI_Model_Name>Rep_I_Clone_Medic_Ph1.ALO</GUI_Model_Name>
+		<Land_Model_Name>Rep_I_Clone_Medic_Ph1.ALO</Land_Model_Name>
+		
+		<Scale_Factor>5</Scale_Factor>
+		<GUI_Offset>0 0 5</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+		<SFXEvent_Build_Started>RHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Training_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Select_Clone_Trooper</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
+		
+			<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
+		<Tactical_Build_Cost_Multiplayer>600</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>EC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</GroundCompany>
+	
+	
+	
+
+</Clone_Trooper_Medic_Data>
+
