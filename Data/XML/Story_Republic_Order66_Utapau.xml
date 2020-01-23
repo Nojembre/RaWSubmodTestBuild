@@ -1,0 +1,160 @@
+<?xml version="1.0" ?>
+
+<Story>
+
+	<!-- Start Campaign -->
+	<Event Name="Order66_Utapau_MiniMission_Begin">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+	</Event>
+
+	<Event Name="Order66_Utapau_Disable_Victory">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ENABLE_VICTORY</Reward_Type>
+		<Reward_Param1>0</Reward_Param1>
+		<Prereq>Order66_Utapau_MiniMission_Begin</Prereq>
+	</Event>
+
+	<Event Name="Order66_Utapau_Turn_Off_Land_Advisor">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_ADVISOR</Reward_Type>
+		<Reward_Param1>0</Reward_Param1>
+		<Prereq>Order66_Utapau_MiniMission_Begin</Prereq>
+	</Event>
+
+	<Event Name="Order66_Utapau_Cis_Prevent_Retreat">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>REBEL</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Order66_Utapau_MiniMission_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Order66_Utapau_Prevent_Reinforcements">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_REINFORCEMENTS</Reward_Type>
+		<Reward_Param1>1</Reward_Param1>
+		<Reward_Param2>EMPIRE</Reward_Param2>
+		<Prereq>Order66_Utapau_MiniMission_Begin</Prereq>
+	</Event>
+
+	<!-- Obi-Wan must survive -->
+	<Event Name="Order66_Utapau_Missionn_Add_Objective_Obi_Wan">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+		<Reward_Param1>TEXT_ORDER66_UTAPAU_OBJECTIVE_00</Reward_Param1>
+		<Prereq>Order66_Utapau_MiniMission_Begin</Prereq>
+	</Event>
+
+	<!-- Destroy all enemy structures -->
+	<!-- <Event Name="Order66_Utapau_Mission_Add_Objective_Destroy"> -->
+		<!-- <Event_Type>STORY_TRIGGER</Event_Type> -->
+		<!-- <Reward_Type>ADD_OBJECTIVE</Reward_Type> -->
+		<!-- <Reward_Param1>TEXT_ORDER66_UTAPAU_OBJECTIVE_01</Reward_Param1> -->
+		<!-- <Prereq>Order66_Utapau_MiniMission_Begin</Prereq> -->
+	<!-- </Event> -->
+
+	<!-- Kill General Grievous -->
+	<Event Name="Order66_Utapau_Mission_Add_Objective_Grievous">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+		<Reward_Param1>TEXT_ORDER66_UTAPAU_OBJECTIVE_02</Reward_Param1>
+		<Prereq>Order66_Utapau_MiniMission_Begin</Prereq>
+	</Event>
+
+	<!-- Complete: Destroy all enemy structures -->
+	<!-- <Event Name="Order66_Utapau_Mission_Complete_Objective_00"> -->
+		<!-- <Event_Type>STORY_AI_NOTIFICATION</Event_Type> -->
+		<!-- <Event_Param2>COMPLETE_OBJECTIVE_BUILDINGS</Event_Param2> -->
+		<!-- <Reward_Type>OBJECTIVE_COMPLETE</Reward_Type> -->
+		<!-- <Reward_Param1>TEXT_ORDER66_UTAPAU_OBJECTIVE_01</Reward_Param1> -->
+		<!-- <Prereq>Order66_Utapau_Mission_Add_Objective_Destroy</Prereq> -->
+	<!-- </Event> -->
+
+	<!-- Complete: Kill General Grievous -->
+	<Event Name="Order66_Utapau_Mission_Complete_Objective_02">
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+		<Event_Param1>General_Grievous</Event_Param1>
+		<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+		<Reward_Param1>TEXT_ORDER66_UTAPAU_OBJECTIVE_02</Reward_Param1>
+		<Prereq>Order66_Utapau_Mission_Add_Objective_Grievous</Prereq>
+	</Event>
+
+	<!-- All Goals completed forces Victory -->
+	<Event Name="Order66_Utapau_Mission_Complete_Victory_Trigger">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>VICTORY</Reward_Type>
+		<Reward_Param1>Empire</Reward_Param1>
+		<Prereq>Order66_Utapau_Mission_Complete_Objective_02</Prereq>
+	</Event>
+
+	<Event Name="Order66_Utapau_Mission_Complete_Set_Flag">
+		<Event_Type>STORY_VICTORY</Event_Type>
+		<Event_Param1>Empire</Event_Param1>
+		<Reward_Type>INCREMENT_FLAG</Reward_Type>
+		<Reward_Param1>Republic_66Ut01_Win</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+	</Event>
+	
+	<Event Name="Order66_Utapau_Mission_Lost_ObiWan">
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+		<Event_Param1>Obiwan</Event_Param1>
+	</Event>
+
+	<Event Name="Order66_Utapau_Mission_Lost_ObiWan_FAIL_OBJECTIVE"> 
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>OBJECTIVE_FAILED</Reward_Type>
+		<Reward_Param1>TEXT_ORDER66_UTAPAU_OBJECTIVE_00</Reward_Param1>
+		<Prereq>Order66_Utapau_Mission_Lost_ObiWan</Prereq>
+	</Event>
+
+	<Event Name="Order66_Utapau_Mission_Enable_Loss">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>VICTORY</Reward_Type>
+		<Reward_Param1>REBEL</Reward_Param1>
+		<Prereq>Order66_Utapau_Mission_Lost_ObiWan_FAIL_OBJECTIVE</Prereq>
+	</Event>
+	
+	
+		<Event Name="Order66_Utapau_Mission_Complete_Set_Flag_Allow_Reinforcements">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_REINFORCEMENTS</Reward_Type>
+		<Reward_Param1>0</Reward_Param1>
+		<Prereq>Order66_Utapau_Mission_Complete_Set_Flag</Prereq>
+		<Prereq>Order66_Utapau_Mission_Complete_Victory_Trigger</Prereq>
+		<Prereq>Order66_Utapau_Mission_Enable_Loss</Prereq>
+	</Event>
+
+
+	<!-- Audio Stuff goes here -->
+
+	<Event Name="Order66_Utapau_Mission_Speech_Line_01">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_REP_O66_Utp_01</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_ORDER66_UTAPAU_OBIWAN_SPEECH</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>ORDER66_UTAPAU_MISSION_01</Reward_Param8>
+		<Reward_Param9>Obi_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Order66_Utapau_MiniMission_Begin</Prereq>
+	</Event>
+
+	<Event Name="Order66_Utapau_Mission_Speech_Line_01_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>ORDER66_UTAPAU_MISSION_01</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_ORDER66_UTAPAU_OBIWAN_SPEECH</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Order66_Utapau_Mission_Speech_Line_01</Prereq>
+	</Event>
+
+	<Event Name="Order66_Utapau_Mission_Speech_Line_01_Remove_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq>Order66_Utapau_Mission_Speech_Line_01_Remove_Text</Prereq>
+	</Event>
+
+
+
+</Story>

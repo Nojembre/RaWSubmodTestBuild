@@ -21,8 +21,7 @@
 		<Land_Model_Anim_Override_Name>RI_MHuman_A280C_Urban_alt.ALO</Land_Model_Anim_Override_Name>
 		
 		<Behavior>SELECTABLE</Behavior>
-		<LandBehavior>SURFACE_FX,IDLE,WEAPON,TARGETING,STUNNABLE,REVEAL,HIDE_WHEN_FOGGED,
-		GARRISON_UNIT,LAND_TEAM_INFANTRY_LOCOMOTOR,DAMAGE_TRACKING</LandBehavior>
+		<LandBehavior>SURFACE_FX,IDLE,WEAPON,TARGETING,STUNNABLE,REVEAL,HIDE_WHEN_FOGGED,LAND_TEAM_INFANTRY_LOCOMOTOR,DAMAGE_TRACKING</LandBehavior>
 
 		<Garrison_Category> Infantry </Garrison_Category>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>

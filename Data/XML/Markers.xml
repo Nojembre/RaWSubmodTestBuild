@@ -958,6 +958,12 @@
 		<Land_Model_Name>W_Pedistal_faction_10.alo</Land_Model_Name>
 		<Additional_Population_Capacity>15</Additional_Population_Capacity>
 	</Marker>
+	
+	<Marker Name="Reinforcement_Point_Plus15_Cap">
+		<Variant_Of_Existing_Type>Reinforcement_Point</Variant_Of_Existing_Type>
+		<Land_Model_Name>W_Pedistal_faction_15.alo</Land_Model_Name>
+		<Additional_Population_Capacity>15</Additional_Population_Capacity>
+	</Marker>
 
 	<!-- End Changes -->
 	

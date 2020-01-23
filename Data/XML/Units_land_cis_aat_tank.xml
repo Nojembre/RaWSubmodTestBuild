@@ -98,7 +98,7 @@
 				HP_AAT_00
 		</HardPoints>
 
-		<SFXEvent_Fire>Unit_Turbo_Tower_Fire</SFXEvent_Fire>
+		<SFXEvent_Fire>Unit_AAT_Side_Fire</SFXEvent_Fire>
 		<SFXEvent_Select>Unit_Select_Battle_Droid</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Battle_Droid</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Battle_Droid</SFXEvent_Fleet_Move>

@@ -2281,5 +2281,159 @@
         <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
 	</Props_Generic>
+	
+	
+  <Props_Generic Name="Cristopsis_Crystals">
+		<Text_ID />
+		<Land_Model_Name>W_christophis_crystals.ALO</Land_Model_Name>
+		<Is_Decoration> Yes </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		
+		<Scale_Factor>1</Scale_Factor>
+		<Behavior> IDLE </Behavior>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+
+		</Props_Generic>
+		
+		<Props_Generic Name="Cristopsis_CrystalsX2">
+		<Text_ID />
+		<Land_Model_Name>W_christophis_crystals.ALO</Land_Model_Name>
+		<Is_Decoration> Yes </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		
+		<Scale_Factor>2</Scale_Factor>
+		<Behavior> IDLE </Behavior>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+
+		</Props_Generic>
+   
+   <Props_Generic Name="Cristopsis_Building1">
+		<Text_ID />
+		<Land_Model_Name>NB_Cristopsis_01.ALO</Land_Model_Name>
+		<Is_Decoration> Yes </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		
+		<Scale_Factor>0.5</Scale_Factor>
+		<Behavior> IDLE </Behavior>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+
+		</Props_Generic>
+	
+	<Props_Generic Name="Cristopsis_Building2">
+		<Text_ID />
+		<Land_Model_Name>NB_Cristopsis_02.ALO</Land_Model_Name>
+		<Is_Decoration> Yes </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		
+		<Scale_Factor>0.5</Scale_Factor>
+		<Behavior> IDLE </Behavior>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+     </Props_Generic>
+
+    <Props_Generic Name="Cristopsis_Building3">
+		<Text_ID />
+		<Land_Model_Name>NB_Cristopsis_03.ALO</Land_Model_Name>
+		<Is_Decoration> Yes </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		
+		<Scale_Factor>0.5</Scale_Factor>
+		<Behavior> IDLE </Behavior>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+
+		</Props_Generic>
+		
+	<Props_Generic Name="Cristopsis_Building4">
+		<Text_ID />
+		<Land_Model_Name>NB_Cristopsis_04.ALO</Land_Model_Name>
+		<Is_Decoration> Yes </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		
+		<Scale_Factor>0.5</Scale_Factor>
+		<Behavior> IDLE </Behavior>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+   </Props_Generic>
+
+   <Props_Generic Name="Cristopsis_Building5">
+		<Text_ID />
+		<Land_Model_Name>NB_Cristopsis_05.ALO</Land_Model_Name>
+		<Is_Decoration> Yes </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		
+		<Scale_Factor>0.5</Scale_Factor>
+		<Behavior> IDLE </Behavior>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+
+		</Props_Generic>
+		
+	<Props_Generic Name="Cristopsis_Building6">
+		<Text_ID />
+		<Land_Model_Name>NB_Cristopsis_06.ALO</Land_Model_Name>
+		<Is_Decoration> Yes </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		
+		<Scale_Factor>0.5</Scale_Factor>
+		<Behavior> IDLE </Behavior>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+     </Props_Generic>
+	 
+	 <Props_Generic Name="Cristopsis_Building1x2">
+		<Text_ID />
+		<Land_Model_Name>NB_Cristopsis_01.ALO</Land_Model_Name>
+		<Is_Decoration> Yes </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		
+		<Scale_Factor>1</Scale_Factor>
+		<Behavior> IDLE </Behavior>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+
+		</Props_Generic>
+	 
+	 <Props_Generic Name="Cristopsis_Building2x2">
+		<Text_ID />
+		<Land_Model_Name>NB_Cristopsis_02.ALO</Land_Model_Name>
+		<Is_Decoration> Yes </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		
+		<Scale_Factor>1</Scale_Factor>
+		<Behavior> IDLE </Behavior>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+     </Props_Generic>
+
+    <Props_Generic Name="Cristopsis_Building3x2">
+		<Text_ID />
+		<Land_Model_Name>NB_Cristopsis_03.ALO</Land_Model_Name>
+		<Is_Decoration> Yes </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		
+		<Scale_Factor>1</Scale_Factor>
+		<Behavior> IDLE </Behavior>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+
+		</Props_Generic>
+		
+	<Props_Generic Name="Cristopsis_Building4x2">
+		<Text_ID />
+		<Land_Model_Name>NB_Cristopsis_04.ALO</Land_Model_Name>
+		<Is_Decoration> Yes </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		
+		<Scale_Factor>1</Scale_Factor>
+		<Behavior> IDLE </Behavior>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+   </Props_Generic>
+   
+   
 
 </Props_Generic>

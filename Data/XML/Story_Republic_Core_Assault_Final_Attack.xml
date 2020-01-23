@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+
+
+
+<!--******************************************************-->
+<!--******	Event: CoreAssult Final Attack (Empire)	******-->
+<!--******************************************************-->
+
+
+
+<Story>
+
+
+	<Event Name="Final_Attack_Event_Beginn">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+	</Event>
+
+	<!-- Win when final space Fleet destroyed -->
+
+	<Event Name="Republic_Coruscant_Final_Fleet_Destroyed">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>fleet_destroyed</Event_Param2>
+	</Event>
+
+	<!-- Maybe we want to add some holos here -->
+
+	<Event Name="Republic_Coruscant_Final_Attack_Win">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Type>INCREMENT_FLAG</Reward_Type>
+		<Reward_Param1>Republic_FinalAttack_Win</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Republic_Coruscant_Final_Fleet_Destroyed</Prereq>
+	</Event>
+
+
+
+	<Event Name="Republic_Coruscant_Check_Space_Lose">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>final_fleet_arrived</Event_Param2>
+	</Event>
+
+	<Event Name="Republic_Coruscant_Space_Lose_01">
+		<Event_Type>STORY_LOSE_BATTLES</Event_Type>
+		<Event_Param1>1</Event_Param1>
+		<Event_Param2>SPACE</Event_Param2>
+		<Event_Param4>Coruscant</Event_Param4>
+		<Prereq>Republic_Coruscant_Check_Space_Lose</Prereq>
+	</Event>
+
+	<Event Name="Republic_Coruscant_Space_Lose_02">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Prereq>Republic_Coruscant_Check_Space_Lose</Prereq>
+	</Event>
+
+	<!-- If a space battle is starting, disable the timer so we don't accidentally switch sides after a rebel victory -->
+	<Event Name="Republic_Coruscant_Space_Disable_Lose_02">
+		<Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+		<Event_Param2>Coruscant</Event_Param2>
+		<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
+		<Reward_Param1>Republic_Coruscant_Space_Lose_02</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Republic_Coruscant_Check_Space_Lose</Prereq>
+	</Event>
+
+	<Event Name="Republic_Coruscant_Space_Lost">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Prereq>Republic_Coruscant_Space_Lose_01</Prereq>
+		<Prereq>Republic_Coruscant_Space_Lose_02</Prereq>
+	</Event>
+
+	<Event Name="Republic_Coruscant_Give_To_Cis">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>PLANET_FACTION</Reward_Type>
+		<Reward_Param1>Coruscant</Reward_Param1>
+		<Reward_Param2>Rebel</Reward_Param2>
+		<Prereq>Republic_Coruscant_Space_Lost</Prereq>
+	</Event>	
+</Story>

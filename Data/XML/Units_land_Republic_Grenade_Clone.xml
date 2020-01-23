@@ -22,7 +22,7 @@
         <GUI_Bracket_Size>0</GUI_Bracket_Size>
 
 		<GalacticBehavior>SELECTABLE</GalacticBehavior>
-		<LandBehavior>SELECTABLE, VEHICLE_THIEF, ABILITY_COUNTDOWN, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR, IDLE, TARGETING, WEAPON, REVEAL, HIDE_WHEN_FOGGED,GARRISON_UNIT,DAMAGE_TRACKING, UNIT_AI</LandBehavior>
+		<LandBehavior>SELECTABLE, VEHICLE_THIEF, ABILITY_COUNTDOWN, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR, IDLE, TARGETING, WEAPON, REVEAL, HIDE_WHEN_FOGGED,DAMAGE_TRACKING, UNIT_AI</LandBehavior>
 		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier, High_Ground</SurfaceFX_Name>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>

@@ -679,12 +679,13 @@
 	</SFXEvent>
 
 	<SFXEvent Name="Unit_AAT_Turret_Fire">
-		<Use_Preset>Preset_GUN</Use_Preset>
-		<Samples>Data/Audio/SFX/Gun/Gun_AAT_Turret_Fire.wav</Samples>    
+		<Use_Preset>Preset_GUNV</Use_Preset>
+		<!-- <Samples>Data/Audio/SFX/Gun/Gun_AAT_Turret_Fire.wav</Samples> -->
+		<Samples>Data/Audio/SFX/Gun/GUN_AAT_main.wav</Samples>  
 	</SFXEvent>
 
 	<SFXEvent Name="Unit_AAT_Side_Fire">
-		<Use_Preset>Preset_GUN</Use_Preset>
+		<Use_Preset>Preset_GUNV</Use_Preset>
 		<Samples>Data/Audio/SFX/Gun/Gun_AAT_Side_Fire.wav</Samples>    
 	</SFXEvent>
 

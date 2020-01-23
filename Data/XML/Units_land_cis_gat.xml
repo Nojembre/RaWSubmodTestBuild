@@ -103,7 +103,7 @@
 		<Wind_Disturbance_Strength>10</Wind_Disturbance_Strength>
 		<Wind_Disturbance_Sphere_Alpha>0.4</Wind_Disturbance_Sphere_Alpha>
 
-		<SFXEvent_Fire>Unit_GAT_Fire</SFXEvent_Fire>
+		<SFXEvent_Fire>Unit_Enforcer_Tank_Fire</SFXEvent_Fire>
 		<SFXEvent_Select>Unit_Select_Snailtank</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Snailtank</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Snailtank</SFXEvent_Fleet_Move>
@@ -198,7 +198,7 @@
 		<Is_Escort>yes</Is_Escort>
 		<Ship_Class>walker</Ship_Class>
 
-		<Company_Transport_Unit>C9979_Landing_Craft</Company_Transport_Unit>
+		<Company_Transport_Unit>Cis_Hardcell_Transport</Company_Transport_Unit>
 		<Company_Units>GAT, GAT, GAT</Company_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 

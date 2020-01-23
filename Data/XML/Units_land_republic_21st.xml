@@ -22,7 +22,7 @@
 			Swamp, 				Rep_I_Marine.ALO
 		</Land_Terrain_Model_Mapping>
 		<Behavior>SELECTABLE</Behavior>
-		<LandBehavior>SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,SPAWN_SQUADRON, GARRISON_UNIT</LandBehavior>
+		<LandBehavior>SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,SPAWN_SQUADRON</LandBehavior>
 		<Garrison_Category> Infantry </Garrison_Category>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
@@ -233,7 +233,7 @@
 			Swamp, 				Rep_I_Marine.ALO
 		</Land_Terrain_Model_Mapping>
 		<Behavior>SELECTABLE</Behavior>
-		<LandBehavior>SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,SPAWN_SQUADRON, GARRISON_UNIT</LandBehavior>
+		<LandBehavior>SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,SPAWN_SQUADRON</LandBehavior>
 		<Garrison_Category> Infantry </Garrison_Category>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
@@ -443,7 +443,7 @@
 			Swamp, 				Rep_I_Marine.ALO
 		</Land_Terrain_Model_Mapping>
 		<Behavior>SELECTABLE</Behavior>
-		<LandBehavior>SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,SPAWN_SQUADRON, GARRISON_UNIT</LandBehavior>
+		<LandBehavior>SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,SPAWN_SQUADRON</LandBehavior>
 		<Garrison_Category> Infantry </Garrison_Category>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
@@ -764,7 +764,7 @@
 		<OverrideDeceleration> .05 </OverrideDeceleration>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Land>120</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
 		<Icon_Name>I_BUTTON_CLONE_MARINE.tga</Icon_Name>

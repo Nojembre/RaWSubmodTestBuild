@@ -1,0 +1,126 @@
+<?xml version="1.0" ?>
+
+<Story>
+
+
+	<!-- Must exsist so lua can do its magic -->
+	<Event Name="Story_Kamino_Hologram_Begin">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+	</Event>
+
+	<Event Name="Story_Kamino_Start_Holo">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>Hologram_Kamino_Start</Event_Param2>
+	</Event>
+
+
+	<!-- Clone Hologram-->
+	<Event Name="Story_Kamino_Hologram_Clone_Start">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1></Reward_Param1> <!-- no text -->
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>TEXT_SPEECH_REPUBLIC_KAMINO_ATTACK_Clone</Reward_Param8>
+		<Reward_Param9>Clone_Ph1_Loop_Kamino</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Story_Kamino_Start_Holo</Prereq>
+	</Event>
+
+	<Event Name="Story_Kamino_Hologram_Clone_Stop_Speech">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>TEXT_SPEECH_REPUBLIC_KAMINO_ATTACK_Clone</Event_Param1>
+		<Prereq>Story_Kamino_Hologram_Clone_Start</Prereq>
+	</Event>
+
+	<Event Name="Story_Kamino_Hologram_Clone_Stop_Loop">
+		<!--Stop Loop-->
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq>Story_Kamino_Hologram_Clone_Stop_Speech</Prereq>
+	</Event>
+
+	<!-- Grievous Hologram  -->
+	<Event Name="Story_Kamino_Hologram_Grievous_Start">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1></Reward_Param1> <!-- no text -->
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>TEXT_SPEECH_REPUBLIC_KAMINO_ATTACK_Grievous</Reward_Param8>
+		<Reward_Param9>General_Grievous_Kamino</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Story_Kamino_Hologram_Clone_Stop_Loop</Prereq>
+	</Event>
+
+	<Event Name="Story_Kamino_Hologram_Grievous_Stop_Speech">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>TEXT_SPEECH_REPUBLIC_KAMINO_ATTACK_Grievous</Event_Param1>
+		<Prereq>Story_Kamino_Hologram_Grievous_Start</Prereq>
+	</Event>
+
+	<Event Name="Story_Kamino_Hologram_Grievous_Stop_Loop">
+		<!--Stop Loop-->
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq>Story_Kamino_Hologram_Grievous_Stop_Speech</Prereq>
+	</Event>
+
+	<Event Name="Story_Kamino_Hologram_Pause_After_Grievous">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>1</Event_Param1>
+		<Prereq>Story_Kamino_Hologram_Grievous_Stop_Loop</Prereq>
+	</Event>
+
+	<!-- Captain Rex Hologram -->
+	<Event Name="Story_Kamino_Hologram_Rex_Start">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1></Reward_Param1> <!-- no text -->
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>TEXT_SPEECH_REPUBLIC_KAMINO_ATTACK_REX</Reward_Param8>
+		<Reward_Param9>Cp_Rex_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Story_Kamino_Hologram_Pause_After_Grievous</Prereq>
+	</Event>
+
+	<Event Name="Story_Kamino_Hologram_Rex_Stop_Speech">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>TEXT_SPEECH_REPUBLIC_KAMINO_ATTACK_REX</Event_Param1>
+		<Prereq>Story_Kamino_Hologram_Rex_Start</Prereq>
+	</Event>
+
+	<Event Name="Story_Kamino_Hologram_Rex_Stop_Loop">
+		<!--Stop Loop-->
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq>Story_Kamino_Hologram_Rex_Stop_Speech</Prereq>
+	</Event>
+
+	<!-- Commander Cody Hologram-->
+	<Event Name="Story_Kamino_Hologram_Cody_Start">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1></Reward_Param1> <!-- no text -->
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>TEXT_SPEECH_REPUBLIC_KAMINO_ATTACK_Cody</Reward_Param8>
+		<Reward_Param9>Commander_Cody_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Story_Kamino_Hologram_Rex_Stop_Loop</Prereq>
+	</Event>
+
+	<Event Name="Story_Kamino_Hologram_Cody_Stop_Speech">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>TEXT_SPEECH_REPUBLIC_KAMINO_ATTACK_Cody</Event_Param1>
+		<Prereq>Story_Kamino_Hologram_Cody_Start</Prereq>
+	</Event>
+
+	<Event Name="Story_Kamino_Hologram_Cody_Stop_Loop">
+		<!--Stop Loop-->
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq>Story_Kamino_Hologram_Cody_Stop_Speech</Prereq>
+	</Event>
+
+
+
+</Story>

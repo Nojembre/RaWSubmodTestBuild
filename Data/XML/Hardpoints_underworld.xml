@@ -1801,7 +1801,7 @@
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>200.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
+		<Fire_SFXEvent>Unit_AAT_Turret_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance>Infantry, 3.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
 
