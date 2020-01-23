@@ -1,6 +1,9 @@
 <?xml version="1.0"?>
 <Republic_Light_Cruiser>
 
+
+	<!-- Arquintens Cruiser -->
+
 	<SpaceUnit Name="Republic_Light_Cruiser">
 		<Text_ID>TEXT_UNIT_REP_LIGHT_CRUISER</Text_ID>
 		<Encyclopedia_Good_Against> CiS_Carrier Cis_Patrol_Frigate  Hammer_Class_Picket  </Encyclopedia_Good_Against>
@@ -14,7 +17,7 @@
 		<Damage>30</Damage>
 		<Autoresolve_Health>2400</Autoresolve_Health>
 		<Shield_Points>1200</Shield_Points> <!-- From 1600 -->
-		<Tactical_Health>2900</Tactical_Health>
+		<Tactical_Health>2800</Tactical_Health> <!-- From 2900 -->
 		<Shield_Refresh_Rate>65</Shield_Refresh_Rate>
 		<Energy_Capacity>4000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
@@ -87,7 +90,6 @@
 			HP_Light_Cruiser_Miss_01,
 			HP_Light_Cruiser_Engines,
 			HP_Light_Cruiser_Shield_Generator
-
 		</HardPoints>
 
 
@@ -198,7 +200,7 @@
 		<xxxSpace_Model_Name>ReV_Lightcruiser_D.ALO</xxxSpace_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
-		<Scale_Factor>0.5</Scale_Factor> <!-- From 0.4 -->
+		<Scale_Factor>0.35</Scale_Factor> <!-- From 0.5 -->
 		<Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
 		<Max_Speed>1.2</Max_Speed>
 		<Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>

@@ -449,7 +449,7 @@
 				HP_Republic_Venator_Shield_Gen,
 				HP_Republic_Venator_Engines,
 				HP_Republic_Venator_Fighter_Bay,
-				HP_Republic_Venator_SPHA,
+				<!-- HP_Republic_Venator_SPHA, -->
 				HP_Republic_Venator_Torpedo_00,
 				HP_Republic_Venator_Turret00,
 				HP_Republic_Venator_Turret01,

@@ -2706,6 +2706,40 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
+	
+	
+	
+	<!-- Skako Planetary Advantage: AAT does 20% more damage. -->
+	<UpgradeObject Name="Skako_Planetary_Advantage">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Rebel</Affiliation>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>I_MULTI_RECHARGE_DARK1.tga</Icon_Name>
+
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_CL_DARKSIDE_ABILITY_L1  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_PLANET_BONUS </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_CL_AAT_PRICE_REDUCTION </Text_ID>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Skako_AAT_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>AAT_Tank, Stolen_AAT_Tank </Applicable_Unit_Types>
+				<Ability_Recharge_Bonus_Percentage>0.0</Ability_Recharge_Bonus_Percentage>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.20</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
 
 	<!-- Ilum Planetary Advantage: Lightside Bonus: Jedi cause more damage. -->
 	<UpgradeObject Name="Ilum_Planetary_Advantage">

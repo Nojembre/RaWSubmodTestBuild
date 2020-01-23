@@ -318,6 +318,20 @@
 		<Event_Type>STORY_TECH_LEVEL</Event_Type>
 		<Event_Param1>5</Event_Param1>
 	</Event>
+	
+	<Event Name="Lock_Merc_Mandalorian">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Mandalorian_Merc_Company</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<Event Name="Lock_Merc_Mandalorian_Rep">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Mandalorian_Merc_Company_Rep</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
 
 	<Event Name="Lock_P1_Clone_Platoon">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -423,6 +437,7 @@
 		<Reward_Param1>Rep_Plex_Clone</Reward_Param1>
 		<Prereq>Empire_Enters_Tech_05</Prereq>
 	</Event>
+	
 	
 	
 	<!-- Locking Old Clones -->
@@ -534,7 +549,7 @@
 	<Event Name="Lock_Vaders_Fist">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>LOCK_UNIT</Reward_Type>
-		<Reward_Param1>Republic_Storm_Trooper_501st</Reward_Param1>
+		<Reward_Param1>Storm_Trooper_501st_Platoon</Reward_Param1>
 		<Prereq>Universal_Story_Start</Prereq>
 	</Event>
 	

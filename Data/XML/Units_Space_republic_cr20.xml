@@ -269,6 +269,16 @@
 		<Variant_Of_Existing_Type>Republic_CR20_Transport_Landing</Variant_Of_Existing_Type>
 	</TransportUnit>
 	
+	
+	<TransportUnit Name="CR20_Landing_Craft_Stormtrooper">
+		<Variant_Of_Existing_Type>Empire_CR20_Transport</Variant_Of_Existing_Type>
+		<Landing_Transport_Variant>CR20_Landing_Craft_Stormtrooper_Landing</Landing_Transport_Variant>
+	</TransportUnit>
+	
+	<TransportUnit Name="CR20_Landing_Craft_Stormtrooper_Landing">
+		<Variant_Of_Existing_Type>Empire_CR20_Transport_Landing</Variant_Of_Existing_Type>
+	</TransportUnit>
+	
 
 
 </Republic_CR20_Transport>

@@ -3931,6 +3931,7 @@
 		Dreadnaught_Cruiser_Emp,      Data\UnitNames\Dreadnaught_Cruiser.txt,
 		
 		CR20_Landing_Craft_Clones,				Data\UnitNames\Dropship_Clones.txt,
+		CR20_Landing_Craft_Stormtrooper,				Data\UnitNames\Dropship_Clones.txt,
 		Nu_Landing_Craft_Clones,				Data\UnitNames\Dropship_Clones.txt,
 		Acclamator_Landing_Craft_Clones,				Data\UnitNames\Dropship_Clones_Company.txt,
 		Acclamator_Landing_Craft_Torrent,				Data\UnitNames\Dropship_Torrent.txt,

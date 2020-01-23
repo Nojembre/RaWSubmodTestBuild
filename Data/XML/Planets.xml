@@ -113,7 +113,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Credit_Value>25</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>6</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>-135.0, -30.0, 10.0</Galactic_Position>
-		<Special_Structures_Land>4</Special_Structures_Land>
+		<Special_Structures_Land>5</Special_Structures_Land> <!-- 4 -->
 		<Special_Structures_Space>1</Special_Structures_Space>
 		<Max_Space_Base>3</Max_Space_Base>
 		<The_Force>Neutral</The_Force>
@@ -1183,7 +1183,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Destroyed_Credit_Value>9</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>-30.0, 135.0, 10.0</Galactic_Position>
 
-		<Special_Structures_Land>4</Special_Structures_Land>
+		<Special_Structures_Land>5</Special_Structures_Land> <!-- 4 -->
 		<Special_Structures_Space>2</Special_Structures_Space>
 		<Max_Space_Base>5</Max_Space_Base>
 		<The_Force>Neutral</The_Force>
@@ -4098,7 +4098,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Credit_Value>175</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>9</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>45.0, 153.0, 10.0</Galactic_Position>
-		<Special_Structures_Land>4</Special_Structures_Land>
+		<Special_Structures_Land>5</Special_Structures_Land> <!-- 4 -->
 		<Special_Structures_Space>2</Special_Structures_Space>
 		<Max_Space_Base>5</Max_Space_Base>
 		<The_Force>Neutral</The_Force>
@@ -4765,7 +4765,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Credit_Value>100</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>15</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>-35.0, 350.0, 10.0</Galactic_Position>
-		<Special_Structures_Land>11</Special_Structures_Land>
+		<Special_Structures_Land>7</Special_Structures_Land> <!-- 11 -->
 		<Special_Structures_Space>3</Special_Structures_Space>
 		<Max_Space_Base>5</Max_Space_Base>
 		<The_Force>Neutral</The_Force>
@@ -4802,7 +4802,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Abilities SubObjectList="Yes">
 			<Galaxy_Wide_Upgrade_Ability Name="Skako_Upgrade_Bonus">
 				<Space_Upgrade_Type />
-				<Land_Upgrade_Type>R_Skako_Upgrade</Land_Upgrade_Type>
+				<Land_Upgrade_Type>Skako_Planetary_Advantage</Land_Upgrade_Type>
 			</Galaxy_Wide_Upgrade_Ability>
 		</Abilities>
 		

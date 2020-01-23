@@ -145,19 +145,6 @@
 
 		<Tactical_Bribe_Cost>1600</Tactical_Bribe_Cost>
 
-		<!-- Non-Hero unit abilities description -->
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
-			<Unit_Ability>
-				<Type>SELF_DESTRUCT</Type>
-				<Expiration_Seconds>2</Expiration_Seconds>
-				<Recharge_Seconds>10</Recharge_Seconds>
-				<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage> 
-				<Spawned_Object_Type> Self_Destruct_Area_Blast_Effect </Spawned_Object_Type>
-				<Supports_Autofire>True</Supports_Autofire>
-			</Unit_Ability>
-		</Unit_Abilities_Data>
-
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
 		<Score_Cost_Credits>600</Score_Cost_Credits>
 		<Converted_To_Enemy_Die_Time_Seconds>60</Converted_To_Enemy_Die_Time_Seconds>
@@ -251,13 +238,6 @@
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 		<Population_Value>1</Population_Value>
 
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
-			<Unit_Ability>
-				<Type>SELF_DESTRUCT</Type>
-				<Expiration_Seconds>3</Expiration_Seconds>
-			</Unit_Ability>			
-		</Unit_Abilities_Data>
 	</GroundCompany>
 
 

@@ -85,7 +85,9 @@
 			Ilum, 
 			Jabiim, 
 			Korriban, 
-			Mandalore, 
+			Lok,
+			Mandalore,
+			Mustafar,			
 			Ord_Mantell, 
 			Rattatak, 
 			Raxus_Prime, 
@@ -124,8 +126,10 @@
 		<Reserve_Spawned_Units_Tech_0>Republic_Clonetrooper_P1_Squad_CW, -1</Reserve_Spawned_Units_Tech_0>		
 		<Starting_Spawned_Units_Tech_0>Barc_Speeder_Squad, 4</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Barc_Speeder_Squad, -1</Reserve_Spawned_Units_Tech_0>		
-		<Starting_Spawned_Units_Tech_1>Republic_Light_Recon_Squad, 2</Starting_Spawned_Units_Tech_1>		
-		<Starting_Spawned_Units_Tech_3>AT_AP_Company, 1</Starting_Spawned_Units_Tech_3>
+		<Starting_Spawned_Units_Tech_1>Republic_Light_Recon_Squad, 2</Starting_Spawned_Units_Tech_1>	
+		<Starting_Spawned_Units_Tech_2>Sabertank_Single, 2</Starting_Spawned_Units_Tech_2>			
+		<Starting_Spawned_Units_Tech_3>AT_AP_Company, 2</Starting_Spawned_Units_Tech_3>
+		<Starting_Spawned_Units_Tech_4>AT_TE_Company, 1</Starting_Spawned_Units_Tech_4>
 		
 		
 		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>		
@@ -234,7 +238,9 @@
 			Ilum, 
 			Jabiim, 
 			Korriban,
+			Lok,
 			Mandalore, 
+			Mustafar,
 			Ord_Mantell, 
 			Rattatak, 
 			Raxus_Prime,
@@ -273,9 +279,10 @@
 		<Starting_Spawned_Units_Tech_0>BattleDroid_Squad, 4</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>BattleDroid_Squad, -1</Reserve_Spawned_Units_Tech_0>		
 		<Starting_Spawned_Units_Tech_0>Cis_Stap_Squad, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Cis_Stap_Squad, -1</Reserve_Spawned_Units_Tech_0>		
-		<Starting_Spawned_Units_Tech_2>AAT_Tank_Company, 3</Starting_Spawned_Units_Tech_2>		
-		<Starting_Spawned_Units_Tech_1>Dwarf_Spider_Droid_Company, 4</Starting_Spawned_Units_Tech_1>
+		<Reserve_Spawned_Units_Tech_0>Cis_Stap_Squad, -1</Reserve_Spawned_Units_Tech_0>	
+		<Starting_Spawned_Units_Tech_1>Dwarf_Spider_Droid_Company, 4</Starting_Spawned_Units_Tech_1>		
+		<Starting_Spawned_Units_Tech_2>AAT_Tank_Company, 3</Starting_Spawned_Units_Tech_2>	
+		<Starting_Spawned_Units_Tech_2>Hailfire_Tank_Company, 2</Starting_Spawned_Units_Tech_2>			
 		
 		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>		
 		<Spawned_Squadron_Location_Bones>Spawn_00</Spawned_Squadron_Location_Bones>

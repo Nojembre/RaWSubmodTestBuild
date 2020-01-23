@@ -963,7 +963,7 @@
 	<Event Name="Lock_Vaders_Fist">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>LOCK_UNIT</Reward_Type>
-		<Reward_Param1>Republic_Storm_Trooper_501st</Reward_Param1>
+		<Reward_Param1>Storm_Trooper_501st_Platoon</Reward_Param1>
 		<Prereq>Universal_Story_Start</Prereq>
 	</Event>
 	
@@ -1458,6 +1458,13 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>LOCK_UNIT</Reward_Type>
 		<Reward_Param1>Venator</Reward_Param1>
+		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
+	</Event>
+	
+	<Event Name="Lock_Open_Circle_Venator_Red">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Open_Circle_Venator</Reward_Param1>
 		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
 	</Event>
 	

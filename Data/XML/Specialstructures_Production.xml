@@ -783,7 +783,7 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>E_Ground_Light_Vehicle_Factory</Required_Special_Structures>
+		<Required_Special_Structures>E_Ground_Barracks</Required_Special_Structures>
 		<Required_Planets>Abregado_Rae, Bakura, Bonadan, Carida, Coruscant, Duro, Eriadu, Geonosis, Hypori, Kuat, Mandalore, Mechis, NalHutta, Mustafar, Raxus, Rothana, Saleucami, Umbara</Required_Planets>
 		<Tactical_Health>2400</Tactical_Health>
 		<Icon_Name>I_BUTTON_R_ADVANCED_WEAPONS.TGA</Icon_Name>
@@ -956,7 +956,7 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>R_Ground_Light_Vehicle_Factory</Required_Special_Structures>
+		<Required_Special_Structures>R_Ground_Barracks</Required_Special_Structures>
 		<Required_Planets>Abregado_Rae, Bakura, Bonadan, Carida, Coruscant, Duro, Eriadu, Geonosis, Hypori, Kuat, Mandalore, Mechis, NalHutta, Mustafar, Raxus, Rothana, Saleucami, Umbara</Required_Planets>
 		<Tactical_Health>200</Tactical_Health>
 		<Victory_Relevant>yes</Victory_Relevant>

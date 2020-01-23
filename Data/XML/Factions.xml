@@ -283,6 +283,9 @@
 		<SFXEvent_Unit_Type_Spotted>Ahsoka_Tano,							Unit_See_Jedi_Battledroid</SFXEvent_Unit_Type_Spotted>
 		<SFXEvent_Unit_Type_Spotted>Anakin_Skywalker,						Unit_See_Jedi_Battledroid</SFXEvent_Unit_Type_Spotted>
 		<SFXEvent_Unit_Type_Spotted>Barris_Offee,							Unit_See_Jedi_Battledroid</SFXEvent_Unit_Type_Spotted>
+		<SFXEvent_Unit_Type_Spotted>Jedi_Knight_Team,						Unit_See_Jedi_Battledroid</SFXEvent_Unit_Type_Spotted>
+		<SFXEvent_Unit_Type_Spotted>Kit_Fisto_Team,							Unit_See_Jedi_Battledroid</SFXEvent_Unit_Type_Spotted>
+		<SFXEvent_Unit_Type_Spotted>Kota_Team,								Unit_See_Jedi_Battledroid</SFXEvent_Unit_Type_Spotted>
 		<SFXEvent_Unit_Type_Spotted>Luminara_Unduli,						Unit_See_Jedi_Battledroid</SFXEvent_Unit_Type_Spotted>
 		<SFXEvent_Unit_Type_Spotted>Mace_Windu,								Unit_See_Jedi_Battledroid</SFXEvent_Unit_Type_Spotted>
 		<SFXEvent_Unit_Type_Spotted>Mundi,									Unit_See_Jedi_Battledroid</SFXEvent_Unit_Type_Spotted>
@@ -716,6 +719,9 @@
 			Generic_Bonded_Citizens_Corruption_Upgrade,
 		</Automatic_Planetary_Corruption_Upgrade_Type>
 	</Faction>
+	
+	
+	
 	<Faction Name="Empire">
 		<Is_Debug_Switchable_To> Yes </Is_Debug_Switchable_To>
 		<Create_Player_In_Multiplayer_Games> No </Create_Player_In_Multiplayer_Games>
@@ -992,21 +998,35 @@
 		<!-- ============================================= -->
 		<SFXEvent_Unit_Type_Spotted>Generic_Field_Commander_P1_Republic, 	Unit_Announce_Rep_Field_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
 		<SFXEvent_Unit_Type_Spotted>Generic_Field_Commander_P2_Republic,	Unit_Announce_Rep_Field_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
+		<SFXEvent_Unit_Type_Spotted>Commander_Bacara, 						Unit_Announce_Rep_Field_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
+		<SFXEvent_Unit_Type_Spotted>Commander_Bly, 							Unit_Announce_Rep_Field_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
+		<SFXEvent_Unit_Type_Spotted>Commander_Bly_PH2, 						Unit_Announce_Rep_Field_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
 		<SFXEvent_Unit_Type_Spotted>Commander_Cody, 						Unit_Announce_Rep_Field_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
+		<SFXEvent_Unit_Type_Spotted>Commander_Cody_PH2, 						Unit_Announce_Rep_Field_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
+		<SFXEvent_Unit_Type_Spotted>Commander_Gree, 						Unit_Announce_Rep_Field_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
+		<SFXEvent_Unit_Type_Spotted>Commander_Gree_PH2, 					Unit_Announce_Rep_Field_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
+		<SFXEvent_Unit_Type_Spotted>Commander_Ponds, 						Unit_Announce_Rep_Field_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
+		<SFXEvent_Unit_Type_Spotted>Commander_Wolffe, 						Unit_Announce_Rep_Field_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
+		<SFXEvent_Unit_Type_Spotted>Commander_Wolffe_PH2, 						Unit_Announce_Rep_Field_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
 		<SFXEvent_Unit_Type_Spotted>Captain_Rex, 							Unit_Announce_Rep_Field_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
+		<SFXEvent_Unit_Type_Spotted>Captain_Rex_PH2, 						Unit_Announce_Rep_Field_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
 		<SFXEvent_Unit_Type_Spotted>Aayla_Secura,							Unit_Announce_Jedi_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
 		<SFXEvent_Unit_Type_Spotted>Ahsoka_Tano,							Unit_Announce_Jedi_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
-		<SFXEvent_Unit_Type_Spotted>Anakin_Skywalker,							Unit_Announce_Jedi_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
+		<SFXEvent_Unit_Type_Spotted>Anakin_Skywalker,						Unit_Announce_Jedi_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
 		<SFXEvent_Unit_Type_Spotted>Barris_Offee,							Unit_Announce_Jedi_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
-		<SFXEvent_Unit_Type_Spotted>Luminara_Unduli,							Unit_Announce_Jedi_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
-		<SFXEvent_Unit_Type_Spotted>Mundi,							Unit_Announce_Jedi_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
-		<SFXEvent_Unit_Type_Spotted>Obiwan,							Unit_Announce_Jedi_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
-		<SFXEvent_Unit_Type_Spotted>Plokoon,							Unit_Announce_Jedi_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
+		<SFXEvent_Unit_Type_Spotted>Jedi_Knight,							Unit_Announce_Jedi_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
+		<SFXEvent_Unit_Type_Spotted>Kit_Fisto,								Unit_Announce_Jedi_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
+		<SFXEvent_Unit_Type_Spotted>Kota,									Unit_Announce_Jedi_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
+		<SFXEvent_Unit_Type_Spotted>Luminara_Unduli,						Unit_Announce_Jedi_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
+		<SFXEvent_Unit_Type_Spotted>Mace_Windu,								Unit_Announce_Jedi_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
+		<SFXEvent_Unit_Type_Spotted>Mundi,									Unit_Announce_Jedi_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
+		<SFXEvent_Unit_Type_Spotted>Obiwan,									Unit_Announce_Jedi_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
+		<SFXEvent_Unit_Type_Spotted>Plokoon,								Unit_Announce_Jedi_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
 		<SFXEvent_Unit_Type_Spotted>Quinlan_Vos,							Unit_Announce_Jedi_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
-		<SFXEvent_Unit_Type_Spotted>Shaak_Ti,							Unit_Announce_Jedi_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
-		<SFXEvent_Unit_Type_Spotted>Yoda,							Unit_Announce_Jedi_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
-		<!--<SFXEvent_Unit_Type_Spotted>Generic_Field_Commander_Rebel,	Unit_Announce_R_Field_Storm_Trooper</SFXEvent_Unit_Type_Spotted>-->
-		<SFXEvent_Unit_Type_Spotted>Mace_Windu,							Unit_Announce_Windu_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
+		<SFXEvent_Unit_Type_Spotted>Shaak_Ti,								Unit_Announce_Jedi_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
+		<SFXEvent_Unit_Type_Spotted>Yoda,									Unit_Announce_Jedi_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
+
+		
 		<SFXEvent_Unit_Type_Spotted>Destroyer_Droid,						Unit_Announce_Droideka_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
 		<SFXEvent_Unit_Type_Spotted>Vulture_Droid_Fighter,						Unit_Announce_Vulture_Clone_Trooper</SFXEvent_Unit_Type_Spotted>
 		<SFXEvent_Unit_Type_Spotted>Tyber_Zann,		                    Unit_Announce_Tyber_Empire_Soldier</SFXEvent_Unit_Type_Spotted>
@@ -1424,6 +1444,9 @@
 			Generic_Bonded_Citizens_Corruption_Upgrade,
 		</Automatic_Planetary_Corruption_Upgrade_Type>
 	</Faction>
+	
+	
+	
 	<Faction Name="Pirates">
 		<Is_Debug_Switchable_To> No </Is_Debug_Switchable_To>
 		<Create_Player_In_Multiplayer_Games> Yes </Create_Player_In_Multiplayer_Games>
@@ -1461,6 +1484,9 @@
 		<Easily_Bribed> Yes </Easily_Bribed>
 		<Can_Control_Planets>true</Can_Control_Planets>
 	</Faction>
+	
+	
+	
 	<Faction Name="Neutral">
 		<Is_Debug_Switchable_To> No </Is_Debug_Switchable_To>
 		<Create_Player_In_Multiplayer_Games> Yes </Create_Player_In_Multiplayer_Games>
@@ -1495,6 +1521,9 @@
 		<Allies />
 		<Enemies />
 	</Faction>
+	
+	
+	
 	<Faction Name="Hostile">
 		<Is_Debug_Switchable_To> No </Is_Debug_Switchable_To>
 		<Create_Player_In_Multiplayer_Games> Yes </Create_Player_In_Multiplayer_Games>
@@ -1529,6 +1558,9 @@
 		<Allies>Neutral, Civilian</Allies>
 		<Enemies>Empire, Rebel, Pirates, Sarlacc, Underworld</Enemies>
 	</Faction>
+	
+	
+	
 	<Faction Name="Sarlacc">
 		<Is_Debug_Switchable_To> No </Is_Debug_Switchable_To>
 		<Create_Player_In_Multiplayer_Games> Yes </Create_Player_In_Multiplayer_Games>

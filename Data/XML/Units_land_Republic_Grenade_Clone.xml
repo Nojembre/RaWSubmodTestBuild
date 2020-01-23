@@ -494,6 +494,25 @@
 		<Encyclopedia_Text> TEXT_TOOLTIP_187TH TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Tactical_Health>55</Tactical_Health>
 		</GroundInfantry>
+		
+		
+	<GroundInfantry Name="GRENADE_STORM_501">
+		<Variant_Of_Existing_Type>Grenade_Clone</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_CLONETROOPER_501ST</Text_ID>
+		<Land_Model_Name>Rep_I_Phase2_Clone_501.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>Rep_I_Phase1_Clone.ALO</Land_Model_Anim_Override_Name>
+		<Land_Terrain_Model_Mapping>
+			Temperate, 			Rep_I_Phase2_Clone_501.ALO,
+			Urban, 				Rep_I_Phase2_Clone_501.ALO,
+			Arctic, 			Rep_I_Phase2_Clone_501.ALO,
+			Volcanic, 			Rep_I_Phase2_Clone_501.ALO,
+			Desert, 			Rep_I_Phase2_Clone_501.ALO,
+			Forest, 			Rep_I_Phase2_Clone_501.ALO,
+			Swamp, 				Rep_I_Phase2_Clone_501.ALO
+		</Land_Terrain_Model_Mapping>
+		<Tactical_Health>55</Tactical_Health>
+		<Icon_Name>i_button_clones_501.tga</Icon_Name>
+	</GroundInfantry>
 
 	
 </Grenade_Clone_Data>

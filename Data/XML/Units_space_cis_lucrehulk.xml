@@ -64,7 +64,7 @@
 		<Energy_Capacity>99999</Energy_Capacity>
 		<Energy_Refresh_Rate>9999</Energy_Refresh_Rate>
 		<Damage>80</Damage>
-		<AI_Combat_Power>6100</AI_Combat_Power> <!-- From 8000 -->
+		<AI_Combat_Power>6700</AI_Combat_Power> <!-- From 6100 -->
 		<Formation_Priority>5</Formation_Priority>
 		<Squadron_Capacity>40</Squadron_Capacity>
 

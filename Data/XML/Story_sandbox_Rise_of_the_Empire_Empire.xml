@@ -436,6 +436,13 @@
 		<Prereq>Universal_Story_Start</Prereq>
 	</Event>
 	
+	<Event Name="Lock_Open_Cirlce_Venator">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Open_Circle_Venator</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
 	<Event Name="Lock_Light_Cruiser">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>LOCK_UNIT</Reward_Type>

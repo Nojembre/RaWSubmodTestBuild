@@ -22,7 +22,7 @@
 		</Land_Terrain_Model_Mapping>
 
 		<Behavior>SELECTABLE</Behavior>
-		<LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, GARRISON_UNIT</LandBehavior>
+		<LandBehavior>SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,SPAWN_SQUADRON</LandBehavior>
 		<Garrison_Category> Infantry </Garrison_Category>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
@@ -43,11 +43,13 @@
 		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
 		<Space_Layer> Land </Space_Layer>
 		<UnitCollisionClass> Infantry </UnitCollisionClass>
-		<FormationSpacing> 0.8 </FormationSpacing> <!-- From 1 -->
+		<FormationSpacing> 1.2 </FormationSpacing>
 		<MinimumPushReturnDistance> 2 </MinimumPushReturnDistance>
 		<OverrideAcceleration> 0.425 </OverrideAcceleration>
 		<OverrideDeceleration> 0.425 </OverrideDeceleration>
 		<FormationOrder> 2 </FormationOrder>
+		
+		<Create_Team>Yes</Create_Team>
 
 		<Scale_Factor>0.09</Scale_Factor> 
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -132,8 +134,10 @@
         <GUI_Bracket_Width>5</GUI_Bracket_Width>
 		<GUI_Bracket_Height>0</GUI_Bracket_Height>
 		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<!--
 		<Select_Box_Scale>200</Select_Box_Scale>
 		<Selection_Blob_Material_Name>Selection_Empire_Hero</Selection_Blob_Material_Name>
+		-->
 
 		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
 		<Weather_Category>Infantry</Weather_Category>
@@ -223,7 +227,7 @@
 		</Land_Terrain_Model_Mapping>
 
 		<Behavior>SELECTABLE</Behavior>
-		<LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, GARRISON_UNIT</LandBehavior>
+		<LandBehavior>SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,SPAWN_SQUADRON</LandBehavior>
 		<Garrison_Category> Infantry </Garrison_Category>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
@@ -244,11 +248,13 @@
 		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
 		<Space_Layer> Land </Space_Layer>
 		<UnitCollisionClass> Infantry </UnitCollisionClass>
-		<FormationSpacing> 0.8 </FormationSpacing> <!-- From 1 -->
+		<FormationSpacing> 1.2 </FormationSpacing>
 		<MinimumPushReturnDistance> 2 </MinimumPushReturnDistance>
 		<OverrideAcceleration> 0.425 </OverrideAcceleration>
 		<OverrideDeceleration> 0.425 </OverrideDeceleration>
 		<FormationOrder> 2 </FormationOrder>
+		
+		<Create_Team>Yes</Create_Team>
 
 		<Scale_Factor>0.09</Scale_Factor> 
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -330,9 +336,11 @@
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
         <Select_Box_Z_Adjust>0.001f</Select_Box_Z_Adjust>
+		<!--
 		<Select_Box_Scale>250</Select_Box_Scale>
 		<Selection_Blob_Material_Name>Highlight_Underworld_Hero</Selection_Blob_Material_Name>
-		<!-- <Selection_Blob_Material_Name>Highlight_Underworld_Hero</Selection_Blob_Material_Name> -->
+		<Selection_Blob_Material_Name>Highlight_Underworld_Hero</Selection_Blob_Material_Name> 
+		-->
 
 		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
 		<Weather_Category>Infantry</Weather_Category>
@@ -422,7 +430,7 @@
 		</Land_Terrain_Model_Mapping>
 
 		<Behavior>SELECTABLE</Behavior>
-		<LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, GARRISON_UNIT</LandBehavior>
+		<LandBehavior>SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,SPAWN_SQUADRON</LandBehavior>
 		<Garrison_Category> Infantry </Garrison_Category>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
@@ -443,11 +451,13 @@
 		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
 		<Space_Layer> Land </Space_Layer>
 		<UnitCollisionClass> Infantry </UnitCollisionClass>
-		<FormationSpacing> 0.8 </FormationSpacing> <!-- From 1 -->
+		<FormationSpacing> 1.2 </FormationSpacing>
 		<MinimumPushReturnDistance> 2 </MinimumPushReturnDistance>
 		<OverrideAcceleration> 0.425 </OverrideAcceleration>
 		<OverrideDeceleration> 0.425 </OverrideDeceleration>
 		<FormationOrder> 2 </FormationOrder>
+		
+		<Create_Team>Yes</Create_Team>
 
 		<Scale_Factor>0.09</Scale_Factor> 
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -529,8 +539,10 @@
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
         <Select_Box_Z_Adjust>0.001f</Select_Box_Z_Adjust>
+		<!--
 		<Select_Box_Scale>250</Select_Box_Scale>
 		<Selection_Blob_Material_Name>Highlight_Empire_Hero</Selection_Blob_Material_Name>
+		-->
 
 		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
 		<Weather_Category>Infantry</Weather_Category>
@@ -601,21 +613,6 @@
 	
 	
 
-
-
-	<GroundInfantry Name="Squad_Clone_Stormtrooper">
-		<Variant_Of_Existing_Type>Clone_Stormtrooper</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_CLONE_STORMTROOPER</Text_ID>
-		<LandBehavior>LANDING, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
-		<Is_Squashable> Yes </Is_Squashable>
-		<Max_Speed> 1 </Max_Speed>
-		<Space_Layer> None </Space_Layer>
-		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
-		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
-		<FormationRaggedness> .2 </FormationRaggedness>
-		<MaxJiggleDistance> 2 </MaxJiggleDistance>
-	</GroundInfantry>
-
 	<GroundInfantry Name="Squad_Storm_Field_Commander_Guard">
 		<Variant_Of_Existing_Type>Clone_Stormtrooper</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_COMMANDER_GUARD_EMP</Text_ID>
@@ -631,7 +628,7 @@
 		<Encyclopedia_Good_Against> Battledroids Stap Super_Battledroids </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Droideka_Mk1 Hailfire_Tank AAT_Tank </Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Text>TEXT_TOOLTIP_CLONE_STORMTROOPER_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_PLATOON</Encyclopedia_Unit_Class>
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>27</Damage>
@@ -648,17 +645,38 @@
 		<Required_Special_Structures>E_Ground_Barracks</Required_Special_Structures>
 		<!--<Required_Planets>Carida</Required_Planets>-->
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
-		<Formation_Priority>1</Formation_Priority>
+		<Formation_Priority>3</Formation_Priority>
 		<Is_Escort>yes</Is_Escort>
 		<Ship_Class>infantry</Ship_Class>
-		<Company_Transport_Unit>Empire_CR20_Transport</Company_Transport_Unit>
-		<!-- AI  Changed to 27 troopers in squads of 9 -->
-		<Company_Units> Clone_Stormtrooper, Clone_Stormtrooper, Clone_Stormtrooper, Clone_Stormtrooper, Clone_Stormtrooper, Clone_Stormtrooper, Clone_Stormtrooper, Clone_Stormtrooper, Clone_Stormtrooper_Sgt </Company_Units>
-		<Company_Units> Clone_Stormtrooper, Clone_Stormtrooper, Clone_Stormtrooper, Clone_Stormtrooper, Clone_Stormtrooper, Clone_Stormtrooper, Clone_Stormtrooper, Clone_Stormtrooper, Clone_Stormtrooper_Sgt </Company_Units>
-		<Company_Units> Clone_Stormtrooper, Clone_Stormtrooper, Clone_Stormtrooper, Clone_Stormtrooper, Clone_Stormtrooper, Clone_Stormtrooper, Clone_Stormtrooper, Clone_Stormtrooper, Clone_Stormtrooper_Sgt </Company_Units>
-		<Company_Units> Clone_Stormtrooper, Clone_Stormtrooper, Clone_Stormtrooper, Clone_Stormtrooper, Clone_Stormtrooper, Clone_Stormtrooper, Clone_Stormtrooper, Clone_Stormtrooper, Clone_Stormtrooper_Sgt </Company_Units>
-		<Company_Units> Clone_Stormtrooper_LT </Company_Units>
-		<Max_Squad_Size> 9 </Max_Squad_Size>
+		<Company_Transport_Unit>CR20_Landing_Craft_Stormtrooper</Company_Transport_Unit>
+		
+		
+		<Create_Team_Type>Republic_Stormtrooper_Team</Create_Team_Type>
+		
+		<!-- AI  Changed to 18 troopers in squads of 9 -->
+		<Company_Units> 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper_Sgt,
+		
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper_LT 
+		</Company_Units>
+		
+		<Max_Squad_Size> 9 </Max_Squad_Size> 
 		<Icon_Name>I_BUTTON_CLONES_PH2.tga</Icon_Name>
 
 
@@ -696,6 +714,189 @@
 		<Score_Cost_Credits>54</Score_Cost_Credits>
 		
 	</GroundCompany>
+	
+	
+	
+	
+	<GroundCompany Name="Republic_Stormtrooper_Company">
+		<LOD_Bias>5</LOD_Bias>
+		<Text_ID>TEXT_UNIT_CLONE_STORMTROOPER_COMPANY</Text_ID>
+		<Encyclopedia_Good_Against> Battledroids Stap  </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Destroyer_Droid Hailfire_Tank AAT_Tank </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Text>TEXT_TOOLTIP_CLONETROOPER_P2_COMPANY TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMPANY</Encyclopedia_Unit_Class>
+		<GUI_Row> 1 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>25</Damage>
+		<Autoresolve_Health>300</Autoresolve_Health> 
+		<Affiliation>Empire</Affiliation>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Build_Cost_Credits>1050</Build_Cost_Credits> <!-- 1000 -->
+		<Build_Time_Seconds>35</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Tech_Level>5</Tech_Level>
+		<!--<Required_Orbiting_Units>Commander_Cody_Team, Commander_Cody</Required_Orbiting_Units>-->
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures>E_Ground_Barracks</Required_Special_Structures>
+		<Required_Planets>Kamino</Required_Planets>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority> <!-- From 3 -->
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Create_Team_Type> Republic_Stormtrooper_Team </Create_Team_Type>
+		<Company_Transport_Unit>Acclamator_Landing_Craft_Clones</Company_Transport_Unit>
+		
+		<!-- AI  Changed to 36 troopers in squads of 9 -->
+		<Company_Units> 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper_Sgt,
+		
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper_LT 
+		
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper_Sgt,
+		
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper, 
+		Clone_Stormtrooper_LT,
+		Squad_Generic_Field_Captain_Republic_P2_CW
+		</Company_Units>
+		
+		<Max_Squad_Size> 9 </Max_Squad_Size> 
+		
+		<Icon_Name>I_BUTTON_CLONE_TROOPER.tga</Icon_Name>
+		<GUI_Model_Name>Rep_I_Phase1_Clone.ALO</GUI_Model_Name>
+		<Land_Model_Name>Rep_I_Phase1_Clone.ALO</Land_Model_Name>
+		<Scale_Factor>5</Scale_Factor>
+		<GUI_Offset>0 0 5</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+
+		<SFXEvent_Build_Started>RHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Training_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Select_Clone_Trooper</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
+
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Clone_Trooper</SFXEvent_GUI_Unit_Ability_Activated>		  			
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>
+
+
+
+		<Maintenance_Cost>0.05</Maintenance_Cost>
+		<Population_Value>1</Population_Value>
+		<Score_Cost_Credits>54</Score_Cost_Credits>
+		
+	</GroundCompany>
+	
+	
+	
+	
+	
+	
+	<Container Name="Republic_Stormtrooper_Team">
+		<Select_Box_Scale>65</Select_Box_Scale>
+		<Text_ID>TEXT_TOOLTIP_CLONETROOPER_P2</Text_ID>
+		<Encyclopedia_Good_Against> Battledroids Stap  </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Destroyer_Droid Hailfire_Tank AAT_Tank </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Text>TEXT_TOOLTIP_CLONETROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Show_Name>No</Show_Name>
+		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+		<SpaceBehavior>REVEAL</SpaceBehavior>
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Land_FOW_Reveal_Range>250.0</Land_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+		<MovementClass>Infantry</MovementClass>
+
+		<Max_Speed> 1.2 </Max_Speed>
+		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<FormationSpacing> 1.2 </FormationSpacing>
+		<MovementClass> Infantry </MovementClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Is_Squashable> true </Is_Squashable>
+		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>
+		<ContainerArrangement> Dartboard </ContainerArrangement> <!-- Rows -->
+		<FormationOrder> 2 </FormationOrder>
+		<OverrideAcceleration> .05 </OverrideAcceleration>
+		<OverrideDeceleration> .05 </OverrideDeceleration>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Scale_Land>120</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
+
+		<Icon_Name>I_BUTTON_CLONES_P1.tga</Icon_Name>
+
+		<Targeting_Max_Attack_Distance>140.0</Targeting_Max_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>130.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Clone_Trooper</SFXEvent_GUI_Unit_Ability_Activated>		  			
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		<CategoryMask>Infantry</CategoryMask>
+		
+	</Container>
+	
 	
 
 

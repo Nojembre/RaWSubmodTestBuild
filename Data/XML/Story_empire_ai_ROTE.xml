@@ -78,6 +78,20 @@
 	
 	<!-- Republic units -->
 	
+	<Event Name="Lock_Merc_Mandalorian">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Mandalorian_Merc_Company</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<Event Name="Lock_Merc_Mandalorian_Rep">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Mandalorian_Merc_Company_Rep</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
 	<Event Name="Lock_P1_Clone_Squad">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>LOCK_UNIT</Reward_Type>

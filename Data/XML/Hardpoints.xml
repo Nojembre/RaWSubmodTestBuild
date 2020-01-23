@@ -7915,10 +7915,11 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
 	</HardPoint>
 
+	
 	<HardPoint Name="HP_Light_Cruiser_Turret_01">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 		<Health>450.0</Health> <!-- From 350 -->
 		<Damage_Type> Damage_Default </Damage_Type>
@@ -7946,7 +7947,8 @@
 		<Turret_Bone_Name> TURRET_01 </Turret_Bone_Name>
 		<Barrel_Bone_Name> BARREL_01 </Barrel_Bone_Name>
 
-		<Fire_Projectile_Type>Proj_Ship_Quad_Turbolaser_Blue</Fire_Projectile_Type>
+		<!-- <Fire_Projectile_Type>Proj_Ship_Quad_Turbolaser_Blue</Fire_Projectile_Type> -->
+		<Fire_Projectile_Type>Proj_Ship_Twin_Turbolaser_Blue</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>3</Fire_Pulse_Count>
@@ -7967,8 +7969,8 @@
 
 	<HardPoint Name="HP_Light_Cruiser_Turret_02">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 		<Health>450.0</Health> <!-- From 350 -->
 		<Damage_Type> Damage_Default </Damage_Type>
@@ -7996,7 +7998,7 @@
 		<Turret_Bone_Name> TURRET_02 </Turret_Bone_Name>
 		<Barrel_Bone_Name> BARREL_02 </Barrel_Bone_Name>
 
-		<Fire_Projectile_Type>Proj_Ship_Quad_Turbolaser_Blue</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ship_Twin_Turbolaser_Blue</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>3</Fire_Pulse_Count>
@@ -8016,8 +8018,8 @@
 
 	<HardPoint Name="HP_Light_Cruiser_Turret_03">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 		<Health>450.0</Health> <!-- From 350 -->
 		<Damage_Type> Damage_Default </Damage_Type>
@@ -8045,7 +8047,7 @@
 		<Turret_Bone_Name> TURRET_03 </Turret_Bone_Name>
 		<Barrel_Bone_Name> BARREL_03 </Barrel_Bone_Name>
 
-		<Fire_Projectile_Type>Proj_Ship_Quad_Turbolaser_Blue</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ship_Twin_Turbolaser_Blue</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>3</Fire_Pulse_Count>
@@ -8065,8 +8067,8 @@
 
 	<HardPoint Name="HP_Light_Cruiser_Turret_04">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 		<Health>450.0</Health> <!-- From 350 -->
 		<Damage_Type> Damage_Default </Damage_Type>
@@ -8095,7 +8097,7 @@
 		<Turret_Bone_Name> TURRET_04 </Turret_Bone_Name>
 		<Barrel_Bone_Name> BARREL_04 </Barrel_Bone_Name>
 
-		<Fire_Projectile_Type>Proj_Ship_Quad_Turbolaser_Blue</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ship_Twin_Turbolaser_Blue</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>3</Fire_Pulse_Count>
@@ -8115,8 +8117,8 @@
 
 	<HardPoint Name="HP_Light_Cruiser_Laser_01">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
 		<Health>350.0</Health> <!-- From 260 -->
 
@@ -8157,8 +8159,8 @@
 
 	<HardPoint Name="HP_Light_Cruiser_Laser_02">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
 		<Health>350.0</Health> <!-- From 260 -->
 
@@ -8199,8 +8201,8 @@
 
 	<HardPoint Name="HP_Light_Cruiser_Laser_03">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
 		<Health>350.0</Health> <!-- From 260 -->
 
@@ -8241,8 +8243,8 @@
 
 	<HardPoint Name="HP_Light_Cruiser_Laser_04">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
 		<Health>350.0</Health> <!-- From 260 -->
 
@@ -8284,8 +8286,8 @@
 
 	<HardPoint Name="HP_Light_Cruiser_Miss_01">
 		<Type> HARD_POINT_WEAPON_MISSILE </Type>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_CONCUSSIONMISSILE</Tooltip_Text>
 		<Health>350.0</Health> <!-- From 220 -->
 
@@ -8318,8 +8320,8 @@
 
 	<HardPoint Name="HP_Light_Cruiser_Engines">
 		<Type> HARD_POINT_ENGINE </Type>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
 		<Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
 		<Health>350.0</Health> <!-- From 260 -->
 
@@ -8337,8 +8339,8 @@
 
 	<HardPoint Name="HP_Light_Cruiser_Shield_Generator">
 		<Type> HARD_POINT_SHIELD_GENERATOR </Type>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
 		<Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
 		<Health>450.0</Health> <!-- From 100 -->
 
