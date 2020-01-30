@@ -74,6 +74,8 @@
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 
 		<Death_Clone>Damage_Normal, CIS_Carrier_Death_Clone</Death_Clone>
+		
+		<Lua_Script>ObjectScript_Example</Lua_Script>
 
 		<HardPoints>
 			HP_CIS_Carrier_01, 

@@ -93,6 +93,8 @@
 			HP_Centax_Shield_Generator,
 			HP_Centax_Engines,
 		</HardPoints>
+		
+		<Lua_Script>ObjectScript_Example</Lua_Script>
 
 		<CategoryMask> Frigate | AntiCorvette</CategoryMask>
 		<Icon_Name>I_BUTTON_CENTAX_FRIGATE.tga</Icon_Name>

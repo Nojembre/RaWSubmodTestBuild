@@ -217,6 +217,9 @@
 			HP_LUCREHULK_FIGHTERBAY_02,
 			HP_LUCREHULK_ENGINES
 		</HardPoints>
+		
+		
+		<Lua_Script>ObjectScript_Example</Lua_Script>
 
 		<CategoryMask> Capital | AntiFrigate | SpaceHero </CategoryMask>
 		<GUI_Model_Name>SeV_Lucrehulk.ALO</GUI_Model_Name>

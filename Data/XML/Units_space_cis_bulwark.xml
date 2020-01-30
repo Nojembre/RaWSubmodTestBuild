@@ -70,6 +70,8 @@
 		<Build_Time_Seconds>85</Build_Time_Seconds> <!-- From 65 -->
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
+		
+		<Lua_Script>ObjectScript_Example</Lua_Script>
 
 		<!-- Set to spawn all units once and then not continue - no reserves -->
 

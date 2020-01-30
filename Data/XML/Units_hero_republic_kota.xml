@@ -443,6 +443,9 @@
 		<Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
 		<Reserve_Spawned_Units_Tech_5>Arc_170_Squadron, 5</Reserve_Spawned_Units_Tech_5> 
 		<Reserve_Spawned_Units_Tech_5>Republic_VWing_Squadron, 35</Reserve_Spawned_Units_Tech_5>
+		
+		
+		<Lua_Script>ObjectScript_Example</Lua_Script>
 
 
 		<HardPoints>

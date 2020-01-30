@@ -93,6 +93,8 @@
 			HP_MC40a_Hangar
 		</HardPoints>
 		
+		<Lua_Script>ObjectScript_Example</Lua_Script>
+		
 		
 		<Starting_Spawned_Units_Tech_0>Scyk_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>

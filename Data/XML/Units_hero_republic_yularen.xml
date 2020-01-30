@@ -393,6 +393,8 @@
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
 
 		<Death_Clone>Damage_Normal, Resolute_Death_Clone</Death_Clone>
+		
+		<Lua_Script>ObjectScript_Example</Lua_Script>
 
 		<HardPoints>
 				HP_Republic_Venator_Shield_Gen,

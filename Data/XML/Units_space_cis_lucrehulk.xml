@@ -50,6 +50,8 @@
 		<Build_Cost_Credits>8000</Build_Cost_Credits>
 		<Build_Time_Seconds>90</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		
+		<Lua_Script>ObjectScript_Example</Lua_Script>
 
 		<Cheap_Bribe_Cost>200</Cheap_Bribe_Cost>
 		<Expensive_Bribe_Cost>400</Expensive_Bribe_Cost>

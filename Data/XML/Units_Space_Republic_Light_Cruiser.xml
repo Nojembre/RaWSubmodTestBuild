@@ -91,6 +91,9 @@
 			HP_Light_Cruiser_Engines,
 			HP_Light_Cruiser_Shield_Generator
 		</HardPoints>
+		
+		
+		<Lua_Script>ObjectScript_Example</Lua_Script>
 
 
 		<CategoryMask> Frigate | AntiCorvette</CategoryMask>

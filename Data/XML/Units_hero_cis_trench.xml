@@ -85,6 +85,11 @@
 		<!--Currently no reserves -->
 		<Reserve_Spawned_Units_Tech_0>Vulture_Droid_Squadron, 5</Reserve_Spawned_Units_Tech_0> <!--From 44 -->
 		<Reserve_Spawned_Units_Tech_0>Hyena_Bomber_Squadron, 4</Reserve_Spawned_Units_Tech_0> <!-- From 18 -->
+		
+		
+		<Lua_Script>ObjectScript_Example</Lua_Script>
+		
+		
 
 		<HardPoints>
 			HP_Providence_01,

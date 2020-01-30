@@ -84,6 +84,8 @@
 		<HardPoints> 
 				HP_CIS_Patrol_Figate_01, HP_CIS_Patrol_Figate_02, HP_CIS_Patrol_Figate_03, HP_CIS_Patrol_Figate_04, HP_CIS_Patrol_Figate_05, HP_CIS_Patrol_Figate_06, HP_CIS_Patrol_Figate_07, HP_CIS_Patrol_Figate_08
 		</HardPoints>
+		
+		<Lua_Script>ObjectScript_Example</Lua_Script>
 
 		<Icon_Name>I_BUTTON_CIS_PATROLFRIGATE.TGA</Icon_Name>
 		<GUI_Model_Name>SEV_patrol_frigate.ALO</GUI_Model_Name>

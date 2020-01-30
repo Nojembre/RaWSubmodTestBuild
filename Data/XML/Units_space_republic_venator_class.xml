@@ -109,6 +109,8 @@
 			HP_Republic_Venator_TL00,
 			HP_Republic_Venator_TL01
 		</HardPoints>
+		
+		<Lua_Script>ObjectScript_Example</Lua_Script>
 
 		<CategoryMask> Capital | AntiFrigate</CategoryMask>
 
@@ -328,6 +330,8 @@
 			HP_Republic_Venator_TL00,
 			HP_Republic_Venator_TL01
 		</HardPoints>
+		
+		<Lua_Script>ObjectScript_Example</Lua_Script>
 
 		<CategoryMask> Capital | AntiFrigate</CategoryMask>
 
@@ -583,6 +587,8 @@
 			HP_Republic_Venator_TL00,
 			HP_Republic_Venator_TL01
 		</HardPoints>
+		
+		<Lua_Script>ObjectScript_Example</Lua_Script>
 
 		<CategoryMask> Capital | AntiFrigate</CategoryMask>
 

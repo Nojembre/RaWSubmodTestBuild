@@ -307,6 +307,8 @@
 			HP_Rep_Acclamator_Shield,
 			HP_Rep_Acclamator_Weapon_BC,
 		</HardPoints>
+		
+		<Lua_Script>ObjectScript_Example</Lua_Script>
 
 		<CategoryMask> Frigate | AntiCorvette</CategoryMask>
 		<Icon_Name>I_BUTTON_ACCLAMATOR_M2.tga</Icon_Name>

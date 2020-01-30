@@ -64,6 +64,8 @@
 		<Cheap_Bribe_Cost>220</Cheap_Bribe_Cost>
 		<Expensive_Bribe_Cost>300</Expensive_Bribe_Cost>
 		<Tactical_Bribe_Cost>1000</Tactical_Bribe_Cost>
+		
+		<Lua_Script>ObjectScript_Example</Lua_Script>
 
 		<Size_Value>8</Size_Value>
 

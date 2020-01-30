@@ -81,8 +81,17 @@
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 
 		<HardPoints> 
-				HP_Corellian_Corvette_01, HP_Corellian_Corvette_02, HP_Corellian_Corvette_03, HP_Corellian_Corvette_04, HP_Corellian_Corvette_06, HP_Corellian_Corvette_07, HP_Corellian_Corvette_08
+				HP_Corellian_Corvette_01, 
+				HP_Corellian_Corvette_02, 
+				HP_Corellian_Corvette_03,
+				HP_Corellian_Corvette_04,
+				HP_Corellian_Corvette_06,
+				HP_Corellian_Corvette_07, 
+				HP_Corellian_Corvette_08
 		</HardPoints>
+		
+		
+		<Lua_Script>ObjectScript_Example</Lua_Script>
 
 		<Icon_Name>i_button_corellian_corvette.tga</Icon_Name>
 		<GUI_Model_Name>RV_CORVETTE.ALO</GUI_Model_Name>
@@ -249,8 +258,16 @@
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 
 		<HardPoints> 
-				HP_Corellian_Corvette_01, HP_Corellian_Corvette_02, HP_Corellian_Corvette_03, HP_Corellian_Corvette_04, HP_Corellian_Corvette_06, HP_Corellian_Corvette_07, HP_Corellian_Corvette_08
+				HP_Corellian_Corvette_01, 
+				HP_Corellian_Corvette_02, 
+				HP_Corellian_Corvette_03,
+				HP_Corellian_Corvette_04, 
+				HP_Corellian_Corvette_06, 
+				HP_Corellian_Corvette_07,
+				HP_Corellian_Corvette_08
 		</HardPoints>
+		
+		<Lua_Script>ObjectScript_Example</Lua_Script>
 
 		<Icon_Name>i_button_corellian_corvette.tga</Icon_Name>
 		<GUI_Model_Name>RV_CORVETTE.ALO</GUI_Model_Name>

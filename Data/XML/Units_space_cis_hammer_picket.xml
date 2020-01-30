@@ -36,6 +36,8 @@
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 		<Min_Speed>2.0</Min_Speed>
 		<Max_Lift>0.0</Max_Lift>
+		
+		<Lua_Script>ObjectScript_Example</Lua_Script>
 
 
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>

@@ -101,6 +101,8 @@
 			HP_Dreadnaught_Shield_Generator, 
 			HP_Dreadnaught_Engines
 		</Hardpoints>
+		
+		<Lua_Script>ObjectScript_Example</Lua_Script>
 
 
 		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>

@@ -106,6 +106,8 @@
 			HP_Victory_Engines, 
 			HP_Victory_Shields
 		</HardPoints>
+		
+		<Lua_Script>ObjectScript_Example</Lua_Script>
 
 		<!-- Fighter complement -->
 		<Starting_Spawned_Units_Tech_0>V19_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- From 2 -->
@@ -325,6 +327,9 @@
 			HP_Victory_Engines, 
 			HP_Victory_Shields
 		</HardPoints>
+		
+		
+		<Lua_Script>ObjectScript_Example</Lua_Script>
 
 		<!-- Fighter complement -->
 		<Starting_Spawned_Units_Tech_0>Empire_VWing_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- From 2 -->

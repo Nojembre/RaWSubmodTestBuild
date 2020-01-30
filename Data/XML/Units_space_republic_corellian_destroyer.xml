@@ -102,6 +102,8 @@
 		</HardPoints>
 		
 		
+		<Lua_Script>ObjectScript_Example</Lua_Script>
+		
 
 		<Starting_Spawned_Units_Tech_0>Empire_VWing_Squadron, 4</Starting_Spawned_Units_Tech_0> 
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>

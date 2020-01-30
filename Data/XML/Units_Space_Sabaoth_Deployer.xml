@@ -113,6 +113,8 @@
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_ATAT_Barge_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
+		
+		<Lua_Script>ObjectScript_Example</Lua_Script>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 

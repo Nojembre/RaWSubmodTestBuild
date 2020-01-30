@@ -109,6 +109,8 @@
 			HP_Supply_Ship_Bay_01
 			HP_Supply_Ship_Bay_02	
 		</HardPoints>
+		
+		<Lua_Script>ObjectScript_Example</Lua_Script>
 
 		<CategoryMask> Capital | AntiFrigate </CategoryMask>
 		<GUI_Model_Name>SeV_Supplyship.ALO</GUI_Model_Name>

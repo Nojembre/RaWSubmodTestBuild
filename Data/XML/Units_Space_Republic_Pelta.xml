@@ -90,6 +90,8 @@
 			HP_Pelta_Shield,
 			HP_Pelta_Engine
 		</HardPoints>
+		
+		<Lua_Script>ObjectScript_Example</Lua_Script>
 
 
 		<CategoryMask> Frigate | AntiCorvette</CategoryMask>

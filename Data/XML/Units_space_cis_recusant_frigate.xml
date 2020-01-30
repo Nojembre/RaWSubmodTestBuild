@@ -78,6 +78,9 @@
 		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 
+		<Lua_Script>ObjectScript_Example</Lua_Script>
+		
+		
 		<HardPoints>
 			HP_Recusant_01, 
 			HP_Recusant_02, 

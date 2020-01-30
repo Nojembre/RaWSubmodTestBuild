@@ -25,6 +25,10 @@
 		</HardPoints>	
 
 
+		
+		<Lua_Script>ObjectScript_Example</Lua_Script>
+		
+		
 
 		<GUI_Row> 1 </GUI_Row>
 		<Select_Box_Scale>350</Select_Box_Scale>

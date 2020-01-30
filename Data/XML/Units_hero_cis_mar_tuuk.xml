@@ -89,6 +89,10 @@
 		<Reserve_Spawned_Units_Tech_4>Vulture_Droid_Squadron, 50</Reserve_Spawned_Units_Tech_4>
 		<Reserve_Spawned_Units_Tech_4>Tri_Droid_Squadron, 10</Reserve_Spawned_Units_Tech_4>
 		<Reserve_Spawned_Units_Tech_4>Hyena_Bomber_Squadron, 24</Reserve_Spawned_Units_Tech_4>
+		
+		<Lua_Script>ObjectScript_Example</Lua_Script>
+		
+		
 
 		<HardPoints>
 			HP_LUCREHULK_TURBO_01,

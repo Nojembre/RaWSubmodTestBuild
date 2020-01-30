@@ -93,6 +93,11 @@
 		<Reserve_Spawned_Units_Tech_4>CIS_Bomber_Squadron, 4</Reserve_Spawned_Units_Tech_4>
 		<Reserve_Spawned_Units_Tech_4>Tri_Droid_Squadron, 2</Reserve_Spawned_Units_Tech_4>
 		<Reserve_Spawned_Units_Tech_4>Vulture_Droid_Squadron, 6</Reserve_Spawned_Units_Tech_4>
+		
+		
+
+		<Lua_Script>ObjectScript_Example</Lua_Script>
+		
 
 		<HardPoints>
 			HP_Providence_01,
@@ -354,6 +359,9 @@
 		<Reserve_Spawned_Units_Tech_4>CIS_Bomber_Squadron, 4</Reserve_Spawned_Units_Tech_4>
 		<Reserve_Spawned_Units_Tech_4>Tri_Droid_Squadron, 4</Reserve_Spawned_Units_Tech_4>
 		<Reserve_Spawned_Units_Tech_4>Vulture_Droid_Squadron, 8</Reserve_Spawned_Units_Tech_4>
+		
+		
+		<Lua_Script>ObjectScript_Example</Lua_Script>
 
 		<HardPoints>
 			HP_Providence_01,

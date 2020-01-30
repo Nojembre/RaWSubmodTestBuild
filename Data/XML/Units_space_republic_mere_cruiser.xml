@@ -91,6 +91,8 @@
 				HP_Mere_Cruiser_AA_1,
 				HP_Mere_Cruiser_AA_2
 		</HardPoints>
+		
+		<Lua_Script>ObjectScript_Example</Lua_Script>
 
 		<Icon_Name>I_BUTTON_MERE_CRUISER.tga</Icon_Name>
 		<GUI_Model_Name>NV_Mere_Cruiser.ALO</GUI_Model_Name>

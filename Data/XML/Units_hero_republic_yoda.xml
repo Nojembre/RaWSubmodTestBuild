@@ -507,6 +507,8 @@
 		<SFXEvent_Engine_Idle_Loop> Unit_Venator_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop> Unit_Venator_Moving_Engine_Loop</SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Venator_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		
+		<Lua_Script>ObjectScript_Example</Lua_Script>
 
 
 		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>

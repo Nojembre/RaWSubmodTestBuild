@@ -135,6 +135,8 @@
 		
 		
 		<Build_Limit_Current_Per_Player>2</Build_Limit_Current_Per_Player>
+		
+		<Lua_Script>ObjectScript_Example</Lua_Script>
 
 		
 		<CategoryMask> Frigate | AntiCorvette | AntiFrigate </CategoryMask>  
