@@ -2,6 +2,11 @@
  Test build for Nojembre's Republic at War Submod!
 
  List of changes for this commit:
+-Started testing a progressive GC without tech levels.
+ 
+ 
+ 
+ List of changes for last commit:
 -Added Gold Squadron to Admiral Yularen (Until Tech 5).
 -Added Z-95 Squadrons to Admiral Yularen (Tech 5).
 -Added Providence Dreadnought to CIS (Tech 5).
@@ -19,8 +24,3 @@
 -Tidied up the Rise of the Empire GC a little more.
 
 -Fixed an issue allowing the AI to build old merc mandalorians.
- 
- 
- 
- List of changes for last commit:
- None

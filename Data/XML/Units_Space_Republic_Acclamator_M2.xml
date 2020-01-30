@@ -110,6 +110,8 @@
 		</HardPoints>
 		-->
 		
+		<Lua_Script>ObjectScript_Example</Lua_Script>
+		
 		<CategoryMask> Frigate | AntiCorvette</CategoryMask>
 		<Icon_Name>I_BUTTON_ACCLAMATOR_M2.tga</Icon_Name>
 		<GUI_Model_Name>ReV_acclamator1.ALO</GUI_Model_Name>

@@ -1523,7 +1523,7 @@
 
 		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
 
-		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
@@ -1531,7 +1531,6 @@
 
 		<Destruction_Survivors> 
 			Republic_Clonetrooper_P1_Squad_CW, 1.0
-
 		</Destruction_Survivors>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
@@ -1640,7 +1639,7 @@
 		<GUI_Bounds_Scale>0.4</GUI_Bounds_Scale>
 		<!-- Added by CR -->
 		<Text_ID>TEXT_GROUND_RESEARCH_FACILITY_REBEL</Text_ID>
-		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<GUI_Row> 0 </GUI_Row>
 		<Land_Model_Name>SeB_ResearchCenter.alo</Land_Model_Name>

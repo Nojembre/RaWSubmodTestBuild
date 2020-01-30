@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+
+<Story_Mode_Plots>
+
+	<Lua_Script>Story_sandbox_The_Clone_Wars_Progressive_empire</Lua_Script>
+	<Active_Plot>Story_sandbox_The_Clone_Wars_Progressive_empire.XML</Active_Plot>
+	
+	<!--
+	<Lua_Script>Story_Sandbox_UpgradePhase1ToPhase2</Lua_Script>
+	<Active_Plot>Story_Sandbox_UpgradePhase1ToPhase2.xml</Active_Plot>
+	-->
+	
+</Story_Mode_Plots>

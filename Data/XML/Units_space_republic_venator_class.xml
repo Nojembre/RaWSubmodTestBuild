@@ -210,6 +210,13 @@
 	</SpaceUnit>
 	
 	
+	<SpaceUnit Name="Venator_Progressive">
+		<Variant_Of_Existing_Type>Venator</Variant_Of_Existing_Type>
+		<Tech_Level>1</Tech_Level>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+	</SpaceUnit>
+	
+	
 	
 	
 	<SpaceUnit Name="Open_Circle_Venator">

@@ -1,0 +1,272 @@
+<?xml version="1.0" ?>
+
+
+
+<!--***************************************************-->
+<!--***** CAMPAIGN: Clone Wars Progressive (Rebel Version) *****-->
+<!--***************************************************-->
+
+
+
+<Story>
+
+	<Event Name="Universal_Story_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Story_Dialog>Dialog_Raw_GC_Solo</Story_Dialog>
+		<Story_Chapter>7</Story_Chapter>
+		<Story_Tag>Intro_Tag</Story_Tag>
+	</Event>
+
+
+
+	<!-- Spawn Starting Heroes -->
+	<!--
+	<Event Name="Rebel_AI_Unlock_Research_Facility">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>R_Ground_Research_Facility</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	-->
+
+	<Event Name="Lock_Malevolence_AI">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Malevolence_AI</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Nute_Gunray">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Nute_Gunray_Team</Reward_Param1>
+		<Reward_Param2>Geonosis</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Count_Dooku">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Count_Dooku_Team</Reward_Param1>
+		<Reward_Param2>Geonosis</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<!-- Spawn Tech 1 Heroes -->
+
+	<Event Name="Rebels_Enter_Tech_01">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>1</Event_Param1>
+	</Event>
+
+	<Event Name="Spawn_Jango_Fett">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Jango_Fett_Team</Reward_Param1>
+		<Reward_Param2>Geonosis</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_01</Prereq>
+	</Event>
+	
+	<Event Name="Spawn_Mar_Tuuk">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Mar_Tuuk</Reward_Param1>
+		<Reward_Param2>Christophsis</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_01</Prereq>
+	</Event>
+
+
+
+	<!-- Spawn Tech 2 Heroes -->
+
+	<Event Name="Rebels_Enter_Tech_02">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>2</Event_Param1>
+	</Event>
+
+	<Event Name="Spawn_Asajj_Ventress">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Asajj_Ventress_Team</Reward_Param1>
+		<Reward_Param2>Geonosis</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Aurra_Sing">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Aurra_Sing_Team</Reward_Param1>
+		<Reward_Param2>Geonosis</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+	</Event>
+	
+	<Event Name="Spawn_Kalani">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Kalani_Team</Reward_Param1>
+		<Reward_Param2>Geonosis</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Cydon">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Cydon_Prax_Team</Reward_Param1>
+		<Reward_Param2>Geonosis</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+	</Event>
+
+
+
+
+	<!-- Spawn Tech 3 Heroes -->
+
+	<Event Name="Rebels_Enter_Tech_03">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>3</Event_Param1>
+	</Event>
+
+	<Event Name="Spawn_Durge">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Durge_Team</Reward_Param1>
+		<Reward_Param2>Geonosis</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Grievous">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>General_Grievous_Team</Reward_Param1>
+		<Reward_Param2>Geonosis</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Trench">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Admiral_Trench</Reward_Param1>
+		<Reward_Param2>Geonosis</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+	</Event>
+
+
+
+	<!-- Spawn Tech 4 Heroes -->
+
+	<Event Name="Rebels_Enter_Tech_04">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>4</Event_Param1>
+	</Event>
+
+	<Event Name="Spawn_Cad_Bane">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Cad_Bane_Team</Reward_Param1>
+		<Reward_Param2>Geonosis</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+	</Event>
+
+
+	<Event Name="Spawn_Bossk">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Bossk_Team</Reward_Param1>
+		<Reward_Param2>Geonosis</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+	</Event>
+
+
+	<Event Name="Prevent_Victory"> <!-- Disables that you can Win in GC -->
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ENABLE_VICTORY</Reward_Type>
+		<Reward_Param1>0</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	
+	<!-- Restricting Units -->
+	
+	<Event Name="Lock_MC40">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>MC40</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<Event Name="Lock_CR90">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>CR90_CIS</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<Event Name="Lock_Corellian_Destroyer">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Corellian_Destroyer_CIS</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<!-- End Restrictions -->
+	
+
+	<!-- Winning Movie Event -->
+
+	<Event Name="Winning_Movie">
+		<!-- Can oly be used if Winning in GC is disabled -->
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>Win_Event_Start</Event_Param2>
+		<Reward_Type>PAUSE_GALACTIC</Reward_Type>
+	</Event>
+
+	<Event Name="Winning_Movie_Start">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>START_MOVIE</Reward_Type>
+		<Reward_Param1>CIS_End_Win</Reward_Param1>
+		<Prereq>Winning_Movie</Prereq>
+	</Event>
+
+	<Event Name="Winning_Movie_Done">
+		<Event_Type>STORY_MOVIE_DONE</Event_Type>
+		<Reward_Type>UNPAUSE_GALACTIC</Reward_Type>
+		<Prereq>Winning_Movie_Start</Prereq>
+	</Event>
+
+	<Event Name="Reenable_Victory"> <!-- Reenables that the player can win in GC and the player will win at once, because he already reached the win-condition -->
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ENABLE_VICTORY</Reward_Type>
+		<Reward_Param1>1</Reward_Param1>
+		<Prereq>Winning_Movie_Done</Prereq>
+	</Event>
+
+	<!-- Losing Movie Event -->
+
+	<Event Name="Losing_Movie">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>Lose_GC</Event_Param2>
+		<Reward_Type>PAUSE_GALACTIC</Reward_Type>
+	</Event>
+
+	<Event Name="Losing_Movie_Start">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>START_MOVIE</Reward_Type>
+		<Reward_Param1>CIS_End_Lose</Reward_Param1>
+		<Prereq>Losing_Movie</Prereq>
+	</Event>
+
+	<Event Name="Losing_Movie_Done">
+		<Event_Type>STORY_MOVIE_DONE</Event_Type>
+		<Reward_Type>UNPAUSE_GALACTIC</Reward_Type>
+		<Prereq>Losing_Movie_Start</Prereq>
+	</Event>
+
+	<Event Name="Reenable_Victory_Lose"> <!-- Reenables that the player can win in GC and the player will win at once, because he already reached the win-condition -->
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ENABLE_VICTORY</Reward_Type>
+		<Reward_Param1>1</Reward_Param1>
+		<Prereq>Losing_Movie_Done</Prereq>
+	</Event>
+
+</Story>
