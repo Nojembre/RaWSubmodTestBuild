@@ -3,6 +3,7 @@
 
  List of changes for this commit:
 -Started testing a progressive GC without tech levels.
+-Fixed random ship heights.
  
  
  
