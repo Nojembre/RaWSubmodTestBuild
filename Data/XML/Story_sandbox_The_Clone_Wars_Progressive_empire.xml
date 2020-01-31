@@ -19,48 +19,7 @@
 	</Event>
 	
 	
-	
-	<Event Name="Start_Era_2">
-		<Event_Type>STORY_ELAPSED</Event_Type>
-		<Event_Param1>10</Event_Param1>
-		<Prereq>Universal_Story_Start</Prereq>
-	</Event>
-	
-	<!-- 
-	<Event Name="Empire_Enters_Tech_02">
-		<Event_Type>STORY_TECH_LEVEL</Event_Type>
-		<Event_Param1>2</Event_Param1>
-	</Event>
-	-->
-	
-	<Event Name="Empire_Enters_Tech_02">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>STORY_TECH_LEVEL</Reward_Type>
-		<Reward_Param1>2</Reward_Param1>
-		<Prereq>Universal_Story_Start</Prereq>
-	</Event>
-	
-	<Event Name="Empire_Unlock_Venator">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
-		<Reward_Param1>Venator_Progressive</Reward_Param1>
-		<Prereq>Republic_Enters_Tech_02</Prereq>
-	</Event>
-
-	<!-- Empire Hero Release -->
-
-
-	<!-- Spawn Starting Heroes -->
-
-	<!-- 
-	<Event Name="Empire_AI_Unlock_Research_Facility">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
-		<Reward_Param1>E_Ground_Research_Facility</Reward_Param1>
-		<Prereq>Universal_Story_Start</Prereq>
-	</Event>
-	-->
-
+	<!-- Spawn Faction Leader -->
 
 	<Event Name="Empire_AI_Heroes_02">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -69,8 +28,12 @@
 		<Reward_Param2>Coruscant</Reward_Param2>
 		<Prereq>Universal_Story_Start</Prereq>
 	</Event>
+	
+	
 
-
+<!--****************************************************-->
+<!--*****             CAMPAIGN: Era 1              *****-->
+<!--****************************************************-->
 
 
 	<!-- Spawn Tech Level 1 Heroes -->
@@ -85,7 +48,7 @@
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>Yoda_Team</Reward_Param1>
 		<Reward_Param2>Coruscant</Reward_Param2>
-		<Prereq>Empire_Enters_Tech_01</Prereq>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
 	</Event>
 
 	<Event Name="Spawn_Mace_Windu">
@@ -96,7 +59,35 @@
 		<Prereq>Empire_Enters_Tech_01</Prereq>
 	</Event>
 
+	
+	
+<!--****************************************************-->
+<!--*****             CAMPAIGN: Era 2              *****-->
+<!--****************************************************-->
+	
+	
+	<Event Name="Start_Era_2">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+	</Event>
 
+	
+	<Event Name="Empire_Enters_Tech_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>Set_Tech_Level</Reward_Type>
+		<Reward_Param1>Empire</Reward_Param1>
+		<Reward_Param2>2</Reward_Param2>
+		<Prereq>Start_Era_2</Prereq>
+	</Event>
+	
+	
+	<Event Name="Empire_Unlock_Venator">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Venator_Progressive</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
+	</Event>
+	
 
 	<!-- Spawn Time Era 2 Heroes -->
 

@@ -38,14 +38,6 @@
 		<Prereq>Universal_Story_Start</Prereq>
 	</Event>
 
-	<Event Name="Spawn_Captain_Rex">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>SPAWN_HERO</Reward_Type>
-		<Reward_Param1>Captain_Rex_Team</Reward_Param1>
-		<Reward_Param2>MonCalimari</Reward_Param2>
-		<Prereq>Empire_Enters_Tech_02</Prereq>
-	</Event>
-
 
 	<!-- Spawn Tech Level 1 Heroes -->
 
