@@ -108,7 +108,23 @@
 		<Bombing_Run_Blob_Size> 100.0 </Bombing_Run_Blob_Size>
 		<Bombardment_Shadow_Blob_Material_Name> Bombardment_Rebel </Bombardment_Shadow_Blob_Material_Name>
 		<Bombardment_Blob_Size> 250.0 </Bombardment_Blob_Size>
-		<Bombardment_Required_Orbital_Ships> Providence_Class_Carrier, Lucrehulk_Battleship, Malevolence, Invisible_Hand </Bombardment_Required_Orbital_Ships>
+		<Bombardment_Required_Orbital_Ships> 
+			Providence_Class_Carrier, 
+			Providence_Class_Dreadnought,
+			Lucrehulk_Battleship, 
+			Malevolence, 
+			Pinnance_Dreadnought,
+			CIS_Bulwark,
+			Sabaoth_Destroyer,
+			
+			Invisible_Hand,
+			Admiral_Trench,
+			Nute_Ship,
+			Mar_Tuuk,
+			Kalani_Providence,
+			
+			Corellian_Destroyer
+		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Empire_Bombardment_Turbolaser </Bombardment_Projectile>
 		<Bombardment_Number_Of_Salvos> 2 </Bombardment_Number_Of_Salvos>
 		<Bombardment_Shots_Per_Salvo> 8 </Bombardment_Shots_Per_Salvo>
@@ -823,7 +839,24 @@
 		<!-- BOMBARDMENT DATA -->
 		<Bombardment_Shadow_Blob_Material_Name> Bombardment_Empire </Bombardment_Shadow_Blob_Material_Name>
 		<Bombardment_Blob_Size> 200.0 </Bombardment_Blob_Size>
-		<Bombardment_Required_Orbital_Ships> Mandator_Super_Star_Destroyer, Venator, Star_Destroyer, Emp_Star_Destroyer, Venator_Emp, Mandator_Super_Star_Destroyer_Emp   </Bombardment_Required_Orbital_Ships>
+		<Bombardment_Required_Orbital_Ships> 
+			Mandator_Super_Star_Destroyer, 
+			Venator, 
+			Star_Destroyer, 
+			Republic_Victory_Destroyer,
+			Emp_Star_Destroyer, 
+			Venator_Emp, 
+			Republic_Victory_Destroyer_Emp,
+			Mandator_Super_Star_Destroyer_Emp,
+			
+			Corellian_Destroyer,
+
+			Admiral_Yularen,
+			Admiral_Tarkin,
+			Shaak_Ti_Venator,
+			Mundi_Venator,
+			Kota_Venator			
+		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Republic_Bombardment_Turbolaser </Bombardment_Projectile>
 		<Bombardment_Number_Of_Salvos> 3 </Bombardment_Number_Of_Salvos>
 		<Bombardment_Shots_Per_Salvo> 4 </Bombardment_Shots_Per_Salvo>
