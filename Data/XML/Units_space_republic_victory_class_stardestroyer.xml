@@ -59,7 +59,7 @@
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>3800</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<AI_Combat_Power>7000</AI_Combat_Power>
+		<AI_Combat_Power>7500</AI_Combat_Power> <!-- From 7000 to test to make the AI stop spamming -->
 		<!--<Build_Time_Seconds>45</Build_Time_Seconds>-->
 		<Build_Time_Seconds>45</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
