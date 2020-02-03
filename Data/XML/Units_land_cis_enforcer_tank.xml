@@ -14,7 +14,7 @@
 	<GroundVehicle Name="Persuader_Droid_Enforcer">
 
 		<Text_ID>TEXT_UNIT_ENFORCER_TANK</Text_ID>
-		<Encyclopedia_Good_Against> AT_AP AT_RT_Walker AT_RT_Walker </Encyclopedia_Good_Against>
+		<Encyclopedia_Good_Against> AT_AP AT_RT_Walker AT_PT</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> A6_Juggernaut LAAT AT-TE_Walker </Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Text>TEXT_TOOLTIP_ENFORCER_TANK</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
