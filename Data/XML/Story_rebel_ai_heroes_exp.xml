@@ -244,6 +244,52 @@
 		<Prereq>Universal_Story_Start</Prereq>
 	</Event>
 
+	
+	<!-- Fighters -->
+
+	
+	<Event Name="Lock_Belbullab">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Belbullab_Squadron</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<Event Name="Lock_CIS_Bomber">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>CIS_Bomber_Squadron</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<Event Name="Lock_Hyena">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Hyena_Bomber_Squadron</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event> 
+	
+	<Event Name="Lock_Nantex">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Nantex_Squadron</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event> 
+	
+	<Event Name="Lock_Mankvim">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Mankvim_Squadron</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event> 
+	
+	<Event Name="Lock_Mankvim">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Mankvim_Squadron</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event> 
+	
 	<!-- End Restrictions -->
 
 

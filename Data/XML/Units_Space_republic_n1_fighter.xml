@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Naboo_Fighter>
+
 	<SpaceUnit Name="Naboo_Fighter">
 		<Text_ID>TEXT_UNIT_N1_FIGHTER</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
@@ -107,6 +108,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</SpaceUnit>
+	
+	
 	<Squadron Name="Naboo_Fighter_Squadron">
 		<Text_ID>TEXT_UNIT_N1_FIGHTER</Text_ID>
 		<Encyclopedia_Good_Against> Nantex Vulture_Droid_Fighter CIS_Bomber </Encyclopedia_Good_Against>
@@ -178,7 +181,7 @@
 		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<Build_Limit_Current_Per_Player>10</Build_Limit_Current_Per_Player>
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>1</Population_Value>
