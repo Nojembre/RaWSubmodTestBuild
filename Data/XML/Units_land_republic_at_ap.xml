@@ -71,7 +71,7 @@
 		<Targeting_Max_Attack_Distance>700.0</Targeting_Max_Attack_Distance>
 		<Targeting_Priority_Set>AntiVehicle</Targeting_Priority_Set>
 
-		<Targeting_Fire_Inaccuracy> Infantry, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Infantry, 25.0 </Targeting_Fire_Inaccuracy> <!-- From 10 to make more innacurate -->
 		<Targeting_Fire_Inaccuracy> Vehicle, 1.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 5.0 </Targeting_Fire_Inaccuracy>
