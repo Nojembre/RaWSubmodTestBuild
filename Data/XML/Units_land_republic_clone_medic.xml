@@ -31,6 +31,8 @@
 		<MaxJiggleDistance> 2 </MaxJiggleDistance>
 		<Icon_Name>I_BUTTON_CLONES_MEDIC.TGA</Icon_Name>
 		
+		<Garrison_Category> Infantry </Garrison_Category>
+		
 		<Select_Box_Scale>300</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
         <Highlight_Blob_Material_Name>Highlight_Republic_Medic</Highlight_Blob_Material_Name>
@@ -147,13 +149,30 @@
 		<SFXEvent_Build_Complete>Unit_Select_Clone_Trooper</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
 		
+		
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Clone_Trooper</SFXEvent_GUI_Unit_Ability_Activated>		  			
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>
+		
+		
 			<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
 		<Tactical_Build_Cost_Multiplayer>600</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>EC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		
 	</GroundCompany>
+	
+	
 	
 	<GroundCompany Name="Clone_Medic_Team_P2">
 		<Text_ID>TEXT_UNIT_CLONETROOPER_MEDIC_P1</Text_ID>
@@ -194,6 +213,19 @@
 		<SFXEvent_Build_Cancelled>RHD_Training_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Select_Clone_Trooper</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
+		
+		
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Clone_Trooper</SFXEvent_GUI_Unit_Ability_Activated>		  			
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>
 		
 			<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
 		<Tactical_Build_Cost_Multiplayer>600</Tactical_Build_Cost_Multiplayer>
