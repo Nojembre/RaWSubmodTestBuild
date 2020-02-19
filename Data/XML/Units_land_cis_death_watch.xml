@@ -242,6 +242,8 @@
 		
 		<Scale_Factor>1.7</Scale_Factor>
 		
+		<Redirect_Damage_To_Teammates>Yes</Redirect_Damage_To_Teammates>
+		
 		
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!--

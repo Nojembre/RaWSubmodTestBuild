@@ -284,6 +284,8 @@
 
 		<Strafe_Distance>500.0</Strafe_Distance>
 		<Population_Value>0</Population_Value>
+		
+		<Redirect_Damage_To_Teammates>Yes</Redirect_Damage_To_Teammates>
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">

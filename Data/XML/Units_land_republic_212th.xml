@@ -378,6 +378,8 @@
 				Octuptarra_Walker_Death_Clone_00,
 				Cydon_Prax_Death_Clone,
 		</Presence_Induced_Animations>
+		
+		<Redirect_Damage_To_Teammates>Yes</Redirect_Damage_To_Teammates>
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -580,6 +582,8 @@
 				Octuptarra_Walker_Death_Clone_00,
 				Cydon_Prax_Death_Clone,
 		</Presence_Induced_Animations>
+		
+		<Redirect_Damage_To_Teammates>Yes</Redirect_Damage_To_Teammates>
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -1094,6 +1098,8 @@
 				Octuptarra_Walker_Death_Clone_00,
 				Cydon_Prax_Death_Clone,
 		</Presence_Induced_Animations>
+		
+		<Redirect_Damage_To_Teammates>Yes</Redirect_Damage_To_Teammates>
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -1296,6 +1302,8 @@
 				Octuptarra_Walker_Death_Clone_00,
 				Cydon_Prax_Death_Clone,
 		</Presence_Induced_Animations>
+		
+		<Redirect_Damage_To_Teammates>Yes</Redirect_Damage_To_Teammates>
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
