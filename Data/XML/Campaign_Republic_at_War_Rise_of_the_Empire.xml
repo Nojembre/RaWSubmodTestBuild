@@ -8,7 +8,7 @@
 	<Campaign Name="Sandbox_Rise_of_the_Empire_Rebel">
 
 		<Campaign_Set> Sandbox_Rise_of_the_Empire </Campaign_Set>
-		<Sort_Order>5</Sort_Order>
+		<Sort_Order>11</Sort_Order>
 
 		<Text_ID> TEXT_CAMPAIGN_SINGLE_ROTE </Text_ID>
 		<Description_Text> TEXT_CAMPAIGN_SINGLE_DESCRIPTION_ROTE </Description_Text>
@@ -1142,7 +1142,7 @@
 	<Campaign Name="Sandbox_Rise_of_the_Empire_Empire">
 
 		<Campaign_Set> Sandbox_Rise_of_the_Empire </Campaign_Set>
-		<Sort_Order>5</Sort_Order>
+		<Sort_Order>11</Sort_Order>
 
 		<Text_ID> TEXT_CAMPAIGN_SINGLE_ROTE </Text_ID>
 		<Description_Text> TEXT_CAMPAIGN_SINGLE_DESCRIPTION_ROTE </Description_Text>

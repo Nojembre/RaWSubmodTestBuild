@@ -8,7 +8,7 @@
 	<Campaign Name="Sandbox_Raising_Conflict_Rebel">
 
 		<Campaign_Set>Sandbox_From_Ashes</Campaign_Set>
-		<Sort_Order>6</Sort_Order>
+		<Sort_Order>7</Sort_Order>
 
 		<Text_ID>TEXT_CAMPAIGN_SINGLE_FROM_ASHES</Text_ID>
 		<Description_Text>TEXT_CAMPAIGN_SINGLE_DESCRIPTION_FROM_ASHES</Description_Text>
@@ -2173,7 +2173,7 @@
 
 	<Campaign Name="Sandbox_Raising_Conflict_Empire">
 		<Campaign_Set>Sandbox_From_Ashes</Campaign_Set>
-		<Sort_Order>6</Sort_Order>
+		<Sort_Order>7</Sort_Order>
 
 		<Text_ID>TEXT_CAMPAIGN_SINGLE_FROM_ASHES</Text_ID>
 		<Description_Text>TEXT_CAMPAIGN_SINGLE_DESCRIPTION_FROM_ASHES</Description_Text>

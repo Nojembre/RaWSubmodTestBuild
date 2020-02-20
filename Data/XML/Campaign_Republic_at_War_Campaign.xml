@@ -8,7 +8,7 @@
 	<Campaign Name="Sandbox_Campaign_Empire">
 
 		<Campaign_Set> Sandbox_Campaign_Empire </Campaign_Set>
-		<Sort_Order>5</Sort_Order>
+		<Sort_Order>15</Sort_Order>
 
 		<Text_ID> TEXT_CAMPAIGN_SINGLE_CAMPAIGN </Text_ID>
 		<Description_Text> TEXT_CAMPAIGN_SINGLE_DESCRIPTION_CAMPAIGN </Description_Text>

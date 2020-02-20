@@ -8,7 +8,7 @@
 	<Campaign Name="Sandbox_Outer_Rim_Sieges_Rebel">
 
 		<Campaign_Set> Sandbox_Outer_Rim_Sieges </Campaign_Set>
-		<Sort_Order>4</Sort_Order>
+		<Sort_Order>14</Sort_Order>
 
 		<Text_ID> TEXT_CAMPAIGN_SINGLE_OUTER_RIM_SIEGES </Text_ID>
 		<Description_Text> TEXT_CAMPAIGN_SINGLE_DESCRIPTION_OUTER_RIM_SIEGES </Description_Text>
@@ -746,7 +746,7 @@
 	<Campaign Name="Sandbox_Outer_Rim_Sieges_Empire">
 
 		<Campaign_Set> Sandbox_Outer_Rim_Sieges </Campaign_Set>
-		<Sort_Order>4</Sort_Order>
+		<Sort_Order>14</Sort_Order>
 
 		<Text_ID> TEXT_CAMPAIGN_SINGLE_OUTER_RIM_SIEGES </Text_ID>
 		<Description_Text> TEXT_CAMPAIGN_SINGLE_DESCRIPTION_OUTER_RIM_SIEGES </Description_Text>

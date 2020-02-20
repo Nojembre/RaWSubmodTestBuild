@@ -8,7 +8,7 @@
 	<Campaign Name="Sandbox_Fall_of_The_Jedi_Empire">
 
 		<Campaign_Set> Sandbox_Fall_of_The_Jedi </Campaign_Set>
-		<Sort_Order>5</Sort_Order>
+		<Sort_Order>6</Sort_Order>
 
 		<Text_ID> TEXT_CAMPAIGN_SINGLE_FALL_OF_THE_JEDI </Text_ID>
 		<Description_Text> TEXT_CAMPAIGN_SINGLE_DESCRIPTION_FALL_OF_THE_JEDI </Description_Text>
