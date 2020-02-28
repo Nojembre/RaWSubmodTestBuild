@@ -9,7 +9,7 @@
 		<Encyclopedia_Good_Against> Recusant_Frigate Munificent_Frigate Technounion_Frigate </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> CIS_Bomber Providence_Class_Carrier Malevolence</Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
-		<Space_Model_Name>REV_VENATOR.ALO</Space_Model_Name>
+		<Space_Model_Name>ReV_venator_No_Circle.ALO</Space_Model_Name>
 		<Icon_Name>I_BUTTON_VENATOR.TGA</Icon_Name>
 		<Select_Box_Scale>1600</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-80</Select_Box_Z_Adjust>
@@ -114,7 +114,7 @@
 
 		<CategoryMask> Capital | AntiFrigate</CategoryMask>
 
-		<GUI_Model_Name>REV_VENATOR.ALO</GUI_Model_Name>
+		<GUI_Model_Name>ReV_venator_No_Circle.ALO</GUI_Model_Name>
 		<GUI_Distance>1100</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
@@ -222,7 +222,6 @@
 	
 	
 	<SpaceUnit Name="Open_Circle_Venator">
-		<Variant_Of_Existing_Type>Venator</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_OPEN_CIRCLE_VENATOR</Text_ID>
 		<No_Colorization_Color> 170, 1, 1, 255 </No_Colorization_Color>
 		<Encyclopedia_Text> TEXT_TOOLTIP_OPEN_CIRCLE_VENATOR</Encyclopedia_Text>
