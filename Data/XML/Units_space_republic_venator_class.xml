@@ -293,10 +293,12 @@
 		<Reserve_Spawned_Units_Tech_0>V19_Squadron, 15</Reserve_Spawned_Units_Tech_0> <!-- From 35 -->
 
 		<Starting_Spawned_Units_Tech_5>Arc_170_Squadron, 2</Starting_Spawned_Units_Tech_5>
-		<Starting_Spawned_Units_Tech_5>Republic_VWing_Squadron, 6</Starting_Spawned_Units_Tech_5>
+		<Starting_Spawned_Units_Tech_5>Republic_VWing_Squadron, 4</Starting_Spawned_Units_Tech_5>
+		<Starting_Spawned_Units_Tech_5>Republic_Z95_Squadron, 2</Starting_Spawned_Units_Tech_5>
 		<Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
 		<Reserve_Spawned_Units_Tech_5>Arc_170_Squadron, 5</Reserve_Spawned_Units_Tech_5> 
-		<Reserve_Spawned_Units_Tech_5>Republic_VWing_Squadron, 15</Reserve_Spawned_Units_Tech_5> <!-- From 35 -->
+		<Reserve_Spawned_Units_Tech_5>Republic_VWing_Squadron, 10</Reserve_Spawned_Units_Tech_5> <!-- From 35 -->
+		<Reserve_Spawned_Units_Tech_5>Republic_Z95_Squadron, 4</Reserve_Spawned_Units_Tech_5> <!-- From 35 -->
 
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
