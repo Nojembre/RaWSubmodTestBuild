@@ -467,15 +467,20 @@
 		<GUI_Velocity>45</GUI_Velocity>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-
+		
+		<SFXEvent_Select>Unit_Select_Space_Grievous</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Space_Grievous</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Grievous</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Space_Grievous</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Move_Space_Grievous</SFXEvent_Guard>
+		<SFXEvent_Group_Move>Unit_Move_Space_Grievous</SFXEvent_Group_Move>
+		<SFXEvent_Group_Attack>Unit_Attack_Space_Grievous</SFXEvent_Group_Attack>
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Grievous </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Grievous </SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Unit_Lost> Unit_Defeat_Grievous </SFXEvent_Unit_Lost>
+		
 		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Ambient_Loop>Unit_Cis_Cap_Ship_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
-		<SFXEvent_Select>Unit_Select_Providence</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Recusant</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Recusant</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Recusant</SFXEvent_Attack>
-		<SFXEvent_Guard>Unit_Guard_Recusant</SFXEvent_Guard>
-		<SFXEvent_Stop>Unit_Stop_Recusant</SFXEvent_Stop>
 		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Recusant </SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
 
