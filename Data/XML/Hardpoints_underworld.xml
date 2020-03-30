@@ -7159,27 +7159,6 @@
 		<Fire_Inaccuracy_Distance>Super, 30.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Corvette, Frigate, Capital, Structure</Fire_Category_Restrictions>
 	</HardPoint>
-	<HardPoint Name="HP_CIS_Hail_Fire_B01">
-		<Type>HARD_POINT_WEAPON_LASER</Type>
-		<Is_Targetable>No</Is_Targetable>
-		<Is_Destroyable>No</Is_Destroyable>
-		<Fire_Bone_A>MuzzleB_01</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
-		<Fire_Cone_Width>170.0</Fire_Cone_Width>
-		<Fire_Cone_Height>30.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Blaster_Cannon_Red</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>0.7</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>1</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.15</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>150.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
-		<Fire_When_Deployed>No</Fire_When_Deployed>
-		<Fire_When_Undeployed>Yes</Fire_When_Undeployed>
-		<Fire_Inaccuracy_Distance>Infantry, 10.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Vehicle, 10.0</Fire_Inaccuracy_Distance>
-		<Fire_Category_Restrictions>Air, Structure</Fire_Category_Restrictions>
-	</HardPoint>
 
 	<!--Hailfire-->
 
@@ -7204,6 +7183,29 @@
 		<Fire_Inaccuracy_Distance>Vehicle, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Air, Structure</Fire_Category_Restrictions>
 	</HardPoint>
+	
+	<HardPoint Name="HP_CIS_Hail_Fire_B01">
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Fire_Bone_A>MuzzleB_01</Fire_Bone_A>
+		<Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
+		<Fire_Cone_Width>170.0</Fire_Cone_Width>
+		<Fire_Cone_Height>30.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Blaster_Cannon_Red</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>0.7</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.15</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>150.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
+		<Fire_When_Deployed>No</Fire_When_Deployed>
+		<Fire_When_Undeployed>Yes</Fire_When_Undeployed>
+		<Fire_Inaccuracy_Distance>Infantry, 10.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Vehicle, 10.0</Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions>Air, Structure</Fire_Category_Restrictions>
+	</HardPoint>
+	
 	<!--AAT-->
 	<HardPoint Name="HP_AAT_00">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
