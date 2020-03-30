@@ -584,7 +584,7 @@
 	<SFXEvent Name="Unit_Select_Juggernaut">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\Clone_select_1.wav Data\Audio\Clone_select_2.wav Data\Audio\Clone_select_3.wav Data\Audio\Clone_select_4.wav Data\Audio\Clone_select_5.wav Data\Audio\Clone_select_6.wav Data\Audio\Clone_select_7.wav Data\Audio\Clone_select_8.wav Data\Audio\Clone_select_9.wav Data\Audio\Clone_select_10.wav Data\Audio\Clone_select_11.wav Data\Audio\Clone_select_12.wav Data\Audio\Clone_select_13.wav Data\Audio\Clone_select_14.wav Data\Audio\Clone_select_15.wav Data\Audio\Clone_select_16.wav Data\Audio\Clone_select_18.wav Data\Audio\Clone_select_19.wav Data\Audio\Clone_select_20.wav Data\Audio\Clone_select_21.wav </Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Text_ID>TEXT_SFX_JUG_SELECT_1, TEXT_SFX_JUG_SELECT_2, TEXT_SFX_JUG_SELECT_3, TEXT_SFX_JUG_SELECT_4, TEXT_SFX_JUG_SELECT_5, TEXT_SFX_JUG_SELECT_6, TEXT_SFX_JUG_SELECT_7, TEXT_SFX_JUG_SELECT_8, TEXT_SFX_JUG_SELECT_9, TEXT_SFX_JUG_SELECT_10, TEXT_SFX_JUG_SELECT_11, TEXT_SFX_JUG_SELECT_12, TEXT_SFX_JUG_SELECT_13, TEXT_SFX_JUG_SELECT_14, TEXT_SFX_JUG_SELECT_15</Text_ID>
 		<Overlap_Test> Unit_Juggernaut </Overlap_Test>
@@ -593,7 +593,7 @@
 	<SFXEvent Name="Unit_Complete_Juggernaut">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\Clone_complete_1.wav Data\Audio\Clone_complete_2.wav Data\Audio\Clone_complete_3.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Text_ID>TEXT_SFX_JUG_SELECT_12</Text_ID>
 		<Overlap_Test> Unit_Juggernaut  </Overlap_Test>
@@ -602,7 +602,7 @@
 	<SFXEvent Name="Unit_Move_Juggernaut">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\Clone_move_2.wav Data\Audio\Clone_move_3.wav Data\Audio\Clone_move_4.wav Data\Audio\Clone_move_5.wav Data\Audio\Clone_move_6.wav Data\Audio\Clone_move_8.wav Data\Audio\Clone_move_9.wav Data\Audio\Clone_move_10.wav Data\Audio\Clone_move_11.wav Data\Audio\Clone_move_12.wav Data\Audio\Clone_move_13.wav Data\Audio\Clone_move_14.wav Data\Audio\Clone_move_15.wav Data\Audio\Clone_move_16.wav Data\Audio\Clone_move_17.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Text_ID>TEXT_SFX_JUG_MOVE_1, TEXT_SFX_JUG_MOVE_2, TEXT_SFX_JUG_MOVE_3, TEXT_SFX_JUG_MOVE_4, TEXT_SFX_JUG_MOVE_5, TEXT_SFX_JUG_MOVE_6, TEXT_SFX_JUG_MOVE_7, TEXT_SFX_JUG_MOVE_8, TEXT_SFX_JUG_MOVE_9, TEXT_SFX_JUG_MOVE_10, TEXT_SFX_JUG_MOVE_11, TEXT_SFX_JUG_MOVE_12, TEXT_SFX_JUG_MOVE_13, TEXT_SFX_JUG_MOVE_14, TEXT_SFX_JUG_MOVE_15</Text_ID>			
 		<Overlap_Test> Unit_Juggernaut  </Overlap_Test>
@@ -611,7 +611,7 @@
 	<SFXEvent Name="Unit_Fleet_Move_Juggernaut">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\Clone_move_2.wav Data\Audio\Clone_move_3.wav Data\Audio\Clone_move_4.wav Data\Audio\Clone_move_5.wav Data\Audio\Clone_move_6.wav Data\Audio\Clone_move_8.wav Data\Audio\Clone_move_9.wav Data\Audio\Clone_move_10.wav Data\Audio\Clone_move_11.wav Data\Audio\Clone_move_12.wav Data\Audio\Clone_move_13.wav Data\Audio\Clone_move_14.wav Data\Audio\Clone_move_15.wav Data\Audio\Clone_move_16.wav Data\Audio\Clone_move_17.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Text_ID>TEXT_SFX_JUG_MOVE_1, TEXT_SFX_JUG_MOVE_2, TEXT_SFX_JUG_MOVE_3, TEXT_SFX_JUG_MOVE_4, TEXT_SFX_JUG_MOVE_5, TEXT_SFX_JUG_MOVE_6, TEXT_SFX_JUG_MOVE_7, TEXT_SFX_JUG_MOVE_8, TEXT_SFX_JUG_MOVE_9, TEXT_SFX_JUG_MOVE_10, TEXT_SFX_JUG_MOVE_11, TEXT_SFX_JUG_MOVE_12, TEXT_SFX_JUG_MOVE_13, TEXT_SFX_JUG_MOVE_14, TEXT_SFX_JUG_MOVE_15</Text_ID>			
 		<Overlap_Test> Unit_Juggernaut  </Overlap_Test>
@@ -620,7 +620,7 @@
 	<SFXEvent Name="Unit_Attack_Juggernaut">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\Clone_attack_1.wav Data\Audio\Clone_attack_2.wav Data\Audio\Clone_attack_3.wav Data\Audio\Clone_attack_4.wav Data\Audio\Clone_attack_5.wav Data\Audio\Clone_attack_6.wav Data\Audio\Clone_attack_7.wav Data\Audio\Clone_attack_8.wav Data\Audio\Clone_attack_9.wav Data\Audio\Clone_attack_10.wav Data\Audio\Clone_attack_11.wav Data\Audio\Clone_attack_12.wav Data\Audio\Clone_attack_13.wav Data\Audio\Clone_attack_15.wav Data\Audio\Clone_attack_16.wav Data\Audio\Clone_attack_17.wav Data\Audio\Clone_attack_18.wav Data\Audio\Clone_attack_19.wav Data\Audio\Clone_attack_20.wav Data\Audio\Clone_attack_21.wav Data\Audio\Clone_attack_22.wav Data\Audio\Clone_attack_23.wav Data\Audio\Clone_attack_24.wav Data\Audio\Clone_attack_25.wav Data\Audio\Clone_attack_26.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Text_ID>TEXT_SFX_JUG_ATTACK_1, TEXT_SFX_JUG_ATTACK_2, TEXT_SFX_JUG_ATTACK_3, TEXT_SFX_JUG_ATTACK_4, TEXT_SFX_JUG_ATTACK_5, TEXT_SFX_JUG_ATTACK_6, TEXT_SFX_JUG_ATTACK_7, TEXT_SFX_JUG_ATTACK_8, TEXT_SFX_JUG_ATTACK_9, TEXT_SFX_JUG_ATTACK_10, TEXT_SFX_JUG_ATTACK_11, TEXT_SFX_JUG_ATTACK_12, TEXT_SFX_JUG_ATTACK_13, TEXT_SFX_JUG_ATTACK_14, TEXT_SFX_JUG_ATTACK_15</Text_ID>			
 		<Overlap_Test> Unit_Juggernaut  </Overlap_Test>
@@ -629,7 +629,7 @@
 	<SFXEvent Name="Unit_Assist_Move_Juggernaut">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\Clone_assist_move_2.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Probability>60</Probability>
 		<Text_ID>TEXT_SFX_JUG_ASSIST_1, TEXT_SFX_JUG_ASSIST_2, TEXT_SFX_JUG_ASSIST_3, TEXT_SFX_JUG_MOVE_1, TEXT_SFX_JUG_MOVE_2, TEXT_SFX_JUG_MOVE_3, TEXT_SFX_JUG_MOVE_4, TEXT_SFX_JUG_MOVE_5, TEXT_SFX_JUG_MOVE_6, TEXT_SFX_JUG_MOVE_7, TEXT_SFX_JUG_MOVE_8, TEXT_SFX_JUG_MOVE_9, TEXT_SFX_JUG_MOVE_10, TEXT_SFX_JUG_MOVE_11, TEXT_SFX_JUG_MOVE_12, TEXT_SFX_JUG_MOVE_13, TEXT_SFX_JUG_MOVE_14, TEXT_SFX_JUG_MOVE_15</Text_ID>			
@@ -639,7 +639,7 @@
 	<SFXEvent Name="Unit_Assist_Attack_Juggernaut">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\Clone_assist_attack_1.wav Data\Audio\Clone_assist_attack_2.wav Data\Audio\Clone_assist_attack_3.wav Data\Audio\Clone_assist_attack_4.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Probability>60</Probability>
 		<Text_ID>TEXT_SFX_JUG_ASSIST_1, TEXT_SFX_JUG_ASSIST_2, TEXT_SFX_JUG_ASSIST_3, TEXT_SFX_JUG_ATTACK_1, TEXT_SFX_JUG_ATTACK_2, TEXT_SFX_JUG_ATTACK_3, TEXT_SFX_JUG_ATTACK_4, TEXT_SFX_JUG_ATTACK_5, TEXT_SFX_JUG_ATTACK_6, TEXT_SFX_JUG_ATTACK_7, TEXT_SFX_JUG_ATTACK_8, TEXT_SFX_JUG_ATTACK_9, TEXT_SFX_JUG_ATTACK_10, TEXT_SFX_JUG_ATTACK_11, TEXT_SFX_JUG_ATTACK_12, TEXT_SFX_JUG_ATTACK_13, TEXT_SFX_JUG_ATTACK_14, TEXT_SFX_JUG_ATTACK_15</Text_ID>			
@@ -649,7 +649,7 @@
 	<SFXEvent Name="Unit_Guard_Juggernaut">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\Clone_guard_1.wav Data\Audio\Clone_guard_2.wav Data\Audio\Clone_guard_3.wav Data\Audio\Clone_guard_4.wav Data\Audio\Clone_guard_5.wav Data\Audio\Clone_guard_6.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Text_ID>TEXT_SFX_JUG_GUARD_1, TEXT_SFX_JUG_GUARD_2</Text_ID>
 		<Overlap_Test> Unit_Juggernaut  </Overlap_Test>
@@ -658,7 +658,7 @@
 	<SFXEvent Name="Unit_Defense_On_Juggernaut">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\Clone_select_11.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Text_ID>TEXT_SFX_JUG_DEFENSE_ON_1, TEXT_SFX_JUG_DEFENSE_ON_2</Text_ID>
 		<Overlap_Test> Unit_Juggernaut  </Overlap_Test>
@@ -2124,7 +2124,7 @@
 		<Samples>U000_DEF0103_ENG.wav U000_DEF0106_ENG.wav U000_DEF0107_ENG.wav U000_DEF0108_ENG.wav U000_DEF0109_ENG.wav U000_DEF0110_ENG.wav U000_DEF0111_ENG.wav U000_DEF0113_ENG.wav U000_DEF0114_ENG.wav</Samples>
 		<Localize> Yes </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
-		<Text_ID> TEXT_SFX_DEF_SELECT_2, TEXT_SFX_DEF_SELECT_3, TEXT_SFX_DEF_SELECT_4, TEXT_SFX_DEF_SELECT_5, TEXT_SFX_DEF_SELECT_6, TEXT_SFX_DEF_SELECT_7, TEXT_SFX_DEF_SELECT_8, TEXT_SFX_DEF_SELECT_9, TEXT_SFX_DEF_SELECT_10, TEXT_SFX_DEF_SELECT_11, TEXT_SFX_DEF_SELECT_12, TEXT_SFX_DEF_SELECT_13, TEXT_SFX_DEF_SELECT_14, TEXT_SFX_DEF_SELECT_15</Text_ID>
+		<Text_ID>TEXT_SFX_DEF_SELECT_3, TEXT_SFX_DEF_SELECT_6, TEXT_SFX_DEF_SELECT_7, TEXT_SFX_DEF_SELECT_8, TEXT_SFX_DEF_SELECT_9, TEXT_SFX_DEF_SELECT_10, TEXT_SFX_DEF_SELECT_11, TEXT_SFX_DEF_SELECT_13, TEXT_SFX_DEF_SELECT_14</Text_ID>
 		<Overlap_Test> Unit_Sabateur </Overlap_Test>
 	</SFXEvent>
 
@@ -2145,7 +2145,7 @@
 		<Samples>U000_DEF0301_ENG.wav U000_DEF0302_ENG.wav U000_DEF0303_ENG.wav U000_DEF0304_ENG.wav U000_DEF0305_ENG.wav U000_DEF0306_ENG.wav U000_DEF0307_ENG.wav U000_DEF0308_ENG.wav U000_DEF0309_ENG.wav U000_DEF0310_ENG.wav U000_DEF0311_ENG.wav U000_DEF0313_ENG.wav U000_DEF0314_ENG.wav U000_DEF0315_ENG.wav</Samples>
 		<Localize> Yes </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
-		<Text_ID>TEXT_SFX_DEF_ATTACK_1, TEXT_SFX_DEF_ATTACK_2, TEXT_SFX_DEF_ATTACK_3, TEXT_SFX_DEF_ATTACK_4, TEXT_SFX_DEF_ATTACK_5, TEXT_SFX_DEF_ATTACK_6, TEXT_SFX_DEF_ATTACK_7, TEXT_SFX_DEF_ATTACK_8, TEXT_SFX_DEF_ATTACK_9, TEXT_SFX_DEF_ATTACK_10, TEXT_SFX_DEF_ATTACK_11, TEXT_SFX_DEF_ATTACK_12, TEXT_SFX_DEF_ATTACK_13, TEXT_SFX_DEF_ATTACK_14, TEXT_SFX_DEF_ATTACK_15</Text_ID>			
+		<Text_ID>TEXT_SFX_DEF_ATTACK_1, TEXT_SFX_DEF_ATTACK_2, TEXT_SFX_DEF_ATTACK_3, TEXT_SFX_DEF_ATTACK_4, TEXT_SFX_DEF_ATTACK_5, TEXT_SFX_DEF_ATTACK_6, TEXT_SFX_DEF_ATTACK_7, TEXT_SFX_DEF_ATTACK_8, TEXT_SFX_DEF_ATTACK_9, TEXT_SFX_DEF_ATTACK_10, TEXT_SFX_DEF_ATTACK_11, TEXT_SFX_DEF_ATTACK_13, TEXT_SFX_DEF_ATTACK_14, TEXT_SFX_DEF_ATTACK_15</Text_ID>			
 		<Overlap_Test> Unit_Sabateur </Overlap_Test>
 	</SFXEvent>
 
@@ -2155,7 +2155,7 @@
 		<Localize> Yes </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Probability>60</Probability>
-		<Text_ID>TEXT_SFX_DEF_ASSIST_1, TEXT_SFX_DEF_ASSIST_2,  TEXT_SFX_DEF_ASSIST_3, TEXT_SFX_DEF_MOVE_1, TEXT_SFX_DEF_MOVE_2, TEXT_SFX_DEF_MOVE_3, TEXT_SFX_DEF_MOVE_4, TEXT_SFX_DEF_MOVE_5, TEXT_SFX_DEF_MOVE_6, TEXT_SFX_DEF_MOVE_7, TEXT_SFX_DEF_MOVE_8, TEXT_SFX_DEF_MOVE_9, TEXT_SFX_DEF_MOVE_10, TEXT_SFX_DEF_MOVE_11, TEXT_SFX_DEF_MOVE_12, TEXT_SFX_DEF_MOVE_13, TEXT_SFX_DEF_MOVE_14, TEXT_SFX_DEF_MOVE_15</Text_ID>			
+		<Text_ID>TEXT_SFX_DEF_ASSIST_1, TEXT_SFX_DEF_ASSIST_3, TEXT_SFX_DEF_MOVE_1, TEXT_SFX_DEF_MOVE_2, TEXT_SFX_DEF_MOVE_3, TEXT_SFX_DEF_MOVE_4, TEXT_SFX_DEF_MOVE_5, TEXT_SFX_DEF_MOVE_6, TEXT_SFX_DEF_MOVE_7, TEXT_SFX_DEF_MOVE_8, TEXT_SFX_DEF_MOVE_9, TEXT_SFX_DEF_MOVE_10, TEXT_SFX_DEF_MOVE_11, TEXT_SFX_DEF_MOVE_12, TEXT_SFX_DEF_MOVE_13, TEXT_SFX_DEF_MOVE_14, TEXT_SFX_DEF_MOVE_15</Text_ID>			
 		<Overlap_Test> Unit_Sabateur </Overlap_Test>
 	</SFXEvent>
 
@@ -2165,7 +2165,7 @@
 		<Localize> Yes </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Probability>60</Probability>
-		<Text_ID>TEXT_SFX_DEF_ASSIST_1, TEXT_SFX_DEF_ASSIST_2,  TEXT_SFX_DEF_ASSIST_3, TEXT_SFX_DEF_ATTACK_1, TEXT_SFX_DEF_ATTACK_2, TEXT_SFX_DEF_ATTACK_3, TEXT_SFX_DEF_ATTACK_4, TEXT_SFX_DEF_ATTACK_5, TEXT_SFX_DEF_ATTACK_6, TEXT_SFX_DEF_ATTACK_7, TEXT_SFX_DEF_ATTACK_8, TEXT_SFX_DEF_ATTACK_9, TEXT_SFX_DEF_ATTACK_10, TEXT_SFX_DEF_ATTACK_11, TEXT_SFX_DEF_ATTACK_12, TEXT_SFX_DEF_ATTACK_13, TEXT_SFX_DEF_ATTACK_14, TEXT_SFX_DEF_ATTACK_15</Text_ID>			
+		<Text_ID>TEXT_SFX_DEF_ASSIST_1, TEXT_SFX_DEF_ASSIST_3, TEXT_SFX_DEF_ATTACK_1, TEXT_SFX_DEF_ATTACK_2, TEXT_SFX_DEF_ATTACK_3, TEXT_SFX_DEF_ATTACK_4, TEXT_SFX_DEF_ATTACK_5, TEXT_SFX_DEF_ATTACK_6, TEXT_SFX_DEF_ATTACK_7, TEXT_SFX_DEF_ATTACK_8, TEXT_SFX_DEF_ATTACK_9, TEXT_SFX_DEF_ATTACK_10, TEXT_SFX_DEF_ATTACK_11, TEXT_SFX_DEF_ATTACK_13, TEXT_SFX_DEF_ATTACK_14, TEXT_SFX_DEF_ATTACK_15</Text_ID>			
 		<Overlap_Test> Unit_Sabateur </Overlap_Test>
 	</SFXEvent>
 
@@ -2187,7 +2187,7 @@
 	<SFXEvent Name="Unit_See_Enemy_Battledroid">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/Battledroid_sighting1.wav Data/Audio/Battledroid_sighting2.wav Data/Audio/Battledroid_sighting3.wav Data/Audio/Battledroid_sighting4.wav Data/Audio/Battledroid_sighting5.wav Data/Audio/Battledroid_sighting6.wav Data/Audio/Battledroid_sighting7.wav Data/Audio/Battledroid_sighting8.wav Data/Audio/Battledroid_sighting9.wav Data/Audio/Battledroid_sighting10.wav Data/Audio/Battledroid_sighting11.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 
 		<Overlap_Test> Unit_See_Enemy </Overlap_Test>
@@ -2196,7 +2196,7 @@
 	<SFXEvent Name="Unit_See_Jedi_Battledroid">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/Battledroid_sighting_jedi1.wav Data/Audio/Battledroid_sighting_jedi2.wav Data/Audio/Battledroid_sighting_jedi3.wav Data/Audio/Battledroid_sighting_jedi4.wav Data/Audio/Battledroid_sighting_jedi5.wav Data/Audio/Battledroid_sighting_jedi6.wav Data/Audio/Battledroid_sighting_jedi7.wav Data/Audio/Battledroid_sighting_jedi8.wav Data/Audio/Battledroid_sighting_jedi9.wav Data/Audio/Battledroid_sighting_jedi10.wav </Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 
 		<Overlap_Test> Unit_See_Enemy </Overlap_Test>
@@ -2205,7 +2205,7 @@
 	<SFXEvent Name="Unit_Select_Battle_Droid">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\Battledroid_select1.wav Data\Audio\Battledroid_select2.wav Data\Audio\Battledroid_select3.wav Data\Audio\Battledroid_select4.wav Data\Audio\Battledroid_select5.wav Data\Audio\Battledroid_select6.wav Data\Audio\Battledroid_select7.wav Data\Audio\Battledroid_select8.wav Data\Audio\Battledroid_select9.wav Data\Audio\Battledroid_select10.wav Data\Audio\Battledroid_select11.wav Data\Audio\Battledroid_select12.wav Data\Audio\Battledroid_select13.wav Data\Audio\Battledroid_select14.wav Data\Audio\Battledroid_select15.wav Data\Audio\Battledroid_select16.wav Data\Audio\Battledroid_select17.wav Data\Audio\Battledroid_select18.wav Data\Audio\Battledroid_select19.wav Data\Audio\Battledroid_select20.wav Data\Audio\Battledroid_select21.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 
 		<Overlap_Test> Unit_Assault_Speeder </Overlap_Test>
@@ -2214,7 +2214,7 @@
 	<SFXEvent Name="Unit_Move_Battle_Droid">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\Battledroid_move1.wav Data\Audio\Battledroid_move2.wav Data\Audio\Battledroid_move3.wav Data\Audio\Battledroid_move4.wav Data\Audio\Battledroid_move5.wav Data\Audio\Battledroid_move6.wav Data\Audio\Battledroid_move7.wav Data\Audio\Battledroid_move8.wav Data\Audio\Battledroid_move9.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 
 		<Overlap_Test> Unit_Assault_Speeder </Overlap_Test>
@@ -2223,7 +2223,7 @@
 	<SFXEvent Name="Unit_Fleet_Move_Battle_Droid">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\Battledroid_fleet_move.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 
 		<Overlap_Test> Unit_Assault_Speeder </Overlap_Test>
@@ -2232,7 +2232,7 @@
 	<SFXEvent Name="Unit_Attack_Battle_Droid">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\Battledroid_attack1.wav Data\Audio\Battledroid_attack2.wav Data\Audio\Battledroid_attack3.wav Data\Audio\Battledroid_attack4.wav Data\Audio\Battledroid_attack5.wav Data\Audio\Battledroid_attack6.wav Data\Audio\Battledroid_attack7.wav Data\Audio\Battledroid_attack8.wav Data\Audio\Battledroid_attack9.wav Data\Audio\Battledroid_attack10.wav Data\Audio\Battledroid_attack11.wav Data\Audio\Battledroid_attack12.wav Data\Audio\Battledroid_attack13.wav Data\Audio\Battledroid_attack14.wav Data\Audio\Battledroid_attack15.wav Data\Audio\Battledroid_attack16.wav Data\Audio\Battledroid_attack17.wav Data\Audio\Battledroid_attack18.wav Data\Audio\Battledroid_attack19.wav Data\Audio\Battledroid_attack20.wav Data\Audio\Battledroid_attack21.wav Data\Audio\Battledroid_attack22.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 
 		<Overlap_Test> Unit_Assault_Speeder </Overlap_Test>
@@ -2241,7 +2241,7 @@
 	<SFXEvent Name="Unit_Guard_Battle_Droid">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\Battledroid_guard1.wav Data\Audio\Battledroid_guard2.wav Data\Audio\Battledroid_guard3.wav Data\Audio\Battledroid_guard4.wav Data\Audio\Battledroid_guard5.wav Data\Audio\Battledroid_guard6.wav </Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 
 		<Overlap_Test> Unit_Assault_Speeder </Overlap_Test>
@@ -2250,7 +2250,7 @@
 	<SFXEvent Name="Unit_Assist_Move_Battle_Droid">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\Battledroid_fleet_move.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 
 		<Overlap_Test> Unit_Assault_Speeder </Overlap_Test>
@@ -2259,7 +2259,7 @@
 	<SFXEvent Name="Unit_Assist_Attack_Battle_Droid">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\Battledroid_assist_attack1.wav Data\Audio\Battledroid_assist_attack2.wav Data\Audio\Battledroid_assist_attack3.wav Data\Audio\Battledroid_assist_attack4.wav Data\Audio\Battledroid_assist_attack5.wav Data\Audio\Battledroid_assist_attack6.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 
 		<Overlap_Test> Unit_Assault_Speeder </Overlap_Test>
@@ -2268,7 +2268,7 @@
 	<SFXEvent Name="Unit_Complete_Battle_Droid">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\Battledroid_fleet_move.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 
 		<Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
@@ -2279,7 +2279,7 @@
 	<SFXEvent Name="Unit_Select_Superbattle_Droid">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\CIS_Select_Yes.wav Data\Audio\CIS_Select_Yes_Sir.wav Data\Audio\CIS_Land_Droids_Reporting.wav </Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 
 		<Overlap_Test> Unit_Assault_Speeder </Overlap_Test>
@@ -2288,7 +2288,7 @@
 	<SFXEvent Name="Unit_Move_Superbattle_Droid">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\CIS_Move_Going_There_Now.wav Data\Audio\CIS_Move_Heading_There_Now.wav Data\Audio\CIS_Move_Moving_Out.wav Data\Audio\CIS_Move_Roger_Roger.wav Data\Audio\CIS_Move_Yes.wav Data\Audio\CIS_Move_Yes_Sir.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 
 		<Overlap_Test> Unit_Assault_Speeder </Overlap_Test>
@@ -2297,7 +2297,7 @@
 	<SFXEvent Name="Unit_Fleet_Move_Superbattle_Droid">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\CIS_Move_Heading_There_Now.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 
 		<Overlap_Test> Unit_Assault_Speeder </Overlap_Test>
@@ -2306,7 +2306,7 @@
 	<SFXEvent Name="Unit_Attack_Superbattle_Droid">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\CIS_Attack_Attacking.wav Data\Audio\CIS_Attack_Attacking_The_Enemy.wav Data\Audio\CIS_Attack_Roger_Roger.wav Data\Audio\CIS_Attack_Yes.wav Data\Audio\CIS_Attack_Yes_Sir.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 
 		<Overlap_Test> Unit_Assault_Speeder </Overlap_Test>
@@ -2315,7 +2315,7 @@
 	<SFXEvent Name="Unit_Complete_Superbattle_Droid">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\CIS_Land_Battledroids_Reporting.wav Data\Audio\CIS_Land_Droids_Reporting.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 
 		<Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
@@ -2324,7 +2324,7 @@
 	<SFXEvent Name="Unit_Attack_Siege_Mortar">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\Siegemortar_attack1.wav Data\Audio\Siegemortar_attack2.wav Data\Audio\Siegemortar_attack3.wav Data\Audio\Siegemortar_attack4.wav </Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Text_ID>TEXT_SFX_SPD_SELECT_1, TEXT_SFX_SPD_SELECT_2, TEXT_SFX_SPD_SELECT_3, TEXT_SFX_SPD_SELECT_4, TEXT_SFX_SPD_SELECT_5, TEXT_SFX_SPD_SELECT_6, TEXT_SFX_SPD_SELECT_7, TEXT_SFX_SPD_SELECT_8, TEXT_SFX_SPD_SELECT_9, TEXT_SFX_SPD_SELECT_10, TEXT_SFX_SPD_SELECT_11, TEXT_SFX_SPD_SELECT_12, TEXT_SFX_SPD_SELECT_13, TEXT_SFX_SPD_SELECT_14, TEXT_SFX_SPD_SELECT_15</Text_ID>
 		<Overlap_Test> Unit_Assault_Speeder </Overlap_Test>
@@ -2333,9 +2333,9 @@
 	<SFXEvent Name="Unit_Select_AT_TE">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>U000_ATT0101_ENG.wav U000_ATT0102_ENG.wav U000_ATT0103_ENG.wav U000_ATT0105_ENG.wav U000_ATT0106_ENG.wav U000_ATT0107_ENG.wav U000_ATT0108_ENG.wav U000_ATT0109_ENG.wav U000_ATT0110_ENG.wav U000_ATT0111_ENG.wav U000_ATT0112_ENG.wav U000_ATT0113_ENG.wav U000_ATT0114_ENG.wav U000_ATT0115_ENG.wav</Samples>
-		<Localize> No </Localize>
+		<Localize> Yes </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
-		<Text_ID>TEXT_SFX_ATT_SELECT_1, TEXT_SFX_ATT_SELECT_2, TEXT_SFX_ATT_SELECT_3, TEXT_SFX_ATT_SELECT_4, TEXT_SFX_ATT_SELECT_5, TEXT_SFX_ATT_SELECT_6, TEXT_SFX_ATT_SELECT_7, TEXT_SFX_ATT_SELECT_8, TEXT_SFX_ATT_SELECT_9, TEXT_SFX_ATT_SELECT_10, TEXT_SFX_ATT_SELECT_11, TEXT_SFX_ATT_SELECT_12, TEXT_SFX_ATT_SELECT_13, TEXT_SFX_ATT_SELECT_14, TEXT_SFX_ATT_SELECT_15</Text_ID>
+		<Text_ID>TEXT_SFX_ATT_SELECT_1, TEXT_SFX_ATT_SELECT_2, TEXT_SFX_ATT_SELECT_3, TEXT_SFX_ATT_SELECT_5, TEXT_SFX_ATT_SELECT_6, TEXT_SFX_ATT_SELECT_7, TEXT_SFX_ATT_SELECT_8, TEXT_SFX_ATT_SELECT_9, TEXT_SFX_ATT_SELECT_10, TEXT_SFX_ATT_SELECT_11, TEXT_SFX_ATT_SELECT_12, TEXT_SFX_ATT_SELECT_13, TEXT_SFX_ATT_SELECT_14, TEXT_SFX_ATT_SELECT_15</Text_ID>
 		<Overlap_Test> Unit_AT_AT </Overlap_Test>
 	</SFXEvent>
 
@@ -2344,7 +2344,7 @@
 		<Samples>  R2_Select_3_ENG.wav R2_Select_5_ENG.wav R2_Select_7_ENG.wav</Samples>
 		<Localize> Yes </Localize>      
 		<Play_Sequentially> Yes </Play_Sequentially>
-		<Text_ID>TEXT_SFX_DRD_SELECT_1, TEXT_SFX_DRD_SELECT_2, TEXT_SFX_DRD_SELECT_3, TEXT_SFX_DRD_SELECT_4, TEXT_SFX_DRD_SELECT_5, TEXT_SFX_DRD_SELECT_6, TEXT_SFX_DRD_SELECT_7, TEXT_SFX_DRD_SELECT_8, TEXT_SFX_DRD_SELECT_9, TEXT_SFX_DRD_SELECT_10, TEXT_SFX_DRD_SELECT_11, TEXT_SFX_DRD_SELECT_12, TEXT_SFX_DRD_SELECT_13, TEXT_SFX_DRD_SELECT_14, TEXT_SFX_DRD_SELECT_15</Text_ID>
+		<Text_ID>TEXT_SFX_DRD_SELECT_3, TEXT_SFX_DRD_SELECT_5, TEXT_SFX_DRD_SELECT_7</Text_ID>
 		<Overlap_Test> Unit_C3PO </Overlap_Test>
 	</SFXEvent>
 
@@ -2353,7 +2353,7 @@
 		<Samples>R2_Move_3_ENG.wav</Samples>
 		<Localize> Yes </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
-		<Text_ID>TEXT_SFX_DRD_MOVE_1,  TEXT_SFX_DRD_MOVE_2, TEXT_SFX_DRD_MOVE_3, TEXT_SFX_DRD_MOVE_4, TEXT_SFX_DRD_MOVE_5,  TEXT_SFX_DRD_MOVE_6, TEXT_SFX_DRD_MOVE_7, TEXT_SFX_DRD_MOVE_8, TEXT_SFX_DRD_MOVE_9,  TEXT_SFX_DRD_MOVE_10, TEXT_SFX_DRD_MOVE_11, TEXT_SFX_DRD_MOVE_12, TEXT_SFX_DRD_MOVE_13,  TEXT_SFX_DRD_MOVE_14, TEXT_SFX_DRD_MOVE_15</Text_ID>
+		<Text_ID>TEXT_SFX_DRD_MOVE_3</Text_ID>
 		<Overlap_Test> Unit_C3PO </Overlap_Test>
 	</SFXEvent>
 
@@ -2362,7 +2362,7 @@
 		<Samples> R2_Move_3_ENG.wav</Samples>
 		<Localize> Yes </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
-		<Text_ID>TEXT_SFX_DRD_MOVE_1, TEXT_SFX_DRD_MOVE_2,  TEXT_SFX_DRD_MOVE_5,  TEXT_SFX_DRD_MOVE_6, TEXT_SFX_DRD_MOVE_7, TEXT_SFX_DRD_MOVE_8</Text_ID>
+		<Text_ID>TEXT_SFX_DRD_MOVE_1</Text_ID>
 		<Overlap_Test> Unit_C3PO </Overlap_Test>
 	</SFXEvent>
 
@@ -2373,7 +2373,7 @@
 		<Samples> R2_Attacked_1_ENG.wav R2_Attacked_2_ENG.wav R2_Attacked_3_ENG.wav R2_Attacked_4_ENG.wav R2_Attacked_5_ENG.wav R2_Attacked_6_ENG.wav R2_Attacked_7_ENG.wav R2_Attacked_8_ENG.wav R2_Attacked_9_ENG.wav R2_Attacked_10_ENG.wav</Samples> 
 		<Localize> Yes </Localize>      
 		<Play_Sequentially> Yes </Play_Sequentially>
-		<Text_ID>TEXT_SFX_DRD_ATTACKED_1,  TEXT_SFX_DRD_ATTACKED_2, TEXT_SFX_DRD_ATTACKED_3, TEXT_SFX_DRD_ATTACKED_4, TEXT_SFX_DRD_ATTACKED_5,  TEXT_SFX_DRD_ATTACKED_6, TEXT_SFX_DRD_ATTACKED_7, TEXT_SFX_DRD_ATTACKED_8, TEXT_SFX_DRD_ATTACKED_9,  TEXT_SFX_DRD_ATTACKED_10, TEXT_SFX_DRD_ATTACKED_11, TEXT_SFX_DRD_ATTACKED_12, TEXT_SFX_DRD_ATTACKED_13,  TEXT_SFX_DRD_ATTACKED_14, TEXT_SFX_DRD_ATTACKED_15, TEXT_SFX_DRD_ATTACKED_16, TEXT_SFX_DRD_ATTACKED_17, TEXT_SFX_DRD_ATTACKED_18, TEXT_SFX_DRD_ATTACKED_19, TEXT_SFX_DRD_ATTACKED_20</Text_ID>
+		<Text_ID>TEXT_SFX_DRD_ATTACKED_1,  TEXT_SFX_DRD_ATTACKED_2, TEXT_SFX_DRD_ATTACKED_3, TEXT_SFX_DRD_ATTACKED_4, TEXT_SFX_DRD_ATTACKED_5,  TEXT_SFX_DRD_ATTACKED_6, TEXT_SFX_DRD_ATTACKED_7, TEXT_SFX_DRD_ATTACKED_8, TEXT_SFX_DRD_ATTACKED_9,  TEXT_SFX_DRD_ATTACKED_10</Text_ID>
 		<Overlap_Test> Unit_C3PO </Overlap_Test>
 	</SFXEvent>
 
@@ -2382,7 +2382,7 @@
 		<Samples>R2_Hack_2_ENG.wav R2_Insult_2_ENG.wav R2_Hack_4_ENG.wav</Samples>
 		<Localize> Yes </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
-		<Text_ID>TEXT_SFX_DRD_HACK_1, TEXT_SFX_DRD_HACK_2, TEXT_SFX_DRD_HACK_3, TEXT_SFX_DRD_HACK_4, TEXT_SFX_DRD_HACK_5, TEXT_SFX_DRD_HACK_6, TEXT_SFX_DRD_HACK_7</Text_ID>
+		<Text_ID>TEXT_SFX_DRD_HACK_1, TEXT_SFX_DRD_HACK_2, TEXT_SFX_DRD_HACK_3</Text_ID>
 		<Overlap_Test> Unit_C3PO </Overlap_Test>
 	</SFXEvent>
 
@@ -2410,7 +2410,7 @@
 	<SFXEvent Name="Unit_Select_Clone_Trooper">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\Clone_select_1.wav Data\Audio\Clone_select_2.wav Data\Audio\Clone_select_3.wav Data\Audio\Clone_select_4.wav Data\Audio\Clone_select_5.wav Data\Audio\Clone_select_6.wav Data\Audio\Clone_select_7.wav Data\Audio\Clone_select_8.wav Data\Audio\Clone_select_9.wav Data\Audio\Clone_select_10.wav Data\Audio\Clone_select_11.wav Data\Audio\Clone_select_12.wav Data\Audio\Clone_select_13.wav Data\Audio\Clone_select_14.wav Data\Audio\Clone_select_15.wav Data\Audio\Clone_select_16.wav Data\Audio\Clone_select_17.wav Data\Audio\Clone_select_18.wav Data\Audio\Clone_select_19.wav Data\Audio\Clone_select_20.wav Data\Audio\Clone_select_21.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 
 		<Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
@@ -2420,7 +2420,7 @@
 	<SFXEvent Name="Unit_Complete_Clone_Trooper">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\Clone_complete_1.wav Data\Audio\Clone_complete_2.wav Data\Audio\Clone_complete_3.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 
 		<Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
@@ -2430,7 +2430,7 @@
 	<SFXEvent Name="Unit_Guard_Clone_Trooper">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\Clone_guard_1.wav Data\Audio\Clone_guard_2.wav Data\Audio\Clone_guard_3.wav Data\Audio\Clone_guard_4.wav Data\Audio\Clone_guard_5.wav Data\Audio\Clone_guard_6.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
 	</SFXEvent>
@@ -2438,7 +2438,7 @@
 	<SFXEvent Name="Unit_Move_Clone_Trooper">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\Clone_move_1.wav Data\Audio\Clone_move_2.wav Data\Audio\Clone_move_3.wav Data\Audio\Clone_move_4.wav Data\Audio\Clone_move_5.wav Data\Audio\Clone_move_6.wav Data\Audio\Clone_move_7.wav Data\Audio\Clone_move_8.wav Data\Audio\Clone_move_9.wav Data\Audio\Clone_move_10.wav Data\Audio\Clone_move_11.wav Data\Audio\Clone_move_12.wav Data\Audio\Clone_move_13.wav Data\Audio\Clone_move_14.wav Data\Audio\Clone_move_15.wav Data\Audio\Clone_move_16.wav Data\Audio\Clone_move_17.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 
 		<Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
@@ -2448,7 +2448,7 @@
 	<SFXEvent Name="Unit_Fleet_Move_Clone_Trooper">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\Clone_fleet_move_1.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 
 		<Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
@@ -2458,7 +2458,7 @@
 	<SFXEvent Name="Unit_Take_Cover_Clone_Trooper">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\Clone_cover_1.wav Data\Audio\Clone_cover_2.wav Data\Audio\Clone_cover_3.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 
 		<Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
@@ -2468,7 +2468,7 @@
 	<SFXEvent Name="Unit_Attack_Clone_Trooper">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\Clone_attack_1.wav Data\Audio\Clone_attack_2.wav Data\Audio\Clone_attack_3.wav Data\Audio\Clone_attack_4.wav Data\Audio\Clone_attack_5.wav Data\Audio\Clone_attack_6.wav Data\Audio\Clone_attack_7.wav Data\Audio\Clone_attack_8.wav Data\Audio\Clone_attack_9.wav Data\Audio\Clone_attack_10.wav Data\Audio\Clone_attack_11.wav Data\Audio\Clone_attack_12.wav Data\Audio\Clone_attack_13.wav Data\Audio\Clone_attack_14.wav Data\Audio\Clone_attack_15.wav Data\Audio\Clone_attack_16.wav Data\Audio\Clone_attack_17.wav Data\Audio\Clone_attack_18.wav Data\Audio\Clone_attack_19.wav Data\Audio\Clone_attack_20.wav Data\Audio\Clone_attack_21.wav Data\Audio\Clone_attack_22.wav Data\Audio\Clone_attack_23.wav Data\Audio\Clone_attack_24.wav Data\Audio\Clone_attack_25.wav Data\Audio\Clone_attack_26.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 
 		<Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
@@ -2478,7 +2478,7 @@
 	<SFXEvent Name="Unit_Deploy_Laat_Clone_Trooper">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\Clone_attack_22.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 
 		<Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
@@ -2489,7 +2489,7 @@
 	<SFXEvent Name="Unit_See_Enemy_Clone_Trooper">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/Clone_sighting_1.wav Data/Audio/Clone_sighting_2.wav Data/Audio/Clone_sighting_3.wav Data/Audio/Clone_sighting_4.wav Data/Audio/Clone_sighting_5.wav Data/Audio/Clone_sighting_6.wav Data/Audio/Clone_sighting_7.wav Data/Audio/Clone_sighting_8.wav Data/Audio/Clone_sighting_8.wav Data/Audio/Clone_sighting_9.wav Data/Audio/Clone_sighting_10.wav Data/Audio/Clone_sighting_11.wav Data/Audio/Clone_sighting_12.wav Data/Audio/Clone_sighting_13.wav Data/Audio/Clone_sighting_14.wav Data/Audio/Clone_sighting_15.wav Data/Audio/Clone_sighting_16.wav Data/Audio/Clone_sighting_17.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 
 		<Overlap_Test> Unit_See_Enemy </Overlap_Test>
@@ -2498,7 +2498,7 @@
 	<SFXEvent Name="Unit_Announce_Rep_Field_Clone_Trooper">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/Clone_sighted_commander.wav Data/Audio/Clone_sighted_hero.wav </Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 
 		<Overlap_Test> Unit_See_Enemy </Overlap_Test>
@@ -2507,7 +2507,7 @@
 	<SFXEvent Name="Unit_Announce_Jedi_Clone_Trooper">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/Clone_sighted_jedi.wav Data/Audio/Clone_sighted_hero.wav </Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 
 		<Overlap_Test> Unit_See_Enemy </Overlap_Test>
@@ -2516,7 +2516,7 @@
 	<SFXEvent Name="Unit_Announce_Windu_Clone_Trooper">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/Clone_sighted_windu.wav  </Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 
 		<Overlap_Test> Unit_See_Enemy </Overlap_Test>
@@ -2525,7 +2525,7 @@
 	<SFXEvent Name="Unit_Announce_Droideka_Clone_Trooper">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/Clone_sighting_droideka_1.wav Data/Audio/Clone_sighting_droideka_2.wav  </Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 
 		<Overlap_Test> Unit_See_Enemy </Overlap_Test>
@@ -2534,7 +2534,7 @@
 	<SFXEvent Name="Unit_Announce_Vulture_Clone_Trooper">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/Clone_sighting_vulture_1.wav Data/Audio/Clone_sighting_vulture_2.wav Data/Audio/Clone_sighting_fighter00.wav Data/Audio/Clone_sighting_fighter01.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 
 		<Overlap_Test> Unit_See_Enemy </Overlap_Test>
@@ -2543,7 +2543,7 @@
 	<SFXEvent Name="Unit_Near_Victory_Clone_Trooper">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/clone_victory1.wav Data/Audio/clone_victory2.wav Data/Audio/clone_victory3.wav Data/Audio/clone_victory4.wav Data/Audio/clone_victory5.wav Data/Audio/clone_victory6.wav Data/Audio/clone_victory7.wav Data/Audio/clone_victory8.wav Data/Audio/clone_victory9.wav Data/Audio/clone_victory10.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Overlap_Test> Unit_Near_Victory </Overlap_Test>
 	</SFXEvent>
 
@@ -2552,7 +2552,7 @@
 	<SFXEvent Name="Unit_Select_Sabertank">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/Clone_select_12.wav Data/Audio/Clone_select_13.wav Data/Audio/Clone_select_14.wav Data/Audio/Clone_select_19.wav Data/Audio/Clone_select_3.wav Data/Audio/Clone_select_5.wav Data/Audio/Clone_select_6.wav Data/Audio/Clone_select_15.wav Data/Audio/Clone_select_20.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 
 		<Overlap_Test> Unit_Canderous_Tank </Overlap_Test>
@@ -2561,7 +2561,7 @@
 	<SFXEvent Name="Unit_Complete_Sabertank">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/Clone_complete_1.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 
 		<Overlap_Test> Unit_Canderous_Tank  </Overlap_Test>
@@ -2570,7 +2570,7 @@
 	<SFXEvent Name="Unit_Move_Sabertank">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/Clone_move_3.wav Data/Audio/Clone_guard_4.wav Data/Audio/Clone_guard_5.wav Data/Audio/Clone_move_17.wav Data/Audio/Clone_select_18.wav Data/Audio/Clone_move_13.wav Data/Audio/Clone_move_11.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 
 		<Overlap_Test> Unit_Canderous_Tank  </Overlap_Test>
@@ -2579,7 +2579,7 @@
 	<SFXEvent Name="Unit_Fleet_Move_Sabertank">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/Clone_move_14.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Canderous_Tank  </Overlap_Test>
 	</SFXEvent>
@@ -2587,7 +2587,7 @@
 	<SFXEvent Name="Unit_Attack_Sabertank">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/Vehicle_attack_1.wav Data/Audio/Clone_attack_5.wav Data/Audio/Clone_attack_6.wav Data/Audio/Clone_attack_8.wav Data/Audio/Clone_attack_14.wav Data/Audio/Clone_attack_21.wav Data/Audio/Clone_attack_22.wav Data/Audio/Clone_attack_24.wav Data/Audio/Clone_attack_25.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Canderous_Tank  </Overlap_Test>
 	</SFXEvent>
@@ -2595,7 +2595,7 @@
 	<SFXEvent Name="Unit_Complete_LAAT">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/laat_complete1.wav Data/Audio/laat_complete2.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Canderous_Tank  </Overlap_Test>
 	</SFXEvent>
@@ -2603,7 +2603,7 @@
 	<SFXEvent Name="Unit_Complete_ATTE">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/atte_complete1.wav Data/Audio/atte_complete2.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Canderous_Tank  </Overlap_Test>
 	</SFXEvent>
@@ -2611,7 +2611,7 @@
 	<SFXEvent Name="Unit_Fleet_Move_ATTE">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/atte_fleet_move.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Canderous_Tank  </Overlap_Test>
 	</SFXEvent>
@@ -2620,7 +2620,7 @@
 	<SFXEvent Name="Unit_Complete_ATRT">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/atrt_complete.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Canderous_Tank  </Overlap_Test>
 	</SFXEvent>
@@ -2628,7 +2628,7 @@
 	<SFXEvent Name="Unit_Fleet_Move_ATRT">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/atrt_fleet_move.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Canderous_Tank  </Overlap_Test>
 	</SFXEvent>
@@ -2636,7 +2636,7 @@
 	<SFXEvent Name="Unit_Complete_ATAP">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/atap_complete.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Canderous_Tank  </Overlap_Test>
 	</SFXEvent>
@@ -2644,7 +2644,7 @@
 	<SFXEvent Name="Unit_Fleet_Move_ATAP">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/atap_fleet_move.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Canderous_Tank  </Overlap_Test>
 	</SFXEvent>
@@ -2655,7 +2655,7 @@
 		<Samples>U000_IG80104_ENG.wav U000_IG80105_ENG.wav U000_IG80107_ENG.wav U000_IG80109_ENG.wav U000_IG80110_ENG.wav U000_IG80113_ENG.wav U000_IG80114_ENG.wav U000_IG80115_ENG.wav </Samples>
 		<Localize> Yes </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
-		<Text_ID>TEXT_SFX_IG8_SELECT_1, TEXT_SFX_IG8_SELECT_2, TEXT_SFX_IG8_SELECT_3, TEXT_SFX_IG8_SELECT_4, TEXT_SFX_IG8_SELECT_5, TEXT_SFX_IG8_SELECT_6, TEXT_SFX_IG8_SELECT_7, TEXT_SFX_IG8_SELECT_8, TEXT_SFX_IG8_SELECT_9, TEXT_SFX_IG8_SELECT_10, TEXT_SFX_IG8_SELECT_11, TEXT_SFX_IG8_SELECT_12, TEXT_SFX_IG8_SELECT_13, TEXT_SFX_IG8_SELECT_14, TEXT_SFX_IG8_SELECT_15</Text_ID>
+		<Text_ID>TEXT_SFX_IG8_SELECT_4, TEXT_SFX_IG8_SELECT_5, TEXT_SFX_IG8_SELECT_7, TEXT_SFX_IG8_SELECT_9, TEXT_SFX_IG8_SELECT_10, TEXT_SFX_IG8_SELECT_13, TEXT_SFX_IG8_SELECT_14, TEXT_SFX_IG8_SELECT_15</Text_ID>
 		<Overlap_Test> Unit_IG88 </Overlap_Test>
 	</SFXEvent>
 
@@ -2693,7 +2693,7 @@
 		<Samples> U000_IG80302_ENG.wav U000_IG80303_ENG.wav U000_IG80304_ENG.wav U000_IG80305_ENG.wav U000_IG80306_ENG.wav U000_IG80307_ENG.wav U000_IG80309_ENG.wav U000_IG80310_ENG.wav U000_IG80311_ENG.wav U000_IG80312_ENG.wav U000_IG80313_ENG.wav U000_IG80314_ENG.wav U000_IG80315_ENG.wav</Samples>
 		<Localize> Yes </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
-		<Text_ID>TEXT_SFX_IG8_ATTACK_1, TEXT_SFX_IG8_ATTACK_2, TEXT_SFX_IG8_ATTACK_3, TEXT_SFX_IG8_ATTACK_4, TEXT_SFX_IG8_ATTACK_5, TEXT_SFX_IG8_ATTACK_6, TEXT_SFX_IG8_ATTACK_7, TEXT_SFX_IG8_ATTACK_8, TEXT_SFX_IG8_ATTACK_9, TEXT_SFX_IG8_ATTACK_10, TEXT_SFX_IG8_ATTACK_11, TEXT_SFX_IG8_ATTACK_12, TEXT_SFX_IG8_ATTACK_13, TEXT_SFX_IG8_ATTACK_14, TEXT_SFX_IG8_ATTACK_15</Text_ID>
+		<Text_ID>TEXT_SFX_IG8_ATTACK_2, TEXT_SFX_IG8_ATTACK_3, TEXT_SFX_IG8_ATTACK_4, TEXT_SFX_IG8_ATTACK_5, TEXT_SFX_IG8_ATTACK_6, TEXT_SFX_IG8_ATTACK_7, TEXT_SFX_IG8_ATTACK_9, TEXT_SFX_IG8_ATTACK_10, TEXT_SFX_IG8_ATTACK_11, TEXT_SFX_IG8_ATTACK_12, TEXT_SFX_IG8_ATTACK_13, TEXT_SFX_IG8_ATTACK_14, TEXT_SFX_IG8_ATTACK_15</Text_ID>
 		<Overlap_Test> Unit_IG88 </Overlap_Test>
 	</SFXEvent>
 
@@ -2712,7 +2712,7 @@
 		<Samples>U000_IG80401_ENG.wav U000_IG80402_ENG.wav</Samples>
 		<Localize> Yes </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
-		<Text_ID>TEXT_SFX_IG8_GUARD_1, TEXT_SFX_IG8_GUARD_2, TEXT_SFX_IG8_GUARD_3, TEXT_SFX_IG8_GUARD_4</Text_ID>
+		<Text_ID>TEXT_SFX_IG8_GUARD_1, TEXT_SFX_IG8_GUARD_2</Text_ID>
 		<Overlap_Test> Unit_IG88 </Overlap_Test>
 	</SFXEvent>
 
@@ -2745,7 +2745,7 @@
 	<SFXEvent Name="Unit_Select_Clone_Commander">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\Commander_select_1.wav Data\Audio\Commander_select_2.wav Data\Audio\Commander_select_3.wav Data\Audio\Commander_select_4.wav Data\Audio\Commander_select_5.wav Data\Audio\Commander_select_6.wav Data\Audio\Clone_select_1.wav Data\Audio\Clone_select_2.wav Data\Audio\Clone_select_3.wav Data\Audio\Clone_select_4.wav Data\Audio\Clone_select_5.wav Data\Audio\Clone_select_6.wav Data\Audio\Clone_select_7.wav Data\Audio\Clone_select_8.wav Data\Audio\Clone_select_9.wav Data\Audio\Clone_select_10.wav Data\Audio\Clone_select_11.wav Data\Audio\Clone_select_12.wav Data\Audio\Clone_select_13.wav Data\Audio\Clone_select_14.wav Data\Audio\Clone_select_15.wav Data\Audio\Clone_select_16.wav Data\Audio\Clone_select_17.wav Data\Audio\Clone_select_18.wav Data\Audio\Clone_select_19.wav Data\Audio\Clone_select_20.wav Data\Audio\Clone_select_21.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
 
@@ -2754,7 +2754,7 @@
 	<SFXEvent Name="Unit_Complete_Clone_Commander">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\Commander_select_3.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
 
@@ -2764,7 +2764,7 @@
 	<SFXEvent Name="Unit_Move_Clone_Commander">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\Commander_move_1.wav Data\Audio\Commander_move_2.wav Data\Audio\Commander_move_3.wav Data\Audio\Commander_move_4.wav Data\Audio\Commander_move_5.wav Data\Audio\Clone_move_1.wav Data\Audio\Clone_move_2.wav Data\Audio\Clone_move_3.wav Data\Audio\Clone_move_4.wav Data\Audio\Clone_move_5.wav Data\Audio\Clone_move_6.wav Data\Audio\Clone_move_7.wav Data\Audio\Clone_move_8.wav Data\Audio\Clone_move_9.wav Data\Audio\Clone_move_10.wav Data\Audio\Clone_move_11.wav Data\Audio\Clone_move_12.wav Data\Audio\Clone_move_13.wav Data\Audio\Clone_move_14.wav Data\Audio\Clone_move_15.wav Data\Audio\Clone_move_16.wav Data\Audio\Clone_move_17.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
 
@@ -2773,7 +2773,7 @@
 	<SFXEvent Name="Unit_Fleet_Move_Clone_Commander">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\Commander_attack7.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
 
@@ -2783,7 +2783,7 @@
 	<SFXEvent Name="Unit_Attack_Clone_Commander">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\Commander_attack_1.wav Data\Audio\Commander_attack_2.wav Data\Audio\Commander_attack_3.wav Data\Audio\Commander_attack_4.wav Data\Audio\Commander_attack_5.wav Data\Audio\Commander_attack_6.wav Data\Audio\Clone_attack_1.wav Data\Audio\Clone_attack_2.wav Data\Audio\Clone_attack_3.wav Data\Audio\Clone_attack_4.wav Data\Audio\Clone_attack_5.wav Data\Audio\Clone_attack_6.wav Data\Audio\Clone_attack_7.wav Data\Audio\Clone_attack_8.wav Data\Audio\Clone_attack_9.wav Data\Audio\Clone_attack_10.wav Data\Audio\Clone_attack_11.wav Data\Audio\Clone_attack_12.wav Data\Audio\Clone_attack_13.wav Data\Audio\Clone_attack_14.wav Data\Audio\Clone_attack_15.wav Data\Audio\Clone_attack_16.wav Data\Audio\Clone_attack_17.wav Data\Audio\Clone_attack_18.wav Data\Audio\Clone_attack_19.wav Data\Audio\Clone_attack_20.wav Data\Audio\Clone_attack_21.wav Data\Audio\Clone_attack_22.wav Data\Audio\Clone_attack_23.wav Data\Audio\Clone_attack_24.wav Data\Audio\Clone_attack_25.wav Data\Audio\Clone_attack_26.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
 
@@ -2792,14 +2792,14 @@
 	<SFXEvent Name="Unit_Health_Low_Clone_Commander">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\Commander_critical_health_1.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
 	</SFXEvent>
 
 	<SFXEvent Name="Unit_Health_Critical_Clone_Commander">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\Commander_low_health_1.wav Data\Audio\Commander_low_health_2.wav </Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
 	</SFXEvent>
 
@@ -2807,7 +2807,7 @@
 	<SFXEvent Name="Unit_Select_Crab">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/Crab_select1.wav Data/Audio/Crab_select2.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Tie_Defender </Overlap_Test>
 	</SFXEvent>
@@ -2815,7 +2815,7 @@
 	<SFXEvent Name="Unit_Attack_Crab">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/Crab_attack1.wav Data/Audio/Crab_attack2.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Tie_Defender </Overlap_Test>
 	</SFXEvent>
@@ -2823,7 +2823,7 @@
 	<SFXEvent Name="Unit_Move_Crab">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/Crab_move1.wav Data/Audio/Crab_move2.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Tie_Defender </Overlap_Test>
 	</SFXEvent>
@@ -2831,7 +2831,7 @@
 	<SFXEvent Name="Unit_Complete_Crab">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/Crab_complete1.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Tie_Defender </Overlap_Test>
 	</SFXEvent>
@@ -2841,7 +2841,7 @@
 	<SFXEvent Name="Unit_Select_Snailtank">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/Snailtank_Select.wav Data/Audio/Snailtank_Select1.wav Data/Audio/Snailtank_Select2.wav Data/Audio/Snailtank_Select3.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
 
@@ -2850,7 +2850,7 @@
 	<SFXEvent Name="Unit_Complete_Snailtank">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/Snailtank_Complete.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
 
@@ -2860,7 +2860,7 @@
 	<SFXEvent Name="Unit_Move_Snailtank">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/Snailtank_Move.wav Data/Audio/Snailtank_Move1.wav Data/Audio/Snailtank_Move2.wav Data/Audio/Snailtank_Move3.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
 
@@ -2869,7 +2869,7 @@
 	<SFXEvent Name="Unit_Fleet_Move_Snailtank">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/Snailtank_Move3.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
 
@@ -2879,7 +2879,7 @@
 	<SFXEvent Name="Unit_Attack_Snailtank">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/Snailtank_attack.wav Data/Audio/Snailtank_attack1.wav Data/Audio/Snailtank_attack2.wav Data/Audio/Snailtank_attack3.wav Data/Audio/Snailtank_attack4.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
 
@@ -2890,7 +2890,7 @@
 	<SFXEvent Name="Unit_Select_Hag">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/hag_select1.wav Data/Audio/hag_select2.wav Data/Audio/hag_select3.wav Data/Audio/hag_select4.wav Data/Audio/hag_select5.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
 
@@ -2899,7 +2899,7 @@
 	<SFXEvent Name="Unit_Complete_Hag">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/hag_complete1.wav Data/Audio/hag_complete2.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
 
@@ -2909,7 +2909,7 @@
 	<SFXEvent Name="Unit_Move_Hag">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/hag_move1.wav Data/Audio/hag_move2.wav Data/Audio/hag_move3.wav Data/Audio/hag_move4.wav Data/Audio/hag_move5.wav Data/Audio/hag_move6.wav Data/Audio/hag_move7.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
 
@@ -2918,7 +2918,7 @@
 	<SFXEvent Name="Unit_Fleet_Move_Hag">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/hag_fleetmove1.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
 
@@ -2927,7 +2927,7 @@
 	<SFXEvent Name="Unit_Guard_Hag">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/hag_guard1.wav Data/Audio/hag_guard2.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
 
@@ -2936,7 +2936,7 @@
 	<SFXEvent Name="Unit_Assist_Attack_Hag">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/hag_assist_attack1.wav Data/Audio/hag_assist_attack2.wav Data/Audio/hag_assist_attack3.wav Data/Audio/hag_assist_attack4.wav Data/Audio/hag_assist_attack5.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
 
@@ -2946,7 +2946,7 @@
 	<SFXEvent Name="Unit_Attack_Hag">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/hag_attack1.wav Data/Audio/hag_attack2.wav Data/Audio/hag_attack3.wav Data/Audio/hag_attack4.wav Data/Audio/hag_attack5.wav Data/Audio/hag_attack6.wav Data/Audio/hag_attack7.wav Data/Audio/hag_attack8.wav Data/Audio/hag_attack9.wav Data/Audio/hag_attack10.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
 
@@ -2957,7 +2957,7 @@
 	<SFXEvent Name="Unit_Move_21b">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/21b_move1.wav Data/Audio/21b_move2.wav Data/Audio/21b_move3.wav Data/Audio/21b_move4.wav Data/Audio/21b_move5.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Tie_Defender </Overlap_Test>
 	</SFXEvent>
@@ -2965,7 +2965,7 @@
 	<SFXEvent Name="Unit_Complete_21b">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/21b_complete1.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Tie_Defender </Overlap_Test>
 	</SFXEvent>
@@ -2973,7 +2973,7 @@
 	<SFXEvent Name="Unit_Fleet_move_21b">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/21b_move2.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Tie_Defender </Overlap_Test>
 	</SFXEvent>
@@ -2981,7 +2981,7 @@
 	<SFXEvent Name="Unit_Select_21b">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/21b_select1.wav Data/Audio/21b_select2.wav Data/Audio/21b_select3.wav Data/Audio/21b_select4.wav Data/Audio/21b_select5.wav Data/Audio/21b_select6.wav Data/Audio/21b_select7.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
 
@@ -2990,7 +2990,7 @@
 	<SFXEvent Name="Unit_Die_21b">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/21b_die1.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
 
@@ -3001,7 +3001,7 @@
 	<SFXEvent Name="Unit_Move_IG100">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/magnaguard_4.wav </Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
 	</SFXEvent>
@@ -3009,7 +3009,7 @@
 	<SFXEvent Name="Unit_Fleet_move_IG100">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/magnaguard_5.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
 	</SFXEvent>
@@ -3017,7 +3017,7 @@
 	<SFXEvent Name="Unit_Complete_IG100">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/magnaguard_6.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
 	</SFXEvent>
@@ -3025,7 +3025,7 @@
 	<SFXEvent Name="Unit_Attack_IG100">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/magnaguard_1.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
 
@@ -3034,7 +3034,7 @@
 	<SFXEvent Name="Unit_Select_IG100">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/magnaguard_3.wav Data/Audio/magnaguard_7.wav Data/Audio/magnaguard_6.wav Data/Audio/magnaguard_5.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
 
@@ -3101,7 +3101,7 @@
 	<SFXEvent Name="Unit_Move_DSD1">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/dsd1_move1.wav Data/Audio/dsd1_move2.wav </Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
 	</SFXEvent>
@@ -3109,7 +3109,7 @@
 	<SFXEvent Name="Unit_Fleet_Move_DSD1">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/dsd1_fleetmove1.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
 	</SFXEvent>
@@ -3117,7 +3117,7 @@
 	<SFXEvent Name="Unit_Complete_DSD1">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/dsd1_complete1.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
 	</SFXEvent>
@@ -3125,7 +3125,7 @@
 	<SFXEvent Name="Unit_Attack_DSD1">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/dsd1_attack1.wav Data/Audio/dsd1_attack2.wav Data/Audio/dsd1_attack3.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
 
@@ -3134,7 +3134,7 @@
 	<SFXEvent Name="Unit_Select_DSD1">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/dsd1_select1.wav Data/Audio/dsd1_select2.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
 
@@ -3143,7 +3143,7 @@
 	<SFXEvent Name="501st_Build_Complete">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/501st_attack_1.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
 	</SFXEvent>
@@ -3191,7 +3191,7 @@
 		<Samples>U000_REB2305_ENG.wav, U000_REB0301_ENG.wav U000_REB0305_ENG.wav U000_REB0306_ENG.wav U000_REB0307_ENG.wav U000_REB0310_ENG.wav U000_REB0311_ENG.wav U000_REB0313_ENG.wav</Samples>
 		<Localize> Yes </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
-		<Text_ID>TEXT_SFX_REB_ATTACK_1, TEXT_SFX_REB_ATTACK_5, TEXT_SFX_REB_ATTACK_6, TEXT_SFX_REB_ATTACK_7, TEXT_SFX_REB_ATTACK_10, TEXT_SFX_REB_ATTACK_11, TEXT_SFX_REB_ATTACK_13</Text_ID>			
+		<Text_ID>TEXT_SFX_REB_ATTACK_1, TEXT_SFX_REB_ATTACK_5, TEXT_SFX_REB_ATTACK_6, TEXT_SFX_REB_ATTACK_7, TEXT_SFX_REB_ATTACK_9, TEXT_SFX_REB_ATTACK_10, TEXT_SFX_REB_ATTACK_11, TEXT_SFX_REB_ATTACK_13</Text_ID>			
 		<Overlap_Test> Unit_Rebel_Soldier </Overlap_Test>
 	</SFXEvent>
 
@@ -3211,7 +3211,7 @@
 		<Localize> Yes </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Probability>60</Probability>
-		<Text_ID>TEXT_SFX_REB_ATTACK_EVIL_5, TEXT_SFX_REB_ASSIST_1, TEXT_SFX_REB_ASSIST_2, TEXT_SFX_REB_ASSIST_3, TEXT_SFX_REB_ASSIST_4, TEXT_SFX_REB_ASSIST_5, TEXT_SFX_REB_ASSIST_6, TEXT_SFX_REB_ASSIST_8, TEXT_SFX_REB_ASSIST_9, TEXT_SFX_REB_ASSIST_10, TEXT_SFX_REB_ASSIST_11, TEXT_SFX_REB_ASSIST_12, TEXT_SFX_REB_ATTACK_1, TEXT_SFX_REB_ATTACK_2, TEXT_SFX_REB_ATTACK_3, TEXT_SFX_REB_ATTACK_4, TEXT_SFX_REB_ATTACK_5, TEXT_SFX_REB_ATTACK_6, TEXT_SFX_REB_ATTACK_7, TEXT_SFX_REB_ATTACK_8, TEXT_SFX_REB_ATTACK_9, TEXT_SFX_REB_ATTACK_10, TEXT_SFX_REB_ATTACK_11, TEXT_SFX_REB_ATTACK_12, TEXT_SFX_REB_ATTACK_13, TEXT_SFX_REB_ATTACK_14, TEXT_SFX_REB_ATTACK_15</Text_ID>			
+		<Text_ID>TEXT_SFX_REB_ASSIST_1, TEXT_SFX_REB_ASSIST_2, TEXT_SFX_REB_ASSIST_3, TEXT_SFX_REB_ASSIST_4, TEXT_SFX_REB_ASSIST_5, TEXT_SFX_REB_ASSIST_6, TEXT_SFX_REB_ASSIST_8, TEXT_SFX_REB_ASSIST_9, TEXT_SFX_REB_ASSIST_10, TEXT_SFX_REB_ASSIST_11, TEXT_SFX_REB_ASSIST_12, TEXT_SFX_REB_ATTACK_1, TEXT_SFX_REB_ATTACK_2, TEXT_SFX_REB_ATTACK_3, TEXT_SFX_REB_ATTACK_4, TEXT_SFX_REB_ATTACK_5, TEXT_SFX_REB_ATTACK_6, TEXT_SFX_REB_ATTACK_7, TEXT_SFX_REB_ATTACK_8, TEXT_SFX_REB_ATTACK_9, TEXT_SFX_REB_ATTACK_10, TEXT_SFX_REB_ATTACK_11, TEXT_SFX_REB_ATTACK_12, TEXT_SFX_REB_ATTACK_13, TEXT_SFX_REB_ATTACK_14, TEXT_SFX_REB_ATTACK_15</Text_ID>			
 		<Overlap_Test> Unit_Rebel_Soldier </Overlap_Test>
 	</SFXEvent>
 

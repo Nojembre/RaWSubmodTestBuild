@@ -1516,7 +1516,7 @@
 		<Samples>Data\Audio\clone_enemy_sighted_eng.wav</Samples>
 		<Localize> Yes </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
-		<Text_ID>TEXT_SFX_GES_SEE_ENEMY_7, TEXT_SFX_GES_SEE_ENEMY_8, TEXT_SFX_GES_SEE_ENEMY_9, TEXT_SFX_GES_SEE_ENEMY_10, TEXT_SFX_GES_SEE_ENEMY_11, TEXT_SFX_GES_SEE_ENEMY_12, TEXT_SFX_GES_SEE_ENEMY_13, TEXT_SFX_GES_SEE_ENEMY_14, TEXT_SFX_GES_SEE_ENEMY_15, TEXT_SFX_GES_SEE_ENEMY_16, TEXT_SFX_GES_SEE_ENEMY_17,</Text_ID>
+		<Text_ID>TEXT_SFX_GES_SEE_ENEMY_11</Text_ID>
 		<Overlap_Test> Unit_See Enemy </Overlap_Test>
 	</SFXEvent>
 
@@ -3567,7 +3567,7 @@
 	<SFXEvent Name="Unit_Select_Rodian">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\CIV_rodian_select1.wav Data\Audio\CIV_rodian_select2.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Min_Volume> 90 </Min_Volume>
 		<Max_Volume> 90 </Max_Volume>
 		<Play_Sequentially> Yes </Play_Sequentially>
@@ -3578,7 +3578,7 @@
 	<SFXEvent Name="Unit_Move_Rodian">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\CIV_rodian_move1.wav Data\Audio\CIV_rodian_move2.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Min_Volume> 90 </Min_Volume>
 		<Max_Volume> 90 </Max_Volume>
 		<Play_Sequentially> Yes </Play_Sequentially>
@@ -3589,7 +3589,7 @@
 	<SFXEvent Name="Unit_Attack_Rodian">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\CIV_rodian_attack1.wav Data\Audio\CIV_rodian_attack2.wav </Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Min_Volume> 90 </Min_Volume>
 		<Max_Volume> 90 </Max_Volume>
 		<Play_Sequentially> Yes </Play_Sequentially>
@@ -3600,7 +3600,7 @@
 	<SFXEvent Name="Unit_Assist_Move_Rodian">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\CIV_rodian_guard1.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Min_Volume> 90 </Min_Volume>
 		<Max_Volume> 90 </Max_Volume>
 		<Play_Sequentially> Yes </Play_Sequentially>
@@ -3612,7 +3612,7 @@
 	<SFXEvent Name="Unit_Assist_Attack_Rodian">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\CIV_rodian_guard1.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Min_Volume> 90 </Min_Volume>
 		<Max_Volume> 90 </Max_Volume>
 		<Play_Sequentially> Yes </Play_Sequentially>
@@ -3625,7 +3625,7 @@
 	<SFXEvent Name="Unit_Guard_Rodian">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\CIV_rodian_guard1.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Min_Volume> 90 </Min_Volume>
 		<Max_Volume> 90 </Max_Volume>
 		<Play_Sequentially> Yes </Play_Sequentially>

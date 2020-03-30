@@ -5856,7 +5856,7 @@
 	<SFXEvent Name="Siege_Mortar_Available">
 		<Use_Preset> Preset_HUD </Use_Preset>
 		<Samples> Data\Audio\Siegemortar_ready.wav </Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Text_ID> TEXT_SFX_RHD_MAGNEPULSE_AVAILABLE_1</Text_ID>
 		<Overlap_Test> Unit_RHD </Overlap_Test>
 	</SFXEvent>      

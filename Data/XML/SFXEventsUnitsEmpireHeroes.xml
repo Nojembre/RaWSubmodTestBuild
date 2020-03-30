@@ -392,7 +392,7 @@
 	<SFXEvent Name="Unit_Select_Boba_Fett">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/Jango_select_01.wav Data/Audio/Jango_select_02.wav Data/Audio/Jango_select_03.wav Data/Audio/Jango_select_04.wav Data/Audio/Jango_select_05.wav Data/Audio/Jango_select_06.wav Data/Audio/Jango_select_07.wav Data/Audio/Jango_select_08.wav Data/Audio/Jango_select_09.wav Data/Audio/Jango_select_10.wav Data/Audio/Jango_select_11.wav Data/Audio/Jango_select_12.wav Data/Audio/Jango_select_13.wav Data/Audio/Jango_select_14.wav Data/Audio/Jango_select_15.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Text_ID>TEXT_SFX_BFT_SELECT_1, TEXT_SFX_BFT_SELECT_2, TEXT_SFX_BFT_SELECT_3, TEXT_SFX_BFT_SELECT_4, TEXT_SFX_BFT_SELECT_5, TEXT_SFX_BFT_SELECT_6, TEXT_SFX_BFT_SELECT_7, TEXT_SFX_BFT_SELECT_8, TEXT_SFX_BFT_SELECT_9, TEXT_SFX_BFT_SELECT_10, TEXT_SFX_BFT_SELECT_11, TEXT_SFX_BFT_SELECT_12, TEXT_SFX_BFT_SELECT_13, TEXT_SFX_BFT_SELECT_14, TEXT_SFX_BFT_SELECT_15</Text_ID>
 		<Overlap_Test> Unit_Boba_Fett </Overlap_Test>
@@ -401,7 +401,7 @@
 	<SFXEvent Name="Unit_Move_Boba_Fett">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/Jango_move_01.wav Data/Audio/Jango_move_02.wav Data/Audio/Jango_move_03.wav Data/Audio/Jango_move_04.wav Data/Audio/Jango_move_05.wav Data/Audio/Jango_move_06.wav Data/Audio/Jango_move_07.wav Data/Audio/Jango_move_08.wav Data/Audio/Jango_move_09.wav Data/Audio/Jango_move_10.wav Data/Audio/Jango_move_11.wav Data/Audio/Jango_move_12.wav Data/Audio/Jango_move_13.wav Data/Audio/Jango_move_14.wav Data/Audio/Jango_move_15.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Text_ID>TEXT_SFX_BFT_MOVE_1,  TEXT_SFX_BFT_MOVE_2, TEXT_SFX_BFT_MOVE_3, TEXT_SFX_BFT_MOVE_4, TEXT_SFX_BFT_MOVE_5,  TEXT_SFX_BFT_MOVE_6, TEXT_SFX_BFT_MOVE_7, TEXT_SFX_BFT_MOVE_8, TEXT_SFX_BFT_MOVE_9,  TEXT_SFX_BFT_MOVE_10, TEXT_SFX_BFT_MOVE_11, TEXT_SFX_BFT_MOVE_12, TEXT_SFX_BFT_MOVE_13,  TEXT_SFX_BFT_MOVE_14, TEXT_SFX_BFT_MOVE_15</Text_ID>
 		<Overlap_Test> Unit_Boba_Fett </Overlap_Test>
@@ -410,7 +410,7 @@
 	<SFXEvent Name="Unit_Fleet_Move_Boba_Fett">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/Jango_fleet_move_01.wav Data/Audio/Jango_fleet_move_02.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Text_ID>TEXT_SFX_BFT_MOVE_1, TEXT_SFX_BFT_MOVE_3, TEXT_SFX_BFT_MOVE_4, TEXT_SFX_BFT_MOVE_5,  TEXT_SFX_BFT_MOVE_7, TEXT_SFX_BFT_MOVE_8</Text_ID>
 		<Overlap_Test> Unit_Boba_Fett </Overlap_Test>
 	</SFXEvent>
@@ -419,7 +419,7 @@
 	<SFXEvent Name="Unit_Attack_Boba_Fett">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/Jango_attack_01.wav Data/Audio/Jango_attack_02.wav Data/Audio/Jango_attack_03.wav Data/Audio/Jango_attack_04.wav Data/Audio/Jango_attack_05.wav Data/Audio/Jango_attack_06.wav Data/Audio/Jango_attack_07.wav Data/Audio/Jango_attack_08.wav Data/Audio/Jango_attack_09.wav Data/Audio/Jango_attack_10.wav Data/Audio/Jango_attack_11 Data/Audio/Jango_attack_12.wav Data/Audio/Jango_attack_13.wav Data/Audio/Jango_attack_14.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Text_ID>TEXT_SFX_BFT_ATTACK_1,  TEXT_SFX_BFT_ATTACK_2, TEXT_SFX_BFT_ATTACK_3, TEXT_SFX_BFT_ATTACK_4, TEXT_SFX_BFT_ATTACK_5,  TEXT_SFX_BFT_ATTACK_6, TEXT_SFX_BFT_ATTACK_7, TEXT_SFX_BFT_ATTACK_8, TEXT_SFX_BFT_ATTACK_9,  TEXT_SFX_BFT_ATTACK_10, TEXT_SFX_BFT_ATTACK_11, TEXT_SFX_BFT_ATTACK_12, TEXT_SFX_BFT_ATTACK_13,  TEXT_SFX_BFT_ATTACK_14</Text_ID>
 		<Overlap_Test> Unit_Boba_Fett </Overlap_Test>
@@ -428,7 +428,7 @@
 	<SFXEvent Name="Unit_Attack_Flamethrower_Boba_Fett">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/Jango_attack_01.wav Data/Audio/Jango_attack_02.wav Data/Audio/Jango_attack_03.wav Data/Audio/Jango_attack_04.wav Data/Audio/Jango_attack_05.wav Data/Audio/Jango_attack_06.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Text_ID>TEXT_SFX_BFT_ATTACK_02_1, TEXT_SFX_BFT_ATTACK_02_2, TEXT_SFX_BFT_ATTACK_02_3, TEXT_SFX_BFT_ATTACK_02_4, TEXT_SFX_BFT_ATTACK_02_5, TEXT_SFX_BFT_ATTACK_02_6</Text_ID>
 		<Overlap_Test> Unit_Boba_Fett </Overlap_Test>
@@ -438,7 +438,7 @@
 	<SFXEvent Name="Unit_Guard_Boba_Fett">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/Jango_guard_01.wav Data/Audio/Jango_guard_02.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Text_ID>TEXT_SFX_BFT_GUARD_1, TEXT_SFX_BFT_GUARD_2, TEXT_SFX_BFT_GUARD_3, TEXT_SFX_BFT_GUARD_4</Text_ID>
 		<Overlap_Test> Unit_Boba_Fett </Overlap_Test>
@@ -447,7 +447,7 @@
 	<SFXEvent Name="Unit_Deploy_Boba_Fett">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/Jango_deploy_01.wav Data/Audio/Jango_deploy_02.wav Data/Audio/Jango_deploy_03.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Text_ID>TEXT_SFX_BFT_DEPLOY_1, TEXT_SFX_BFT_DEPLOY_2, TEXT_SFX_BFT_DEPLOY_5, TEXT_SFX_BFT_DEPLOY_6, TEXT_SFX_BFT_DEPLOY_7, TEXT_SFX_BFT_DEPLOY_8</Text_ID>
 		<Overlap_Test> Unit_Boba_Fett </Overlap_Test>
@@ -457,7 +457,7 @@
 	<SFXEvent Name="Unit_Respawn_Boba_Fett">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/Jango_respawn_01.wav Data/Audio/Jango_respawn_02.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Text_ID>TEXT_SFX_BFT_RESPAWN_1, TEXT_SFX_BFT_RESPAWN_2, TEXT_SFX_BFT_RESPAWN_3, TEXT_SFX_BFT_RESPAWN_4, TEXT_SFX_BFT_RESPAWN_5, TEXT_SFX_BFT_RESPAWN_6</Text_ID>
 		<Overlap_Test> Unit_Boba_Fett </Overlap_Test>
 	</SFXEvent>
@@ -465,7 +465,7 @@
 	<SFXEvent Name="Unit_Group_Move_Boba_Fett">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/Jango_group_move_01.wav Data/Audio/Jango_group_move_02.wav Data/Audio/Jango_group_move_03.wav Data/Audio/Jango_group_move_04.wav Data/Audio/Jango_group_move_05.wav Data/Audio/Jango_group_move_06.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Text_ID>TEXT_SFX_BFT_INTERACT_1, TEXT_SFX_BFT_INTERACT_2, TEXT_SFX_BFT_INTERACT_3, TEXT_SFX_BFT_INTERACT_5, TEXT_SFX_BFT_INTERACT_6, TEXT_SFX_BFT_MOVE_1,  TEXT_SFX_BFT_MOVE_2, TEXT_SFX_BFT_MOVE_3, TEXT_SFX_BFT_MOVE_4, TEXT_SFX_BFT_MOVE_5,  TEXT_SFX_BFT_MOVE_6, TEXT_SFX_BFT_MOVE_7, TEXT_SFX_BFT_MOVE_8, TEXT_SFX_BFT_MOVE_9,  TEXT_SFX_BFT_MOVE_10, TEXT_SFX_BFT_MOVE_11, TEXT_SFX_BFT_MOVE_12, TEXT_SFX_BFT_MOVE_13,  TEXT_SFX_BFT_MOVE_14, TEXT_SFX_BFT_MOVE_15</Text_ID>
 		<Overlap_Test> Unit_Boba_Fett </Overlap_Test>
@@ -474,7 +474,7 @@
 	<SFXEvent Name="Unit_Group_Attack_Boba_Fett">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/Jango_attack_01.wav Data/Audio/Jango_attack_02.wav Data/Audio/Jango_attack_03.wav Data/Audio/Jango_attack_04.wav Data/Audio/Jango_attack_05.wav Data/Audio/Jango_attack_06.wav Data/Audio/Jango_attack_07.wav Data/Audio/Jango_attack_08.wav Data/Audio/Jango_attack_09.wav Data/Audio/Jango_attack_10.wav Data/Audio/Jango_attack_11 Data/Audio/Jango_attack_12.wav Data/Audio/Jango_attack_13.wav Data/Audio/Jango_attack_14.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Text_ID>TEXT_SFX_BFT_INTERACT_1, TEXT_SFX_BFT_INTERACT_2, TEXT_SFX_BFT_INTERACT_3, TEXT_SFX_BFT_INTERACT_5, TEXT_SFX_BFT_INTERACT_6, TEXT_SFX_BFT_ATTACK_1,  TEXT_SFX_BFT_ATTACK_2, TEXT_SFX_BFT_ATTACK_3, TEXT_SFX_BFT_ATTACK_4, TEXT_SFX_BFT_ATTACK_5,  TEXT_SFX_BFT_ATTACK_6, TEXT_SFX_BFT_ATTACK_7, TEXT_SFX_BFT_ATTACK_8, TEXT_SFX_BFT_ATTACK_9,  TEXT_SFX_BFT_ATTACK_10, TEXT_SFX_BFT_ATTACK_11, TEXT_SFX_BFT_ATTACK_12, TEXT_SFX_BFT_ATTACK_13,  TEXT_SFX_BFT_ATTACK_14</Text_ID>
 		<Overlap_Test> Unit_Boba_Fett </Overlap_Test>
@@ -484,7 +484,7 @@
 	<SFXEvent Name="Unit_Defeat_Boba_Fett">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/Jango_defeat_01.wav Data/Audio/Jango_defeat_02.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Text_ID>TEXT_SFX_BFT_DEFEAT_1, TEXT_SFX_BFT_DEFEAT_2</Text_ID>
 		<Overlap_Test> Unit_Boba_Fett </Overlap_Test>
 	</SFXEvent>
@@ -492,7 +492,7 @@
 	<SFXEvent Name="Unit_Planet_Select_Boba_Fett">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/Jango_planet_select_01.wav Data/Audio/Jango_planet_select_02.wav Data/Audio/Jango_planet_select_03.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Text_ID>TEXT_SFX_BFT_PLANET_SELECT_1, TEXT_SFX_BFT_PLANET_SELECT_2, TEXT_SFX_BFT_PLANET_SELECT_3, TEXT_SFX_BFT_PLANET_SELECT_4, TEXT_SFX_BFT_PLANET_SELECT_5, TEXT_SFX_BFT_PLANET_SELECT_6</Text_ID>
 		<Overlap_Test> Unit_Boba_Fett </Overlap_Test>
@@ -501,7 +501,7 @@
 	<SFXEvent Name="Unit_Health_Low_Boba_Fett">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/Jango_health_low_01.wav Data/Audio/Jango_health_low_02.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Text_ID>TEXT_SFX_BFT_ATTACKED_1, TEXT_SFX_BFT_ATTACKED_3,</Text_ID>
 		<Overlap_Test> Unit_Boba_Fett </Overlap_Test>
@@ -510,7 +510,7 @@
 	<SFXEvent Name="Unit_Health_Critical_Boba_Fett">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/Jango_health_critical_01.wav Data/Audio/Jango_health_critical_02.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Text_ID>TEXT_SFX_BFT_NEAR_DEATH_1, TEXT_SFX_BFT_NEAR_DEATH_2, TEXT_SFX_BFT_NEAR_DEATH_3, TEXT_SFX_BFT_NEAR_DEATH_4</Text_ID>
 		<Overlap_Test> Unit_Boba_Fett </Overlap_Test>
 	</SFXEvent>
@@ -519,7 +519,7 @@
 	<SFXEvent Name="Unit_Select_Ship_Boba_Fett">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/Jango_ship_select_01.wav Data/Audio/Jango_ship_select_02.wav Data/Audio/Jango_ship_select_03.wav Data/Audio/Jango_ship_select_04.wav Data/Audio/Jango_ship_select_05.wav Data/Audio/Jango_ship_select_06.wav Data/Audio/Jango_ship_select_07.wav Data/Audio/Jango_ship_select_08.wav Data/Audio/Jango_ship_select_09.wav Data/Audio/Jango_ship_select_10.wav Data/Audio/Jango_ship_select_11.wav Data/Audio/Jango_ship_select_12.wav Data/Audio/Jango_ship_select_13.wav Data/Audio/Jango_ship_select_14.wav Data/Audio/Jango_ship_select_15.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Text_ID>TEXT_SFX_BFT_SELECT_SHIP_1, TEXT_SFX_BFT_SELECT_SHIP_2, TEXT_SFX_BFT_SELECT_SHIP_3, TEXT_SFX_BFT_SELECT_SHIP_4, TEXT_SFX_BFT_SELECT_SHIP_5, TEXT_SFX_BFT_SELECT_SHIP_6, TEXT_SFX_BFT_SELECT_SHIP_7, TEXT_SFX_BFT_SELECT_SHIP_8, TEXT_SFX_BFT_SELECT_SHIP_9, TEXT_SFX_BFT_SELECT_SHIP_10, TEXT_SFX_BFT_SELECT_SHIP_11, TEXT_SFX_BFT_SELECT_SHIP_12, TEXT_SFX_BFT_SELECT_SHIP_13, TEXT_SFX_BFT_SELECT_SHIP_14, TEXT_SFX_BFT_SELECT_SHIP_15</Text_ID>
 		<Overlap_Test> Unit_Boba_Fett </Overlap_Test>
@@ -528,7 +528,7 @@
 	<SFXEvent Name="Unit_Move_Ship_Boba_Fett">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/Jango_ship_move_01.wav Data/Audio/Jango_ship_move_02.wav Data/Audio/Jango_ship_move_03.wav Data/Audio/Jango_ship_move_04.wav Data/Audio/Jango_ship_move_05.wav Data/Audio/Jango_ship_move_06.wav Data/Audio/Jango_ship_move_07.wav Data/Audio/Jango_ship_move_08.wav Data/Audio/Jango_ship_move_809wav Data/Audio/Jango_ship_move_10.wav Data/Audio/Jango_ship_move_01.wav Data/Audio/Jango_ship_move_11.wav Data/Audio/Jango_ship_move_12.wav Data/Audio/Jango_ship_move_13.wav Data/Audio/Jango_ship_move_14.wav Data/Audio/Jango_ship_move_15.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Text_ID>TEXT_SFX_BFT_MOVE_SHIP_1,  TEXT_SFX_BFT_MOVE_SHIP_2, TEXT_SFX_BFT_MOVE_SHIP_3, TEXT_SFX_BFT_MOVE_SHIP_4, TEXT_SFX_BFT_MOVE_SHIP_5,  TEXT_SFX_BFT_MOVE_SHIP_6, TEXT_SFX_BFT_MOVE_SHIP_7, TEXT_SFX_BFT_MOVE_SHIP_8, TEXT_SFX_BFT_MOVE_SHIP_9,  TEXT_SFX_BFT_MOVE_SHIP_10, TEXT_SFX_BFT_MOVE_SHIP_11, TEXT_SFX_BFT_MOVE_SHIP_12, TEXT_SFX_BFT_MOVE_SHIP_13,  TEXT_SFX_BFT_MOVE_SHIP_14, TEXT_SFX_BFT_MOVE_SHIP_15</Text_ID>
 		<Overlap_Test> Unit_Boba_Fett </Overlap_Test>
@@ -537,7 +537,7 @@
 	<SFXEvent Name="Unit_Attack_Ship_Boba_Fett">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/Jango_ship_attack_01.wav Data/Audio/Jango_ship_attack_02.wav Data/Audio/Jango_ship_attack_03.wav Data/Audio/Jango_ship_attack_04.wav Data/Audio/Jango_ship_attack_05.wav Data/Audio/Jango_ship_attack_06.wav Data/Audio/Jango_ship_attack_07.wav Data/Audio/Jango_ship_attack_08.wav Data/Audio/Jango_ship_attack_09.wav Data/Audio/Jango_ship_attack_10.wav Data/Audio/Jango_ship_attack_11.wav Data/Audio/Jango_ship_attack_12.wav Data/Audio/Jango_ship_attack_13.wav Data/Audio/Jango_ship_attack_14.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Text_ID>TEXT_SFX_BFT_ATTACK_SHIP_1,  TEXT_SFX_BFT_ATTACK_SHIP_2, TEXT_SFX_BFT_ATTACK_SHIP_3, TEXT_SFX_BFT_ATTACK_SHIP_4, TEXT_SFX_BFT_ATTACK_SHIP_5,  TEXT_SFX_BFT_ATTACK_SHIP_6, TEXT_SFX_BFT_ATTACK_SHIP_7, TEXT_SFX_BFT_ATTACK_SHIP_8, TEXT_SFX_BFT_ATTACK_SHIP_9,  TEXT_SFX_BFT_ATTACK_SHIP_10, TEXT_SFX_BFT_ATTACK_SHIP_11, TEXT_SFX_BFT_ATTACK_SHIP_13,  TEXT_SFX_BFT_ATTACK_SHIP_14</Text_ID>
 		<Overlap_Test> Unit_Boba_Fett </Overlap_Test>
@@ -546,7 +546,7 @@
 	<SFXEvent Name="Unit_Ability_Boba_Fett">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/Jango_ship_attack_07.wav Data/Audio/Jango_ship_attack_08.wav Data/Audio/Jango_ship_attack_09.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Text_ID>TEXT_SFX_BFT_ATTACK_SHIP_12, TEXT_SFX_BFT_DEPLOY_5, TEXT_SFX_BFT_DEPLOY_6,  TEXT_SFX_BFT_DEPLOY_8</Text_ID>
 		<Overlap_Test> Unit_Boba_Fett </Overlap_Test>
@@ -557,7 +557,7 @@
 	<SFXEvent Name="Unit_Taunt_Boba_Fett">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/Jango_fleet_move_01.wav Data/Audio/Jango_fleet_move_02.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Text_ID>TEXT_SFX_BFT_MOVE_9, TEXT_SFX_BFT_DEPLOY_7, TEXT_SFX_BFT_INTERACT_4, TEXT_SFX_BFT_SELECT_SHIP_15, TEXT_SFX_BFT_ATTACK_SHIP_10</Text_ID>
 		<Overlap_Test> Unit_Boba_Fett </Overlap_Test>
@@ -736,7 +736,7 @@
 		<Samples>U000_PIT0101_ENG.wav U000_PIT0102_ENG.wav U000_PIT0104_ENG.wav U000_PIT0105_ENG.wav U000_PIT0106_ENG.wav U000_PIT0107_ENG.wav U000_PIT0108_ENG.wav</Samples>
 		<Localize> Yes </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
-		<Text_ID>TEXT_SFX_PIT_SELECT_1, TEXT_SFX_PIT_SELECT_2, TEXT_SFX_PIT_SELECT_3, TEXT_SFX_PIT_SELECT_4, TEXT_SFX_PIT_SELECT_5, TEXT_SFX_PIT_SELECT_6, TEXT_SFX_PIT_SELECT_7, TEXT_SFX_PIT_SELECT_8</Text_ID>
+		<Text_ID>TEXT_SFX_PIT_SELECT_1, TEXT_SFX_PIT_SELECT_2, TEXT_SFX_PIT_SELECT_4, TEXT_SFX_PIT_SELECT_5, TEXT_SFX_PIT_SELECT_6, TEXT_SFX_PIT_SELECT_7, TEXT_SFX_PIT_SELECT_8</Text_ID>
 		<Overlap_Test> Unit_Piett </Overlap_Test>
 	</SFXEvent>
 
@@ -745,7 +745,7 @@
 		<Samples>U000_PIT0201_ENG.wav U000_PIT0202_ENG.wav U000_PIT0203_ENG.wav U000_PIT0205_ENG.wav U000_PIT0206_ENG.wav U000_PIT0207_ENG.wav U000_PIT0208_ENG.wav</Samples>
 		<Localize> Yes </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
-		<Text_ID>TEXT_SFX_PIT_MOVE_1,  TEXT_SFX_PIT_MOVE_2, TEXT_SFX_PIT_MOVE_3, TEXT_SFX_PIT_MOVE_4, TEXT_SFX_PIT_MOVE_5,  TEXT_SFX_PIT_MOVE_6, TEXT_SFX_PIT_MOVE_7, TEXT_SFX_PIT_MOVE_8</Text_ID>
+		<Text_ID>TEXT_SFX_PIT_MOVE_1,  TEXT_SFX_PIT_MOVE_2, TEXT_SFX_PIT_MOVE_3, TEXT_SFX_PIT_MOVE_5,  TEXT_SFX_PIT_MOVE_6, TEXT_SFX_PIT_MOVE_7, TEXT_SFX_PIT_MOVE_8</Text_ID>
 		<Overlap_Test> Unit_Piett </Overlap_Test>
 	</SFXEvent>
 
@@ -764,7 +764,7 @@
 		<Samples>U000_PIT0301_ENG.wav U000_PIT0303_ENG.wav U000_PIT0304_ENG.wav U000_PIT0305_ENG.wav U000_PIT0306_ENG.wav U000_PIT0307_ENG.wav U000_PIT0308_ENG.wav</Samples>
 		<Localize> Yes </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
-		<Text_ID>TEXT_SFX_PIT_ATTACK_1,  TEXT_SFX_PIT_ATTACK_2, TEXT_SFX_PIT_ATTACK_3, TEXT_SFX_PIT_ATTACK_4, TEXT_SFX_PIT_ATTACK_5,  TEXT_SFX_PIT_ATTACK_6, TEXT_SFX_PIT_ATTACK_7, TEXT_SFX_PIT_ATTACK_8</Text_ID>
+		<Text_ID>TEXT_SFX_PIT_ATTACK_1, TEXT_SFX_PIT_ATTACK_3, TEXT_SFX_PIT_ATTACK_4, TEXT_SFX_PIT_ATTACK_5,  TEXT_SFX_PIT_ATTACK_6, TEXT_SFX_PIT_ATTACK_7, TEXT_SFX_PIT_ATTACK_8</Text_ID>
 		<Overlap_Test> Unit_Piett </Overlap_Test>
 	</SFXEvent>
 
@@ -800,7 +800,7 @@
 		<Samples>U000_PIT0602_ENG.wav U000_PIT0603_ENG.wav</Samples>
 		<Localize> Yes </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
-		<Text_ID>TEXT_SFX_PIT_PLANET_SELECT_1, TEXT_SFX_PIT_PLANET_SELECT_2, TEXT_SFX_PIT_PLANET_SELECT_3</Text_ID>
+		<Text_ID>TEXT_SFX_PIT_PLANET_SELECT_1, TEXT_SFX_PIT_PLANET_SELECT_2</Text_ID>
 		<Overlap_Test> Unit_Piett </Overlap_Test>
 	</SFXEvent>
 
@@ -884,7 +884,7 @@
 		<Samples>U000_MJD0102_ENG.wav U000_MJD0103_ENG.wav</Samples>
 		<Localize> Yes </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
-		<Text_ID>TEXT_SFX_MJD_RESPAWN_1, TEXT_SFX_MJD_RESPAWN_2, TEXT_SFX_MJD_RESPAWN_3</Text_ID>
+		<Text_ID>TEXT_SFX_MJD_RESPAWN_2, TEXT_SFX_MJD_RESPAWN_3</Text_ID>
 		<Overlap_Test> Unit_Mara_Jade </Overlap_Test>
 	</SFXEvent>
 
@@ -893,7 +893,7 @@
 		<Samples>U000_MJD0201_ENG.wav U000_MJD0202_ENG.wav </Samples>
 		<Localize> Yes </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
-		<Text_ID>TEXT_SFX_MJD_PLANET_SELECT_1, TEXT_SFX_MJD_PLANET_SELECT_2, TEXT_SFX_MJD_PLANET_SELECT_3</Text_ID>
+		<Text_ID>TEXT_SFX_MJD_PLANET_SELECT_1, TEXT_SFX_MJD_PLANET_SELECT_2</Text_ID>
 		<Overlap_Test> Unit_Mara_Jade </Overlap_Test>
 	</SFXEvent>
 
@@ -920,7 +920,7 @@
 		<Samples>U000_MJD0301_ENG.wav U000_MJD0302_ENG.wav U000_MJD0303_ENG.wav U000_MJD0305_ENG.wav U000_MJD0307_ENG.wav U000_MJD0308_ENG.wav U000_MJD0309_ENG.wav U000_MJD0310_ENG.wav U000_MJD0311_ENG.wav U000_MJD0312_ENG.wav U000_MJD0313_ENG.wav U000_MJD0314_ENG.wav U000_MJD0315_ENG.wav </Samples>
 		<Localize> Yes </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
-		<Text_ID>TEXT_SFX_MJD_ATTACK_1, TEXT_SFX_MJD_ATTACK_2, TEXT_SFX_MJD_ATTACK_3, TEXT_SFX_MJD_ATTACK_4, TEXT_SFX_MJD_ATTACK_5, TEXT_SFX_MJD_ATTACK_6, TEXT_SFX_MJD_ATTACK_7, TEXT_SFX_MJD_ATTACK_8, TEXT_SFX_MJD_ATTACK_9, TEXT_SFX_MJD_ATTACK_10, TEXT_SFX_MJD_ATTACK_11, TEXT_SFX_MJD_ATTACK_12,TEXT_SFX_MJD_ATTACK_13, TEXT_SFX_MJD_ATTACK_14, TEXT_SFX_MJD_ATTACK_15</Text_ID>
+		<Text_ID>TEXT_SFX_MJD_ATTACK_1, TEXT_SFX_MJD_ATTACK_2, TEXT_SFX_MJD_ATTACK_3, TEXT_SFX_MJD_ATTACK_5,  TEXT_SFX_MJD_ATTACK_7, TEXT_SFX_MJD_ATTACK_8, TEXT_SFX_MJD_ATTACK_9, TEXT_SFX_MJD_ATTACK_10, TEXT_SFX_MJD_ATTACK_11, TEXT_SFX_MJD_ATTACK_12,TEXT_SFX_MJD_ATTACK_13, TEXT_SFX_MJD_ATTACK_14, TEXT_SFX_MJD_ATTACK_15</Text_ID>
 		<Overlap_Test> Unit_Mara_Jade </Overlap_Test>
 	</SFXEvent>
 
@@ -965,7 +965,7 @@
 		<Samples> U000_MJD0602_ENG.wav U000_MJD0603_ENG.wav U000_MJD0604_ENG.wav U000_MJD0605_ENG.wav U000_MJD0601_ENG.wav U000_MJD0301_ENG.wav U000_MJD0302_ENG.wav U000_MJD0303_ENG.wav U000_MJD0305_ENG.wav U000_MJD0307_ENG.wav U000_MJD0308_ENG.wav U000_MJD0309_ENG.wav U000_MJD0310_ENG.wav U000_MJD0311_ENG.wav U000_MJD0312_ENG.wav U000_MJD0313_ENG.wav U000_MJD0314_ENG.wav U000_MJD0315_ENG.wav</Samples>
 		<Localize> Yes </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
-		<Text_ID> TEXT_SFX_MJD_INTERACT_2, TEXT_SFX_MJD_INTERACT_3, TEXT_SFX_MJD_INTERACT_4, TEXT_SFX_MJD_INTERACT_5, TEXT_SFX_MJD_INTERACT_1, TEXT_SFX_MJD_ATTACK_1, TEXT_SFX_MJD_ATTACK_2, TEXT_SFX_MJD_ATTACK_3, TEXT_SFX_MJD_ATTACK_4, TEXT_SFX_MJD_ATTACK_5, TEXT_SFX_MJD_ATTACK_6, TEXT_SFX_MJD_ATTACK_7, TEXT_SFX_MJD_ATTACK_8, TEXT_SFX_MJD_ATTACK_9, TEXT_SFX_MJD_ATTACK_10, TEXT_SFX_MJD_ATTACK_11, TEXT_SFX_MJD_ATTACK_12,TEXT_SFX_MJD_ATTACK_13, TEXT_SFX_MJD_ATTACK_14, TEXT_SFX_MJD_ATTACK_15</Text_ID>
+		<Text_ID> TEXT_SFX_MJD_INTERACT_2, TEXT_SFX_MJD_INTERACT_3, TEXT_SFX_MJD_INTERACT_4, TEXT_SFX_MJD_INTERACT_5,  TEXT_SFX_MJD_ATTACK_1, TEXT_SFX_MJD_ATTACK_2, TEXT_SFX_MJD_ATTACK_3, TEXT_SFX_MJD_ATTACK_4, TEXT_SFX_MJD_ATTACK_5, TEXT_SFX_MJD_ATTACK_7, TEXT_SFX_MJD_ATTACK_8, TEXT_SFX_MJD_ATTACK_9, TEXT_SFX_MJD_ATTACK_10, TEXT_SFX_MJD_ATTACK_11, TEXT_SFX_MJD_ATTACK_12,TEXT_SFX_MJD_ATTACK_13, TEXT_SFX_MJD_ATTACK_14, TEXT_SFX_MJD_ATTACK_15</Text_ID>
 		<Overlap_Test> Unit_Mara_Jade </Overlap_Test>
 	</SFXEvent>
 
