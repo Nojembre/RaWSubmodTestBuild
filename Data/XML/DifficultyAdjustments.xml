@@ -29,7 +29,7 @@
 		<Damage_Multiplier>1.0</Damage_Multiplier>
 		<Health_Multiplier>1.0</Health_Multiplier>
 		<Shield_Multiplier>1.0</Shield_Multiplier>
-		<Galactic_AI_Goal_Cycle_Sleep_Duration>10.0</Galactic_AI_Goal_Cycle_Sleep_Duration>
+		<Galactic_AI_Goal_Cycle_Sleep_Duration>20.0</Galactic_AI_Goal_Cycle_Sleep_Duration> <!-- 10 -->
 		<Space_AI_Goal_Cycle_Sleep_Duration>10.0</Space_AI_Goal_Cycle_Sleep_Duration>
 		<Land_AI_Goal_Cycle_Sleep_Duration>10.0</Land_AI_Goal_Cycle_Sleep_Duration>
 		<Bribe_Cost_Multiplier>0.25</Bribe_Cost_Multiplier>
@@ -46,7 +46,7 @@
 		<Damage_Multiplier>1.2</Damage_Multiplier>
 		<Health_Multiplier>1.1</Health_Multiplier>
 		<Shield_Multiplier>1.0</Shield_Multiplier>
-		<Galactic_AI_Goal_Cycle_Sleep_Duration>0.0</Galactic_AI_Goal_Cycle_Sleep_Duration>
+		<Galactic_AI_Goal_Cycle_Sleep_Duration>10.0</Galactic_AI_Goal_Cycle_Sleep_Duration> <!-- 0 -->
 		<Space_AI_Goal_Cycle_Sleep_Duration>0.0</Space_AI_Goal_Cycle_Sleep_Duration>
 		<Land_AI_Goal_Cycle_Sleep_Duration>0.0</Land_AI_Goal_Cycle_Sleep_Duration>
 		<Bribe_Cost_Multiplier>0.25</Bribe_Cost_Multiplier>
