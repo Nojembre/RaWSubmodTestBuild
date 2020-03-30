@@ -53,7 +53,7 @@
 		<Size_Value>75</Size_Value>
 
 		<Behavior>SELECTABLE</Behavior>
-		<LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON,REVEAL,HIDE_WHEN_FOGGED,ABILITY_COUNTDOWN, SPAWN_SQUADRON,GARRISON_UNIT</LandBehavior>
+		<LandBehavior>SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,TARGETING,WEAPON,REVEAL,HIDE_WHEN_FOGGED,ABILITY_COUNTDOWN, SPAWN_SQUADRON,GARRISON_UNIT</LandBehavior>
 		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
@@ -178,30 +178,6 @@
 		</Absorb_Blaster_Ability>
 
 	</GenericHeroUnit>
-
-	<GenericHeroUnit Name="Squad_Generic_Field_Commander_Republic_P2_CW">
-		<Variant_Of_Existing_Type>Generic_Field_Commander_P2_Republic_CW</Variant_Of_Existing_Type>
-		<LandBehavior>LANDING, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
-		<Is_Squashable> Yes </Is_Squashable>
-		<Space_Layer> None </Space_Layer>
-		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
-		<Max_Rate_Of_Turn>8.0</Max_Rate_Of_Turn>
-		<FormationRaggedness> .2 </FormationRaggedness>
-		<MaxJiggleDistance> 2 </MaxJiggleDistance>
-		<Create_Team>Yes</Create_Team>
-
-
-		<Unit_Abilities_Data SubObjectList="Yes">
-
-			<Unit_Ability>
-				<Type>SPREAD_OUT</Type>
-				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
-				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
-			</Unit_Ability>
-		</Unit_Abilities_Data>
-
-	</GenericHeroUnit>
-
 
 	<HeroCompany Name="Field_Com_Republic_P2_Team">
 		<GUI_Row>1</GUI_Row>
