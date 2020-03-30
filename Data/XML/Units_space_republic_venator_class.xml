@@ -460,7 +460,7 @@
 
 
 		<Score_Cost_Credits> 2250</Score_Cost_Credits>
-		<Population_Value>3</Population_Value>
+		<Population_Value>5</Population_Value>
 		
 		<Custom_Hard_XExtent> 550 </Custom_Hard_XExtent>
 		
@@ -485,7 +485,7 @@
 		<Encyclopedia_Good_Against> Recusant_Frigate Munificent_Frigate Technounion_Frigate </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> CIS_Bomber Providence_Class_Carrier Malevolence</Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
-		<Space_Model_Name>REV_VENATOR.ALO</Space_Model_Name>
+		<Space_Model_Name>ReV_venator_No_Circle.ALO</Space_Model_Name>
 		<Icon_Name>I_BUTTON_VENATOR.TGA</Icon_Name>
 		<Select_Box_Scale>1600</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-80</Select_Box_Z_Adjust>
