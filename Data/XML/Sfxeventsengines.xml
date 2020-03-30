@@ -1061,7 +1061,7 @@
 		<Samples>Data\Audio\Vong_Ship.wav</Samples>
 	</SFXEvent>
 
-	<SFXEvent Name="Unit_Vong_Ship_Cinematic_Engine_Loop">
+	<SFXEvent Name="Unit_Vong_Ship_Cinematic_Engine_Loop_2">
 		<Use_Preset>Preset_EGL_CIN</Use_Preset>
 		<Samples>Data\Audio\SFX\Engines\Unit_Vulture_Cinematic_Engine_Loop.wav</Samples>
 	</SFXEvent>

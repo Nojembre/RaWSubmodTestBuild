@@ -636,16 +636,6 @@
 		<Overlap_Test> Unit_Juggernaut  </Overlap_Test>
 	</SFXEvent>
 
-	<SFXEvent Name="Unit_Assist_Move_Juggernaut">
-		<Use_Preset>Preset_UR</Use_Preset>
-		<Samples>Data\Audio\Clone_assist_move_2.wav</Samples>
-		<Localize> Yes </Localize>
-		<Play_Sequentially> Yes </Play_Sequentially>
-		<Probability>60</Probability>
-		<Text_ID>TEXT_SFX_JUG_ASSIST_1, TEXT_SFX_JUG_ASSIST_2, TEXT_SFX_JUG_ASSIST_3, TEXT_SFX_JUG_MOVE_1, TEXT_SFX_JUG_MOVE_2, TEXT_SFX_JUG_MOVE_3, TEXT_SFX_JUG_MOVE_4, TEXT_SFX_JUG_MOVE_5, TEXT_SFX_JUG_MOVE_6, TEXT_SFX_JUG_MOVE_7, TEXT_SFX_JUG_MOVE_8, TEXT_SFX_JUG_MOVE_9, TEXT_SFX_JUG_MOVE_10, TEXT_SFX_JUG_MOVE_11, TEXT_SFX_JUG_MOVE_12, TEXT_SFX_JUG_MOVE_13, TEXT_SFX_JUG_MOVE_14, TEXT_SFX_JUG_MOVE_15</Text_ID>			
-		<Overlap_Test> Unit_Juggernaut  </Overlap_Test>
-	</SFXEvent>
-
 	<SFXEvent Name="Unit_Assist_Attack_Juggernaut">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data\Audio\Clone_assist_attack_1.wav Data\Audio\Clone_assist_attack_2.wav Data\Audio\Clone_assist_attack_3.wav Data\Audio\Clone_assist_attack_4.wav</Samples>
@@ -2191,15 +2181,6 @@
 		<Overlap_Test> Unit_Sabateur </Overlap_Test>
 	</SFXEvent>
 
-
-	<SFXEvent Name="Unit_Weaken_Sabateur">
-		<Use_Preset>Preset_UR</Use_Preset>
-		<Samples>U000_DEF3101_ENG.wav U000_DEF3102_ENG.wav U000_DEF3103_ENG.wav U000_DEF3104_ENG.wav U000_DEF3105_ENG.wav U000_DEF3106_ENG.wav</Samples>
-		<Localize> Yes </Localize>
-		<Play_Sequentially> Yes </Play_Sequentially>
-		<Text_ID>TEXT_SFX_DEF_WEAKEN_1, TEXT_SFX_DEF_WEAKEN_2, TEXT_SFX_DEF_WEAKEN_3, TEXT_SFX_DEF_WEAKEN_4, TEXT_SFX_DEF_WEAKEN_5, TEXT_SFX_DEF_ATTACK_6</Text_ID>			
-		<Overlap_Test> Unit_Sabateur </Overlap_Test>
-	</SFXEvent>
 
 	<!--Battledroids-->
 

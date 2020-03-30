@@ -4367,7 +4367,7 @@
 		<Overlap_Test> Unit_Urai_Fen </Overlap_Test>
 	</SFXEvent>
 
-	<SFXEvent Name="Unit_Attack_Urai_Fen">
+	<SFXEvent Name="Unit_Attack_Durge">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/durge_attack_1.wav Data/Audio/durge_attack_2.wav Data/Audio/durge_attack_3.wav Data/Audio/durge_attack_4.wav Data/Audio/durge_attack_5.wav Data/Audio/durge_attack_6.wav Data/Audio/durge_attack_7.wav Data/Audio/durge_attack_8.wav Data/Audio/durge_attack_9.wav Data/Audio/durge_attack_10.wav Data/Audio/durge_attack_12.wav Data/Audio/durge_attack_13.wav Data/Audio/durge_attack_14.wav Data/Audio/durge_attack_15.wav</Samples>
 		<Localize> Yes </Localize>

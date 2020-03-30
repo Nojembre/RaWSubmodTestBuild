@@ -55,6 +55,7 @@
 		<Overlap_Test> Unit_RHD </Overlap_Test>
 	</SFXEvent>
 
+	<!--
 	<SFXEvent Name="RHD_Base_Under_Attack">
 		<Use_Preset> Preset_HUD </Use_Preset>
 		<Samples> I000_RHD0201_ENG.wav I000_RHD0202_ENG.wav</Samples>
@@ -63,7 +64,7 @@
 		<Overlap_Test> Unit_RHD </Overlap_Test>
 	</SFXEvent>
 
-	<!--	<SFXEvent Name="RHD_Transport_Under_Attack">
+	<SFXEvent Name="RHD_Transport_Under_Attack">
 		<Use_Preset> Preset_HUD </Use_Preset>
 		<Samples> I000_RHD0301_ENG.wav I000_RHD0302_ENG.wav</Samples>
 		<Localize> Yes </Localize>
@@ -597,16 +598,6 @@
 		<Samples> I000_RHD5302_ENG.wav</Samples>
 		<Localize> Yes </Localize>
 		<Text_ID> TEXT_SFX_RHD_ENEMY_BASE_SHIELDS_UP_1</Text_ID>
-		<Overlap_Test> Unit_RHD </Overlap_Test>
-	</SFXEvent>
-
-
-
-	<SFXEvent Name="RHD_Base_Structure_Destroyed">
-		<Use_Preset> Preset_HUD </Use_Preset>
-		<Samples> I000_RHD0538_ENG.wav</Samples>
-		<Localize> Yes </Localize>
-		<Text_ID> TEXT_SFX_RHD_BASE_STRUCTURE_DESTROYED_1</Text_ID>
 		<Overlap_Test> Unit_RHD </Overlap_Test>
 	</SFXEvent>
 
@@ -5813,14 +5804,6 @@
 	</SFXEvent>
 
 	<!--NEW-->
-
-	<SFXEvent Name="RHD_Enemy_Fleet_Approaching">
-		<Use_Preset> Preset_HUD </Use_Preset>
-		<Samples>Data\Audio\I000_rhd1705_eng.wav</Samples>
-		<Localize> Yes </Localize>
-		<Text_ID> TEXT_SFX_EHD_ENEMY_FLEET_1</Text_ID>
-		<Overlap_Test> Unit_EHD </Overlap_Test>
-	</SFXEvent>
 
 	<SFXEvent Name="RHD_Base_Under_Attack">
 		<Use_Preset> Preset_HUD </Use_Preset>

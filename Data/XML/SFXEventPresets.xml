@@ -567,20 +567,6 @@
 		<Loop_Fade_Out_Seconds> 3.0 </Loop_Fade_Out_Seconds>	<!-- Crossfading from light, to medium, to heavy, and vice-versa -->
 	</SFXEvent>
 
-	<SFXEvent Name="Preset_AMB_3D_Loop_4">
-		<Is_Preset> Yes </Is_Preset>
-		<Is_3D> Yes </Is_3D>
-		<Is_2D> No </Is_2D>
-		<Priority> 1 </Priority>
-		<Max_Instances> 10 </Max_Instances>
-		<Play_Count>-1</Play_Count>
-		<Min_Volume>100</Min_Volume>
-		<Max_Volume>100</Max_Volume>
-		<Volume_Saturation_Distance>800.0</Volume_Saturation_Distance>
-		<Loop_Fade_In_Seconds> 3.0 </Loop_Fade_In_Seconds> 	<!-- Crossfading from light, to medium, to heavy, and vice-versa -->
-		<Loop_Fade_Out_Seconds> 3.0 </Loop_Fade_Out_Seconds>	<!-- Crossfading from light, to medium, to heavy, and vice-versa -->
-	</SFXEvent>
-
 	<SFXEvent Name="Preset_AMB_3D_Loop_1">
 		<Is_Preset> Yes </Is_Preset>
 		<Is_3D> Yes </Is_3D>
@@ -622,7 +608,7 @@
 		<Loop_Fade_In_Seconds> 3.0 </Loop_Fade_In_Seconds> 	<!-- Crossfading from light, to medium, to heavy, and vice-versa -->
 		<Loop_Fade_Out_Seconds> 3.0 </Loop_Fade_Out_Seconds>	<!-- Crossfading from light, to medium, to heavy, and vice-versa -->
 	</SFXEvent>
-
+	
 	<SFXEvent Name="Preset_AMB_3D_Loop_4">
 		<Is_Preset> Yes </Is_Preset>
 		<Is_3D> Yes </Is_3D>
@@ -630,11 +616,11 @@
 		<Priority> 1 </Priority>
 		<Max_Instances> 10 </Max_Instances>
 		<Play_Count>-1</Play_Count>
-		<Min_Volume>80</Min_Volume>
-		<Max_Volume>80</Max_Volume>
-		<Volume_Saturation_Distance>1000.0</Volume_Saturation_Distance>
-		<Loop_Fade_In_Seconds> 4.0 </Loop_Fade_In_Seconds> 	<!-- Crossfading from light, to medium, to heavy, and vice-versa -->
-		<Loop_Fade_Out_Seconds> 4.0 </Loop_Fade_Out_Seconds>	<!-- Crossfading from light, to medium, to heavy, and vice-versa -->
+		<Min_Volume>100</Min_Volume>
+		<Max_Volume>100</Max_Volume>
+		<Volume_Saturation_Distance>800.0</Volume_Saturation_Distance>
+		<Loop_Fade_In_Seconds> 3.0 </Loop_Fade_In_Seconds> 	<!-- Crossfading from light, to medium, to heavy, and vice-versa -->
+		<Loop_Fade_Out_Seconds> 3.0 </Loop_Fade_Out_Seconds>	<!-- Crossfading from light, to medium, to heavy, and vice-versa -->
 	</SFXEvent>
 
 </SFXEvents>
