@@ -2090,9 +2090,9 @@
 		<Reward_Param3>Empire</Reward_Param3>
 		<Reward_Param4>_Order66_Utapau_Mission.TED</Reward_Param4>
 		<Reward_Param5>Rebel</Reward_Param5>
-		<Reward_Param6>Obiwan_Team</Reward_Param6>
+		<Reward_Param6>Obiwan_No_Cody_Team</Reward_Param6>
 		<Reward_Param7>Story_Plots_Republic_Order66_Utapau.xml</Reward_Param7>
-		<Reward_Param8>1</Reward_Param8>
+		<Reward_Param8>0</Reward_Param8> <!-- 1 means units persist -->
 		<Reward_Param9>0</Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Reward_Param11>0</Reward_Param11>

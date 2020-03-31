@@ -487,7 +487,7 @@
 		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_X_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 
-		<Landing_Transport_Variant>Obiwan_Eta2_Landing</Landing_Transport_Variant>
+		<Landing_Transport_Variant>Ahsoka_Eta2_Landing</Landing_Transport_Variant>
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -508,9 +508,9 @@
 
 	</UniqueUnit>
 
-	<TransportUnit Name="Anakin_Jedi_Eta2_Landing">
-		<Variant_Of_Existing_Type>Anakin_Jedi_Eta2</Variant_Of_Existing_Type>
-		<Land_Model_Name>REV_ETA2_ANAKIN_LANDING.ALO</Land_Model_Name>
+	<TransportUnit Name="Ahsoka_Eta2_Landing">
+		<Variant_Of_Existing_Type>Obiwan_Jedi_Eta2</Variant_Of_Existing_Type>
+		<Land_Model_Name>REV_ETA2_OBIWAN_LANDING.ALO</Land_Model_Name>
 		<Icon_Name>I_BUTTON_ETA2.TGA</Icon_Name>
 		<Behavior>TRANSPORT</Behavior>
 		<Scale_Factor>3.5</Scale_Factor>
