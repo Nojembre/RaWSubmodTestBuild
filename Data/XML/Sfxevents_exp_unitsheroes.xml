@@ -80,7 +80,7 @@
 	<SFXEvent Name="Unit_Health_Critical_Yoda">
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>Data/Audio/Yoda_health_critical_01.wav</Samples>
-		<Localize> Yes </Localize>
+		<Localize> No </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Text_ID> TEXT_SFX_YOD_HEALTH_CRITICAL_2</Text_ID>
 		<Overlap_Test> Unit_Yoda </Overlap_Test>
@@ -3952,9 +3952,10 @@
 
 	<SFXEvent Name="Unit_Select_Tiin">
 		<Use_Preset>Preset_UR</Use_Preset>
-		<Samples>U000_PUL0101_ENG.wav U000_PUL0103_ENG.wav U000_PUL0103_ENG.wav U000_PUL0105_ENG.wav U000_PUL0105_ENG.wav U000_PUL0106_ENG.wav U000_PUL0107_ENG.wav U000_PUL0109_ENG.wav U000_PUL0110_ENG.wav U000_PUL0111_ENG.wav U000_PUL0112_ENG.wav U000_PUL0113_ENG.wav U000_PUL0115_ENG.wav</Samples>
+		<Samples>U000_PUL0101_ENG.wav U000_PUL0103_ENG.wav U000_PUL0105_ENG.wav U000_PUL0106_ENG.wav U000_PUL0107_ENG.wav U000_PUL0109_ENG.wav U000_PUL0110_ENG.wav U000_PUL0111_ENG.wav U000_PUL0112_ENG.wav U000_PUL0113_ENG.wav U000_PUL0115_ENG.wav</Samples>
 		<Localize> Yes </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_REB_SELECT_1, TEXT_SFX_REB_SELECT_7, TEXT_SFX_REB_SELECT_4, TEXT_SFX_REB_SELECT_12, TEXT_SFX_REB_SELECT_13, TEXT_SFX_REB_SELECT_14, TEXT_SFX_REB_SELECT_15, TEXT_SFX_REB_SELECT_3, TEXT_SFX_REB_SELECT_5, TEXT_SFX_REB_SELECT_9, TEXT_SFX_REB_SELECT_11</Text_ID>
 		<Overlap_Test> Unit_Tyber_Zann_Space </Overlap_Test>
 	</SFXEvent>
 
@@ -3988,6 +3989,7 @@
 		<Samples>U000_PUL0302_ENG.wav U000_PUL0305_ENG.wav U000_PUL0307_ENG.wav U000_PUL0308_ENG.wav U000_PUL0309_ENG.wav U000_PUL0310_ENG.wav U000_PUL0311_ENG.wav U000_PUL0312_ENG.wav U000_PUL0313_ENG.wav U000_PUL0314_ENG.wav U000_PUL0315_ENG.wav</Samples>
 		<Localize> Yes </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_PUL_ATTACK_10, TEXT_SFX_PUL_ATTACK_11, TEXT_SFX_PUL_ATTACK_12, TEXT_SFX_PUL_ATTACK_13, TEXT_SFX_PUL_ATTACK_14, TEXT_SFX_PUL_ATTACK_15, TEXT_SFX_PUL_ATTACK_2, TEXT_SFX_PUL_ATTACK_3, TEXT_SFX_PUL_ATTACK_4, TEXT_SFX_PUL_ATTACK_5, TEXT_SFX_PUL_ATTACK_9</Text_ID>
 		<Overlap_Test> Unit_Tyber_Zann_Space </Overlap_Test>
 	</SFXEvent>
 
@@ -4327,7 +4329,7 @@
 		<Samples>U000_URA0304_ENG.wav U000_URA0308_ENG.wav U000_URA3101_ENG.wav </Samples>
 		<Localize> Yes </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
-		<Text_ID>TEXT_SFX_IG8_INFECT_1, TEXT_SFX_IG8_INFECT_2, TEXT_SFX_IG8_INFECT_3, TEXT_SFX_IG8_INFECT_4, TEXT_SFX_IG8_INFECT_5</Text_ID>
+		<Text_ID>TEXT_SFX_IG8_INFECT_1, TEXT_SFX_IG8_INFECT_3,  TEXT_SFX_IG8_INFECT_5</Text_ID>
 		<Overlap_Test> Unit_IG88 </Overlap_Test>
 	</SFXEvent>
 

@@ -3055,6 +3055,7 @@
 		<Samples>U000_IG80201_ENG.wav U000_IG80202_ENG.wav U000_IG80203_ENG.wav U000_IG80204_ENG.wav U000_IG80205_ENG.wav U000_IG80206_ENG.wav U000_IG80207_ENG.wav U000_IG80208_ENG.wav U000_IG80209_ENG.wav U000_IG80210_ENG.wav U000_IG80211_ENG.wav U000_IG80212_ENG.wav U000_IG80213_ENG.wav U000_IG80215_ENG.wav </Samples>
 		<Localize> Yes </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_IG8_MOVE_1, TEXT_SFX_IG8_MOVE_10, TEXT_SFX_IG8_MOVE_11, TEXT_SFX_IG8_MOVE_12, TEXT_SFX_IG8_MOVE_13, TEXT_SFX_IG8_MOVE_14, TEXT_SFX_IG8_MOVE_2, TEXT_SFX_IG8_MOVE_3, TEXT_SFX_IG8_MOVE_4, TEXT_SFX_IG8_MOVE_5, TEXT_SFX_IG8_MOVE_6, TEXT_SFX_IG8_MOVE_7, TEXT_SFX_IG8_MOVE_8, TEXT_SFX_IG8_MOVE_9</Text_ID>
 
 		<Overlap_Test> Unit_IG88 </Overlap_Test>
 	</SFXEvent>
@@ -3066,6 +3067,7 @@
 		<Samples>U000_IG80201_ENG.wav U000_IG80202_ENG.wav U000_IG80203_ENG.wav  U000_IG80205_ENG.wav U000_IG80206_ENG.wav U000_IG80207_ENG.wav U000_IG80208_ENG.wav</Samples>
 		<Localize> Yes </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_IG8_GROUP_MOVE_1, TEXT_SFX_IG8_GROUP_MOVE_2, TEXT_SFX_IG8_GROUP_MOVE_3, TEXT_SFX_IG8_GROUP_MOVE_4, TEXT_SFX_IG8_GROUP_MOVE_5, TEXT_SFX_IG8_MOVE_1, TEXT_SFX_IG8_MOVE_10</Text_ID>
 
 		<Overlap_Test> Unit_IG88 </Overlap_Test>
 	</SFXEvent>
@@ -3075,6 +3077,8 @@
 		<Samples>U000_ig80114_eng.wav</Samples>
 		<Localize> Yes </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_IG8_SELECT_5</Text_ID>
+		
 		<Overlap_Test> Unit_IG88 </Overlap_Test>
 	</SFXEvent>
 
@@ -3083,6 +3087,7 @@
 		<Samples>U000_IG80401_ENG.wav U000_IG80403_ENG.wav U000_IG80404_ENG.wav</Samples>
 		<Localize> Yes </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_REB_SELECT_1, TEXT_SFX_REB_SELECT_7, TEXT_SFX_REB_SELECT_4</Text_ID>
 
 		<Overlap_Test> Unit_IG88 </Overlap_Test>
 	</SFXEvent>
@@ -3092,6 +3097,7 @@
 		<Use_Preset>Preset_UR</Use_Preset>
 		<Samples>U000_ig81902_eng.wav</Samples>
 		<Localize> Yes </Localize>
+		<Text_ID>TEXT_SFX_IG8_HEALTH_CRITICAL_1</Text_ID>
 
 		<Overlap_Test> Unit_IG88 </Overlap_Test>
 	</SFXEvent>
