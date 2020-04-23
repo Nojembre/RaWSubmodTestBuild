@@ -134,7 +134,7 @@
 		<Blob_Shadow_Scale>65.0, 50.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 
-		<CategoryMask> Vehicle </CategoryMask>
+		<CategoryMask> Vehicle | AntiVehicle | AntiStructure </CategoryMask>
 		<MovementClass>Tracked</MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Victory_Relevant>yes</Victory_Relevant>

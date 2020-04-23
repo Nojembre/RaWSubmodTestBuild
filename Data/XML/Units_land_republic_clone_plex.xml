@@ -115,7 +115,7 @@
 		<SFXEvent_Tactical_Build_Complete> RHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
 		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 		
-		<CategoryMask> AntiAir | AntiVehicle</CategoryMask>
+		<CategoryMask> Infantry | AntiVehicle | AntiStructure </CategoryMask>
 		<MovementClass> Infantry </MovementClass>
 
 		<OccupationStyle>1x1</OccupationStyle>
@@ -145,7 +145,6 @@
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		
 		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
-		<CategoryMask> Infantry </CategoryMask>
 		<Weather_Category>Infantry</Weather_Category>
 
 		<Death_Fade_Time>0.25</Death_Fade_Time>
@@ -381,7 +380,7 @@
 		<SFXEvent_Tactical_Build_Complete> RHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
 		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 		
-		<CategoryMask> AntiAir | AntiVehicle</CategoryMask>
+		<CategoryMask> Infantry | AntiVehicle | AntiStructure </CategoryMask>
 		<MovementClass> Infantry </MovementClass>
 
 		<OccupationStyle>1x1</OccupationStyle>
@@ -410,7 +409,6 @@
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		
 		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
-		<CategoryMask> Infantry </CategoryMask>
 		<Weather_Category>Infantry</Weather_Category>
 
 		<Death_Fade_Time>0.25</Death_Fade_Time>

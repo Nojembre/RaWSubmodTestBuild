@@ -115,7 +115,7 @@
 		<SFXEvent_Fire>Unit_AT_ST_Fire</SFXEvent_Fire>
 
 
-		<CategoryMask> Vehicle | AntiVehicle </CategoryMask>
+		<CategoryMask> Vehicle | AntiInfantry </CategoryMask>
 
 		<MovementClass>Walker</MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>

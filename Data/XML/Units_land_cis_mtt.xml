@@ -84,7 +84,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Tank_Death_SFX</Death_SFXEvent_Start_Die>
 		<Overall_Length>60.0</Overall_Length>
 		<Overall_Width>0.0</Overall_Width>
-		<CategoryMask> Vehicle </CategoryMask>
+		<CategoryMask> Vehicle | AntiInfantry | AntiVehicle </CategoryMask>
 		<MovementClass>LargeHover</MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Victory_Relevant>yes</Victory_Relevant>

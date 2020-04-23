@@ -105,7 +105,7 @@
 		<SFXEvent_Tactical_Build_Complete> 501st_Build_Complete </SFXEvent_Tactical_Build_Complete>		
 		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
-		<CategoryMask> Infantry </CategoryMask>
+		<CategoryMask> LandHero </CategoryMask>
 		<MovementClass> Infantry </MovementClass>
 		<Property_Flags>Fodder</Property_Flags>
 

@@ -139,7 +139,7 @@
 		<Lua_Script>ObjectScript_Example</Lua_Script>
 
 		
-		<CategoryMask> Frigate | AntiCorvette | AntiFrigate </CategoryMask>  
+		<CategoryMask> Capital | AntiFrigate </CategoryMask>  
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>

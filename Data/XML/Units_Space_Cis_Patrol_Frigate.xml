@@ -77,7 +77,7 @@
 
 		<Space_FOW_Reveal_Range>1400.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
-		<CategoryMask> Corvette | AntiCorvette </CategoryMask>
+		<CategoryMask> Corvette | AntiFighter | AntiBomber </CategoryMask>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 

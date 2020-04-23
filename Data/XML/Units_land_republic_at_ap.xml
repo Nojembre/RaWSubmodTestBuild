@@ -92,7 +92,7 @@
 		<SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>		
 		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
 
-		<CategoryMask> Vehicle | AntiVehicle </CategoryMask>
+		<CategoryMask> Vehicle | AntiVehicle | AntiStructure </CategoryMask>
 		<Icon_Name>i_button_pod_walker.tga</Icon_Name>
 		<MovementClass>Walker</MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>

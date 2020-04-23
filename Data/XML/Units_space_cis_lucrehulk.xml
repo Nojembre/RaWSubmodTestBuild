@@ -156,7 +156,7 @@
 
 		<Death_SFXEvent_Start_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_Start_Die>
 
-		<CategoryMask> Capital | AntiFrigate </CategoryMask>
+		<CategoryMask> Capital | AntiFrigate | AntiCapital</CategoryMask>
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>

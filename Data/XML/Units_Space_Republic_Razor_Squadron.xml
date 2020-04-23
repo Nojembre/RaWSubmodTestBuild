@@ -118,7 +118,7 @@
 		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_X_Wing_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
-		<CategoryMask> Fighter | AntiBomber</CategoryMask>
+		<CategoryMask> Fighter | AntiBomber | SpaceHero </CategoryMask>
 		<Property_Flags> SmallShip </Property_Flags>
 
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -376,7 +376,7 @@
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
-		<CategoryMask>Bomber | Fighter | AntiCapital | AntiSuper</CategoryMask>
+		<CategoryMask> Bomber | Fighter | SpaceHero | AntiBomber </CategoryMask>
 		<FormationOrder>2</FormationOrder>
 		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>2000.0</Guard_Chase_Range> <!-- From 1000 -->

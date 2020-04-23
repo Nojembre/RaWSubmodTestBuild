@@ -117,7 +117,7 @@
 		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Y_Wing_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
-		<CategoryMask>Bomber | Fighter | AntiCapital | AntiSuper</CategoryMask>
+		<CategoryMask> SpaceHero | Bomber | Fighter | AntiCapital | AntiSuper </CategoryMask>
 		<Property_Flags> SmallShip </Property_Flags>
 		<Icon_Name>i_button_ywing_Proto.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>

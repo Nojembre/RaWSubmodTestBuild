@@ -71,7 +71,7 @@
 		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 7.0 </Targeting_Fire_Inaccuracy>
 
-		<CategoryMask> LandHero | AntiVehicle | Infantry</CategoryMask>
+		<CategoryMask> Infantry | AntiInfantry </CategoryMask>
 		<MovementClass> Infantry </MovementClass>
 		<Property_Flags>Fodder</Property_Flags>
 		<OccupationStyle>1x1</OccupationStyle>

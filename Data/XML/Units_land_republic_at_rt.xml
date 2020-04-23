@@ -122,7 +122,7 @@
 		<SFXEvent_Tactical_Build_Complete> RHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
 		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
-		<CategoryMask> Vehicle | AntiVehicle</CategoryMask>
+		<CategoryMask> Vehicle | AntiInfantry </CategoryMask>
 		<Icon_Name>I_BUTTON_ATRT.TGA</Icon_Name>
 		<MovementClass>Walker</MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>

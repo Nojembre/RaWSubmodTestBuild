@@ -47,7 +47,7 @@
 
         <Armor_Type> Armor_Vehicle_LT </Armor_Type>
         <Targeting_Priority_Set>AntiVehicleAir</Targeting_Priority_Set>
-        <CategoryMask> Vehicle | AntiInfantry | AntiVehicle</CategoryMask>
+        <CategoryMask> Vehicle | AntiInfantry | AntiVehicle </CategoryMask>
 
         <Tactical_Health>400</Tactical_Health>
         <Shield_Points>0</Shield_Points>

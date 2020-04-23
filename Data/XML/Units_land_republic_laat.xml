@@ -105,7 +105,7 @@
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
-		<CategoryMask> Air</CategoryMask>
+		<CategoryMask> Air | AntiStructure | AntiAir </CategoryMask>
 		<Icon_Name>i_button_laati.tga</Icon_Name>
 		<MovementClass>Flying</MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>

@@ -150,7 +150,7 @@
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
-		<CategoryMask> Frigate | AntiCorvette | AntiFrigate </CategoryMask> 
+		<CategoryMask> Capital | AntiFrigate </CategoryMask> 
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<Score_Cost_Credits> 1250</Score_Cost_Credits>
@@ -329,7 +329,7 @@
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
-		<CategoryMask> Frigate | AntiCorvette | AntiFrigate </CategoryMask> 
+		<CategoryMask> Capital | AntiFrigate </CategoryMask> 
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<Score_Cost_Credits> 1250</Score_Cost_Credits>

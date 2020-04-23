@@ -109,7 +109,7 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 		<Death_Fade_Time>2.5</Death_Fade_Time>
 		<Death_Persistence_Duration>10</Death_Persistence_Duration>
-		<CategoryMask> Vehicle </CategoryMask>
+		<CategoryMask> Vehicle | AntiVehicle | AntiStructure </CategoryMask>
 		<MovementClass>Hover</MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Victory_Relevant>yes</Victory_Relevant>

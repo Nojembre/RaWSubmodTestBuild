@@ -117,7 +117,7 @@
 		<SFXEvent_Tactical_Build_Complete> Unit_Select_Jedi_Knight </SFXEvent_Tactical_Build_Complete>		
 		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 		
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> Infantry </CategoryMask>
 		<MovementClass> Infantry </MovementClass>
 
 		<OccupationStyle>1x1</OccupationStyle>

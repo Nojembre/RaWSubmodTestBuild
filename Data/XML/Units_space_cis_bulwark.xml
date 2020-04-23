@@ -153,7 +153,7 @@
 		<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Cis_Cruiser</SFXEvent_Build_Complete>
 
-		<CategoryMask> Frigate | AntiFrigate </CategoryMask>
+		<CategoryMask> Capital | AntiFrigate </CategoryMask>
 		<GUI_Model_Name>SeV_bulwark.ALO</GUI_Model_Name>
 		<GUI_Distance>2300</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>

@@ -87,7 +87,7 @@
 		<SFXEvent_Fire>Unit_Force_Pike_Swing</SFXEvent_Fire>		
 
 
-		<CategoryMask> Vehicle | AntiInfantry</CategoryMask>
+		<CategoryMask> Infantry | AntiInfantry </CategoryMask>
 		<MovementClass> Infantry </MovementClass>
 
 		<OccupationStyle>1x1</OccupationStyle>

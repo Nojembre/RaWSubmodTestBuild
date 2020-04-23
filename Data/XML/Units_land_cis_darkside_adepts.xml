@@ -94,7 +94,7 @@
 
 		<Stealth_Capable>No</Stealth_Capable>
 		<Victory_Relevant>yes</Victory_Relevant>
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> LandHero | AntiInfantry</CategoryMask>
 		<Ranking_In_Category> 1 </Ranking_In_Category>
 		<MovementClass>Infantry</MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
