@@ -76,7 +76,7 @@
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 
 		<CategoryMask> Frigate | AntiCorvette</CategoryMask>
-		<Icon_Name>I_BUTTON_CLONE_P2.TGA</Icon_Name>
+		<Icon_Name>i_button_p2_upgrade.TGA</Icon_Name>
 		<GUI_Model_Name>ReV_light_assault_cruiser.ALO</GUI_Model_Name>
 		<GUI_Distance>1200</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -195,7 +195,7 @@
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 
 		<CategoryMask> Frigate | AntiCorvette</CategoryMask>
-		<Icon_Name>I_BUTTON_CLONE_P2.TGA</Icon_Name>
+		<Icon_Name>I_BUTTON_P2_UPGRADE_2.TGA</Icon_Name>
 		<GUI_Model_Name>ReV_light_assault_cruiser.ALO</GUI_Model_Name>
 		<GUI_Distance>1200</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
