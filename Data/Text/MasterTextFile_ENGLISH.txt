@@ -14775,7 +14775,7 @@ TEXT_SPEECH_OBI_HC_05,The dark side cannot succeed for long.
 TEXT_SPEECH_ORDER66_AFTER_UTAPAU_ANAKIN,Yes master.
 TEXT_SPEECH_ORDER66_AFTER_UTAPAU_MACE,We just received word that Obi-Wan has destroyed General Grievous. We're on our way to make sure the chancellor returns emergency power back to the senate. Anakin, deliver this report to the chancellor. His reaction will give us a clue to his intentions.
 TEXT_SPEECH_ORDER66_BEFORE_ORDER66_MACE,I sense a plot to destroy the Jedi. The dark side of the Force surrounds the chancellor. The Jedi Council would have to take control of the senate in order to secure a peaceful transition.
-TEXT_SPEECH_ORDER66_BEFORE_ORDER66_YODA,To answer power with power, the jedi way this is not. In this war a danger there is of loosing who we are.
+TEXT_SPEECH_ORDER66_BEFORE_ORDER66_YODA,To answer power with power, the jedi way this is not. In this war a danger there is of losing who we are.
 TEXT_SPEECH_ORDER66_CORUSCANT_ANAKIN_1,Chancellor.
 TEXT_SPEECH_ORDER66_CORUSCANT_ANAKIN_2,I wish I knew. More and more I get the feeling that I'm being excluded from the council.
 TEXT_SPEECH_ORDER66_CORUSCANT_ANAKIN_3,I know there are things about the Force that they're not telling me.
