@@ -294,7 +294,7 @@
 		<Prereq>Execute_Order66_Stop_Text</Prereq>
 	</Event>
 
-	<!--<Event Name="Order_66_Montage_Movie">
+	<Event Name="Order_66_Montage_Movie">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>START_MOVIE</Reward_Type>
 		<Reward_Param1>Order66_Montage</Reward_Param1>
@@ -304,12 +304,12 @@
 		<Event_Type>STORY_MOVIE_DONE</Event_Type>
 		<Reward_Type>UNPAUSE_GALACTIC</Reward_Type>
 		<Prereq>Order_66_Montage_Movie</Prereq>
-	</Event>-->
+	</Event>
 	
 	<Event Name="Execute_Order66_Unpause">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>UNPAUSE_GALACTIC</Reward_Type>
-		<Prereq>Execute_Order66_Stop_Loop</Prereq>
+		<Prereq>Order_66_Montage_End</Prereq>
 	</Event>
 
 	<Event Name="Jedi_Purge_Remove_Mace_Windu">
