@@ -14823,7 +14823,10 @@ TEXT_SPEECH_REPUBLIC_NEWORDER,The Jedi Rebellion has been foiled. The remaining 
 TEXT_SPEECH_REPUBLIC_ORDER66,Commander, the time has come; execute order 66. Once more the Sith will rule the galaxy, and we shall have peace.
 TEXT_SPEECH_RESEARCH_CLONE_TROOPER_P2,Commander, the Kaminoans have graciously proposed an upgraded set of equipment for our Clone Troopers. The funding they have requested will surely benefit us in this war.
 TEXT_SPEECH_RESEARCH_CLONE_TROOPER_P2_COMPLETE,The new equipment is ready! We can begin outfitting new Troopers with Phase II armor on your order.
+TEXT_SPEECH_RESEARCH_CLONE_TROOPER_P2_UPGRADE_COMPLETE,All of our troopers have received their new equipment and are ready to get back onto the battlefield.
 TEXT_SPEECH_RESEARCH_CLONETROOPER_P2_PREREQS,To begin the research, go to Kamino and construct the Phase II research option.
+TEXT_SPEECH_RESEARCH_CLONETROOPER_P2_UPGRADE_PREREQS,To begin the research, go to Kamino and construct the Phase II upgrade option.
+TEXT_SPEECH_RESEARCH_P2_UPGRADE,Now that we have our new equipment ready, you can choose to allocate more funds to the Kaminoans and they'll outfit all of our existing troopers to the new armor.
 TEXT_SPEECH_RETREAT_CANCELED,Retreat canceled!
 TEXT_SPEECH_RETREAT_UNDERWAY,Retreat underway!
 TEXT_SPEECH_RHD_DEATH_STAR_1,The Death Star will be in range in 1 minute
@@ -14962,6 +14965,8 @@ TEXT_STORY_REPUBLIC_ORDER66_UTAPAU_MISSION_00_HEAD,Killing General Grievous
 TEXT_STORY_REPUBLIC_ORDER66_UTAPAU_MISSION_00_TASK,Task: Build a fleet and escort Obi-Wan to Utapau. You will need a significant number of vessels to successfully invade.
 TEXT_STORY_RESEARCH_P2,New Clone Armor Research
 TEXT_STORY_RESEARCH_P2_R,The Kaminoans have requested funding to develop a new set of equipment for our Clone Troopers. This could go a long way to helping us win this war.
+TEXT_STORY_RESEARCH_P2_UPGRADE,Upgrade All Clone Tropers to Phase II Armor
+TEXT_STORY_RESEARCH_P2_UPGRADE_R,Now that we have researched the new Phase II Clone Trooper armor, we should allocate some funds towards upgrading all of our current units. 
 TEXT_STORY_STANDARD_ACT02_NOTICE,Notice: Planets which are not revealed yet will be later.  It is recommended you conquer enemy planets and secure the galaxy before advancing to the next mission.
 TEXT_STORY_TRANSMISSION_01,Incoming Transmission from General Dodonna
 TEXT_STORY_TRANSMISSION_02,Incoming Transmission from General Rieekan
@@ -15688,6 +15693,7 @@ TEXT_TOOLTIP_CLONETROOPER_P1_SQUAD,Squad of Republic clone soldiers led by a clo
 TEXT_TOOLTIP_CLONETROOPER_P2,Republic clone soldier equipped with phase two armor, and well suited for garrison duties or neutralizing light enemy resistance.
 TEXT_TOOLTIP_CLONETROOPER_P2_COMPANY,Company of Republic clone soldiers led by a clone captain. Equipped with phase two armor, and well suited for assault duties or neutralizing heavy enemy resistance. (36 soldiers each per company in 2 platoons).
 TEXT_TOOLTIP_CLONETROOPER_P2_RESEARCH,Gives access to upgraded Phase II clone armor for all trained units.
+TEXT_TOOLTIP_CLONETROOPER_P2_RESEARCH_UPGRADE,Upgrade all existing troopers on planets and in armies to the new Phase II armor.
 TEXT_TOOLTIP_CLONETROOPER_P2_SQUAD,Company of Republic clone soldiers equipped with phase two armor, and well suited for garrison duties or neutralizing light enemy resistance. (55 soldiers each per squad).
 TEXT_TOOLTIP_CLOSED_STRUCTURE_SLOT,Empty Structure Slot
 TEXT_TOOLTIP_COMMANDER_BACARA,CC-1138, nicknamed "Bacara," was a Clone Commander who led the Galactic Marines, a unit of clone troopers famous for its distinctive armor and relentlessness in combat. Bacara served the Galactic Republic alongside Jedi General Ki-Adi-Mundi during the Clone Wars.
@@ -16388,6 +16394,7 @@ TEXT_UNIT_CLONETROOPER_P2_327TH_CORPS,327th Star Corps
 TEXT_UNIT_CLONETROOPER_P2_7TH_CORPS,7th Sky Corps
 TEXT_UNIT_CLONETROOPER_P2_LT,Clone Lieutenant
 TEXT_UNIT_CLONETROOPER_P2_RESEARCH,Research Phase II Armor
+TEXT_UNIT_CLONETROOPER_P2_RESEARCH_UPGRADE,Upgrade All Troopers to Phase II Armor
 TEXT_UNIT_CLONETROOPER_P2_SGT,Clone Sergeant
 TEXT_UNIT_CLONETROOPER_P2_SQUAD,Clone Trooper Company
 TEXT_UNIT_CLONETROOPER_SGT_P1,Clone Trooper Sergeant  

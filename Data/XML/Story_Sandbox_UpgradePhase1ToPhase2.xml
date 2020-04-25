@@ -311,13 +311,92 @@
 	<!-- Begin Existing Clone Changeover Mission -->
 	
 	
+	<Event Name="Unlock_P2_Upgrade_Speech">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>20</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_RESEARCH_P2_UPGRADE</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9><Reward_Param9>Palpatine_Loop</Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>P2_Research_Complete</Prereq>
+	</Event>
 	
-	<!--
+	<Event Name="P2_Upgrade_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>Dialog_Clone_Trooper_P2_Research_Upgrade</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Clone_Trooper_P2_Upgrade_Tag</Story_Tag>
+		<Prereq>Unlock_P2_Upgrade_Speech</Prereq>
+	</Event>
+	
+	<Event Name="P2_Upgrade_Dialog_Completed">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Clone_Trooper_P2_Upgrade_Tag</Reward_Param1>
+		<Prereq>Research_P2_Upgrade</Prereq>
+	</Event>
+	
+	<Event Name="P2_Upgrade_Research">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Dummy_Research_Clone_Trooper_P2_Upgrade</Reward_Param1>
+		<Prereq>Unlock_P2_Upgrade_Speech</Prereq>
+	</Event>
+	
+	<Event Name="Research_P2_Upgrade">
+		<Event_Type>STORY_CONSTRUCT</Event_Type>
+		<Event_Param1>Dummy_Research_Clone_Trooper_P2_Upgrade</Event_Param1>
+		<Event_Param2>1</Event_Param2>
+		<Event_Param3>Empire</Event_Param3>
+	</Event>
+	
+	<Event Name="Research_P2_Upgrade_Remove">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DESTROY_OBJECT</Reward_Type>
+		<Reward_Param1>Dummy_Research_Clone_Trooper_P2_Upgrade</Reward_Param1>
+		<Prereq>Research_P2_Upgrade</Prereq>
+	</Event>
+	
+	<!-- Switch Script Event -->
     <Event Name="Switch_Phase_1_To_Phase_2">
-        <Event_Type>STORY_TECH_LEVEL</Event_Type>
-        <Event_Param1>5</Event_Param1>
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Prereq>Research_P2_Upgrade</Prereq>
     </Event>
-	-->
+	
+
+	<Event Name="P2_Research_Upgrade_Complete">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>5</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_RESEARCH_CLONE_TROOPER_P2_UPGRADE_COMPLETE</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param9><Reward_Param9>Commander_Cody_Loop</Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Research_P2_Upgrade</Prereq>
+	</Event>
+		
+			<Event Name="P2_Research_Upgrade_Complete_Remove_Text">
+				<Event_Type>STORY_ELAPSED</Event_Type>
+				<Event_Param1>10</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_RESEARCH_CLONE_TROOPER_P2_UPGRADE_COMPLETE</Reward_Param1>
+				<Reward_Param4>remove</Reward_Param4>
+				<Prereq>P2_Research_Upgrade_Complete</Prereq>
+			</Event>
+			
+			<Event Name="P2_Research_Upgrade_Complete_Remove_Holo">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+				<Prereq>P2_Research_Upgrade_Complete_Remove_Text</Prereq>
+			</Event>
 	
 	
 </Story>
