@@ -1356,6 +1356,7 @@
 		<Tech_Level>5</Tech_Level>
 		<Required_Orbiting_Units>Plokoon_Jedi_Delta</Required_Orbiting_Units>
 		<Required_Timeline>0</Required_Timeline>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>E_Ground_Barracks</Required_Special_Structures>

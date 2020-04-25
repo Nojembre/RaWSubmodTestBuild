@@ -439,6 +439,114 @@
 	</Event>
 	
 	
+	<!-- Unlock P2 Clones -->
+	
+	<Event Name="P2_Unlock_AI">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_P2_Platoon_CW</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+	</Event>
+	
+	<Event Name="P2_Unlock_AI_Company">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_P2_Company_CW</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+	</Event>
+	
+	<Event Name="P2_Unlock_AI_21st">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_21st_P2_CW</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+	</Event>
+	
+	<Event Name="P2_Unlock_AI_41st">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_41st_P2_CW</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+	</Event>
+	
+	<Event Name="P2_Unlock_AI_104th">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_104th_P2_CW</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+	</Event>
+	
+	<Event Name="P2_Unlock_AI_187th">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_187th_P2_CW</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+	</Event>
+	
+	<Event Name="P2_Unlock_AI_212th">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_212th_P2_CW</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+	</Event>
+	
+	<Event Name="P2_Unlock_AI_327th">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_327th_P2_CW</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+	</Event>
+	
+	<Event Name="P2_Unlock_AI_501st">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_501st_P2_CW</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+	</Event>
+	
+	<Event Name="P2_Unlock_AI_Torrent">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Torrent_Company_Phase2_Squad</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+	</Event>
+	
+	<Event Name="P2_Unlock_AI_ARC">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Republic_P2_ARC_Squad</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+	</Event>
+	
+	<Event Name="P2_Unlock_AI_Medic">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Clone_Medic_Team_P2</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+	</Event>
+	
+	<Event Name="P2_Unlock_AI_Plex">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Rep_P2_Plex_Clone</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+	</Event>
+	
+	<Event Name="P2_Unlock_AI_Z6">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Z6_PH2_Team</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+	</Event>
+	
+	<Event Name="P2_Unlock_AI_Commander">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Field_Com_Republic_P2_Team</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+	</Event>
+	
+	
 	
 	<!-- Locking Old Clones -->
 	

@@ -865,6 +865,7 @@
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>E_Ground_Barracks</Required_Special_Structures>
 		<Required_Orbiting_Units>Anakin_Jedi_Eta2</Required_Orbiting_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<!--<Required_Planets>Carida</Required_Planets>-->
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>1</Formation_Priority>

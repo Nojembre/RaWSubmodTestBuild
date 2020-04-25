@@ -1,8 +1,323 @@
 <?xml version="1.0"?>
 <Story>
-    <!-- XML Event that starts the galaxy wide upgrade from Phase 1 to Phase 2 -->
+    <!-- XML Event that starts the galaxy wide upgrade from Phase 1 to Phase 2 Clones -->
+	
+	<Event Name="Phase_2_Research_Begin">
+        <Event_Type>STORY_TECH_LEVEL</Event_Type>
+        <Event_Param1>5</Event_Param1>
+	</Event>
+	
+	<Event Name="Unlock_Clone_Trooper_P2_Speech">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_RESEARCH_CLONE_TROOPER_P2</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9><Reward_Param9>Palpatine_Loop</Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Phase_2_Research_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Clone_Trooper_P2_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>Dialog_Clone_Trooper_P2_Research</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Clone_Trooper_P2_Tag</Story_Tag>
+		<Prereq>Unlock_Clone_Trooper_P2_Speech</Prereq>
+	</Event>
+	
+	<Event Name="Clone_Trooper_P2_Dialog_Completed">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Clone_Trooper_P2_Tag</Reward_Param1>
+		<Prereq>P2_Unlock_Human</Prereq>
+	</Event>
+	
+	<Event Name="Unlock_Clone_Trooper_P2_Research">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Dummy_Research_Clone_Trooper_P2</Reward_Param1>
+		<Prereq>Unlock_Clone_Trooper_P2_Speech</Prereq>
+	</Event>
+	
+	<Event Name="Research_P2">
+		<Event_Type>STORY_CONSTRUCT</Event_Type>
+		<Event_Param1>Dummy_Research_Clone_Trooper_P2</Event_Param1>
+		<Event_Param2>1</Event_Param2>
+		<Event_Param3>Empire</Event_Param3>
+	</Event>
+	
+	<Event Name="Research_P2_Remove">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DESTROY_OBJECT</Reward_Type>
+		<Reward_Param1>Dummy_Research_Clone_Trooper_P2</Reward_Param1>
+		<Prereq>Research_P2</Prereq>
+	</Event>
+	
+
+	<Event Name="P2_Research_Complete">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>5</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_RESEARCH_CLONE_TROOPER_P2_COMPLETE</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param9><Reward_Param9>Commander_Cody_Loop</Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Research_P2</Prereq>
+	</Event>
+		
+			<Event Name="P2_Research_Complete_Remove_Text">
+				<Event_Type>STORY_ELAPSED</Event_Type>
+				<Event_Param1>10</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_RESEARCH_CLONE_TROOPER_P2_COMPLETE</Reward_Param1>
+				<Reward_Param4>remove</Reward_Param4>
+				<Prereq>P2_Research_Complete</Prereq>
+			</Event>
+			
+			<Event Name="P2_Research_Complete_Remove_Holo">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+				<Prereq>P2_Research_Complete_Remove_Text</Prereq>
+			</Event>
+
+	
+	
+	<!-- Unlock P2 Clones -->
+	
+	<Event Name="P2_Unlock_Human">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_P2_Platoon_CW</Reward_Param1>
+		<Prereq>Research_P2</Prereq>
+	</Event>
+	
+	<Event Name="P2_Unlock_Human_Company">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_P2_Company_CW</Reward_Param1>
+		<Prereq>Research_P2</Prereq>
+	</Event>
+	
+	<Event Name="P2_Unlock_Human_21st">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_21st_P2_CW</Reward_Param1>
+		<Prereq>Research_P2</Prereq>
+	</Event>
+	
+	<Event Name="P2_Unlock_Human_41st">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_41st_P2_CW</Reward_Param1>
+		<Prereq>Research_P2</Prereq>
+	</Event>
+	
+	<Event Name="P2_Unlock_Human_104th">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_104th_P2_CW</Reward_Param1>
+		<Prereq>Research_P2</Prereq>
+	</Event>
+	
+	<Event Name="P2_Unlock_Human_187th">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_187th_P2_CW</Reward_Param1>
+		<Prereq>Research_P2</Prereq>
+	</Event>
+	
+	<Event Name="P2_Unlock_Human_212th">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_212th_P2_CW</Reward_Param1>
+		<Prereq>Research_P2</Prereq>
+	</Event>
+	
+	<Event Name="P2_Unlock_Human_327th">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_327th_P2_CW</Reward_Param1>
+		<Prereq>Research_P2</Prereq>
+	</Event>
+	
+	<Event Name="P2_Unlock_Human_501st">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_501st_P2_CW</Reward_Param1>
+		<Prereq>Research_P2</Prereq>
+	</Event>
+	
+	<Event Name="P2_Unlock_Human_Torrent">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Torrent_Company_Phase2_Squad</Reward_Param1>
+		<Prereq>Research_P2</Prereq>
+	</Event>
+	
+	<Event Name="P2_Unlock_Human_ARC">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Republic_P2_ARC_Squad</Reward_Param1>
+		<Prereq>Research_P2</Prereq>
+	</Event>
+	
+	<Event Name="P2_Unlock_Human_Medic">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Clone_Medic_Team_P2</Reward_Param1>
+		<Prereq>Research_P2</Prereq>
+	</Event>
+	
+	<Event Name="P2_Unlock_Human_Plex">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Rep_P2_Plex_Clone</Reward_Param1>
+		<Prereq>Research_P2</Prereq>
+	</Event>
+	
+	<Event Name="P2_Unlock_Human_Z6">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Z6_PH2_Team</Reward_Param1>
+		<Prereq>Research_P2</Prereq>
+	</Event>
+	
+	<Event Name="P2_Unlock_Human_Commander">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Field_Com_Republic_P2_Team</Reward_Param1>
+		<Prereq>Research_P2</Prereq>
+	</Event>
+
+
+
+	<!-- Lock P1 Clones -->
+	
+	<Event Name="Lock_P1_Clone_Platoon">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_P1_Platoon_CW</Reward_Param1>
+		<Prereq>Research_P2</Prereq>
+	</Event>
+	
+	<Event Name="Lock_P1_Clone_Company">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_P1_Company_CW</Reward_Param1>
+		<Prereq>Research_P2</Prereq>
+	</Event>
+
+	<Event Name="Lock_P1_Clone_Commander">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Field_Com_Republic_P1_Team</Reward_Param1>
+		<Prereq>Research_P2</Prereq>
+	</Event>
+	
+	<Event Name="Lock_P1_Clone_Captain">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Field_Cap_Republic_P1_Team</Reward_Param1>
+		<Prereq>Research_P2</Prereq>
+	</Event>
+	
+	<Event Name="Lock_P1_Clone_Medic">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Clone_Medic_Team_P1</Reward_Param1>
+		<Prereq>Research_P2</Prereq>
+	</Event>
+	
+	<Event Name="Lock_P1_Clone_41st">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_41st_CW</Reward_Param1>
+		<Prereq>Research_P2</Prereq>
+	</Event>
+	
+	<Event Name="Lock_P1_Clone_104th">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_104th_CW</Reward_Param1>
+		<Prereq>Research_P2</Prereq>
+	</Event>
+	
+	<Event Name="Lock_P1_Clone_212th">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_212th_CW</Reward_Param1>
+		<Prereq>Research_P2</Prereq>
+	</Event>
+	
+	<Event Name="Lock_P1_Clone_327th">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_327th_CW</Reward_Param1>
+		<Prereq>Research_P2</Prereq>
+	</Event>
+	
+	<Event Name="Lock_P1_Clone_501st">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_501st_CW</Reward_Param1>
+		<Prereq>Research_P2</Prereq>
+	</Event>
+	
+	<Event Name="Lock_P1_Clone_Geo">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_Geo</Reward_Param1>
+		<Prereq>Research_P2</Prereq>
+	</Event>
+	
+	<Event Name="Lock_P1_Clone_Torrent">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Torrent_Company_Squad</Reward_Param1>
+		<Prereq>Research_P2</Prereq>
+	</Event>
+	
+	<Event Name="Lock_P1_Clone_ARC">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Republic_P1_ARC_Squad</Reward_Param1>
+		<Prereq>Research_P2</Prereq>
+	</Event>
+	
+	<Event Name="Lock_P1_Clone_Z6">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Z6_Team</Reward_Param1>
+		<Prereq>Research_P2</Prereq>
+	</Event>
+	
+	<Event Name="Lock_P1_Clone_Plex">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Rep_Plex_Clone</Reward_Param1>
+		<Prereq>Research_P2</Prereq>
+	</Event>
+	
+	
+	
+	<!-- Begin Existing Clone Changeover Mission -->
+	
+	
+	
+	<!--
     <Event Name="Switch_Phase_1_To_Phase_2">
         <Event_Type>STORY_TECH_LEVEL</Event_Type>
         <Event_Param1>5</Event_Param1>
     </Event>
+	-->
+	
+	
 </Story>
