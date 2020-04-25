@@ -492,14 +492,14 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>Ahsoka_Tano</Reward_Param1>
-		<Prereq>Jedi_Purge_Remove_Knights10</Prereq>
+		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
 	</Event>
 	
 	<Event Name="Lock_Ahsoka">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>LOCK_UNIT</Reward_Type>
 		<Reward_Param1>Ahsoka_Tano_Team</Reward_Param1>
-		<Prereq>Jedi_Purge_Remove_Knights10</Prereq>
+		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
 	</Event>
 	
 	<Event Name="Jedi_Purge_Remove_Mundi">
@@ -548,112 +548,112 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>Red_Squadron_Space</Reward_Param1>
-		<Prereq>Jedi_Purge_Remove_Quinlan</Prereq>
+		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
 	</Event>
 	
 	<Event Name="Lock_Red_Squadron">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>LOCK_UNIT</Reward_Type>
 		<Reward_Param1>Red_Squadron_Space</Reward_Param1>
-		<Prereq>Jedi_Purge_Remove_Quinlan</Prereq>
+		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
 	</Event>
 	
 	<Event Name="Jedi_Purge_Remove_Nym">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>Havoc</Reward_Param1>
-		<Prereq>Jedi_Purge_Remove_Red_Squadron</Prereq>
+		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
 	</Event>
 	
 	<Event Name="Lock_Nym">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>LOCK_UNIT</Reward_Type>
 		<Reward_Param1>Havoc</Reward_Param1>
-		<Prereq>Jedi_Purge_Remove_Red_Squadron</Prereq>
+		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
 	</Event>
 	
 	<Event Name="Jedi_Purge_Remove_Vana">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>Guardian_Mantis</Reward_Param1>
-		<Prereq>Jedi_Purge_Remove_Nym</Prereq>
+		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
 	</Event>
 	
 	<Event Name="Lock_Vana">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>LOCK_UNIT</Reward_Type>
 		<Reward_Param1>Guardian_Mantis</Reward_Param1>
-		<Prereq>Jedi_Purge_Remove_Nym</Prereq>
+		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
 	</Event>
 	
 	<Event Name="Jedi_Purge_Remove_G400_1">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>G400_Squadron</Reward_Param1>
-		<Prereq>Jedi_Purge_Remove_Vana</Prereq>
+		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
 	</Event>
 	
 	<Event Name="Jedi_Purge_Remove_G400_2">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>G400_Squadron</Reward_Param1>
-		<Prereq>Jedi_Purge_Remove_Vana</Prereq>
+		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
 	</Event>
 	
 	<Event Name="Jedi_Purge_Remove_G400_3">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>G400_Squadron</Reward_Param1>
-		<Prereq>Jedi_Purge_Remove_Vana</Prereq>
+		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
 	</Event>
 	
 	<Event Name="Jedi_Purge_Remove_G400_4">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>G400_Squadron</Reward_Param1>
-		<Prereq>Jedi_Purge_Remove_Vana</Prereq>
+		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
 	</Event>
 	
 	<Event Name="Jedi_Purge_Remove_G400_5">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>G400_Squadron</Reward_Param1>
-		<Prereq>Jedi_Purge_Remove_Vana</Prereq>
+		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
 	</Event>
 	
 	<Event Name="Jedi_Purge_Remove_G400_6">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>G400_Squadron</Reward_Param1>
-		<Prereq>Jedi_Purge_Remove_Vana</Prereq>
+		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
 	</Event>
 	
 	<Event Name="Jedi_Purge_Remove_G400_7">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>G400_Squadron</Reward_Param1>
-		<Prereq>Jedi_Purge_Remove_Vana</Prereq>
+		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
 	</Event>
 	
 	<Event Name="Jedi_Purge_Remove_G400_8">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>G400_Squadron</Reward_Param1>
-		<Prereq>Jedi_Purge_Remove_Vana</Prereq>
+		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
 	</Event>
 	
 	<Event Name="Jedi_Purge_Remove_G400_9">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>G400_Squadron</Reward_Param1>
-		<Prereq>Jedi_Purge_Remove_Vana</Prereq>
+		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
 	</Event>
 	
 	<Event Name="Jedi_Purge_Remove_G400_10">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>G400_Squadron</Reward_Param1>
-		<Prereq>Jedi_Purge_Remove_Vana</Prereq>
+		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
 	</Event>
 	
 	
@@ -661,154 +661,154 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>LOCK_UNIT</Reward_Type>
 		<Reward_Param1>G400_Squadron</Reward_Param1>
-		<Prereq>Jedi_Purge_Remove_Vana</Prereq>
+		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
 	</Event>
 
 	<Event Name="Jedi_Purge_Remove_Mere_1">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>Mere_Cruiser</Reward_Param1>
-		<Prereq>Jedi_Purge_Remove_G400</Prereq>
+		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
 	</Event>
 	
 	<Event Name="Jedi_Purge_Remove_Mere_2">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>Mere_Cruiser</Reward_Param1>
-		<Prereq>Jedi_Purge_Remove_G400</Prereq>
+		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
 	</Event>
 	
 	<Event Name="Jedi_Purge_Remove_Mere_3">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>Mere_Cruiser</Reward_Param1>
-		<Prereq>Jedi_Purge_Remove_G400</Prereq>
+		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
 	</Event>
 	
 	<Event Name="Jedi_Purge_Remove_Mere_4">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>Mere_Cruiser</Reward_Param1>
-		<Prereq>Jedi_Purge_Remove_G400</Prereq>
+		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
 	</Event>
 	
 	<Event Name="Jedi_Purge_Remove_Mere_5">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>Mere_Cruiser</Reward_Param1>
-		<Prereq>Jedi_Purge_Remove_G400</Prereq>
+		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
 	</Event>
 	
 	<Event Name="Lock_Mere">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>LOCK_UNIT</Reward_Type>
 		<Reward_Param1>Mere_Cruiser</Reward_Param1>
-		<Prereq>Jedi_Purge_Remove_G400</Prereq>
+		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
 	</Event>
 	
 	<Event Name="Jedi_Purge_Remove_Freefall">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>Freefall</Reward_Param1>
-		<Prereq>Jedi_Purge_Remove_Mere_1</Prereq>
+		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
 	</Event>
 	
 	<Event Name="Lock_Freefall">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>LOCK_UNIT</Reward_Type>
 		<Reward_Param1>Freefall</Reward_Param1>
-		<Prereq>Jedi_Purge_Remove_Mere_1</Prereq>
+		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
 	</Event>
 	
 	<Event Name="Jedi_Purge_Remove_Tiin">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>Tiin_Tank_Team</Reward_Param1>
-		<Prereq>Jedi_Purge_Remove_Mere_5</Prereq>
+		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
 	</Event>
 	
 	<Event Name="Lock_Tiin">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>LOCK_UNIT</Reward_Type>
 		<Reward_Param1>Tiin_Tank_Team</Reward_Param1>
-		<Prereq>Jedi_Purge_Remove_Mere_5</Prereq>
+		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
 	</Event>
 	
 	<Event Name="Jedi_Purge_Remove_Pirate_Speeder_1">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>Pirate_Speeder_Squad</Reward_Param1>
-		<Prereq>Jedi_Purge_Remove_Tiin</Prereq>
+		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
 	</Event>
 	
 	<Event Name="Jedi_Purge_Remove_Pirate_Speeder_2">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>Pirate_Speeder_Squad</Reward_Param1>
-		<Prereq>Jedi_Purge_Remove_Tiin</Prereq>
+		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
 	</Event>
 	
 	<Event Name="Jedi_Purge_Remove_Pirate_Speeder_3">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>Pirate_Speeder_Squad</Reward_Param1>
-		<Prereq>Jedi_Purge_Remove_Tiin</Prereq>
+		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
 	</Event>
 	
 	<Event Name="Jedi_Purge_Remove_Pirate_Speeder_4">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>Pirate_Speeder_Squad</Reward_Param1>
-		<Prereq>Jedi_Purge_Remove_Tiin</Prereq>
+		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
 	</Event>
 	
 	<Event Name="Jedi_Purge_Remove_Pirate_Speeder_5">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>Pirate_Speeder_Squad</Reward_Param1>
-		<Prereq>Jedi_Purge_Remove_Tiin</Prereq>
+		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
 	</Event>
 	
 	<Event Name="Jedi_Purge_Remove_Pirate_Speeder_6">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>Pirate_Speeder_Squad</Reward_Param1>
-		<Prereq>Jedi_Purge_Remove_Tiin</Prereq>
+		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
 	</Event>
 	
 	<Event Name="Jedi_Purge_Remove_Pirate_Speeder_7">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>Pirate_Speeder_Squad</Reward_Param1>
-		<Prereq>Jedi_Purge_Remove_Tiin</Prereq>
+		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
 	</Event>
 	
 	<Event Name="Jedi_Purge_Remove_Pirate_Speeder_8">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>Pirate_Speeder_Squad</Reward_Param1>
-		<Prereq>Jedi_Purge_Remove_Tiin</Prereq>
+		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
 	</Event>
 	
 	<Event Name="Jedi_Purge_Remove_Pirate_Speeder_9">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>Pirate_Speeder_Squad</Reward_Param1>
-		<Prereq>Jedi_Purge_Remove_Tiin</Prereq>
+		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
 	</Event>
 	
 	<Event Name="Jedi_Purge_Remove_Pirate_Speeder_10">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>Pirate_Speeder_Squad</Reward_Param1>
-		<Prereq>Jedi_Purge_Remove_Tiin</Prereq>
+		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
 	</Event>
 	
 	<Event Name="Lock_Pirate_Speeder">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>LOCK_UNIT</Reward_Type>
 		<Reward_Param1>Pirate_Speeder_Squad</Reward_Param1>
-		<Prereq>Jedi_Purge_Remove_Tiin</Prereq>
+		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
 	</Event>
 	
 	<!-- Locking Grey Units -->
