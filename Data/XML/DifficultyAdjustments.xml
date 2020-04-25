@@ -19,7 +19,7 @@
 	</Difficulty_Adjustment>
 	
 	<Difficulty_Adjustment Name="Normal_Default">
-		<Credit_Multiplier>1.5</Credit_Multiplier> <!-- 2 -->
+		<Credit_Multiplier>2.0</Credit_Multiplier>
 		<Galactic_AI_Contrast_Multiplier>1.15</Galactic_AI_Contrast_Multiplier>
 		<Space_AI_Contrast_Multiplier>1.15</Space_AI_Contrast_Multiplier>
 		<Land_AI_Contrast_Multiplier>1.15</Land_AI_Contrast_Multiplier>
@@ -36,7 +36,7 @@
 	</Difficulty_Adjustment>
 	
 	<Difficulty_Adjustment Name="Hard_Default">
-		<Credit_Multiplier>3.0</Credit_Multiplier> <!-- 4 -->
+		<Credit_Multiplier>4.0</Credit_Multiplier>
 		<Galactic_AI_Contrast_Multiplier>1.25</Galactic_AI_Contrast_Multiplier>
 		<Space_AI_Contrast_Multiplier>1.25</Space_AI_Contrast_Multiplier>
 		<Land_AI_Contrast_Multiplier>1.25</Land_AI_Contrast_Multiplier>
