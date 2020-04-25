@@ -14965,7 +14965,7 @@ TEXT_STORY_REPUBLIC_ORDER66_UTAPAU_MISSION_00_HEAD,Killing General Grievous
 TEXT_STORY_REPUBLIC_ORDER66_UTAPAU_MISSION_00_TASK,Task: Build a fleet and escort Obi-Wan to Utapau. You will need a significant number of vessels to successfully invade.
 TEXT_STORY_RESEARCH_P2,New Clone Armor Research
 TEXT_STORY_RESEARCH_P2_R,The Kaminoans have requested funding to develop a new set of equipment for our Clone Troopers. This could go a long way to helping us win this war.
-TEXT_STORY_RESEARCH_P2_UPGRADE,Upgrade All Clone Tropers to Phase II Armor
+TEXT_STORY_RESEARCH_P2_UPGRADE,Upgrade All Clone Troopers to Phase II Armor
 TEXT_STORY_RESEARCH_P2_UPGRADE_R,Now that we have researched the new Phase II Clone Trooper armor, we should allocate some funds towards upgrading all of our current units. 
 TEXT_STORY_STANDARD_ACT02_NOTICE,Notice: Planets which are not revealed yet will be later.  It is recommended you conquer enemy planets and secure the galaxy before advancing to the next mission.
 TEXT_STORY_TRANSMISSION_01,Incoming Transmission from General Dodonna
