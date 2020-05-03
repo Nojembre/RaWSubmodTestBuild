@@ -1,0 +1,20 @@
+{
+	"name": "Nojembre's Republic at War Submod",
+	"summary": "",
+	"icon": "icon.ico",
+	"version": "1.3.4",
+	"steamdata": {
+		"publishedfileid": "1301047166",
+		"contentfolder": "RaWSubmod",
+		"previewfile": "icon.jpg",
+		"visibility": 0,
+		"title": "Nojembre's Republic at War Submod",
+		"description": "",
+		"metadata": "",
+		"tags": [
+			"SinglePlayer",
+			"Multiplayer",
+			"FOC"
+		]
+	}
+}
