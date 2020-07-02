@@ -61,7 +61,7 @@
 		<Behavior>SELECTABLE, POWERED</Behavior>
 		<LandBehavior>ABILITY_COUNTDOWN, GARRISON_HOVER, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, WIND_DISTURBANCE, SURFACE_FX,DAMAGE_TRACKING</LandBehavior>
 		<Garrison_Category> Infantry </Garrison_Category>
-		<Num_Garrison_Slots>20</Num_Garrison_Slots> <!-- From 5 -->
+		<Num_Garrison_Slots>2</Num_Garrison_Slots>
 		<Garrison_Exit_Dist>0</Garrison_Exit_Dist>
 		<Garrison_Enter_Dist>0</Garrison_Enter_Dist>
 		<Garrison_Radius>30</Garrison_Radius>
@@ -168,14 +168,14 @@
 	<GroundVehicle Name="LAAT_EMP">
 		<Variant_Of_Existing_Type>LAAT</Variant_Of_Existing_Type>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
-		<Num_Garrison_Slots>5</Num_Garrison_Slots> 
+		<Num_Garrison_Slots>2</Num_Garrison_Slots> 
 	</GroundVehicle>
 	
 	<GroundVehicle Name="LAAT_VARIANT_EMP">
 		<Variant_Of_Existing_Type>LAAT</Variant_Of_Existing_Type>
 		<Land_Model_Name>REV_LAAT_2.ALO</Land_Model_Name>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
-		<Num_Garrison_Slots>5</Num_Garrison_Slots> 
+		<Num_Garrison_Slots>2</Num_Garrison_Slots> 
 	</GroundVehicle>
 	
 
