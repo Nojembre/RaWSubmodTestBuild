@@ -1291,8 +1291,8 @@ TEXT_ENCYCLOPEDIA_MUSTAFARIAN_SPAWNER,Periodically creates Mustafarians until de
 TEXT_ENCYCLOPEDIA_MUUN_SPAWNER,Periodically creates Muuns until destroyed.
 TEXT_ENCYCLOPEDIA_NEIMODIAN_SPAWNER,Periodically creates Neimodians until destroyed
 TEXT_ENCYCLOPEDIA_NOGHRI_SPAWNER,Periodically creates Noghri until destroyed.
-TEXT_ENCYCLOPEDIA_OUTPOST_00,Adds a garrison to remote worlds. Boosts the population cap, and acts as a secondary Barracks.
-TEXT_ENCYCLOPEDIA_OUTPOST_01,Adds a garrison to remote worlds. Boosts the population cap, and acts as a secondary Droid Center.
+TEXT_ENCYCLOPEDIA_OUTPOST_00,Adds an extra garrison to remote worlds and boosts the population cap.
+TEXT_ENCYCLOPEDIA_OUTPOST_01,Adds an extra garrison to remote worlds and boosts the population cap.
 TEXT_ENCYCLOPEDIA_PLANET_DESTROYED,Planetary Debris
 TEXT_ENCYCLOPEDIA_POWER_GENERATOR_00,Enhances ground turrets and powers certain structures. Destruction of the power generator shuts down all dependant structures.
 TEXT_ENCYCLOPEDIA_POWER_GENERATOR_01,Unlocks: Base Shield Generator, Turbolaser Tower
