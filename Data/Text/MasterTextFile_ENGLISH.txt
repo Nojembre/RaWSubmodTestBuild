@@ -1231,6 +1231,7 @@ TEXT_ENCYCLOPEDIA_CLASS_SUPERWEAPON,Class: Superweapon
 TEXT_ENCYCLOPEDIA_CLASS_TANK,Class: Tank
 TEXT_ENCYCLOPEDIA_CLASS_TRANSPORT,Class: Transport
 TEXT_ENCYCLOPEDIA_CLASS_TURRET,Class: Turret
+TEXT_ENCYCLOPEDIA_CLASS_UNIT_UPGRADE,Class: Unit Upgrade
 TEXT_ENCYCLOPEDIA_CLASS_WALKER,Class: Walker
 TEXT_ENCYCLOPEDIA_CLASS_WARRIOR,Class: Elite Warrior
 TEXT_ENCYCLOPEDIA_COMM_ARRAY_00,Slightly increases the sight range of all units. Also allows build pads to produce sensor arrays.
@@ -15938,6 +15939,8 @@ TEXT_TOOLTIP_MPTL,Mobile Proton Torpedo Launcher armed with 9 torpedo launchers 
 TEXT_TOOLTIP_MUNDI,Ki-Adi-Mundi is a Cerean Jedi Master and member of the Jedi High Council. After being discovered by the mysterious Dark Woman at four years of age, Mundi was older than most when he was accepted into the Jedi Order. The Cerean eventually came under the tutelage of Grand Master Yoda and ascended to the rank of Jedi Knight. As a Knight, Mundi became watchman of the sector in which his homeworld resided. Once he became a Jedi master, mundi was granted a seat on the Jedi High Council where he remains a permenent member.
 TEXT_TOOLTIP_MUNDI_VENATOR,Ki-Adi-Mundi is a Cerean Jedi Master and member of the Jedi High Council. In space he commands from an upgraded Venator-Class Star Destroyer, in which he uses his force mastery to control the battlefield.
 TEXT_TOOLTIP_MUNIFICENT,Medium Frigate. Heavily armed and shielded. Best used in large numbers. 
+TEXT_TOOLTIP_MUNIFICENT_FIGHTERS,Medium Frigate. Heavily armed and shielded. Best used in large numbers. Also upgraded to carry a squadron of Vulture Droids into battle.
+TEXT_TOOLTIP_MUNIFICENT_UPGRADE,Upgrades a munificent frigate to carry a squadron of vulture droids on it's hull.
 TEXT_TOOLTIP_MZ8_PC_TANK,The MZ-8 is a tracked, heavily armed tank.  It is, however, lightly armored due to the weight of the weapon, requiring escort.
 TEXT_TOOLTIP_N1_FIGHTER,The Royal N-1 starfighter features the best elements of Naboo design, being aesthetically sound and adhering to the Naboo's love for curves and aerodynamic shapes.
 TEXT_TOOLTIP_NABOO_SECURITY,Lightly armed Naboo Security Forces. Loyal to the queen and willing to fight for Naboo.
@@ -16496,6 +16499,8 @@ TEXT_UNIT_MOBILE_DEFENSE_UNIT_REBEL,Can build: Mobile Shield Generator, Repair N
 TEXT_UNIT_MOBILE_DEFENSE_UNIT_UNDERWORLD,Can build: Sensor Scrambler, Ysalamiri Cage, Rocket Pod
 TEXT_UNIT_MTT,Multi-Troop Transport (MTT)
 TEXT_UNIT_MUNIFICENT,Munificent Frigate
+TEXT_UNIT_MUNIFICENT_FIGHTERS,Munificent Frigate (Fighter Upgrade)
+TEXT_UNIT_MUNIFICENT_UPGRADE,Upgrade Munificent Frigate
 TEXT_UNIT_N1_FIGHTER,N1 Fighter
 TEXT_UNIT_NABOO_INFANTRY,Naboo Security Trooper
 TEXT_UNIT_NABOO_SECURITY,Royal Naboo Security Trooper

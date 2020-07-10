@@ -239,5 +239,80 @@
 	</SpaceUnit>
 
 
+	<SpaceUnit Name="Munificent_Frigate_Upgrade">
+		<Variant_Of_Existing_Type>Munificent_Frigate</Variant_Of_Existing_Type>
+		<GUI_Row> 0 </GUI_Row>
+
+		<Population_Value>0</Population_Value>
+		<Build_Cost_Credits>500</Build_Cost_Credits>
+		<Build_Time_Seconds>15</Build_Time_Seconds>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<AI_Combat_Power>1</AI_Combat_Power>
+		
+		<Text_ID>TEXT_UNIT_MUNIFICENT_UPGRADE</Text_ID>
+		<Lua_Script>Upgrade_Munificent</Lua_Script>
+		<Affiliation>Rebel</Affiliation>
+		<Icon_Name>I_BUTTON_MUNIFICENT_FIGHTERS.tga</Icon_Name>
+
+		<Tech_Level>3</Tech_Level>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_MUNIFICENT_UPGRADE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_UNIT_UPGRADE</Encyclopedia_Unit_Class>
+
+		<Required_Orbiting_Units>Munificent_Frigate</Required_Orbiting_Units>
+		
+		<Unit_Abilities_Data SubObjectList="No">
+
+		</Unit_Abilities_Data>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Munificent_Frigate_Fighters">
+		<Variant_Of_Existing_Type>Munificent_Frigate</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_MUNIFICENT_FIGHTERS</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_MUNIFICENT_FIGHTERS </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE</Encyclopedia_Unit_Class>
+		
+		<Lua_Script>ObjectScript_Example</Lua_Script>
+		<Affiliation>Rebel</Affiliation>
+		
+		<Build_Tab_Space_Units>No</Build_Tab_Space_Units>
+		
+		<HardPoints>
+			HP_Munificent_Front, 
+			HP_Munificent_Back, 
+			HP_Munificent_01, 
+			HP_Munificent_02, 
+			HP_Munificent_03, 
+			HP_Munificent_04, 
+			HP_Munificent_05, 
+			HP_Munificent_06, 
+			HP_Munificent_07, 
+			HP_Munificent_08,
+			HP_Munificent_09, 
+			HP_Munificent_10,
+			HP_Munificent_11,
+			HP_Munificent_12,
+			HP_Munificent_13,
+			HP_Munificent_14,
+			HP_Munificent_15,
+			HP_Munificent_16,
+			HP_Munificent_17,
+			HP_Munificent_18,
+			HP_Munificent_Shield_Generator,
+			HP_Munificent_Engines,
+			HP_Munificent_Hangar
+		</HardPoints>
+		
+		<Starting_Spawned_Units_Tech_0>Vulture_Droid_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_0>Vulture_Droid_Squadron, 1</Reserve_Spawned_Units_Tech_0> 
+		
+		<Icon_Name>I_BUTTON_MUNIFICENT_FIGHTERS.tga</Icon_Name>
+
+		<Required_Orbiting_Units>Munificent_Frigate</Required_Orbiting_Units>
+
+	</SpaceUnit>
 
 </Munificent_Data>
