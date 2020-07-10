@@ -852,7 +852,143 @@
 
 
 
+	<SpecialStructure Name="Debug_Spy_Network">
 
+		<Text_ID>TEXT_GROUND_SPY_NETWORK</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SPY_NETWORK
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_pirate_base.tga</Icon_Name>
+
+		<Land_Model_Name>nb_bothan_building.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Select_Box_Scale>200</Select_Box_Scale>
+		<Size_Value>50</Size_Value>
+
+		<Mass>1.0</Mass>
+
+		<Armor_Type>ArmourG_Structure</Armor_Type>
+		<Tactical_Health>800</Tactical_Health>
+
+		<CategoryMask>Structure</CategoryMask>
+		<Property_Flags>OutBase</Property_Flags>
+		<Base_Position>Out_Base</Base_Position>
+		<Is_Community_Property>Yes</Is_Community_Property>
+		<Can_Contain_Heroes_During_Ground_Battle>Yes</Can_Contain_Heroes_During_Ground_Battle>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+
+		<Tech_Level>0</Tech_Level> <!-- Change to 0 to enable -->
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures/>
+		<Required_Planets/>
+		<Affiliation>Rebel, Empire</Affiliation>
+		
+		<GUI_Row>0</GUI_Row>
+		<Political_Control>0</Political_Control>
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Time_Seconds>1</Build_Time_Seconds>
+		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
+		<Override_Bounty_SP>1000</Override_Bounty_SP>
+		<Override_Bounty_MP>1000</Override_Bounty_MP>
+		<Sabotage_Cost_Credits>2000</Sabotage_Cost_Credits>
+		<Score_Cost_Credits>1000</Score_Cost_Credits>
+
+		<Behavior>DUMMY_GROUND_STRUCTURE</Behavior>
+		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE, REVEAL, SELECTABLE, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, DUMMY_LAND_BASE_LEVEL_COMPONENT, UNIT_AI, EARTHQUAKE_TARGET, ION_STUN_EFFECT, STUNNABLE</LandBehavior>
+
+		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
+
+		<Death_Clone_Is_Obstacle>true</Death_Clone_Is_Obstacle>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null, SFX_Grenade_Detonation, SFX_Grenade_Detonation, null</Land_Damage_SFX>
+
+		<SFXEvent_Build_Started>UHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
+		<SFXEvent_Unit_Under_Attack>UHD_Infiltrator_Facility_Under_Attack</SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Unit_Lost>UHD_Infiltrator_Facility_Destroyed</SFXEvent_Unit_Lost>
+
+		<SFXEvent_Select>Structure_Comm_Array_Select_SFX</SFXEvent_Select>
+
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<GUI_Bounds_Scale>0.25</GUI_Bounds_Scale>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+
+		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Last_State_Visible_Under_FOW>Yes</Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>false</Initial_State_Visible_Under_FOW>
+		<Reveal_During_Setup_Phase>true</Reveal_During_Setup_Phase>
+
+		<Space_Layer>Corvette</Space_Layer>
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset> 
+
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<Galactic_Influence_Range>250000000.0</Galactic_Influence_Range>
+		<Hyperspace_Fleet_Reveal_Range>250000000.0</Hyperspace_Fleet_Reveal_Range>
+		
+		<Abilities SubObjectList="Yes">
+			<System_Spy_Ability Name="Spy_Network_System_Spy">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Galactic_Automatic</Activation_Style>
+				<Causes_Despawn>No</Causes_Despawn>
+				<Duration_In_Secs>-1.0</Duration_In_Secs>
+				<See_Base_Levels>Yes</See_Base_Levels>
+				<See_Credit_Income>Yes</See_Credit_Income>
+				<See_Credit_Income_Breakdown>Yes</See_Credit_Income_Breakdown>
+				<See_Num_Fleets>Yes</See_Num_Fleets>
+				<See_Most_Powerful_Ship>No</See_Most_Powerful_Ship>
+				<See_Fleet_Contents>Yes</See_Fleet_Contents>
+				<See_Num_Ground_Companies>Yes</See_Num_Ground_Companies>
+				<See_Ground_Company_Contents>Yes</See_Ground_Company_Contents>
+				<See_Special_Structures>Yes</See_Special_Structures>
+				<See_Political_Control>Yes</See_Political_Control>
+				<See_Political_Control_Breakdown>Yes</See_Political_Control_Breakdown>
+				<See_Current_Production>Yes</See_Current_Production>
+				<See_Minor_Stealth_Heroes>Yes</See_Minor_Stealth_Heroes>
+				<See_Major_Stealth_Heroes>Yes</See_Major_Stealth_Heroes>
+				<See_Force_Sensitive_Heroes>Yes</See_Force_Sensitive_Heroes>
+				<See_Super_Weapons>Yes</See_Super_Weapons>
+			</System_Spy_Ability>
+
+			<Force_Healing_Ability Name="Spy_Network_Self_Repair">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Heal_Range>0.0</Heal_Range>
+				<Heal_Percent>0.025</Heal_Percent>
+				<Heal_Amount>0.0</Heal_Amount>
+				<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Applicable_Unit_Categories/>
+				<Applicable_Unit_Types/>
+				<SFXEvent_Target_Affected/>
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2/>
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+		</Abilities>
+
+
+	</SpecialStructure>
 
 
 

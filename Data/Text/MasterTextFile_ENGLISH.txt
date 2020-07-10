@@ -1529,6 +1529,7 @@ TEXT_GROUND_SECONDARY_PIRATE_OUTPOST,Pirate Outpost
 TEXT_GROUND_SECONDARY_REBEL_TRAINING,Confederacy Training Facility
 TEXT_GROUND_SHUTTER_SHIELD,Shutter Shield Generator
 TEXT_GROUND_SIEGE_MORTAR,Siege Mortar
+TEXT_GROUND_SPY_NETWORK,Debug Spy Structure
 TEXT_GROUND_TURBOLASER_TOWER,Turbolaser Tower
 TEXT_GROUND_TURBOLASER_TOWER_ABANDONED,Abandoned Turbolaser Tower
 TEXT_GROUND_TURBOLASER_TOWER_EMPIRE,Republic Turbolaser Tower
@@ -16101,6 +16102,7 @@ TEXT_TOOLTIP_SPEED_TIME_NAME,Fast Forward
 TEXT_TOOLTIP_SPEEDER,Fast speeder aircraft that is immune to most ground vehicle attacks. Can defeat AT-ATs using special cable attack. 3 vehicles per company.
 TEXT_TOOLTIP_SPMA,Self Propelled Medium Artillery walker that can lob energy bolts great distances. Must deploy to fire. Its light armor makes it vulnerable to fast enemy counterattacks. 3 vehicles per company.
 TEXT_TOOLTIP_SPOTTER,Light drone capable of scouting out enemy positions to allow long range artillery to fire from a safe distance.
+TEXT_TOOLTIP_SPY_NETWORK,Enables galactic spy ability for testing purposes. If you see this in a release build, please report it ASAP.
 TEXT_TOOLTIP_STAP,Designed to travel fast, the STAP's only weapon is a twin blaster cannon connected to it. Each STAP is piloted by a single battle droid.The STAP is used for scouting and anti-personnel hunting operations
 TEXT_TOOLTIP_STAR_DESTROYER,Heavy attack cruiser armed with an impressive array of weaponry.The pinnacle of technology and shipbuilding, carries a tractor beam for immobilizing smaller ships. This ship can only be built on Kuat.
 TEXT_TOOLTIP_STARBASE,Starbase
