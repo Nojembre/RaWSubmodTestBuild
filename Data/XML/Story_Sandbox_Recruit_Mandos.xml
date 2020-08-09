@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<Story>
+    <!-- XML Event that unlocks Mandalorians for the Republic -->
+
+	<Event Name="Recruit_Mandos_Begin">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Mandalore</Event_Param1>
+		<Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+		<Reward_Type>TRIGGER_EVENT</Reward_Type>
+		<Reward_Param1>Recruit_Mandos_Speech</Reward_Param1>
+		<!-- <Prereq>Universal_Story_Start</Prereq> -->
+    </Event>
+	
+	<Event Name="Recruit_Mandos_Wait">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>5</Event_Param1>
+		<Prereq>Recruit_Mandos_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Recruit_Mandos_Speech">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REPUBLIC_RECRUIT_MANDOS</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9><Reward_Param9>Palpatine_Loop</Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Recruit_Mandos_Wait</Prereq>
+	</Event>
+	
+	<Event Name="Recruit_Mandos_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>DIALOG_RECRUIT_MANDOS</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Recruit_Mandos_Tag</Story_Tag>
+		<Prereq>Recruit_Mandos_Speech</Prereq>
+	</Event>
+	
+	<Event Name="Recruit_Mandos_Dialog_Completed">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Recruit_Mandos_Tag</Reward_Param1>
+		<Prereq>Unlock_Mandos</Prereq>
+	</Event>
+	
+	<Event Name="Unlock_Mandos_Research">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Dummy_Research_Mandos</Reward_Param1>
+		<Prereq>Recruit_Mandos_Speech</Prereq>
+	</Event>
+	
+	<Event Name="Recruit_Mandos">
+		<Event_Type>STORY_CONSTRUCT</Event_Type>
+		<Event_Param1>Dummy_Research_Mandos</Event_Param1>
+		<Event_Param2>1</Event_Param2>
+		<Event_Param3>Empire</Event_Param3>
+	</Event>
+	
+	<Event Name="Recruit_Mandos_Remove">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DESTROY_OBJECT</Reward_Type>
+		<Reward_Param1>Dummy_Research_Mandos</Reward_Param1>
+		<Prereq>Recruit_Mandos</Prereq>
+	</Event>
+	
+
+	<Event Name="Recruit_Mandos_Complete">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>5</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_RESEARCH_RECRUIT_MANDOS_COMPLETE</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param9><Reward_Param9>Palpatine_Loop</Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Recruit_Mandos</Prereq>
+	</Event>
+		
+			<Event Name="Recruit_Mandos_Complete_Remove_Text">
+				<Event_Type>STORY_ELAPSED</Event_Type>
+				<Event_Param1>10</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_RESEARCH_RECRUIT_MANDOS_COMPLETE</Reward_Param1>
+				<Reward_Param4>remove</Reward_Param4>
+				<Prereq>P2_Research_Complete</Prereq>
+			</Event>
+			
+			<Event Name="Recruit_Mandos_Complete_Remove_Holo">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+				<Prereq>Recruit_Mandos_Complete_Remove_Text</Prereq>
+			</Event>
+
+	
+	
+	<!-- Unlock Mandos -->
+	
+	<Event Name="Unlock_Mandos">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Death_Watch_Squad_Republic</Reward_Param1>
+		<Prereq>Recruit_Mandos</Prereq>
+	</Event>
+
+	
+</Story>

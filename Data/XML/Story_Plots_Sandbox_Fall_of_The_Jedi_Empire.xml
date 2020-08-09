@@ -10,4 +10,7 @@
 	<Lua_Script>Story_Sandbox_UpgradeRedToGrey</Lua_Script>
 	<Active_Plot>Story_Sandbox_UpgradeRedToGrey.xml</Active_Plot>
 	
+	
+	<Active_Plot>Story_Sandbox_Recruit_Mandos.xml</Active_Plot>
+	
 </Story_Mode_Plots>
