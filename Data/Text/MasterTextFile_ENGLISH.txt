@@ -15737,6 +15737,7 @@ TEXT_TOOLTIP_DARKSIDE_ADEPT,Force wielding Darkside Acolytes in service to the C
 TEXT_TOOLTIP_DARTH_VADER,Powerful with the dark side of the Force. Capable of destroying his enemies with ease.
 TEXT_TOOLTIP_DEATH_STAR,Immense Battle Station with enough firepower to destroy an entire planet.
 TEXT_TOOLTIP_DEATH_WATCH,These soliders are the backbone of the Death Watch, a group of radical Mandalorian soldiers, and are found on just about any battlefield that the Mandalorians are fighting on.
+TEXT_TOOLTIP_DEATH_WATCH_REP,These elite soldiers were formed from the Mandalorians that supported Dutchess Satine, and are now willing to fight for the Republic in return for liberating their planet.
 TEXT_TOOLTIP_DEATHSTAR_FIRED,Death Star weapon unavailable
 TEXT_TOOLTIP_DEATHSTAR_READY,Fire Death Star weapon
 TEXT_TOOLTIP_DEATHSTAR_TOO_FAR,Death Star is out of range

@@ -47,7 +47,7 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Empire</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Size_Value>10</Size_Value>
 		<Damage>7</Damage>
@@ -375,7 +375,7 @@
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>5</Build_Limit_Current_Per_Player>
-		<!-- <Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>  -->
+		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
 
@@ -413,7 +413,7 @@
 		<Text_ID>TEXT_UNIT_DEATH_WATCH</Text_ID>
 		<Encyclopedia_Good_Against> Battledroids Stap  </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Destroyer_Droid Hailfire_Tank AAT_Tank </Encyclopedia_Vulnerable_To>
-		<Encyclopedia_Text>TEXT_TOOLTIP_DEATH_WATCH TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_DEATH_WATCH_REP TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -463,7 +463,7 @@
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>5</Build_Limit_Current_Per_Player>
-		<!-- <Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>  -->
+		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
 
@@ -488,11 +488,10 @@
 
 		</Unit_Abilities_Data>
 
-
-
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 		<Population_Value>1</Population_Value>
 		<Score_Cost_Credits>650</Score_Cost_Credits>
+		
 	</GroundCompany>
 
 

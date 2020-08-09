@@ -11,12 +11,6 @@
 		<!-- <Prereq>Universal_Story_Start</Prereq> -->
     </Event>
 	
-	<Event Name="Recruit_Mandos_Wait">
-		<Event_Type>STORY_ELAPSED</Event_Type>
-		<Event_Param1>5</Event_Param1>
-		<Prereq>Recruit_Mandos_Begin</Prereq>
-	</Event>
-	
 	<Event Name="Recruit_Mandos_Speech">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>10</Event_Param1>
@@ -31,7 +25,7 @@
 		<Reward_Param8></Reward_Param8>
 		<Reward_Param9><Reward_Param9>Palpatine_Loop</Reward_Param9></Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
-		<Prereq>Recruit_Mandos_Wait</Prereq>
+		<Prereq>Recruit_Mandos_Begin</Prereq>
 	</Event>
 	
 	<Event Name="Recruit_Mandos_Dialog">
