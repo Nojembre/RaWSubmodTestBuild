@@ -10,9 +10,9 @@
 	<Campaign Name="Multiplayer_Sandbox_Equal_Footing">
 
 		<Campaign_Set> Multiplayer_Campaign_Set </Campaign_Set>
-		<Text_ID> TEXT_CAMPAIGN_SINGLE_56 </Text_ID>
-		<Description_Text> TEXT_CAMPAIGN_SINGLE_DESCRIPTION_56 </Description_Text>
-		<Is_Quickmatch_Allowed> No </Is_Quickmatch_Allowed>
+		<Text_ID> TEXT_CAMPAIGN_MULTI_1 </Text_ID>
+		<Description_Text> TEXT_CAMPAIGN_MULTI_DESCRIPTION_1 </Description_Text>
+
 		<Camera_Shift_X> 40.0 </Camera_Shift_X>
 		<Camera_Shift_Y> 0.0 </Camera_Shift_Y>
 		<Camera_Distance> 1200.0 </Camera_Distance>
@@ -135,7 +135,7 @@
 		<Markup_Filename>Hutts, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Rebel, DefaultGalacticHints</Markup_Filename>
 
-		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
 		<Show_Completed_Tab>False</Show_Completed_Tab>
 
 		<!-- Win Conditions -->
@@ -1621,6 +1621,8 @@
 	<Campaign Name="Multiplayer_Sandbox_Clusters">
 
 		<Campaign_Set> Multiplayer_Campaign_Set </Campaign_Set>
+		<Sort_Order>4</Sort_Order>
+		
 		<Text_ID> TEXT_CAMPAIGN_SINGLE_33B </Text_ID>
 		<Description_Text> TEXT_CAMPAIGN_SINGLE_DESCRIPTION_33B </Description_Text>
 
@@ -1687,11 +1689,6 @@
 		<Special_Case_Production> Rebel, Tatooine, Ground_Hutt_Palace_R</Special_Case_Production> 
 		<Special_Case_Production> Empire, Corellia, Ground_Cantina_E</Special_Case_Production>						
 		<Special_Case_Production> Rebel, Corellia, Ground_Cantina_R</Special_Case_Production>								
-
-		<!-- Rebel Starting Forces -->
-		<Starting_Credits> Rebel,  5000 </Starting_Credits>
-		<Starting_Tech_Level> Rebel, 2 </Starting_Tech_Level>
-		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
 
 		<!-- Rebel Starting Forces -->
 		<Starting_Credits> Rebel,  8000 </Starting_Credits>

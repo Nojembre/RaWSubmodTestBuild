@@ -542,9 +542,11 @@ TEXT_CAMPAIGN_MEDIUM_MAP,Medium Campaign Map
 TEXT_CAMPAIGN_MEDIUM_TWO,Medium Campaign Map 2
 TEXT_CAMPAIGN_MIKE_TEST,Mike's Magical Test Campaign
 TEXT_CAMPAIGN_MOVIE_MAP,Movie Planets Only
+TEXT_CAMPAIGN_MULTI_1,Multiplayer Galactic Conquest
 TEXT_CAMPAIGN_MULTI_ALDERAAN,The Destruction of Alderaan 
 TEXT_CAMPAIGN_MULTI_BESPIN,Showdown at Bespin
 TEXT_CAMPAIGN_MULTI_CORUSCANT,Coruscant Surrounded
+TEXT_CAMPAIGN_MULTI_DESCRIPTION_1,This is a test for MPGC.
 TEXT_CAMPAIGN_MULTI_DESCRIPTION_ALDERAAN,This scenario contains 7 planets.
 TEXT_CAMPAIGN_MULTI_DESCRIPTION_BESPIN,This scenario contains 5 planets.
 TEXT_CAMPAIGN_MULTI_DESCRIPTION_CORUSCANT,This scenario contains 11 planets.
