@@ -697,7 +697,7 @@
 		<Affiliation>Empire</Affiliation>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Tech_Level>2</Tech_Level>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Ground_Base_Level>2</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Tactical_Additional_Structure_Type>Power_Generator_E</Tactical_Additional_Structure_Type>
 		<!-- When one of these objects is created in galactic mode, we will populate every marker in land mode
@@ -1236,6 +1236,7 @@
 		<Variant_Of_Existing_Type>Template_Ground_Flak_Gun</Variant_Of_Existing_Type>
 		<Tactical_Additional_Structure_Type>Power_Generator_R</Tactical_Additional_Structure_Type>
 		<Obstacle_Proxy_Type> R_Ground_Turbolaser_Tower_Build_Pad </Obstacle_Proxy_Type>
+		<Required_Ground_Base_Level>2</Required_Ground_Base_Level>
 		<Affiliation>Rebel</Affiliation>
 		<Projectile_Types>Proj_Cis_FLakgun_Mass_Driver</Projectile_Types>
 		<SFXEvent_Build_Started>UHD_Build_Structure</SFXEvent_Build_Started>
@@ -1322,8 +1323,8 @@
 		<Variant_Of_Existing_Type>Template_Galactic_Flakgun_Defenses</Variant_Of_Existing_Type>
 		<Affiliation>Rebel</Affiliation>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
-		<Tech_Level>1</Tech_Level>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Tech_Level>2</Tech_Level>
+		<Required_Ground_Base_Level>2</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Tactical_Additional_Structure_Type>Power_Generator_R</Tactical_Additional_Structure_Type>
 		<!-- When one of these objects is created in galactic mode, we will populate every marker in land mode
