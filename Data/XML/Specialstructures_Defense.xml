@@ -66,7 +66,7 @@
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>2</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Ground_Base_Level>2</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>e_ground_barracks</Required_Special_Structures>
 		<Required_Planets />
@@ -195,7 +195,7 @@
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>1</Required_Timeline>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Ground_Base_Level>2</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets />
@@ -277,7 +277,7 @@
 		<SpaceAutoResolveHitRate>3</SpaceAutoResolveHitRate>
 		<Damage>50</Damage>
 		<Required_Timeline>0</Required_Timeline>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Ground_Base_Level>2</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets>Bestine, Corellia, Coruscant, Duro, Foerost, Fondor, Geonosis, Hypori, Kamino, Kuat, Mechis, Minntooine, MonCalimari, Rendili, Sluis_Van</Required_Planets>
@@ -399,7 +399,7 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>800</Slice_Cost_Credits>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Ground_Base_Level>2</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets>Bestine, Corellia, Coruscant, Duro, Foerost, Fondor, Geonosis, Hypori, Kamino, Kuat, Mechis, Minntooine, MonCalimari, Rendili, Sluis_Van</Required_Planets>
