@@ -7,7 +7,6 @@
 	<Lua_Script>Story_Republic_Core_Assault_Final_Attack</Lua_Script>
 	<Suspended_Plot>Story_Republic_Core_Assault_Final_Attack.xml</Suspended_Plot>
 	
-	<Lua_Script>Story_Sandbox_UpgradePhase1ToPhase2</Lua_Script>
-	<Active_Plot>Story_Sandbox_UpgradePhase1ToPhase2.xml</Active_Plot>
+	<Active_Plot>Story_Sandbox_UpgradePhase1ToPhase2_Automatic.xml</Active_Plot>
 		
 </Story_Mode_Plots>

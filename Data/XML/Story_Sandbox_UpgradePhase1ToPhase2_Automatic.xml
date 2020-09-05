@@ -1,0 +1,228 @@
+<?xml version="1.0"?>
+<Story>
+    <!-- XML Event that starts the galaxy wide upgrade from Phase 1 to Phase 2 Clones -->
+	
+	<Event Name="Phase_2_Unlock">
+        <Event_Type>STORY_TECH_LEVEL</Event_Type>
+        <Event_Param1>5</Event_Param1>
+	</Event>
+	
+	
+	<!-- Unlock P2 Clones -->
+	
+	<Event Name="P2_Unlock_Human">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_P2_Platoon_CW</Reward_Param1>
+		<Prereq>Phase_2_Unlock</Prereq>
+	</Event>
+	
+	<Event Name="P2_Unlock_Human_Company">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_P2_Company_CW</Reward_Param1>
+		<Prereq>Phase_2_Unlock</Prereq>
+	</Event>
+	
+	<Event Name="P2_Unlock_Human_21st">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_21st_P2_CW</Reward_Param1>
+		<Prereq>Phase_2_Unlock</Prereq>
+	</Event>
+	
+	<Event Name="P2_Unlock_Human_41st">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_41st_P2_CW</Reward_Param1>
+		<Prereq>Phase_2_Unlock</Prereq>
+	</Event>
+	
+	<Event Name="P2_Unlock_Human_104th">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_104th_P2_CW</Reward_Param1>
+		<Prereq>Phase_2_Unlock</Prereq>
+	</Event>
+	
+	<Event Name="P2_Unlock_Human_187th">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_187th_P2_CW</Reward_Param1>
+		<Prereq>Phase_2_Unlock</Prereq>
+	</Event>
+	
+	<Event Name="P2_Unlock_Human_212th">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_212th_P2_CW</Reward_Param1>
+		<Prereq>Phase_2_Unlock</Prereq>
+	</Event>
+	
+	<Event Name="P2_Unlock_Human_327th">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_327th_P2_CW</Reward_Param1>
+		<Prereq>Phase_2_Unlock</Prereq>
+	</Event>
+	
+	<Event Name="P2_Unlock_Human_501st">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_501st_P2_CW</Reward_Param1>
+		<Prereq>Phase_2_Unlock</Prereq>
+	</Event>
+	
+	<Event Name="P2_Unlock_Human_Torrent">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Torrent_Company_Phase2_Squad</Reward_Param1>
+		<Prereq>Phase_2_Unlock</Prereq>
+	</Event>
+	
+	<Event Name="P2_Unlock_Human_ARC">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Republic_P2_ARC_Squad</Reward_Param1>
+		<Prereq>Phase_2_Unlock</Prereq>
+	</Event>
+	
+	<Event Name="P2_Unlock_Human_Medic">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Clone_Medic_Team_P2</Reward_Param1>
+		<Prereq>Phase_2_Unlock</Prereq>
+	</Event>
+	
+	<Event Name="P2_Unlock_Human_Plex">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Rep_P2_Plex_Clone</Reward_Param1>
+		<Prereq>Phase_2_Unlock</Prereq>
+	</Event>
+	
+	<Event Name="P2_Unlock_Human_Z6">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Z6_PH2_Team</Reward_Param1>
+		<Prereq>Phase_2_Unlock</Prereq>
+	</Event>
+	
+	<Event Name="P2_Unlock_Human_Commander">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Field_Com_Republic_P2_Team</Reward_Param1>
+		<Prereq>Phase_2_Unlock</Prereq>
+	</Event>
+
+
+
+	<!-- Lock P1 Clones -->
+	
+	<Event Name="Lock_P1_Clone_Platoon">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_P1_Platoon_CW</Reward_Param1>
+		<Prereq>Phase_2_Unlock</Prereq>
+	</Event>
+	
+	<Event Name="Lock_P1_Clone_Company">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_P1_Company_CW</Reward_Param1>
+		<Prereq>Phase_2_Unlock</Prereq>
+	</Event>
+
+	<Event Name="Lock_P1_Clone_Commander">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Field_Com_Republic_P1_Team</Reward_Param1>
+		<Prereq>Phase_2_Unlock</Prereq>
+	</Event>
+	
+	<Event Name="Lock_P1_Clone_Captain">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Field_Cap_Republic_P1_Team</Reward_Param1>
+		<Prereq>Phase_2_Unlock</Prereq>
+	</Event>
+	
+	<Event Name="Lock_P1_Clone_Medic">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Clone_Medic_Team_P1</Reward_Param1>
+		<Prereq>Phase_2_Unlock</Prereq>
+	</Event>
+	
+	<Event Name="Lock_P1_Clone_41st">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_41st_CW</Reward_Param1>
+		<Prereq>Phase_2_Unlock</Prereq>
+	</Event>
+	
+	<Event Name="Lock_P1_Clone_104th">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_104th_CW</Reward_Param1>
+		<Prereq>Phase_2_Unlock</Prereq>
+	</Event>
+	
+	<Event Name="Lock_P1_Clone_212th">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_212th_CW</Reward_Param1>
+		<Prereq>Phase_2_Unlock</Prereq>
+	</Event>
+	
+	<Event Name="Lock_P1_Clone_327th">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_327th_CW</Reward_Param1>
+		<Prereq>Phase_2_Unlock</Prereq>
+	</Event>
+	
+	<Event Name="Lock_P1_Clone_501st">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_501st_CW</Reward_Param1>
+		<Prereq>Phase_2_Unlock</Prereq>
+	</Event>
+	
+	<Event Name="Lock_P1_Clone_Geo">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Republic_Clonetrooper_Geo</Reward_Param1>
+		<Prereq>Phase_2_Unlock</Prereq>
+	</Event>
+	
+	<Event Name="Lock_P1_Clone_Torrent">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Torrent_Company_Squad</Reward_Param1>
+		<Prereq>Phase_2_Unlock</Prereq>
+	</Event>
+	
+	<Event Name="Lock_P1_Clone_ARC">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Republic_P1_ARC_Squad</Reward_Param1>
+		<Prereq>Phase_2_Unlock</Prereq>
+	</Event>
+	
+	<Event Name="Lock_P1_Clone_Z6">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Z6_Team</Reward_Param1>
+		<Prereq>Phase_2_Unlock</Prereq>
+	</Event>
+	
+	<Event Name="Lock_P1_Clone_Plex">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Rep_Plex_Clone</Reward_Param1>
+		<Prereq>Phase_2_Unlock</Prereq>
+	</Event>
+	
+	
+</Story>

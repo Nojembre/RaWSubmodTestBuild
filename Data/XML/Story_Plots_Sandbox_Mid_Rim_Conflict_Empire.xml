@@ -4,6 +4,5 @@
 	<Lua_Script>Story_Sandbox_Mid_Rim_Conflict_Empire</Lua_Script>
 	<Active_Plot>Story_Sandbox_Mid_Rim_Conflict_Empire.XML</Active_Plot>
 
-	<Lua_Script>Story_Sandbox_UpgradePhase1ToPhase2</Lua_Script>
-	<Active_Plot>Story_Sandbox_UpgradePhase1ToPhase2.xml</Active_Plot>
+	<Active_Plot>Story_Sandbox_UpgradePhase1ToPhase2_Automatic.xml</Active_Plot>
 </Story_Mode_Plots>
