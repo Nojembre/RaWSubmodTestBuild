@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+
+
+
+<!--***************************************************-->
+<!--***** CAMPAIGN: EQUAL FOOTING (Rebel Version) *****-->
+<!--***************************************************-->
+
+
+
+<Story>
+
+	<Event Name="Universal_Story_Start1">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Story_Dialog>Dialog_Raw_GC_Solo</Story_Dialog>
+		<Story_Chapter>7</Story_Chapter>
+		<Story_Tag>Intro_Tag</Story_Tag>
+		<Multiplayer>True</Multiplayer>
+	</Event>
+	
+	<Event Name="REVEAL_ALL_PLANETS1">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_ALL_PLANETS</Reward_Type>
+		<Prereq>Universal_Story_Start1</Prereq>
+		<Multiplayer>True</Multiplayer>
+	</Event>
+	
+	<Event Name="Rebel_AI_Unlock_Research_Facility">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>R_Ground_Research_Facility</Reward_Param1>
+		<Prereq>Universal_Story_Start1</Prereq>
+		<Multiplayer>True</Multiplayer>
+	</Event>
+
+	<Event Name="Rebels_Enter_Tech_01">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>1</Event_Param1>
+		<Multiplayer>True</Multiplayer>
+	</Event>
+
+	<Event Name="Rebels_Enter_Tech_02">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Multiplayer>True</Multiplayer>
+	</Event>
+
+	<Event Name="Rebels_Enter_Tech_03">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>3</Event_Param1>
+		<Multiplayer>True</Multiplayer>
+	</Event>
+
+	<Event Name="Rebels_Enter_Tech_04">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>4</Event_Param1>
+		<Multiplayer>True</Multiplayer>
+	</Event>
+
+
+</Story>
