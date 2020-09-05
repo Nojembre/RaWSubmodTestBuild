@@ -387,7 +387,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Galactic_Position>-65.0, 425.0, 10.0</Galactic_Position>
 		<Special_Structures_Land>4</Special_Structures_Land>
 		<Special_Structures_Space>1</Special_Structures_Space>
-		<Max_Space_Base>3</Max_Space_Base>
+		<Max_Space_Base>5</Max_Space_Base>
 		<The_Force>Neutral</The_Force>
 		<Force_Strength>0.0</Force_Strength>
 
