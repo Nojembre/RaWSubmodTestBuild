@@ -7,7 +7,7 @@
 
 	<Campaign Name="Sandbox_The_Clone_Wars_Progressive_Rebel">
 
-		<Campaign_Set> Sandbox_The_Clone_Wars </Campaign_Set>
+		<Campaign_Set> Sandbox_The_Clone_Wars_Progressive </Campaign_Set>
 		<Sort_Order>4</Sort_Order>
 
 		<Text_ID> TEXT_CAMPAIGN_SINGLE_CLONE_WARS_PROGRESSIVE </Text_ID>
