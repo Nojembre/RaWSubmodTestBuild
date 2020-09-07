@@ -23,6 +23,7 @@ Changes/Updates:
 -Added an extra building slot to Abregado Rae, Corellia, and Rendili.
 -Added new random unit names for most ships.
 -Added Order 66 montage video back to FotJ.
+-Anaxes shipyard level increased from 3 to 5.
 -Squad leaders are now the last one standing from their squad.
 -Ground shields and turbolasers now require 2 other buildings on that planet before they can be built.
 
