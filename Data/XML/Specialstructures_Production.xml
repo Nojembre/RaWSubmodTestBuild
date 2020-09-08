@@ -357,23 +357,6 @@
 		</Abilities>
 	</SpecialStructure>
 
-
-	<SpecialStructure Name="RU_Ground_Barracks">
-		<Variant_Of_Existing_Type> R_Ground_Barracks </Variant_Of_Existing_Type>
-		<Affiliation>Underworld</Affiliation>
-		<Destruction_Survivors> 
-			BattleDroid_Squad, 1.0
-		</Destruction_Survivors>
-	</SpecialStructure>
-
-	<SpecialStructure Name="EU_Ground_Barracks">
-		<Variant_Of_Existing_Type> E_Ground_Barracks </Variant_Of_Existing_Type>
-		<Affiliation>Underworld</Affiliation>
-		<Destruction_Survivors> 
-			Republic_Clonetrooper_P1_Squad_CW, 1.0
-		</Destruction_Survivors>
-	</SpecialStructure>
-
 	<SpecialStructure Name="E_Ground_Light_Vehicle_Factory">
 		<GUI_Bounds_Scale>0.45</GUI_Bounds_Scale>
 		<Text_ID>TEXT_GROUND_LIGHT_VEHICLE_FACTORY</Text_ID>
@@ -700,24 +683,6 @@
 
 		</Abilities>
 	</SpecialStructure>
-
-
-	<SpecialStructure Name="RU_Ground_Light_Vehicle_Factory">
-		<Variant_Of_Existing_Type> R_Ground_Light_Vehicle_Factory </Variant_Of_Existing_Type>
-		<Affiliation>Underworld</Affiliation>
-		<Destruction_Survivors> 
-			BattleDroid_Squad, 1.0
-		</Destruction_Survivors>
-	</SpecialStructure>
-
-	<SpecialStructure Name="EU_Ground_Light_Vehicle_Factory">
-		<Variant_Of_Existing_Type> E_Ground_Light_Vehicle_Factory </Variant_Of_Existing_Type>
-		<Affiliation>Underworld</Affiliation>
-		<Destruction_Survivors> 
-			Republic_Clonetrooper_P1_Squad_CW, 1.0
-		</Destruction_Survivors>
-	</SpecialStructure>
-
 
 	<SpecialStructure Name="E_Ground_Heavy_Vehicle_Factory">
 		<GUI_Bounds_Scale>0.4</GUI_Bounds_Scale>
@@ -1061,25 +1026,6 @@
 			</Redirect_Blaster_Ability>
 		</Abilities>
 	</SpecialStructure>
-
-
-	<SpecialStructure Name="RU_Ground_Heavy_Vehicle_Factory">
-		<Variant_Of_Existing_Type> R_Ground_Heavy_Vehicle_Factory </Variant_Of_Existing_Type>
-		<Affiliation>Underworld</Affiliation>
-		<Destruction_Survivors> 
-			BattleDroid_Squad, 1.0
-		</Destruction_Survivors>
-	</SpecialStructure>
-
-	<SpecialStructure Name="EU_Ground_Heavy_Vehicle_Factory">
-		<Variant_Of_Existing_Type> E_Ground_Heavy_Vehicle_Factory </Variant_Of_Existing_Type>
-		<Affiliation>Underworld</Affiliation>
-		<Destruction_Survivors> 
-			Republic_Clonetrooper_P1_Squad_CW, 1.0
-		</Destruction_Survivors>
-	</SpecialStructure>
-
-
 
 	<SpecialStructure Name="Ground_Arc_Facility">
 		<GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>

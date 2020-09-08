@@ -135,11 +135,11 @@
 		<Selection_Blob_RGBA>0,255,0,255</Selection_Blob_RGBA>
 		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
 		<Space_Skirmish_AI_Default_Forces> 
-			StarViper_Squadron, StarViper_Squadron
+			SC_Scyk_Squadron, SC_Scyk_Squadron
 		</Space_Skirmish_AI_Default_Forces>
 		<Land_Skirmish_Unit_Buy_Credits> 50000 </Land_Skirmish_Unit_Buy_Credits>
 		<Land_Skirmish_AI_Default_Forces> 
-			Underworld_Merc_Squad, Underworld_Merc_Squad
+			SC_Merc_Squad, SC_Merc_Squad
 		</Land_Skirmish_AI_Default_Forces>
 		<Land_Skirmish_Unit_Cap_By_Player_Count>
 			0,10,
@@ -147,7 +147,7 @@
 			8,5,
 		</Land_Skirmish_Unit_Cap_By_Player_Count>
 		<Debug_Ground_Structures>
-			U_Ground_Barracks
+			SC_Ground_Barracks
 		</Debug_Ground_Structures>
 
 		<Superweapon_Win_Movie />
