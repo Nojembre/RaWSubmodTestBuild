@@ -667,6 +667,7 @@ TEXT_CAMPAIGN_SINGLE_DESCRIPTION_OUTER_RIM_SIEGES,Conditions:\n\nPlanets: 46\nTe
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_P3_UNDERWORLD_GALACTIC_GAMEPLAY,Galactic Conquest scenario to demonstrate the new gameplay features used by the Underworld faction.
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_ROTE,Conditions:\n\nPlanets: 80\nTech Level: 5\nCredits: 20,000
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_RT,Test of new reinforcement logic
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_SHADOW_COLLECTIVE,Conditions:\n\nPlanets: 81\nTech Level: 1\nCredits: 15,000
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_TRIAD_OF_EVIL,Conditions:\n\nPlanets: 36\nTech Level: 2\nCredits: 10,000
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_UNDERWORLD_P2,Test of three working factions, new units and base-building system.
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_UNDERWORLD_TEST,Test of all planets including new ones and Underworld faction
@@ -688,6 +689,9 @@ TEXT_CAMPAIGN_SINGLE_P3_UNDERWORLD_GALACTIC_GAMEPLAY,P3 Underworld Galactic Game
 TEXT_CAMPAIGN_SINGLE_ROTE,Rise of the Empire (Beta)
 TEXT_CAMPAIGN_SINGLE_ROTE_INTRO_E,The galaxy is ours. There are those that wish to disrupt the peace we have created. The remnants of the CIS must be wiped out in order to secure our new empire. Serve your new emperor well, and do not fail me.
 TEXT_CAMPAIGN_SINGLE_ROTE_INTRO_R,Many worlds are aligned with the new Galactic Empire. Since the Empire will not allow us to co-exist peacefully then we must seize control of all of the remaining Imperial systems.With our massive droid armies, the Imperial forces will be overwhelmed. 
+TEXT_CAMPAIGN_SINGLE_SHADOW_COLLECTIVE,The Shadow Collective
+TEXT_CAMPAIGN_SINGLE_SHADOW_COLLECTIVE,The Shadow Collective
+TEXT_CAMPAIGN_SINGLE_SHADOW_COLLECTIVE_INTRO,The Republic and the CIS are both foolish. They are playing into my former Master's hand. We must use this opportunity to stake our claim in this galaxy, but be warned, we do not yet possess the means to challenge them directly.
 TEXT_CAMPAIGN_SINGLE_TRIAD_OF_EVIL,Triad of Evil
 TEXT_CAMPAIGN_SINGLE_TRIAD_OF_EVIL_INTRO_E,The Senate has declared that there is a triad of evil in the galaxy. Mygeeto,Felucia, and Saleucami, are important and highly secured CIS worlds. Your mission is to remove the CIS from these worlds and prevent them from further utilizing them in their schemes to control the Galaxy. The Senate has allocated resources for this mission but you have 60 days to complete this task. To make an successful attack on these planets, you need to make sure the supply lines from their neighbour planets are cut off, by conquering them also.
 TEXT_CAMPAIGN_SINGLE_TRIAD_OF_EVIL_INTRO_R,The Republic has declared some of our most important worlds as part of a "triad of evil". We must protect these planets at all costs. Intelligence reports that the Republic only has 60 days to conquer these planets. Your mission is to hold Mygeeto,  Felucia, and Saleucami. Do not let these worlds fall into the hands of the Republic. 
@@ -714,6 +718,9 @@ TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_02,     Chancellor Palpatine Is killed
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_03,     Death Star is destroyed
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_04,     Nute Gunray must survive
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_05,     The Empire is removed from the galaxy
+TEXT_CAMPAIGN_SINGLE_VICTORY_SHADOW_COLLECTIVE_00,Shadow Collective Will Achieve Victory If:
+TEXT_CAMPAIGN_SINGLE_VICTORY_SHADOW_COLLECTIVE_01,     The Republic is removed from the galaxy
+TEXT_CAMPAIGN_SINGLE_VICTORY_SHADOW_COLLECTIVE_02,     The Confederacy is removed from the galaxy
 TEXT_CAMPAIGN_SMALL_EMPIRE_HUMAN,P2 Small Republic Human - Confederacy AI
 TEXT_CAMPAIGN_SMALL_HUMAN,P2 Small Human - Enemy AI *
 TEXT_CAMPAIGN_SMALL_MAP,Small Campaign Map
@@ -1397,6 +1404,7 @@ TEXT_FACTION_PIRATES,Black Sun Pirates
 TEXT_FACTION_REBELS,Confederacy
 TEXT_FACTION_REPUBLIC,Republic
 TEXT_FACTION_SARLACC,Sarlacc
+TEXT_FACTION_SHADOW_COLLECTIVE,Shadow Collective
 TEXT_FACTION_UNDERWORLD,Zann Consortium
 TEXT_FACTION_UNDERWORLD_NICKNAME,Consortium
 TEXT_FACTION_WOOKIE,Wookiee
@@ -14507,6 +14515,7 @@ TEXT_SFX_ZEV_RS_CHATTER_1,This is Rogue 2.
 TEXT_SFX_ZEV_RS_CHATTER_2,Do you copy?
 TEXT_SFX_ZEV_RS_CHATTER_3,I've got something…
 TEXT_SHADER_DETAIL_LEVEL,Shader Detail
+TEXT_SHADOW_COLLECTIVE_STAR_BASE_1,Pirate Asteroid Station
 TEXT_SHADOW_DETAIL,Shadow Detail
 TEXT_SHADOW_SQUADRON,Shadow Squadron
 TEXT_SHIELD_GENERATOR_HARDPOINT,Shield Generator
@@ -15000,6 +15009,7 @@ TEXT_STORY_TRANSMISSION_20,Incoming Transmission from Captain Antilles
 TEXT_STORY_TRANSMISSION_21,Incoming Transmission from Nute Gunray
 TEXT_STORY_TRANSMISSION_22,Incoming Transmission from Darth Vader
 TEXT_STORY_TRANSMISSION_30,Incoming Transmission from Republic High Command
+TEXT_STORY_TRANSMISSION_31,Incoming Transmission from Darth Maul
 TEXT_STORY_TRIGGER_ZONE,Story Trigger Zone
 TEXT_STRUCTURE_ABANDONED_UPLINK_STATION,Abandoned Republic Comm Array
 TEXT_STRUCTURE_BOTHAN_HOUSE,Bothan Dwelling

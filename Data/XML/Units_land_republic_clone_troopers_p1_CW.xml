@@ -44,13 +44,15 @@
 		<Space_Layer> Land </Space_Layer>
 		<UnitCollisionClass> Infantry </UnitCollisionClass>
 		<FormationSpacing> 1.2 </FormationSpacing> 
-		<MaxJiggleDistance> 2 </MaxJiggleDistance>
-		<MinimumPushReturnDistance> 2 </MinimumPushReturnDistance>
+		<!-- <MaxJiggleDistance> 2 </MaxJiggleDistance> -->
+		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance> <!-- From 2 -->
 		<OverrideAcceleration> 0.425 </OverrideAcceleration>
 		<OverrideDeceleration> 0.425 </OverrideDeceleration>
 		<FormationOrder> 2 </FormationOrder>
 		
 		<Create_Team>Yes</Create_Team>
+		
+		<HardPoints> HP_Clone_Rifle </HardPoints>
 
 		<Scale_Factor>0.09</Scale_Factor> 
 		<Type>Walk</Type>
@@ -76,21 +78,25 @@
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		<Victory_Relevant>yes</Victory_Relevant>
-		<Projectile_Types>Proj_Hand_Blaster_Blue</Projectile_Types>
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
 
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 		
+		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
 		
+		<!--
+		<Projectile_Types>Proj_Hand_Blaster_Blue</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>0.5</Projectile_Fire_Recharge_Seconds>
-		<Projectile_Fire_Pulse_Count>6</Projectile_Fire_Pulse_Count> <!-- From 8 -->
+		<Projectile_Fire_Pulse_Count>6</Projectile_Fire_Pulse_Count> 
 		<Projectile_Fire_Pulse_Delay_Seconds>0.25</Projectile_Fire_Pulse_Delay_Seconds>
 
-		<Targeting_Fire_Inaccuracy> Infantry, 25.0 </Targeting_Fire_Inaccuracy> <!-- from 3.0 to make them more innacurate -->
+		<Targeting_Fire_Inaccuracy> Infantry, 25.0 </Targeting_Fire_Inaccuracy> 
 		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 10.0 </Targeting_Fire_Inaccuracy>
+		-->
 
 		<SFXEvent_Select>Unit_Select_Clone_Trooper</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Clone_Trooper</SFXEvent_Move>
@@ -110,6 +116,8 @@
 		<CategoryMask> Infantry </CategoryMask>
 		<MovementClass> Infantry </MovementClass>
 		<Property_Flags>Fodder</Property_Flags>
+		
+		<Has_Land_Evaluator>false</Has_Land_Evaluator>
 
 		<OccupationStyle>1x1</OccupationStyle>
 		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>

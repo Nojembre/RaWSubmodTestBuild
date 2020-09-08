@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <Factions>
 
-	<Faction Name="Underworld_ORG">
+	<Faction Name="Underworld">
 		<Is_Debug_Switchable_To> Yes </Is_Debug_Switchable_To>
 		<Create_Player_In_Multiplayer_Games> No </Create_Player_In_Multiplayer_Games>
-		<Text_ID> TEXT_FACTION_UNDERWORLD </Text_ID>
-		<Text_Nickname_ID> TEXT_FACTION_UNDERWORLD_NICKNAME </Text_Nickname_ID>
+		<Text_ID> TEXT_FACTION_SHADOW_COLLECTIVE </Text_ID>
+		<Text_Nickname_ID> TEXT_FACTION_SHADOW_COLLECTIVE </Text_Nickname_ID>
 		<Icon_Name> i_icon_pirate.tga </Icon_Name>
 		<Alternate_Icon_Name> pirate_icon.tga </Alternate_Icon_Name>
 		<Ground_Base_Icon_Name> groundbase_icon.tga </Ground_Base_Icon_Name>
@@ -23,7 +23,7 @@
 		<Credits_Accumulation_Factor> 0.95 </Credits_Accumulation_Factor>
 		<Planet_Icon_Scale> 10.0 </Planet_Icon_Scale>
 		<Planet_Icon_Offset> 10.0, 10.0, -1.1 </Planet_Icon_Offset>
-		<Is_Playable>false</Is_Playable>
+		<Is_Playable>true</Is_Playable>
 		<Primary_Enemy />
 		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
 		<Is_Neutral> No </Is_Neutral>
@@ -32,7 +32,7 @@
 		<Can_Win_By_Destroying_Super_Weapon>No</Can_Win_By_Destroying_Super_Weapon>
 		<Faction_Super_Weapon />
 		<Skirmish_Land_Bomber>Skipray_Bombing_Run</Skirmish_Land_Bomber>
-		<Space_Tactical_Unit_Cap>35</Space_Tactical_Unit_Cap>
+		<Space_Tactical_Unit_Cap>50</Space_Tactical_Unit_Cap>
 		<Maintenance_Cost>0.25</Maintenance_Cost>
 		<Scatters_From_Crushers> true </Scatters_From_Crushers>
 		<!-- Gameplay effects of planetary corruption on this faction. -->
@@ -112,14 +112,16 @@
 		<!-- BOMBARDMENT DATA -->
 		<Bombardment_Shadow_Blob_Material_Name> Bombardment_Underworld </Bombardment_Shadow_Blob_Material_Name>
 		<Bombardment_Blob_Size> 200.0 </Bombardment_Blob_Size>
-		<Bombardment_Required_Orbital_Ships> Krayt_Class_Destroyer, The_Peacebringer </Bombardment_Required_Orbital_Ships>
-		<Bombardment_Projectile> Proj_Krayt_Bombardment_Ion Proj_Krayt_Bombardment_Damage </Bombardment_Projectile>
-		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
+		<Bombardment_Required_Orbital_Ships> 
+			Krayt_Class_Destroyer, 
+			The_Peacebringer 
+		</Bombardment_Required_Orbital_Ships>
+		<Bombardment_Projectile> Proj_Empire_Bombardment_Turbolaser </Bombardment_Projectile>
 		<Bombardment_Number_Of_Salvos> 2 </Bombardment_Number_Of_Salvos>
-		<Bombardment_Shots_Per_Salvo> 1 </Bombardment_Shots_Per_Salvo>
+		<Bombardment_Shots_Per_Salvo> 8 </Bombardment_Shots_Per_Salvo>
 		<Bombardment_Shot_Delay> 0.2 </Bombardment_Shot_Delay>
-		<Bombardment_Salvo_Delay> 3 </Bombardment_Salvo_Delay>
-		<Bombardment_Initial_Delay> 4.0 </Bombardment_Initial_Delay>
+		<Bombardment_Salvo_Delay> 1.3 </Bombardment_Salvo_Delay>
+		<Bombardment_Initial_Delay> 1.0 </Bombardment_Initial_Delay>
 
 		<!-- color, intensity, and time for the lighting effects.  -->
 		<!-- Each of these is a list that should have the same number of entries as the Bombard_Projectile list -->
@@ -683,69 +685,66 @@
 		<!-- REBEL DROID ADVISOR TEXT		                -->
 		<!-- ============================================== -->
 		<Galactic_Advisor_Hints>
-				TEXT_DROID_ADVISOR_UNDERWORLD_GALACTIC_01,
-				TEXT_DROID_ADVISOR_UNDERWORLD_GALACTIC_03,
-				TEXT_DROID_ADVISOR_UNDERWORLD_GALACTIC_04,
-				TEXT_DROID_ADVISOR_UNDERWORLD_GALACTIC_05,
-				TEXT_DROID_ADVISOR_UNDERWORLD_GALACTIC_06,
-				TEXT_DROID_ADVISOR_UNDERWORLD_GALACTIC_07,
-				TEXT_DROID_ADVISOR_UNDERWORLD_GALACTIC_08,
-				TEXT_DROID_ADVISOR_UNDERWORLD_GALACTIC_09,
-				TEXT_DROID_ADVISOR_UNDERWORLD_GALACTIC_10,
-				TEXT_DROID_ADVISOR_UNDERWORLD_GALACTIC_11,
-				TEXT_DROID_ADVISOR_UNDERWORLD_GALACTIC_13,
-				TEXT_DROID_ADVISOR_UNDERWORLD_GALACTIC_14,
-				TEXT_DROID_ADVISOR_UNDERWORLD_GALACTIC_15,
-				TEXT_DROID_ADVISOR_UNDERWORLD_GALACTIC_16,
-				TEXT_DROID_ADVISOR_UNDERWORLD_GALACTIC_17,
-				TEXT_DROID_ADVISOR_UNDERWORLD_GALACTIC_18,
-				TEXT_DROID_ADVISOR_UNDERWORLD_GALACTIC_19,
-				TEXT_DROID_ADVISOR_UNDERWORLD_GALACTIC_22,
-				TEXT_DROID_ADVISOR_UNDERWORLD_GALACTIC_23,
-				TEXT_DROID_ADVISOR_UNDERWORLD_GALACTIC_24,
-				TEXT_DROID_ADVISOR_UNDERWORLD_GALACTIC_25,
-				TEXT_DROID_ADVISOR_UNDERWORLD_GALACTIC_26,				
-				TEXT_DROID_ADVISOR_UNDERWORLD_GALACTIC_27
+				TEXT_DROID_ADVISOR_REBEL_GALACTIC_01,
+				TEXT_DROID_ADVISOR_REBEL_GALACTIC_02,
+				TEXT_DROID_ADVISOR_REBEL_GALACTIC_03,
+				TEXT_DROID_ADVISOR_REBEL_GALACTIC_04,
+				TEXT_DROID_ADVISOR_REBEL_GALACTIC_05,
+				TEXT_DROID_ADVISOR_REBEL_GALACTIC_06,
+				TEXT_DROID_ADVISOR_REBEL_GALACTIC_07,
+				TEXT_DROID_ADVISOR_REBEL_GALACTIC_08,
+				TEXT_DROID_ADVISOR_REBEL_GALACTIC_09,
+				TEXT_DROID_ADVISOR_REBEL_GALACTIC_10,
+				TEXT_DROID_ADVISOR_REBEL_GALACTIC_11,
+				TEXT_DROID_ADVISOR_REBEL_GALACTIC_12,
+				TEXT_DROID_ADVISOR_REBEL_GALACTIC_13,
+				TEXT_DROID_ADVISOR_REBEL_GALACTIC_14,
+				TEXT_DROID_ADVISOR_REBEL_GALACTIC_15,
+				TEXT_DROID_ADVISOR_REBEL_GALACTIC_16,
+				TEXT_DROID_ADVISOR_REBEL_GALACTIC_17,
+				TEXT_DROID_ADVISOR_REBEL_GALACTIC_18,
+				TEXT_DROID_ADVISOR_REBEL_GALACTIC_19,
+				TEXT_DROID_ADVISOR_REBEL_GALACTIC_20,
+				TEXT_DROID_ADVISOR_REBEL_GALACTIC_21,
+				TEXT_DROID_ADVISOR_REBEL_GALACTIC_22,
+				TEXT_DROID_ADVISOR_REBEL_GALACTIC_23,
+				TEXT_DROID_ADVISOR_REBEL_GALACTIC_25
 		</Galactic_Advisor_Hints>
 		<Space_Advisor_Hints>
-				TEXT_DROID_ADVISOR_UNDERWORLD_SPACE_02,
-				TEXT_DROID_ADVISOR_UNDERWORLD_SPACE_03,
-				TEXT_DROID_ADVISOR_UNDERWORLD_SPACE_04,
-				TEXT_DROID_ADVISOR_UNDERWORLD_SPACE_05,
-				TEXT_DROID_ADVISOR_UNDERWORLD_SPACE_06,
-				TEXT_DROID_ADVISOR_UNDERWORLD_SPACE_07,
-				TEXT_DROID_ADVISOR_UNDERWORLD_SPACE_08,
-				TEXT_DROID_ADVISOR_UNDERWORLD_SPACE_09,
-				TEXT_DROID_ADVISOR_UNDERWORLD_SPACE_10,
-				TEXT_DROID_ADVISOR_UNDERWORLD_SPACE_11,
-				TEXT_DROID_ADVISOR_UNDERWORLD_SPACE_13,
-				TEXT_DROID_ADVISOR_UNDERWORLD_SPACE_14
+				TEXT_DROID_ADVISOR_REBEL_SPACE_02,
+				TEXT_DROID_ADVISOR_REBEL_SPACE_03,
+				TEXT_DROID_ADVISOR_REBEL_SPACE_04,
+				TEXT_DROID_ADVISOR_REBEL_SPACE_05,
+				TEXT_DROID_ADVISOR_REBEL_SPACE_06,
+				TEXT_DROID_ADVISOR_REBEL_SPACE_07,
+				TEXT_DROID_ADVISOR_REBEL_SPACE_08,
+				TEXT_DROID_ADVISOR_REBEL_SPACE_09,
+				TEXT_DROID_ADVISOR_REBEL_SPACE_10,
+				TEXT_DROID_ADVISOR_REBEL_SPACE_11,
+				TEXT_DROID_ADVISOR_REBEL_SPACE_13,
+				TEXT_DROID_ADVISOR_REBEL_SPACE_14
 		</Space_Advisor_Hints>
 		<Land_Advisor_Hints>
-				TEXT_DROID_ADVISOR_UNDERWORLD_LAND_00,
-				TEXT_DROID_ADVISOR_UNDERWORLD_LAND_01,
-				TEXT_DROID_ADVISOR_UNDERWORLD_LAND_02,
-				TEXT_DROID_ADVISOR_UNDERWORLD_LAND_03,
-				TEXT_DROID_ADVISOR_UNDERWORLD_LAND_04,
-				TEXT_DROID_ADVISOR_UNDERWORLD_LAND_05,
-				TEXT_DROID_ADVISOR_UNDERWORLD_LAND_06,
-				TEXT_DROID_ADVISOR_UNDERWORLD_LAND_07,
-				TEXT_DROID_ADVISOR_UNDERWORLD_LAND_08,
-				TEXT_DROID_ADVISOR_UNDERWORLD_LAND_09,
-				TEXT_DROID_ADVISOR_UNDERWORLD_LAND_10,
-				TEXT_DROID_ADVISOR_UNDERWORLD_LAND_11,
-				TEXT_DROID_ADVISOR_UNDERWORLD_LAND_12,
-				TEXT_DROID_ADVISOR_UNDERWORLD_LAND_13,
-				TEXT_DROID_ADVISOR_UNDERWORLD_LAND_14,
-				TEXT_DROID_ADVISOR_UNDERWORLD_LAND_15,
+				TEXT_DROID_ADVISOR_REBEL_LAND_00,
+				TEXT_DROID_ADVISOR_REBEL_LAND_01,
+				TEXT_DROID_ADVISOR_REBEL_LAND_02,
+				TEXT_DROID_ADVISOR_REBEL_LAND_03,
+				TEXT_DROID_ADVISOR_REBEL_LAND_04,
+				TEXT_DROID_ADVISOR_REBEL_LAND_05,
+				TEXT_DROID_ADVISOR_REBEL_LAND_06,
+				TEXT_DROID_ADVISOR_REBEL_LAND_07,
+				TEXT_DROID_ADVISOR_REBEL_LAND_08,
+				TEXT_DROID_ADVISOR_REBEL_LAND_09,
+				TEXT_DROID_ADVISOR_REBEL_LAND_10,
+				TEXT_DROID_ADVISOR_REBEL_LAND_11,
 				TEXT_DROID_ADVISOR_LAND_12,
 				TEXT_DROID_ADVISOR_LAND_13,
 				TEXT_DROID_ADVISOR_LAND_14
 		</Land_Advisor_Hints>
 		<!-- End Droid Advisor Speech/Text -->
 		<Allies>Civilian, Neutral</Allies>
-		<Enemies>Empire, Rebel, Pirates, Hostile, Sarlacc, Hutts</Enemies>
-		<Can_Control_Planets>false</Can_Control_Planets>
+		<Enemies>Empire, Pirates, Hostile, Sarlacc, Underworld, Hutts</Enemies>
+		<Can_Control_Planets>true</Can_Control_Planets>
 		<Garrison_Reinforcement_Delay_Seconds>20.0</Garrison_Reinforcement_Delay_Seconds>
 		<Multiplayer_Beacon_Type>R_Multiplayer_Beacon</Multiplayer_Beacon_Type>
 		<Default_Transmission_Message>TEXT_ENCYCLOPEDIA_HOLOCRON_UPDATED</Default_Transmission_Message>
@@ -762,134 +761,6 @@
 		<Alternate_Icon_Prefix> u_ </Alternate_Icon_Prefix>
 
 	</Faction>
-
-
-	<Faction Name="Underworld">
-		<Is_Debug_Switchable_To> No </Is_Debug_Switchable_To>
-		<Create_Player_In_Multiplayer_Games> No </Create_Player_In_Multiplayer_Games>
-		<Scatters_From_Crushers> true </Scatters_From_Crushers>
-		<Text_ID> TEXT_FACTION_HOSTILE </Text_ID>
-		<Icon_Name> i_icon_pirate.tga </Icon_Name>
-		<Alternate_Icon_Name> pirate_icon.tga </Alternate_Icon_Name>
-		<Ground_Base_Icon_Name> groundbase_icon.tga </Ground_Base_Icon_Name>
-		<Star_Base_Icon_Name> spacestation_icon.tga </Star_Base_Icon_Name>
-		<Ground_Transport_Icon_Name> trooper_icon.tga </Ground_Transport_Icon_Name>
-		<Fleet_Icon_Name> galacticfleeticon.tga </Fleet_Icon_Name>
-		<Ship_Icon_Name> g_fleet.tga </Ship_Icon_Name>
-		<Squadron_Icon_Name> g_squad.tga </Squadron_Icon_Name>
-		<Color> 153, 21, 223, 255 </Color>
-		<No_Colorization_Color> 153, 21, 223, 255 </No_Colorization_Color>
-		<Display_Font_Color> 153, 21, 223, 255 </Display_Font_Color>
-		<Big_Fleet_Color> 153, 21, 223, 255 </Big_Fleet_Color>
-		<Credits_Accumulation_Factor> 1.0 </Credits_Accumulation_Factor>
-		<Planet_Icon_Scale> 10.0 </Planet_Icon_Scale>
-		<Planet_Icon_Offset> 13.0, 10.0, -1.1 </Planet_Icon_Offset>
-		<Is_Playable>false</Is_Playable>
-		<Primary_Enemy/>
-		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
-		<Is_Neutral> No </Is_Neutral>
-		<Force_Alignment>Neutral</Force_Alignment>
-		<Strategic_Map_Music_Event/>
-		<Space_Tactical_Unit_Cap>40</Space_Tactical_Unit_Cap>
-		<Maintenance_Cost>0.0</Maintenance_Cost>
-		<Land_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Land</Land_Mode_Garrison_Selection_Blob_Material_Name>
-		<Space_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Land</Space_Mode_Garrison_Selection_Blob_Material_Name>
-		<Selection_Blob_RGBA>0,255,0,255</Selection_Blob_RGBA>
-		<Allies>Neutral, Civilian</Allies>
-		<Enemies>Empire, Rebel, Pirates, Sarlacc, Hostile</Enemies>
-	</Faction>
-	
-
-	<Faction Name="Hutts">
-
-		<Is_Debug_Switchable_To> No </Is_Debug_Switchable_To>
-		<Create_Player_In_Multiplayer_Games> Yes </Create_Player_In_Multiplayer_Games>
-
-		<Text_ID> TEXT_FACTION_HUTTS_02 </Text_ID>
-		<Icon_Name> i_button_command_bar_jabba_symbol.tga </Icon_Name>
-		<Alternate_Icon_Name> i_button_command_bar_jabba_symbol.tga </Alternate_Icon_Name>
-		<Ground_Base_Icon_Name> groundbase_icon.tga </Ground_Base_Icon_Name>
-		<Star_Base_Icon_Name> spacestation_icon.tga </Star_Base_Icon_Name>
-		<Ground_Transport_Icon_Name> trooper_icon.tga </Ground_Transport_Icon_Name>
-		<Fleet_Icon_Name> i_icon_fleet.tga </Fleet_Icon_Name>
-		<Ship_Icon_Name> g_fleet.tga </Ship_Icon_Name>
-		<Squadron_Icon_Name> g_squad.tga </Squadron_Icon_Name>
-
-		<Color> 255, 128, 0, 255 </Color>
-		<No_Colorization_Color> 231, 221, 67, 255 </No_Colorization_Color>
-		<Display_Font_Color> 255, 128, 0, 255 </Display_Font_Color>
-		<Big_Fleet_Color> 255, 128, 0, 150 </Big_Fleet_Color>
-
-		<Credits_Accumulation_Factor> 1.0 </Credits_Accumulation_Factor>
-		<Planet_Icon_Scale> 10.0 </Planet_Icon_Scale>
-		<Planet_Icon_Offset> 10.0, 10.0, -1.1 </Planet_Icon_Offset>
-		<Is_Playable>False</Is_Playable>
-		<Primary_Enemy> Underworld </Primary_Enemy>
-		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
-		<Is_Neutral> No </Is_Neutral>
-		<Force_Alignment>Neutral</Force_Alignment>
-		<Strategic_Map_Music_Event> </Strategic_Map_Music_Event>
-		<Space_Tactical_Unit_Cap>60</Space_Tactical_Unit_Cap>
-		<Maintenance_Cost>0.0</Maintenance_Cost>
-		<Land_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Land</Land_Mode_Garrison_Selection_Blob_Material_Name>
-		<Space_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Land</Space_Mode_Garrison_Selection_Blob_Material_Name>
-		<Selection_Blob_RGBA>255, 128, 0, 255</Selection_Blob_RGBA>
-
-		<Debug_Ground_Structures>Hutt_Command_Center_Palace</Debug_Ground_Structures>
-		<Scatters_From_Crushers> true </Scatters_From_Crushers>
-
-		<Allies />
-		<Enemies>Empire, Rebel, Hostile, Sarlacc, Underworld</Enemies>
-		<Easily_Bribed> Yes </Easily_Bribed>
-
-		<Can_Control_Planets>true</Can_Control_Planets>
-
-	</Faction>
-
-
-
-	<Faction Name="Civilian">
-
-		<Is_Debug_Switchable_To> No </Is_Debug_Switchable_To>
-		<Create_Player_In_Multiplayer_Games> Yes </Create_Player_In_Multiplayer_Games>
-
-		<Text_ID> TEXT_FACTION_CIVILIAN </Text_ID>
-		<Icon_Name> </Icon_Name>
-		<Alternate_Icon_Name> </Alternate_Icon_Name>
-		<Ground_Base_Icon_Name> groundbase_icon.tga </Ground_Base_Icon_Name>
-		<Star_Base_Icon_Name> spacestation_icon.tga </Star_Base_Icon_Name>
-		<Ground_Transport_Icon_Name> trooper_icon.tga </Ground_Transport_Icon_Name>
-		<Fleet_Icon_Name> galacticfleeticon.tga </Fleet_Icon_Name>
-		<Ship_Icon_Name> g_fleet.tga </Ship_Icon_Name>
-		<Squadron_Icon_Name> g_squad.tga </Squadron_Icon_Name>
-		<Color> 100, 100, 100, 255 </Color>
-		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
-		<Display_Font_Color> 128, 128, 128, 255 </Display_Font_Color>
-		<Big_Fleet_Color> 128, 128, 128, 100 </Big_Fleet_Color>
-		<Credits_Accumulation_Factor> 1.0 </Credits_Accumulation_Factor>
-		<Planet_Icon_Scale> 10.0 </Planet_Icon_Scale>
-		<Planet_Icon_Offset> 13.0, 10.0, -1.1 </Planet_Icon_Offset>
-		<Is_Playable>false</Is_Playable>
-		<Primary_Enemy>  </Primary_Enemy>
-		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
-		<Is_Neutral> No </Is_Neutral>
-		<Force_Alignment>Neutral</Force_Alignment>
-		<Strategic_Map_Music_Event> </Strategic_Map_Music_Event>
-		<Space_Tactical_Unit_Cap>40</Space_Tactical_Unit_Cap>
-		<Maintenance_Cost>0.0</Maintenance_Cost>
-		<Land_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Land</Land_Mode_Garrison_Selection_Blob_Material_Name>
-		<Space_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Land</Space_Mode_Garrison_Selection_Blob_Material_Name>
-		<Selection_Blob_RGBA>0,255,0,255</Selection_Blob_RGBA>
-
-		<Scatters_From_Crushers> true </Scatters_From_Crushers>
-		<Allies />
-		<Enemies />
-
-	</Faction>
-
-
-
-
 
 
 

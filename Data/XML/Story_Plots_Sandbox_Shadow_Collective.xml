@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" ?>
+
+
+<Story_Mode_Plots>
+
+	<Lua_Script>Story_Sandbox_The_Shadow_Collective</Lua_Script>
+	<Active_Plot>Story_sandbox_The_Shadow_Collective.XML</Active_Plot>
+
+</Story_Mode_Plots>

@@ -260,6 +260,9 @@
   <File>Units_land_cis_trando_squad.xml</File>
   <!--Story Files-->
   <File>Units_Story_Republic.xml</File>
+  <!-- Shadow Collective Units -->
+  <File>Specialstructures_Shadow_Collective.xml</File>
+  <File>Units_Shadow_Collective.xml</File>
   <!--Merc Units-->
   <File>Mercenary_TransportUnits.xml</File>
   <File>Mercenary_Infantry.xml</File>
