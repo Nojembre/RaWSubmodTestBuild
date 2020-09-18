@@ -96,7 +96,7 @@
 		<CategoryMask> Bomber | AntiCapital</CategoryMask>
 		<Property_Flags> SmallShip </Property_Flags>
 		<Icon_Name>i_button_ywing_Proto.tga</Icon_Name>
-		<Victory_Relevant>yes</Victory_Relevant>
+		<Victory_Relevant>No</Victory_Relevant>
 		<Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
@@ -230,7 +230,7 @@
 		<CategoryMask> Bomber | AntiCapital</CategoryMask>
 		<Property_Flags> SmallShip </Property_Flags>
 		<Icon_Name>i_button_ywing_Proto.tga</Icon_Name>
-		<Victory_Relevant>yes</Victory_Relevant>
+		<Victory_Relevant>No</Victory_Relevant>
 		<Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 

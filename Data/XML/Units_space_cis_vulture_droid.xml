@@ -98,7 +98,7 @@
 		<CategoryMask> Fighter | AntiBomber</CategoryMask>
 		<Property_Flags> SmallShip </Property_Flags>
 		<Icon_Name>i_button_uv_vulture.tga</Icon_Name>
-		<Victory_Relevant>yes</Victory_Relevant>
+		<Victory_Relevant>No</Victory_Relevant>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 		<Custom_Footprint_Radius> 7.0 </Custom_Footprint_Radius> <!-- 15 -->

@@ -107,7 +107,7 @@
 		<CategoryMask> Fighter | AntiBomber</CategoryMask>
 		<Property_Flags> SmallShip </Property_Flags>
 
-		<Victory_Relevant>yes</Victory_Relevant>
+		<Victory_Relevant>No</Victory_Relevant>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
 		<Custom_Footprint_Radius> 7.0 </Custom_Footprint_Radius>

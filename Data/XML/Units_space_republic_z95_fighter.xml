@@ -112,7 +112,7 @@
 		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
 
 		<CategoryMask> Fighter | AntiFighter | AntiBomber </CategoryMask>
-		<Victory_Relevant>yes</Victory_Relevant>
+		<Victory_Relevant>No</Victory_Relevant>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
 		<Min_Speed_Fraction_For_Turn>0.7</Min_Speed_Fraction_For_Turn>

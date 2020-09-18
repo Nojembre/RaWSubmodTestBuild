@@ -109,7 +109,7 @@
 		<Property_Flags> SmallShip </Property_Flags>
 		<MovementClass> Space </MovementClass>
 		<CategoryMask> Fighter | AntiBomber</CategoryMask>
-		<Victory_Relevant>yes</Victory_Relevant>
+		<Victory_Relevant>No</Victory_Relevant>
 		<Hover_Offset>30.0</Hover_Offset>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
