@@ -89,7 +89,7 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>Mar_Tuuk</Reward_Param1>
-		<Reward_Param2>Geonosis</Reward_Param2>
+		<Reward_Param2>Ryloth</Reward_Param2>
 		<Prereq>Rebels_Enter_Tech_01</Prereq>
 	</Event>
 
@@ -149,7 +149,7 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>Admiral_Trench</Reward_Param1>
-		<Reward_Param2>Geonosis</Reward_Param2>
+		<Reward_Param2>Christophsis</Reward_Param2>
 		<Prereq>Rebels_Enter_Tech_03</Prereq>
 	</Event>
 
