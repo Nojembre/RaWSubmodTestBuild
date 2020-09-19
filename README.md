@@ -16,6 +16,7 @@ New Features/Units:
 -Added Providence Dreadnought to CIS (Tech 5).
 -Added Gold Squadron to Admiral Yularen (Until Tech 5).
 -Added Z-95 Squadrons to Admiral Yularen (Tech 5).
+-Republic Stealth Ship can now provide bombing runs in ground battles.
 
 Changes/Updates:
 -Added a capturable sensor array to the following maps:
@@ -26,6 +27,9 @@ Changes/Updates:
 -Anaxes shipyard level increased from 3 to 5.
 -Squad leaders are now the last one standing from their squad.
 -Ground shields and turbolasers now require 2 other buildings on that planet before they can be built.
+-Lowered ground land capacity from 30 to 20 to help prevent crashes.
+-Moved Mar Tuuk starting spawn on big GC's to Ryloth.
+-Moved Trench starting spawn on big GC's to Christophsis.
 
 -Increased AI combat power of Lucrehulk in an attempt to decrease spam.
 -Increased AI combat power of VSD in an attempt to decrease spam.
@@ -36,6 +40,7 @@ Changes/Updates:
 -Removed cyan blue lasers from Aqruitens Cruiser.
 -Removed self destruct ability Dwarf Spider Droid.
 -Removed buildable fighters from the AI.
+-Made squadrons no longer victory relevant.
 
 -No longer required to have a light factory to build a heavy factory.
 -Added more garrison units to the buildable outposts.
@@ -52,7 +57,7 @@ Fixes:
 -Updated outpost descriptions to stop confusion.
 -Updated the AI to hopefully fix old RaW issues.
 -Updated category masks for all units.
--Updated Venator main battery texts.
+-Updated Venator main weapon texts.
 
 -Fixed Utapau story mission from FotJ GC.
 -Fixed some Jedi purge issues.
