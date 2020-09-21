@@ -1181,7 +1181,7 @@
 		<MovementClass> Infantry </MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Is_Squashable> true </Is_Squashable>
-		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>
+		<MovementPredictionInterval> 0.1 </MovementPredictionInterval>
 		<ContainerArrangement> Dartboard </ContainerArrangement> <!-- Rows -->
 		<FormationOrder> 2 </FormationOrder>
 		<OverrideAcceleration> .05 </OverrideAcceleration>
