@@ -68,3 +68,5 @@ Fixes:
 -Fixed clone commander containers.
 -Fixed Mere Cruiser tooltip typo.
 -Fixed health of CIS droidworks.
+-Fixed typo in Aeten II description.
+-Fixed SOME (not all) container weirdness with clone troopers.
