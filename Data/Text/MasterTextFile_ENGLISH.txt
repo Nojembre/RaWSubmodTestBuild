@@ -16198,6 +16198,7 @@ TEXT_TOOLTIP_VEERS,Commands an enhanced AT-AT while in land combat. Reduces AT-A
 TEXT_TOOLTIP_VEERS_01,Commands an enhanced AT-AT while in land combat that is immune to cable attacks. Reduces the production cost of AT-ATs, AT-STs, and AT-AAs by 25% at his current location.
 TEXT_TOOLTIP_VEERS_ATAT,Commander Veers pilots an advanced AT-AT armed with boosted heavy laser cannons able to inflict great damage when charged for maximum firepower. Boosts all Imperial units’ defenses by 25%.
 TEXT_TOOLTIP_VENATOR,Designed and constructed by Kuat Drive Yards. A stock ship is 1,137 meters long, making it one of the largest capital ships capable of atmospheric operations. A medium-sized, versatile multi-role warship. Its roles range from starfighter carrier to military transport and warship.
+TEXT_TOOLTIP_VENATOR_UPGRADE,Outfits a Venator Star Destroyer with an SPHA-T cannon, capable of inflicting high damage to enemy ships at close range.
 TEXT_TOOLTIP_VENETOR,Battle ship formerly used by the Old Republic. Well rounded, but is now considered obsolete.
 TEXT_TOOLTIP_VENGEANCE,The Vengeance frigate carries four heavy mass driver cannons and two turbolaser batteries. It has no shields, but has very heavy armor and a cloaking device.
 TEXT_TOOLTIP_VICTORY,Heavy warship designed for planetary defense, planetary assault, and ship-to-ship combat. Armed with multiple missile launchers the Victory-class can bombard targets from distance or engage at close range. 
@@ -16660,6 +16661,7 @@ TEXT_UNIT_V19,V-19 Torrent
 TEXT_UNIT_VADERS_FIST,Vader's Fist
 TEXT_UNIT_VANA_SAGE,Vana Sage
 TEXT_UNIT_VENATOR,Venator-class Star Destroyer
+TEXT_UNIT_VENATOR_UPGRADE,Upgrade Venator
 TEXT_UNIT_VICTORY_DESTROYER,Victory I-class Star Destroyer
 TEXT_UNIT_VIRAGO,Virago
 TEXT_UNIT_VORNSKR_WOLF,Vornskr

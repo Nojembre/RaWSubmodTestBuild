@@ -263,7 +263,7 @@
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
 		<Affiliation>Empire</Affiliation>
-		<Tech_Level>4</Tech_Level>
+		<Tech_Level>99</Tech_Level> <!-- 4 -->
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>5</Required_Star_Base_Level>
@@ -709,6 +709,35 @@
 		<Ship_Class>frigate</Ship_Class>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 
+	</SpaceUnit>
+	
+	
+	<SpaceUnit Name="Venator_Upgrade">
+		<Variant_Of_Existing_Type>Venator</Variant_Of_Existing_Type>
+		<GUI_Row> 0 </GUI_Row>
+
+		<Population_Value>0</Population_Value>
+		<Build_Cost_Credits>1000</Build_Cost_Credits>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<AI_Combat_Power>1</AI_Combat_Power>
+		
+		<Text_ID>TEXT_UNIT_VENATOR_UPGRADE</Text_ID>
+		<Lua_Script>Upgrade_Venator</Lua_Script>
+		<Affiliation>Empire</Affiliation>
+		<Icon_Name>I_BUTTON_OPEN_CIRCLE_VENATOR.tga</Icon_Name>
+
+		<Tech_Level>0</Tech_Level>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_VENATOR_UPGRADE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_UNIT_UPGRADE</Encyclopedia_Unit_Class>
+
+		<Required_Orbiting_Units>Venator</Required_Orbiting_Units>
+		
+		<Unit_Abilities_Data SubObjectList="No">
+
+		</Unit_Abilities_Data>
 	</SpaceUnit>
 
 

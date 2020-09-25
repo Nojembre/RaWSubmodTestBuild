@@ -9,9 +9,9 @@ New Features/Units:
 -Added a new story mission for the Republic in FotJ:
 	-After taking Mandalore, you can complete a mission that allows you to recruit Mandalorians.
 -Added an upgrade system for certain ships:
-	-Munificent can be upgraded at tech 3 to carry a squadron of fighers on it's hull.
+	-Munificent can be upgraded at tech 3 to carry a squadron of fighers on its hull.
+	-Venator can be outfitted with an SPHA-T at tech 3 (Also gets a few Z-95 squadrons).
 -Venator no longer has SPHA and is now built in tech 3.
--Added Open Circle Venator that has SPHA and is built in tech 4  (Gets a few Z-95 squadrons).
 -Added Razor Squadron to GC (buildable at Tech 4 on kamino).
 -Added Providence Dreadnought to CIS (Tech 5).
 -Added Gold Squadron to Admiral Yularen (Until Tech 5).
