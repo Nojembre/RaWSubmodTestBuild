@@ -1356,6 +1356,13 @@
 		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
 	</Event>
 	
+	<Event Name="Lock_Venator_Upgrade">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Venator_Upgrade</Reward_Param1>
+		<Prereq>Jedi_Purge_Remove_Yoda</Prereq>
+	</Event>
+	
 	<Event Name="Lock_Open_Circle_Venator_Red">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>LOCK_UNIT</Reward_Type>
