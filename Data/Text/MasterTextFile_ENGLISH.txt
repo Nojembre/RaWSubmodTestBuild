@@ -16634,6 +16634,7 @@ TEXT_UNIT_TOOLTIP_MANDALORIAN_INFANTRY,Mandalorian Mercenary Infantry. Trained o
 TEXT_UNIT_TOOLTIP_MERCENARY_INFANTRY,Basic mercenary soldier for hire, useful against infantry and other light resistance. 3 squads (of 4 soldiers each) per company.
 TEXT_UNIT_TORRENT,Torrent Company
 TEXT_UNIT_TRANDO,Trandoshan Slaver
+TEXT_UNIT_TRANDO_LANDING_CRAFT,Trandoshan Landing Ship
 TEXT_UNIT_TRANDO_SQUAD,Trandoshan Slavers
 TEXT_UNIT_TRI_DROID,Tri Droid Fighter
 TEXT_UNIT_TWILEK_COMMANDO,Twi'lek Commando
