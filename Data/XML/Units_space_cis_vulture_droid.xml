@@ -59,7 +59,7 @@
 		<Build_Cost_Credits>25</Build_Cost_Credits>
 		<Build_Time_Seconds>1</Build_Time_Seconds>
 		<Size_Value>4</Size_Value>  <!-- 8 -->
-		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Damage>7</Damage>
@@ -135,6 +135,10 @@
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+			
+			<Unit_Ability>
 				<Type>SPOILER_LOCK</Type>
 
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
@@ -144,6 +148,7 @@
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Select_Destroyer_Droid</SFXEvent_GUI_Unit_Ability_Activated>
 				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Select_Destroyer_Droid</SFXEvent_GUI_Unit_Ability_Deactivated>
 			</Unit_Ability>		
+
 		</Unit_Abilities_Data>
 
 	</SpaceUnit>

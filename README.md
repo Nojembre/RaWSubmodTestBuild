@@ -41,6 +41,7 @@ Changes/Updates:
 -Removed self destruct ability Dwarf Spider Droid.
 -Removed buildable fighters from the AI.
 -Made squadrons no longer victory relevant.
+-Gave all dedicated fighter squadrons the hunt ability.
 
 -No longer required to have a light factory to build a heavy factory.
 -Added more garrison units to the buildable outposts.

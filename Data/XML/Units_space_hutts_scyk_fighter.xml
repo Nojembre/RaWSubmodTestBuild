@@ -52,7 +52,7 @@
 		<Squadron_Capacity>0</Squadron_Capacity>
 		<Number_per_Squadron>5</Number_per_Squadron>
 		<Size_Value>8</Size_Value>
-		<SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING </SpaceBehavior>
+		<SpaceBehavior>FIGHTER_LOCOMOTOR, HUNT, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING </SpaceBehavior>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Damage>3</Damage>
 
@@ -136,6 +136,14 @@
 
 		<Strafe_Distance>500.0</Strafe_Distance>
 		<Population_Value>0</Population_Value>
+		
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
 
 
 

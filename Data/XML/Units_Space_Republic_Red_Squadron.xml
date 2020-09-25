@@ -83,6 +83,10 @@
 				<Alternate_Icon_Name>I_SA_ASSAULT.TGA</Alternate_Icon_Name>
 			</Unit_Ability>
 
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+
 		</Unit_Abilities_Data>
 
 
@@ -300,6 +304,10 @@
 				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_STRIKE_NAME</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_STRIKE_DESCRIPTION_RED</Alternate_Description_Text>
 				<Alternate_Icon_Name>I_SA_ASSAULT.TGA</Alternate_Icon_Name>
+			</Unit_Ability>
+			
+			<Unit_Ability>
+				<Type>HUNT</Type>
 			</Unit_Ability>
 
 		</Unit_Abilities_Data>
