@@ -3466,9 +3466,11 @@ TEXT_RETREAT,Retreat
 TEXT_RETREAT_DIALOG,Battle Resolution?
 TEXT_RETREAT_LAND_EMPIRE_COUNTDOWN,Republic Retreat Underway:
 TEXT_RETREAT_LAND_REBEL_COUNTDOWN,Confederacy Retreat Underway:
+TEXT_RETREAT_LAND_SC_COUNTDOWN,Shadow Collective Retreat Underway:
 TEXT_RETREAT_LAND_UNDERWORLD_COUNTDOWN,Consortium Retreat Underway:
 TEXT_RETREAT_SPACE_EMPIRE_COUNTDOWN,Republic Retreat Hyperspace Jump:
 TEXT_RETREAT_SPACE_REBEL_COUNTDOWN,Confederacy Retreat Hyperspace Jump:
+TEXT_RETREAT_SPACE_SC_COUNTDOWN,Shadow Collective Retreat Hyperspace Jump:
 TEXT_RETREAT_SPACE_UNDERWORLD_COUNTDOWN,Consortium Retreat Hyperspace Jump:
 TEXT_RETRY,Retry
 TEXT_REVERTING_IN_X_SECONDS,Reverting in %d seconds.
