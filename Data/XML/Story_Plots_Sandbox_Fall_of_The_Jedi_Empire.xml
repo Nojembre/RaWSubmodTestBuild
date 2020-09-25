@@ -4,11 +4,9 @@
 	<Lua_Script>Story_Sandbox_Fall_of_The_Jedi_Empire</Lua_Script>
 	<Active_Plot>Story_Sandbox_Fall_of_The_Jedi_Empire.XML</Active_Plot>
 
-	<Lua_Script>Story_Sandbox_UpgradePhase1ToPhase2</Lua_Script>
 	<Active_Plot>Story_Sandbox_UpgradePhase1ToPhase2.xml</Active_Plot>
-	
-	<Lua_Script>Story_Sandbox_UpgradeRedToGrey</Lua_Script>
 	<Active_Plot>Story_Sandbox_UpgradeRedToGrey.xml</Active_Plot>
+	<Lua_Script>Story_Sandbox_Republic_Changes</Lua_Script>
 	
 	
 	<Active_Plot>Story_Sandbox_Recruit_Mandos.xml</Active_Plot>

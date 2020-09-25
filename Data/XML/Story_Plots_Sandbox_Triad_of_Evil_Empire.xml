@@ -4,5 +4,5 @@
 	<Lua_Script>Story_Sandbox_Triad_of_Evil_Empire</Lua_Script>
 	<Active_Plot>Story_Sandbox_Triad_of_Evil_Empire.XML</Active_Plot>
 
-	
+	<Active_Plot>Story_Sandbox_UpgradePhase1ToPhase2_Automatic.xml</Active_Plot>
 </Story_Mode_Plots>
